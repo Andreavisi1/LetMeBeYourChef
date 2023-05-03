@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/app_bar_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/fragment_slideshow.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/nav_header_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/content_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-47:/layout/fragment_gallery.xml",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_gallery.xml"
+    }
+]

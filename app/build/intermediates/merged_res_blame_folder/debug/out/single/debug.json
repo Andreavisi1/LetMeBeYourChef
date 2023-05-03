@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_nav_header_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_fragment_slideshow.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_app_bar_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_content_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/layout_fragment_home.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/menu_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/menu/main.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.letmebeyourchef.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]
