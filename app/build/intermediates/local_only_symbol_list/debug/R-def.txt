@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 color black
 color purple_200
 color purple_500
@@ -12,6 +16,7 @@ dimen activity_vertical_margin
 dimen fab_margin
 dimen nav_header_height
 dimen nav_header_vertical_spacing
+drawable bg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_camera
@@ -19,6 +24,7 @@ drawable ic_menu_gallery
 drawable ic_menu_slideshow
 drawable side_nav_bar
 drawable wallpaper
+font audiowide
 id SplashScreenImage
 id action_settings
 id app_bar_main
@@ -57,6 +63,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string let_me_be_your_chef
 string menu_gallery
 string menu_home
 string menu_slideshow

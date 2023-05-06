@@ -1,4 +1,4 @@
-#Sat May 06 11:39:15 CEST 2023
+#Sat May 06 20:52:26 CEST 2023
 base.0=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
@@ -6,6 +6,7 @@ base.3=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMe
 base.4=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
 base.5=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
 base.6=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.7=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=1/classes.dex
@@ -13,6 +14,7 @@ path.3=11/classes.dex
 path.4=14/classes.dex
 path.5=3/classes.dex
 path.6=4/classes.dex
+path.7=classes2.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
@@ -20,3 +22,4 @@ renamed.3=classes4.dex
 renamed.4=classes5.dex
 renamed.5=classes6.dex
 renamed.6=classes7.dex
+renamed.7=classes8.dex

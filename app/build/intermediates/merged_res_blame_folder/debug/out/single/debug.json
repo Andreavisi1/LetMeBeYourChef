@@ -24,6 +24,10 @@
         "source": "com.example.letmebeyourchef.app-main-7:/drawable/wallpaper.png"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-merged_res-5:/drawable_bg.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-7:/drawable/bg.xml"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.letmebeyourchef.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -90,6 +94,10 @@
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-5:/menu_activity_main_drawer.xml.flat",
         "source": "com.example.letmebeyourchef.app-main-7:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-5:/font_audiowide.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-7:/font/audiowide.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
