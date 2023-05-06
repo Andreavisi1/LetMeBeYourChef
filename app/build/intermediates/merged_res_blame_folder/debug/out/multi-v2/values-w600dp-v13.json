@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-46:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/res/values-w600dp/dimens.xml",

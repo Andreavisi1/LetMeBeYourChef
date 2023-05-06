@@ -14,6 +14,12 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">LetMeBeYourChef!</string>
+    <string name="default_web_client_id" translatable="false">161508747965-oos36ifj2b9lbekd9v16ohvupdtvpom4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">161508747965</string>
+    <string name="google_api_key" translatable="false">AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM</string>
+    <string name="google_app_id" translatable="false">1:161508747965:android:d4a2eb0ea9d1c4e85265d4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM</string>
+    <string name="google_storage_bucket" translatable="false">letmebeyourchef-efbaa.appspot.com</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_home">Home</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -22,6 +28,7 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="project_id" translatable="false">letmebeyourchef-efbaa</string>
     <style name="Theme.LetMeBeYourChef" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-46:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/48a0d34332ad465aaf8411cdb7ca5717/transformed/material-1.8.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e160026c0d794ad21c9cff72cb7bc04d/transformed/material-1.8.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

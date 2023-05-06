@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-46:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/678ac082474fe5fe1e0e16889c26f38f/transformed/appcompat-1.6.1/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/246a8adf0674166c5bc0ff8385c29745/transformed/appcompat-1.6.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/55ce0eebbe8a55033be81d4b525a86a7/transformed/core-1.9.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/cbefb47a62eaff00a5b1bdb78664acf4/transformed/core-1.9.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-46:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/678ac082474fe5fe1e0e16889c26f38f/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/246a8adf0674166c5bc0ff8385c29745/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

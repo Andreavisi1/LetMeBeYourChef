@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161508747965",
+    "project_id": "letmebeyourchef-efbaa",
+    "storage_bucket": "letmebeyourchef-efbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161508747965:android:d4a2eb0ea9d1c4e85265d4",
+        "android_client_info": {
+          "package_name": "com.example.letmebeyourchef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161508747965-oos36ifj2b9lbekd9v16ohvupdtvpom4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161508747965-oos36ifj2b9lbekd9v16ohvupdtvpom4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
