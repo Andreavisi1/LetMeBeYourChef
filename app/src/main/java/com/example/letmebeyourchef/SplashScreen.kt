@@ -5,13 +5,26 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.daimajia.androidanimations.library.Techniques
+import com.daimajia.androidanimations.library.YoYo
 
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
+        var textview = findViewById<TextView>(R.id.textView)
+
+
+
         setContentView(R.layout.activity_splash_screen)
+
+
+
 
         // This is used to hide the status bar and make
         // the splash screen as a full screen activity.
@@ -19,6 +32,11 @@ class SplashScreen : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
+
+
+
+
+
 
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
