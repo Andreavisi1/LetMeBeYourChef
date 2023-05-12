@@ -1959,6 +1959,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2830,6 +2831,7 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_likes
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2840,7 +2842,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_porzioni
 drawable ic_search_black_24
+drawable ic_tempo
 drawable icon_background
 drawable logo
 drawable logo_white
@@ -3006,7 +3010,6 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id app_bar_main
 id arc
 id asConfigured
 id async
@@ -3026,6 +3029,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id buttonlog
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3093,7 +3097,6 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
-id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3149,6 +3152,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView_food
 id immediateStop
 id included
 id indeterminate
@@ -3239,7 +3244,6 @@ id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
 id nav_slideshow
-id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3270,6 +3274,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -3282,8 +3287,10 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id random_list_container
 id ratio
 id rectangles
+id recycler_random
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3392,6 +3399,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
+id textView_likes
+id textView_porzioni
+id textView_tempo
+id textView_title
 id text_gallery
 id text_home
 id text_input_end_icon
@@ -3426,6 +3439,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3435,6 +3449,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcome
 id west
 id wide
 id withText
@@ -3577,6 +3592,8 @@ layout design_text_input_start_icon
 layout fragment_gallery
 layout fragment_home
 layout fragment_slideshow
+layout list_ricette_random
+layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3677,6 +3694,7 @@ string abc_toolbar_collapse_description
 string action_settings
 string android_animations_lib_name
 string androidx_startup
+string api_key
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior

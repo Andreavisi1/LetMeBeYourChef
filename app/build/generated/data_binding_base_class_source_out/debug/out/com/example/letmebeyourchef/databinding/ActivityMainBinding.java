@@ -4,41 +4,33 @@ package com.example.letmebeyourchef.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.letmebeyourchef.R;
-import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final DrawerLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final AppBarMainBinding appBarMain;
+  public final RecyclerView recyclerRandom;
 
-  @NonNull
-  public final DrawerLayout drawerLayout;
-
-  @NonNull
-  public final NavigationView navView;
-
-  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarMainBinding appBarMain,
-      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navView) {
+  private ActivityMainBinding(@NonNull LinearLayout rootView,
+      @NonNull RecyclerView recyclerRandom) {
     this.rootView = rootView;
-    this.appBarMain = appBarMain;
-    this.drawerLayout = drawerLayout;
-    this.navView = navView;
+    this.recyclerRandom = recyclerRandom;
   }
 
   @Override
   @NonNull
-  public DrawerLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -63,23 +55,13 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.app_bar_main;
-      View appBarMain = ViewBindings.findChildViewById(rootView, id);
-      if (appBarMain == null) {
-        break missingId;
-      }
-      AppBarMainBinding binding_appBarMain = AppBarMainBinding.bind(appBarMain);
-
-      DrawerLayout drawerLayout = (DrawerLayout) rootView;
-
-      id = R.id.nav_view;
-      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
-      if (navView == null) {
+      id = R.id.recycler_random;
+      RecyclerView recyclerRandom = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerRandom == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, binding_appBarMain, drawerLayout,
-          navView);
+      return new ActivityMainBinding((LinearLayout) rootView, recyclerRandom);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

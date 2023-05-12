@@ -11,4 +11,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="let_me_be_your_chef">LET ME BE YOUR CHEF!</string>
+
+    <string name="api_key">7607d7ba5fd74cd3956360391e48b6b0</string>
+
 </resources>

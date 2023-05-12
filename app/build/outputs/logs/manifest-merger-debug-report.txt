@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ca312fe424052d23534dccef1eb72cc2/transformed/viewbinding-8.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/36687ca8dc01b195a3ea510ae55b116c/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
@@ -59,11 +59,13 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/andreavisi/Downl
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/52ae0994998245e0d562b448feefdf4a/transformed/lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/be0cdf0642749f90b15c0c3cfc41052a/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-splashscreen:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:2:1-14:12
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e0e759fd57dfc571f3843ea4cd8ce84e/transformed/library-2.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/70ab5deada5496a3b26c20abf3389c3b/transformed/library-2.3/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ca5d2b685e0b6a86055f1f1e508d4767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e6c812492effcbea755c6be5eab5f08b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/037f1994f63f8fe7655e7c161c0b3bf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -74,27 +76,33 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andreavisi/Downloa
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/fb8e49019471f6cdfe566a95a257feab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ecbe6edc06023541e5a8af5778b15b09/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/3b0d116a56da2ec394228526cf1d61d6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:5-43:19
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:7:5-45:19
 MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -121,6 +129,8 @@ MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/Downloads/android-k
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
@@ -130,55 +140,55 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/Downloads
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:13:9-53
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:15:9-53
 	android:dataExtractionRules
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:9:9-65
 activity#com.example.letmebeyourchef.SplashScreen
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:16:9-25:20
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:18:9-27:20
 	android:exported
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:19:13-69
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:21:13-69
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.example.letmebeyourchef.MainActivity
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:26:9-35:20
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:28:9-37:20
 	android:exported
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:30:13-36
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:29:13-69
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:31:13-69
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:29:13-41
 meta-data#preloaded_fonts
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:40:9-42:57
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:42:9-44:57
 	android:resource
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:42:13-54
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:44:13-54
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:41:13-43
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:43:13-43
 uses-sdk
 INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
@@ -293,6 +303,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/andreavisi
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/be0cdf0642749f90b15c0c3cfc41052a/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-splashscreen:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-splashscreen:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:5:5-44
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e0e759fd57dfc571f3843ea4cd8ce84e/transformed/library-2.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e0e759fd57dfc571f3843ea4cd8ce84e/transformed/library-2.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/70ab5deada5496a3b26c20abf3389c3b/transformed/library-2.3/AndroidManifest.xml:8:5-10:41
@@ -303,6 +315,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/Downloads/andro
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e6c812492effcbea755c6be5eab5f08b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
@@ -337,10 +351,6 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
@@ -445,6 +455,14 @@ uses-permission#com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMIS
 ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
