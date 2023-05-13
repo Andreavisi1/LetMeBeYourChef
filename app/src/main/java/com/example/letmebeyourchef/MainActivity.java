@@ -13,6 +13,7 @@ import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
 
 public class MainActivity extends AppCompatActivity {
+
     ProgressDialog dialog;
     RequestManager manager;
     RicetteRandomAdapter ricetteRandomAdapter;

@@ -29,13 +29,7 @@ public final class LoginBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
-  public final EditText password;
-
-  @NonNull
-  public final TextView textView2;
-
-  @NonNull
-  public final TextView textView3;
+  public final EditText pass;
 
   @NonNull
   public final EditText username;
@@ -44,14 +38,12 @@ public final class LoginBinding implements ViewBinding {
   public final TextView welcome;
 
   private LoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonlog,
-      @NonNull ImageView imageView2, @NonNull EditText password, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull EditText username, @NonNull TextView welcome) {
+      @NonNull ImageView imageView2, @NonNull EditText pass, @NonNull EditText username,
+      @NonNull TextView welcome) {
     this.rootView = rootView;
     this.buttonlog = buttonlog;
     this.imageView2 = imageView2;
-    this.password = password;
-    this.textView2 = textView2;
-    this.textView3 = textView3;
+    this.pass = pass;
     this.username = username;
     this.welcome = welcome;
   }
@@ -95,21 +87,9 @@ public final class LoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      EditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
-        break missingId;
-      }
-
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
+      id = R.id.pass;
+      EditText pass = ViewBindings.findChildViewById(rootView, id);
+      if (pass == null) {
         break missingId;
       }
 
@@ -125,8 +105,8 @@ public final class LoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LoginBinding((ConstraintLayout) rootView, buttonlog, imageView2, password,
-          textView2, textView3, username, welcome);
+      return new LoginBinding((ConstraintLayout) rootView, buttonlog, imageView2, pass, username,
+          welcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

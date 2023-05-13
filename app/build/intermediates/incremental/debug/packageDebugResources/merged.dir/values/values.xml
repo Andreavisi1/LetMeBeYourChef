@@ -18,6 +18,7 @@
         <item>@font/audiowide</item>
     </array>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#F5F7F8</color>
     <color name="orange">#FF9800</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -63,9 +64,5 @@
         
     </style>
     <style name="Theme.LetMeBeYourChef.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-    <style name="Theme.LetMeBeYourChef.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
     <style name="Theme.LetMeBeYourChef.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
