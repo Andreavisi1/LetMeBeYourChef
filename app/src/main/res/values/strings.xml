@@ -14,4 +14,24 @@
 
     <string name="api_key">7607d7ba5fd74cd3956360391e48b6b0</string>
 
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+
+    </string-array>
+
+    </string-array>
+
 </resources>
