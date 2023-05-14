@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ca312fe424052d23534dccef1eb72cc2/transformed/viewbinding-8.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/36687ca8dc01b195a3ea510ae55b116c/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
@@ -76,33 +76,33 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andreavisi/Downloa
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/fb8e49019471f6cdfe566a95a257feab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ecbe6edc06023541e5a8af5778b15b09/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/3b0d116a56da2ec394228526cf1d61d6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:5-66
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:7:5-40:19
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -140,55 +140,55 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/Downloads
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:13:9-53
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:13:9-53
 activity#com.example.letmebeyourchef.MainActivity
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:15:9-24:20
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:exported
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:18:13-57
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:18:13-57
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.letmebeyourchef.SplashScreen
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:28:9-32:20
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:28:9-32:20
 	android:exported
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:30:13-36
 	android:theme
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:31:13-69
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:31:13-69
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:29:13-41
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:29:13-41
 meta-data#preloaded_fonts
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:37:9-39:57
+ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:37:9-39:57
 	android:resource
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:39:13-54
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:39:13-54
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml:38:13-43
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml:38:13-43
 uses-sdk
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ca312fe424052d23534dccef1eb72cc2/transformed/viewbinding-8.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.0.1] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ca312fe424052d23534dccef1eb72cc2/transformed/viewbinding-8.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/36687ca8dc01b195a3ea510ae55b116c/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
@@ -333,16 +333,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/andreavisi/Downloads/android-kot
 MERGED from [androidx.print:print:1.0.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/ecbe6edc06023541e5a8af5778b15b09/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/3b0d116a56da2ec394228526cf1d61d6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/3b0d116a56da2ec394228526cf1d61d6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
 	android:name

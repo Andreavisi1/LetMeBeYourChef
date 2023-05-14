@@ -33,7 +33,7 @@
         <activity
             android:name="com.example.letmebeyourchef.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:theme="@style/Theme.LetMeBeYourChef" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

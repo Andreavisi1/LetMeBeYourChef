@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-52:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/res/values-en-rGB/values.xml",

@@ -4,6 +4,7 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
+array tags
 color black
 color ic_launcher_background
 color orange
@@ -39,6 +40,7 @@ id imageView_food
 id pass
 id random_list_container
 id recycler_random
+id spinner_tags
 id textView
 id textView_likes
 id textView_porzioni
@@ -50,6 +52,8 @@ layout activity_main
 layout activity_splash_screen
 layout list_ricette_random
 layout login
+layout spinner_inner_text
+layout spinner_text
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

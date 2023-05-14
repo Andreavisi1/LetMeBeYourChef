@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,10 +23,14 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerRandom;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView,
-      @NonNull RecyclerView recyclerRandom) {
+  @NonNull
+  public final Spinner spinnerTags;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView recyclerRandom,
+      @NonNull Spinner spinnerTags) {
     this.rootView = rootView;
     this.recyclerRandom = recyclerRandom;
+    this.spinnerTags = spinnerTags;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, recyclerRandom);
+      id = R.id.spinner_tags;
+      Spinner spinnerTags = ViewBindings.findChildViewById(rootView, id);
+      if (spinnerTags == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, recyclerRandom, spinnerTags);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

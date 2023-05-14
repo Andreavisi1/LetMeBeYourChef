@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-3:/values-lv/values-lv.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-52:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/res/values-lv/values-lv.xml",
