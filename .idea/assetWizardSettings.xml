@@ -306,7 +306,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/access_time_filled/baseline_access_time_filled_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/search/baseline_search_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -316,8 +316,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="b11d1d" />
-                            <entry key="outputName" value="ic_tempo" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_serach" />
+                            <entry key="sourceFile" value="C:\Users\CiaMb\AndroidStudioProjects\LetMeBeYourChef" />
                           </map>
                         </option>
                       </PersistentState>
