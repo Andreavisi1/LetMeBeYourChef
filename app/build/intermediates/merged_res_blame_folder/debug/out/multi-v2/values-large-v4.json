@@ -4,7 +4,7 @@
             "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-52:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",

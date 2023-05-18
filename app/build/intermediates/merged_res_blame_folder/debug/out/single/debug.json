@@ -1,166 +1,174 @@
 [
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-54:/layout_activity_dettagli_ricetta.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_dettagli_ricetta.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_spinner_text.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/spinner_text.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_search.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_search.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_porzioni.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_porzioni.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_side_nav_bar.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/side_nav_bar.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_logo_white.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/logo_white.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_likes.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_likes.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_spinner_inner_text.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/spinner_inner_text.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_login.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/login.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/font_audiowide.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/font/audiowide.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_logo_white.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/logo_white.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_gallery.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_gallery.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-pngs-50:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_logo.jpg.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/logo.jpg"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_slideshow.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_slideshow.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/xml/data_extraction_rules.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_tempo.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_tempo.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_gallery.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_bg.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/bg.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-merged_res-54:/layout_activity_main.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_wallpaper.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/wallpaper.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_main.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_likes.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_likes.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_login.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/login.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_wallpaper.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/wallpaper.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_porzioni.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_porzioni.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/font_audiowide.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/font/audiowide.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_camera.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_camera.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_camera.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_tempo.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_tempo.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_dettagli_ricetta.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_dettagli_ricetta.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/xml_backup_rules.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/xml/backup_rules.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_splash_screen.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_splash_screen.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-54:/layout_list_ingredienti_ricette.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ingredienti_ricette.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_spinner_inner_text.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/spinner_inner_text.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_logo.jpg.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/logo.jpg"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_search.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_search.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-pngs-50:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_list_ricette_random.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/list_ricette_random.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_bg.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/bg.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_spinner_text.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/spinner_text.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_list_ricette_random.xml.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/list_ricette_random.xml"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher_foreground.png"
     }
 ]

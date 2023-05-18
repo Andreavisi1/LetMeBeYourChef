@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.letmebeyourchef.Listeners.RicettaClickListener;
 import com.example.letmebeyourchef.Models.Recipe;
 import com.example.letmebeyourchef.R;
 import com.squareup.picasso.Picasso;
@@ -20,10 +21,12 @@ import java.util.List;
 public class RicetteRandomAdapter extends RecyclerView.Adapter<RicetteRandomViewHolder>{
     Context context;
     List<Recipe> list;
+    RicettaClickListener listener;
 
-    public RicetteRandomAdapter(Context context, List<Recipe> list) {
+    public RicetteRandomAdapter(Context context, List<Recipe> list, RicettaClickListener listener) {
         this.context = context;
         this.list = list;
+        this.listener = listener;
     }
 
     @NonNull
@@ -40,6 +43,13 @@ public class RicetteRandomAdapter extends RecyclerView.Adapter<RicetteRandomView
         holder.textView_porzioni.setText(list.get(position).servings + " porzioni");
         holder.textView_tempo.setText((list.get(position).readyInMinutes + " minuti"));
         Picasso.get().load(list.get(position).image).into(holder.imageView_food);
+
+        holder.random_list_container.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onClickRicetta(String.valueOf(list.get(holder.getAdapterPosition()).id));
+            }
+        });
     }
 
     @Override

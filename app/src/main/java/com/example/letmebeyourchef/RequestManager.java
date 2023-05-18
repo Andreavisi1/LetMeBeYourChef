@@ -2,7 +2,9 @@ package com.example.letmebeyourchef;
 
 import android.content.Context;
 
+import com.example.letmebeyourchef.Listeners.DettagliRicettaListener;
 import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom;
+import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
 
 import java.util.List;
@@ -13,6 +15,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public class RequestManager {
@@ -46,12 +49,40 @@ public class RequestManager {
         });
     }
 
+    public void getDettagliRicetta(DettagliRicettaListener listener, int id) {
+        CallDettagliRicetta callDettagliRicetta = retrofit.create(CallDettagliRicetta.class);
+        Call<ResponseFromApiDettagliRicetta> call = callDettagliRicetta.callDettagliRicetta(id, context.getString((R.string.api_key)));
+        call.enqueue(new Callback<ResponseFromApiDettagliRicetta>() {
+            @Override
+            public void onResponse(Call<ResponseFromApiDettagliRicetta> call, Response<ResponseFromApiDettagliRicetta> response) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(), response.message());
+            }
+
+            @Override
+            public void onFailure(Call<ResponseFromApiDettagliRicetta> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
+
     private interface CallRicetteRandom {
         @GET("recipes/random")
         Call<ResponseFromApiRicetteRandom> callRicetteRandom(
                 @Query("apiKey") String apiKey,
                 @Query("number") String number,
                 @Query("tags")List<String> tags
+        );
+    }
+
+    private interface CallDettagliRicetta {
+        @GET("recipes/{id}/information")
+        Call<ResponseFromApiDettagliRicetta> callDettagliRicetta(
+                @Path("id") int id,
+                @Query("apiKey") String apiKey
                 );
     }
 }

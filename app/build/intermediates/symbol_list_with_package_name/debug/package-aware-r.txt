@@ -3155,6 +3155,8 @@ id ignoreRequest
 id image
 id imageView2
 id imageView_food
+id imageView_immagine_ricetta
+id imageView_ingredienti
 id immediateStop
 id included
 id indeterminate
@@ -3286,6 +3288,7 @@ id radio
 id random_list_container
 id ratio
 id rectangles
+id recycler_ingredienti_ricetta
 id recycler_random
 id reverseSawtooth
 id right
@@ -3397,8 +3400,13 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView_descrizione_ricetta
 id textView_likes
+id textView_nome_ingredienti
+id textView_nome_ricetta
 id textView_porzioni
+id textView_quantità_ingredienti
+id textView_source_ricetta
 id textView_tempo
 id textView_title
 id text_input_end_icon
@@ -3561,6 +3569,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_dettagli_ricetta
 layout activity_main
 layout activity_splash_screen
 layout custom_dialog
@@ -3579,6 +3588,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout list_ingredienti_ricette
 layout list_ricette_random
 layout login
 layout m3_alert_dialog

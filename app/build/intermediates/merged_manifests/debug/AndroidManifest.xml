@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.LetMeBeYourChef" >
         <activity
+            android:name="com.example.letmebeyourchef.ActivityDettagliRicetta"
+            android:exported="false" />
+        <activity
             android:name="com.example.letmebeyourchef.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.LetMeBeYourChef" >
@@ -43,8 +46,7 @@
         <activity
             android:name="com.example.letmebeyourchef.SplashScreen"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

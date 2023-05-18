@@ -1,6 +1,7 @@
 package com.example.letmebeyourchef;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.letmebeyourchef.Adapters.RicetteRandomAdapter;
 import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom;
+import com.example.letmebeyourchef.Listeners.RicettaClickListener;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
 
 import java.util.ArrayList;
@@ -38,11 +40,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-
-
 
         dialog = new ProgressDialog(this);
         dialog.setTitle("Caricamento ricette in corso...");
@@ -86,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             recyclerView = findViewById(R.id.recycler_random);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new GridLayoutManager(MainActivity.this, 1));
-            ricetteRandomAdapter = new RicetteRandomAdapter(MainActivity.this, response.recipes);
+            ricetteRandomAdapter = new RicetteRandomAdapter(MainActivity.this, response.recipes, ricettaClickListener);
             recyclerView.setAdapter(ricetteRandomAdapter);
         }
 
@@ -111,5 +108,12 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    private final RicettaClickListener ricettaClickListener = new RicettaClickListener() {
+        @Override
+        public void onClickRicetta(String id) {
+            startActivity(new Intent(MainActivity.this, ActivityDettagliRicetta.class)
+                    .putExtra("id", id));
+        }
+    };
 
 }
