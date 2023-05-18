@@ -2845,6 +2845,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_porzioni
+drawable ic_search
 drawable ic_search_black_24
 drawable ic_tempo
 drawable icon_background
@@ -2932,6 +2933,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id LinearLayout
 id META
 id NO_DEBUG
 id SHIFT
@@ -3327,6 +3329,7 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
+id searchview_home
 id select_dialog_listview
 id selected
 id selection_type

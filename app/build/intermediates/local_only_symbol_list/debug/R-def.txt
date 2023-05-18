@@ -27,12 +27,14 @@ drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
 drawable ic_porzioni
+drawable ic_search
 drawable ic_tempo
 drawable logo
 drawable logo_white
 drawable side_nav_bar
 drawable wallpaper
 font audiowide
+id LinearLayout
 id SplashScreenImage
 id buttonlog
 id imageView2
@@ -40,6 +42,7 @@ id imageView_food
 id pass
 id random_list_container
 id recycler_random
+id searchview_home
 id spinner_tags
 id textView
 id textView_likes

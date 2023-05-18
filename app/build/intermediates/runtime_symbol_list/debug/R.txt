@@ -2844,6 +2844,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f0800ad
 int drawable ic_mtrl_chip_checked_circle 0x7f0800ae
 int drawable ic_mtrl_chip_close_circle 0x7f0800af
 int drawable ic_porzioni 0x7f0800b0
+int drawable ic_search 0x7f080102
 int drawable ic_search_black_24 0x7f0800b1
 int drawable ic_tempo 0x7f0800b2
 int drawable icon_background 0x7f0800b3
@@ -2931,6 +2932,7 @@ int id BOTTOM_END 0x7f0a0001
 int id BOTTOM_START 0x7f0a0002
 int id CTRL 0x7f0a0003
 int id FUNCTION 0x7f0a0004
+int id LinearLayout 0x7f0a020b
 int id META 0x7f0a0005
 int id NO_DEBUG 0x7f0a0006
 int id SHIFT 0x7f0a0007
@@ -3326,6 +3328,7 @@ int id search_view_status_bar_spacer 0x7f0a018c
 int id search_view_toolbar 0x7f0a018d
 int id search_view_toolbar_container 0x7f0a018e
 int id search_voice_btn 0x7f0a018f
+int id searchview_home 0x7f0a020a
 int id select_dialog_listview 0x7f0a0190
 int id selected 0x7f0a0191
 int id selection_type 0x7f0a0192

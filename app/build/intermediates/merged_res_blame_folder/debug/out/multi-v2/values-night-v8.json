@@ -11,6 +11,77 @@
                         "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
+                        "startLines": "3,4,5,6,7,8,9,52",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "141,211,295,379,475,577,679,4442",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "206,290,374,470,572,674,768,4526"
+                    }
+                },
+                {
+                    "source": "/Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2,18,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,934,1039",
+                        "endLines": "16,18,20",
+                        "endColumns": "12,103,93",
+                        "endOffsets": "928,1033,1128"
+                    },
+                    "to": {
+                        "startLines": "10,25,26",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "773,1485,1588",
+                        "endLines": "24,25,26",
+                        "endColumns": "12,102,92",
+                        "endOffsets": "1480,1583,1676"
+                    }
+                },
+                {
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                },
+                {
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,53,54,55,56,57,58,59,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1681,1756,1867,1956,2057,2164,2271,2370,2477,2580,2668,2792,2894,2996,3112,3214,3328,3456,3572,3694,3830,3950,4084,4204,4316,4531,4648,4772,4902,5024,5162,5296,5412",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1751,1862,1951,2052,2159,2266,2365,2472,2575,2663,2787,2889,2991,3107,3209,3323,3451,3567,3689,3825,3945,4079,4199,4311,4437,4643,4767,4897,5019,5157,5291,5407,5527"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-mergeDebugResources-52:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
                         "startLines": "3,4,5,6,7,8,9,48",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "141,211,295,379,475,577,679,4120",
@@ -40,77 +111,6 @@
                 {
                     "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "85",
-                        "endOffsets": "136"
-                    }
-                },
-                {
-                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1359,1434,1545,1634,1735,1842,1949,2048,2155,2258,2346,2470,2572,2674,2790,2892,3006,3134,3250,3372,3508,3628,3762,3882,3994,4209,4326,4450,4580,4702,4840,4974,5090",
-                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1429,1540,1629,1730,1837,1944,2043,2150,2253,2341,2465,2567,2669,2785,2887,3001,3129,3245,3367,3503,3623,3757,3877,3989,4115,4321,4445,4575,4697,4835,4969,5085,5205"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-mergeDebugResources-52:/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,48",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "141,211,295,379,475,577,679,4122",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "206,290,374,470,572,674,768,4206"
-                    }
-                },
-                {
-                    "source": "/Users/andreavisi/android-workspace/LetMeBeYourChef/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "804"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "773",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "1356"
-                    }
-                },
-                {
-                    "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/caches/transforms-3/31c86f0cefb63ee9d88b77fa38e565dd/transformed/core-splashscreen-1.0.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
@@ -130,9 +130,9 @@
                     "to": {
                         "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1361,1436,1547,1636,1737,1844,1951,2050,2157,2260,2348,2472,2574,2676,2792,2894,3008,3136,3252,3374,3510,3630,3764,3884,3996,4211,4328,4452,4582,4704,4842,4976,5092",
+                        "startOffsets": "1359,1434,1545,1634,1735,1842,1949,2048,2155,2258,2346,2470,2572,2674,2790,2892,3006,3134,3250,3372,3508,3628,3762,3882,3994,4209,4326,4450,4580,4702,4840,4974,5090",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1431,1542,1631,1732,1839,1946,2045,2152,2255,2343,2467,2569,2671,2787,2889,3003,3131,3247,3369,3505,3625,3759,3879,3991,4117,4323,4447,4577,4699,4837,4971,5087,5207"
+                        "endOffsets": "1429,1540,1629,1730,1837,1944,2043,2150,2253,2341,2465,2567,2669,2785,2887,3001,3129,3245,3367,3503,3623,3757,3877,3989,4115,4321,4445,4575,4697,4835,4969,5085,5205"
                     }
                 }
             ]

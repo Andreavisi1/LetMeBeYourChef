@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.SearchView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.*;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -20,6 +21,8 @@ import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     ProgressDialog dialog;
@@ -29,16 +32,37 @@ public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     List<String> tags = new ArrayList<>();
 
+    SearchView searchView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
+
         dialog = new ProgressDialog(this);
         dialog.setTitle("Caricamento ricette in corso...");
 
-        searchView = findViewById(R.id.searchview_home)
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener())
+        searchView = findViewById(R.id.searchview_home);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                tags.clear();
+                tags.add(query);
+                manager.getRicetteRandom(responseListenerRicetteRandom, tags);
+                dialog.show();
+                return true;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                return false;
+            }
+        });
 
         spinner = findViewById(R.id.spinner_tags);
         ArrayAdapter arrayAdapter = ArrayAdapter.createFromResource(
@@ -86,4 +110,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
     };
+
+
 }

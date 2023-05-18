@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/activity_main.xml",
         "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
     },
@@ -14,10 +18,6 @@
     {
         "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_ricette_random.xml",
         "source": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/list_ricette_random.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/spinner_text.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/spinner_text.xml"
     },
     {
         "merged": "/Users/andreavisi/Downloads/android-kotlin-fundamentals-starter-apps-master/DessertClicker-Starter/gradle/daemon/8.0/com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/spinner_text.xml",

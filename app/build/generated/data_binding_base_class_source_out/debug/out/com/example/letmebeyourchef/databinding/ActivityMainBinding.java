@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,15 +22,24 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final LinearLayout LinearLayout;
+
+  @NonNull
   public final RecyclerView recyclerRandom;
+
+  @NonNull
+  public final SearchView searchviewHome;
 
   @NonNull
   public final Spinner spinnerTags;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView recyclerRandom,
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout LinearLayout,
+      @NonNull RecyclerView recyclerRandom, @NonNull SearchView searchviewHome,
       @NonNull Spinner spinnerTags) {
     this.rootView = rootView;
+    this.LinearLayout = LinearLayout;
     this.recyclerRandom = recyclerRandom;
+    this.searchviewHome = searchviewHome;
     this.spinnerTags = spinnerTags;
   }
 
@@ -60,9 +70,17 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      LinearLayout LinearLayout = (LinearLayout) rootView;
+
       id = R.id.recycler_random;
       RecyclerView recyclerRandom = ViewBindings.findChildViewById(rootView, id);
       if (recyclerRandom == null) {
+        break missingId;
+      }
+
+      id = R.id.searchview_home;
+      SearchView searchviewHome = ViewBindings.findChildViewById(rootView, id);
+      if (searchviewHome == null) {
         break missingId;
       }
 
@@ -72,7 +90,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, recyclerRandom, spinnerTags);
+      return new ActivityMainBinding((LinearLayout) rootView, LinearLayout, recyclerRandom,
+          searchviewHome, spinnerTags);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
