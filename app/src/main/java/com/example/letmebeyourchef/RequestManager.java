@@ -4,8 +4,10 @@ import android.content.Context;
 
 import com.example.letmebeyourchef.Listeners.DettagliRicettaListener;
 import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom;
+import com.example.letmebeyourchef.Listeners.RicetteSimiliListener;
 import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
+import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili;
 
 import java.util.List;
 
@@ -69,6 +71,26 @@ public class RequestManager {
         });
     }
 
+    public void getRicetteSimili(RicetteSimiliListener listener, int id) {
+        CallRicetteSimili callRicetteSimili = retrofit.create(CallRicetteSimili.class);
+        Call<List<ResponseFromApiRicetteSimili>> call = callRicetteSimili.callRicetteSimili(id, "8", context.getString(R.string.api_key));
+        call.enqueue(new Callback<List<ResponseFromApiRicetteSimili>>() {
+            @Override
+            public void onResponse(Call<List<ResponseFromApiRicetteSimili>> call, Response<List<ResponseFromApiRicetteSimili>> response) {
+                if(!response.isSuccessful()) {
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(), response.message());
+            }
+
+            @Override
+            public void onFailure(Call<List<ResponseFromApiRicetteSimili>> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
+
     private interface CallRicetteRandom {
         @GET("recipes/random")
         Call<ResponseFromApiRicetteRandom> callRicetteRandom(
@@ -83,6 +105,15 @@ public class RequestManager {
         Call<ResponseFromApiDettagliRicetta> callDettagliRicetta(
                 @Path("id") int id,
                 @Query("apiKey") String apiKey
-                );
+        );
+    }
+
+    private interface CallRicetteSimili {
+        @GET("recipes/{id}/similar")
+        Call<List<ResponseFromApiRicetteSimili>> callRicetteSimili(
+                @Path("id") int id,
+                @Query("number") String number,
+                @Query("apiKey") String apiKey
+        );
     }
 }

@@ -5,24 +5,32 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.letmebeyourchef.Adapters.IngredientiAdapter;
+import com.example.letmebeyourchef.Adapters.RicetteSimiliAdapter;
 import com.example.letmebeyourchef.Listeners.DettagliRicettaListener;
+import com.example.letmebeyourchef.Listeners.RicettaClickListener;
+import com.example.letmebeyourchef.Listeners.RicetteSimiliListener;
 import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta;
+import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili;
 import com.squareup.picasso.Picasso;
+
+import java.util.List;
 
 public class ActivityDettagliRicetta extends AppCompatActivity {
     int id;
     TextView textView_nome_ricetta, textView_source_ricetta, textView_descrizione_ricetta;
     ImageView imageView_immagine_ricetta;
-    RecyclerView recycler_ingredienti_ricetta;
+    RecyclerView recycler_ingredienti_ricetta, recycler_ricette_simili;
     RequestManager manager;
     ProgressDialog dialog;
     IngredientiAdapter ingredientiAdapter;
+    RicetteSimiliAdapter ricetteSimiliAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +42,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         id = Integer.parseInt(getIntent().getStringExtra("id"));
         manager = new RequestManager(this);
         manager.getDettagliRicetta(dettagliRicettaListener, id);
+        manager.getRicetteSimili(ricetteSimiliListener, id);
         dialog = new ProgressDialog(this);
         dialog.setTitle("Caricamento dettagli...");
         dialog.show();
@@ -45,6 +54,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         textView_descrizione_ricetta = findViewById(R.id.textView_descrizione_ricetta);
         imageView_immagine_ricetta = findViewById(R.id.imageView_immagine_ricetta);
         recycler_ingredienti_ricetta = findViewById(R.id.recycler_ingredienti_ricetta);
+        recycler_ricette_simili = findViewById(R.id.recycler_ricette_simili);
     }
 
     private final DettagliRicettaListener dettagliRicettaListener = new DettagliRicettaListener() {
@@ -65,6 +75,29 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         @Override
         public void didError(String message) {
             Toast.makeText(ActivityDettagliRicetta.this, message, Toast.LENGTH_SHORT).show();
+        }
+    };
+
+    private final RicetteSimiliListener ricetteSimiliListener = new RicetteSimiliListener() {
+        @Override
+        public void didFetch(List<ResponseFromApiRicetteSimili> response, String message) {
+            recycler_ricette_simili.setHasFixedSize(true);
+            recycler_ricette_simili.setLayoutManager(new LinearLayoutManager(ActivityDettagliRicetta.this, LinearLayoutManager.HORIZONTAL, false));
+            ricetteSimiliAdapter = new RicetteSimiliAdapter(ActivityDettagliRicetta.this, response, ricettaClickListener);
+            recycler_ricette_simili.setAdapter(ricetteSimiliAdapter);
+        }
+
+        @Override
+        public void didError(String message) {
+            Toast.makeText(ActivityDettagliRicetta.this, message, Toast.LENGTH_SHORT).show();
+        }
+    };
+
+    private final RicettaClickListener ricettaClickListener = new RicettaClickListener() {
+        @Override
+        public void onClickRicetta(String id) {
+            startActivity(new Intent(ActivityDettagliRicetta.this, ActivityDettagliRicetta.class)
+                    .putExtra("id", id));
         }
     };
 }

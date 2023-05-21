@@ -58,6 +58,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:text="Ricette simili, se questa non ti convince:"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_ricette_simili"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
                 android:text="Ingredienti"
                 android:textStyle="bold"
                 android:textColor="@color/white"

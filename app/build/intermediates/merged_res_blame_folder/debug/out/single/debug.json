@@ -40,6 +40,10 @@
         "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/login.xml"
     },
     {
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_list_ingredienti_ricette.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/list_ingredienti_ricette.xml"
+    },
+    {
         "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_slideshow.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_list_ricette_simili.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/layout/list_ricette_simili.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/drawable_ic_menu_gallery.xml.flat",
@@ -134,10 +142,6 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-main-56:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-merged_res-54:/layout_list_ingredienti_ricette.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ingredienti_ricette.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/8.0/com.example.letmebeyourchef.app-merged_res-54:/layout_activity_splash_screen.xml.flat",

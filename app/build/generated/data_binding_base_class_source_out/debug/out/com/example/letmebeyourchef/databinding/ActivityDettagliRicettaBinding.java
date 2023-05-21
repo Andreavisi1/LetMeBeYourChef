@@ -28,6 +28,9 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   public final RecyclerView recyclerIngredientiRicetta;
 
   @NonNull
+  public final RecyclerView recyclerRicetteSimili;
+
+  @NonNull
   public final TextView textViewDescrizioneRicetta;
 
   @NonNull
@@ -38,11 +41,12 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
 
   private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView,
       @NonNull ImageView imageViewImmagineRicetta, @NonNull RecyclerView recyclerIngredientiRicetta,
-      @NonNull TextView textViewDescrizioneRicetta, @NonNull TextView textViewNomeRicetta,
-      @NonNull TextView textViewSourceRicetta) {
+      @NonNull RecyclerView recyclerRicetteSimili, @NonNull TextView textViewDescrizioneRicetta,
+      @NonNull TextView textViewNomeRicetta, @NonNull TextView textViewSourceRicetta) {
     this.rootView = rootView;
     this.imageViewImmagineRicetta = imageViewImmagineRicetta;
     this.recyclerIngredientiRicetta = recyclerIngredientiRicetta;
+    this.recyclerRicetteSimili = recyclerRicetteSimili;
     this.textViewDescrizioneRicetta = textViewDescrizioneRicetta;
     this.textViewNomeRicetta = textViewNomeRicetta;
     this.textViewSourceRicetta = textViewSourceRicetta;
@@ -87,6 +91,12 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recycler_ricette_simili;
+      RecyclerView recyclerRicetteSimili = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerRicetteSimili == null) {
+        break missingId;
+      }
+
       id = R.id.textView_descrizione_ricetta;
       TextView textViewDescrizioneRicetta = ViewBindings.findChildViewById(rootView, id);
       if (textViewDescrizioneRicetta == null) {
@@ -106,8 +116,8 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
       }
 
       return new ActivityDettagliRicettaBinding((LinearLayout) rootView, imageViewImmagineRicetta,
-          recyclerIngredientiRicetta, textViewDescrizioneRicetta, textViewNomeRicetta,
-          textViewSourceRicetta);
+          recyclerIngredientiRicetta, recyclerRicetteSimili, textViewDescrizioneRicetta,
+          textViewNomeRicetta, textViewSourceRicetta);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

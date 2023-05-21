@@ -27,15 +27,15 @@ public final class ListIngredientiRicetteBinding implements ViewBinding {
   public final TextView textViewNomeIngredienti;
 
   @NonNull
-  public final TextView textViewQuantitIngredienti;
+  public final TextView textViewQuantitaIngredienti;
 
   private ListIngredientiRicetteBinding(@NonNull CardView rootView,
       @NonNull ImageView imageViewIngredienti, @NonNull TextView textViewNomeIngredienti,
-      @NonNull TextView textViewQuantitIngredienti) {
+      @NonNull TextView textViewQuantitaIngredienti) {
     this.rootView = rootView;
     this.imageViewIngredienti = imageViewIngredienti;
     this.textViewNomeIngredienti = textViewNomeIngredienti;
-    this.textViewQuantitIngredienti = textViewQuantitIngredienti;
+    this.textViewQuantitaIngredienti = textViewQuantitaIngredienti;
   }
 
   @Override
@@ -77,14 +77,14 @@ public final class ListIngredientiRicetteBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView_quantità_ingredienti;
-      TextView textViewQuantitIngredienti = ViewBindings.findChildViewById(rootView, id);
-      if (textViewQuantitIngredienti == null) {
+      id = R.id.textView_quantita_ingredienti;
+      TextView textViewQuantitaIngredienti = ViewBindings.findChildViewById(rootView, id);
+      if (textViewQuantitaIngredienti == null) {
         break missingId;
       }
 
       return new ListIngredientiRicetteBinding((CardView) rootView, imageViewIngredienti,
-          textViewNomeIngredienti, textViewQuantitIngredienti);
+          textViewNomeIngredienti, textViewQuantitaIngredienti);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

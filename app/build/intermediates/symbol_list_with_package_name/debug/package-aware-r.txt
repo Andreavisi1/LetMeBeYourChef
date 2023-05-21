@@ -3157,6 +3157,7 @@ id imageView2
 id imageView_food
 id imageView_immagine_ricetta
 id imageView_ingredienti
+id imageView_simili
 id immediateStop
 id included
 id indeterminate
@@ -3290,7 +3291,9 @@ id ratio
 id rectangles
 id recycler_ingredienti_ricetta
 id recycler_random
+id recycler_ricette_simili
 id reverseSawtooth
+id ricette_simili_holder
 id right
 id rightToLeft
 id right_icon
@@ -3405,7 +3408,9 @@ id textView_likes
 id textView_nome_ingredienti
 id textView_nome_ricetta
 id textView_porzioni
-id textView_quantità_ingredienti
+id textView_quantita_ingredienti
+id textView_simili_porzione
+id textView_simili_titolo
 id textView_source_ricetta
 id textView_tempo
 id textView_title
@@ -3590,6 +3595,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout list_ingredienti_ricette
 layout list_ricette_random
+layout list_ricette_simili
 layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Update_at_12_05_23,_19_28_[Changes]" date="1683912537779" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_23,_19_28_[Changes]/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/05/23, 19:28 [Changes]" />
-  <binary>
-    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" />
-    <option name="AFTER_PATH" />
-    <option name="SHELVED_PATH" />
-  </binary>
-</changelist>

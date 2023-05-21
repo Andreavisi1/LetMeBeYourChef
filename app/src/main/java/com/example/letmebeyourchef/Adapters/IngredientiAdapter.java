@@ -36,8 +36,8 @@ public class IngredientiAdapter extends RecyclerView.Adapter<IngredientiViewHold
     public void onBindViewHolder(@NonNull IngredientiViewHolder holder, int position) {
         holder.textView_nome_ingredienti.setText(list.get(position).name);
         holder.textView_nome_ingredienti.setSelected(true);
-        holder.textView_quantità_ingredienti.setText(list.get(position).original);
-        holder.textView_quantità_ingredienti.setSelected(true);
+        holder.textView_quantita_ingredienti.setText(list.get(position).original);
+        holder.textView_quantita_ingredienti.setSelected(true);
         Picasso.get().load("https://spoonacular.com/cdn/ingredients_100x100/"+list.get(position).image).into(holder.imageView_ingredienti);
     }
 
@@ -48,11 +48,11 @@ public class IngredientiAdapter extends RecyclerView.Adapter<IngredientiViewHold
 }
 
 class IngredientiViewHolder extends RecyclerView.ViewHolder {
-    TextView textView_quantità_ingredienti, textView_nome_ingredienti;
+    TextView textView_quantita_ingredienti, textView_nome_ingredienti;
     ImageView imageView_ingredienti;
     public IngredientiViewHolder(@NonNull View itemView) {
         super(itemView);
-        textView_quantità_ingredienti = itemView.findViewById(R.id.textView_quantità_ingredienti);
+        textView_quantita_ingredienti = itemView.findViewById(R.id.textView_quantita_ingredienti);
         textView_nome_ingredienti = itemView.findViewById(R.id.textView_nome_ingredienti);
         imageView_ingredienti = itemView.findViewById(R.id.imageView_ingredienti);
 
