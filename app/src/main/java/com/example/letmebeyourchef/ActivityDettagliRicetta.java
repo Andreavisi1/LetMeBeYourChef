@@ -26,7 +26,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
     int id;
     TextView textView_nome_ricetta, textView_source_ricetta, textView_descrizione_ricetta;
     ImageView imageView_immagine_ricetta;
-    RecyclerView recycler_ingredienti_ricetta, recycler_ricette_simili;
+    RecyclerView recycler_ingredienti_ricetta, recycler_ricette_simili, recycler_istruzioni;
     RequestManager manager;
     ProgressDialog dialog;
     IngredientiAdapter ingredientiAdapter;
@@ -55,6 +55,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         imageView_immagine_ricetta = findViewById(R.id.imageView_immagine_ricetta);
         recycler_ingredienti_ricetta = findViewById(R.id.recycler_ingredienti_ricetta);
         recycler_ricette_simili = findViewById(R.id.recycler_ricette_simili);
+        recycler_istruzioni=findViewById(R.id.recycler_istruzioni);
     }
 
     private final DettagliRicettaListener dettagliRicettaListener = new DettagliRicettaListener() {

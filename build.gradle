@@ -3,6 +3,7 @@ buildscript {
         kotlin_version = '1.8.21'
     }
     dependencies {
+       /* classpath 'com.android.tools.build:gradle:1.1.0' */
         classpath 'com.google.gms:google-services:4.3.14'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }

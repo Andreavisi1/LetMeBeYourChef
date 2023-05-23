@@ -3,9 +3,11 @@ package com.example.letmebeyourchef;
 import android.content.Context;
 
 import com.example.letmebeyourchef.Listeners.DettagliRicettaListener;
+import com.example.letmebeyourchef.Listeners.IstruzioniListener;
 import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom;
 import com.example.letmebeyourchef.Listeners.RicetteSimiliListener;
 import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta;
+import com.example.letmebeyourchef.Models.ResponseFromApiIstruzioni;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili;
 
@@ -91,6 +93,27 @@ public class RequestManager {
         });
     }
 
+    public void getIstruzioni(IstruzioniListener listener, int id ){
+        CallIstruzioni callIstruzioni = retrofit.create(CallIstruzioni.class);
+        Call<List<ResponseFromApiIstruzioni>> call = callIstruzioni.callIstruzioni(id, context.getString(R.string.api_key));
+        call.enqueue(new Callback<List<ResponseFromApiIstruzioni>>() {
+            @Override
+            public void onResponse(Call<List<ResponseFromApiIstruzioni>> call, Response<List<ResponseFromApiIstruzioni>> response) {
+                if (!response.isSuccessful()){
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(), response.message());
+            }
+
+            @Override
+            public void onFailure(Call<List<ResponseFromApiIstruzioni>> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
+
+
     private interface CallRicetteRandom {
         @GET("recipes/random")
         Call<ResponseFromApiRicetteRandom> callRicetteRandom(
@@ -113,6 +136,14 @@ public class RequestManager {
         Call<List<ResponseFromApiRicetteSimili>> callRicetteSimili(
                 @Path("id") int id,
                 @Query("number") String number,
+                @Query("apiKey") String apiKey
+        );
+    }
+
+    private interface CallIstruzioni{
+        @GET("recipes/{id}/analyzedInstructions")
+        Call<List<ResponseFromApiIstruzioni>> callIstruzioni (
+                @Path("id") int id,
                 @Query("apiKey") String apiKey
         );
     }
