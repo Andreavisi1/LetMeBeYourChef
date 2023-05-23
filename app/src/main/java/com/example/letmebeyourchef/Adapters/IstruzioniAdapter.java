@@ -35,6 +35,7 @@ public class IstruzioniAdapter extends RecyclerView.Adapter<IstruzioniViewHolder
 
       holder.textView_nome_istruzione.setText(list.get(position).name);
       holder.recycler_step_istruzione.setHasFixedSize(true);
+
    }
 
    @Override
