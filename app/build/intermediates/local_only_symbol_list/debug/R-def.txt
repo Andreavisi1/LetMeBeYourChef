@@ -36,14 +36,11 @@ drawable wallpaper
 font audiowide
 id LinearLayout
 id SplashScreenImage
-id buttonlog
-id imageView2
 id imageView_food
 id imageView_immagine_ricetta
 id imageView_ingredienti
 id imageView_simili
 id imageView_step_istruzioni_items
-id pass
 id random_list_container
 id recycler_ingredienti_ricetta
 id recycler_istruzioni
@@ -71,8 +68,6 @@ id textView_step_istruzioni_item
 id textView_tempo
 id textView_title
 id textView_titolo_step_istruzioni
-id username
-id welcome
 layout activity_dettagli_ricetta
 layout activity_main
 layout activity_splash_screen
@@ -82,7 +77,6 @@ layout list_ricette_random
 layout list_ricette_simili
 layout list_step_istruzioni
 layout list_step_istruzioni_items
-layout login
 layout spinner_inner_text
 layout spinner_text
 mipmap ic_launcher

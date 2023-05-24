@@ -1,11 +1,15 @@
 [
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/login.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/login.xml"
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_ingredienti_ricette.xml",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ingredienti_ricette.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_ricette_simili.xml",
         "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ricette_simili.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_istruzioni.xml",
@@ -24,27 +28,19 @@
         "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ricette_random.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/spinner_inner_text.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/spinner_inner_text.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_step_istruzioni_items.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_step_istruzioni_items.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_ingredienti_ricette.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_ingredienti_ricette.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/activity_main.xml",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/spinner_text.xml",
         "source": "com.example.letmebeyourchef.app-main-56:/layout/spinner_text.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/activity_splash_screen.xml",
         "source": "com.example.letmebeyourchef.app-main-56:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/spinner_inner_text.xml",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/spinner_inner_text.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-53:/layout/list_step_istruzioni_items.xml",
+        "source": "com.example.letmebeyourchef.app-main-56:/layout/list_step_istruzioni_items.xml"
     }
 ]

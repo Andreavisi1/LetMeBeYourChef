@@ -140,10 +140,6 @@
         "source": "com.example.letmebeyourchef.app-main-56:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-merged_res-54:/layout_login.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-56:/layout/login.xml"
-    },
-    {
         "merged": "com.example.letmebeyourchef.app-merged_res-54:/drawable_logo_white.png.flat",
         "source": "com.example.letmebeyourchef.app-main-56:/drawable/logo_white.png"
     },

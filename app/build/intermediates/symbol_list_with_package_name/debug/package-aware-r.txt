@@ -3032,7 +3032,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
-id buttonlog
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3153,7 +3152,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView2
 id imageView_food
 id imageView_immagine_ricetta
 id imageView_ingredienti
@@ -3274,7 +3272,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id pass
 id password_toggle
 id path
 id pathRelative
@@ -3453,7 +3450,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3463,7 +3459,6 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id welcome
 id west
 id wide
 id withText
@@ -3608,7 +3603,6 @@ layout list_ricette_random
 layout list_ricette_simili
 layout list_step_istruzioni
 layout list_step_istruzioni_items
-layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
