@@ -4,7 +4,7 @@
             "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-52:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CiaMb\\.gradle\\caches\\transforms-3\\e8b22bc648297422d8bde1aa7744a60c\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.letmebeyourchef.Models.ResponseFromApiIstruzioni;
@@ -35,24 +36,27 @@ public class IstruzioniAdapter extends RecyclerView.Adapter<IstruzioniViewHolder
 
       holder.textView_nome_istruzione.setText(list.get(position).name);
       holder.recycler_step_istruzione.setHasFixedSize(true);
+      holder.recycler_step_istruzione.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false));
+      IstruzioniStepAdapter istruzioniStepAdapter = new IstruzioniStepAdapter(context, list.get(position).steps);
+      holder.recycler_step_istruzione.setAdapter(istruzioniStepAdapter);
 
    }
 
    @Override
    public int getItemCount() {
+
       return list.size();
    }
 }
 
-   class IstruzioniViewHolder extends RecyclerView.ViewHolder {
-      TextView textView_nome_istruzione;
-      RecyclerView recycler_step_istruzione;
+class IstruzioniViewHolder extends RecyclerView.ViewHolder {
+   TextView textView_nome_istruzione;
+   RecyclerView recycler_step_istruzione;
 
-      public IstruzioniViewHolder(@NonNull View itemView) {
-         super(itemView);
-         textView_nome_istruzione = itemView.findViewById(R.id.textView_nome_ricetta);
-         recycler_step_istruzione = itemView.findViewById((R.id.recycler_step_istruzione));
-
-      }
+   public IstruzioniViewHolder(@NonNull View itemView) {
+      super(itemView);
+      textView_nome_istruzione = itemView.findViewById(R.id.textView_nome_ricetta);
+      recycler_step_istruzione = itemView.findViewById(R.id.recycler_step_istruzione);
    }
+}
 

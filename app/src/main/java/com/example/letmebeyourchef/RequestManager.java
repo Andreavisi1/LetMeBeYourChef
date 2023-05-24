@@ -93,7 +93,7 @@ public class RequestManager {
         });
     }
 
-    public void getIstruzioni(IstruzioniListener listener, int id ){
+    public void getIstruzioni(IstruzioniListener listener, int id){
         CallIstruzioni callIstruzioni = retrofit.create(CallIstruzioni.class);
         Call<List<ResponseFromApiIstruzioni>> call = callIstruzioni.callIstruzioni(id, context.getString(R.string.api_key));
         call.enqueue(new Callback<List<ResponseFromApiIstruzioni>>() {

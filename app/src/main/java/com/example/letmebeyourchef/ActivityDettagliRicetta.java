@@ -12,11 +12,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.letmebeyourchef.Adapters.IngredientiAdapter;
+import com.example.letmebeyourchef.Adapters.IstruzioniAdapter;
 import com.example.letmebeyourchef.Adapters.RicetteSimiliAdapter;
 import com.example.letmebeyourchef.Listeners.DettagliRicettaListener;
+import com.example.letmebeyourchef.Listeners.IstruzioniListener;
 import com.example.letmebeyourchef.Listeners.RicettaClickListener;
 import com.example.letmebeyourchef.Listeners.RicetteSimiliListener;
 import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta;
+import com.example.letmebeyourchef.Models.ResponseFromApiIstruzioni;
 import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili;
 import com.squareup.picasso.Picasso;
 
@@ -31,6 +34,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
     ProgressDialog dialog;
     IngredientiAdapter ingredientiAdapter;
     RicetteSimiliAdapter ricetteSimiliAdapter;
+    IstruzioniAdapter istruzioniAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +47,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         manager = new RequestManager(this);
         manager.getDettagliRicetta(dettagliRicettaListener, id);
         manager.getRicetteSimili(ricetteSimiliListener, id);
+        manager.getIstruzioni(istruzioniListener, id);
         dialog = new ProgressDialog(this);
         dialog.setTitle("Caricamento dettagli...");
         dialog.show();
@@ -55,7 +60,7 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         imageView_immagine_ricetta = findViewById(R.id.imageView_immagine_ricetta);
         recycler_ingredienti_ricetta = findViewById(R.id.recycler_ingredienti_ricetta);
         recycler_ricette_simili = findViewById(R.id.recycler_ricette_simili);
-        recycler_istruzioni=findViewById(R.id.recycler_istruzioni);
+        recycler_istruzioni = findViewById(R.id.recycler_istruzioni);
     }
 
     private final DettagliRicettaListener dettagliRicettaListener = new DettagliRicettaListener() {
@@ -99,6 +104,21 @@ public class ActivityDettagliRicetta extends AppCompatActivity {
         public void onClickRicetta(String id) {
             startActivity(new Intent(ActivityDettagliRicetta.this, ActivityDettagliRicetta.class)
                     .putExtra("id", id));
+        }
+    };
+
+    private final IstruzioniListener istruzioniListener = new IstruzioniListener() {
+        @Override
+        public void didFetch(List<ResponseFromApiIstruzioni> response, String message) {
+            recycler_istruzioni.setHasFixedSize(true);
+            recycler_istruzioni.setLayoutManager(new LinearLayoutManager(ActivityDettagliRicetta.this, LinearLayoutManager.VERTICAL, false));
+            istruzioniAdapter = new IstruzioniAdapter(ActivityDettagliRicetta.this, response);
+            recycler_istruzioni.setAdapter(istruzioniAdapter);
+        }
+
+        @Override
+        public void didError(String message) {
+
         }
     };
 }
