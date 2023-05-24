@@ -53,13 +53,24 @@
             android:layout_height="match_parent"
             app:iconifiedByDefault="false"
             app:queryHint="Cosa stai cercando?"
-            app:searchIcon="@drawable/ic_search" />
+            app:searchIcon="@drawable/ic_search" >
+
+        </androidx.appcompat.widget.SearchView>
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_random"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="4dp" />
+
+
+    <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btm_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/> -->
 
 </LinearLayout>

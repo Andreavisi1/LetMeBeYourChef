@@ -7,20 +7,20 @@ INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETT
 MERGED from [androidx.databinding:viewbinding:8.0.1] /Users/andreavisi/.gradle/caches/transforms-3/ca312fe424052d23534dccef1eb72cc2/transformed/viewbinding-8.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/36687ca8dc01b195a3ea510ae55b116c/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/andreavisi/.gradle/caches/transforms-3/341cef16136c2f73b03e2764d6e0ab6a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/andreavisi/.gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e53ef750f4babc74d9e109a04d19845a/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/andreavisi/.gradle/caches/transforms-3/090ca54fdb6060d4d294b51c99b727d8/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/andreavisi/.gradle/caches/transforms-3/9cd8b2713fbf2e03112da917bcf7815a/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/7463cb0897e1e4415f1441e4d5973cb2/transformed/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/fb4b284c635d8ef483e83bc080cdbbb5/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/a25f606508e6e5e44328a1b73f2b5932/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/andreavisi/.gradle/caches/transforms-3/a24127091ad5aefcf821446d84b5e117/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/a5870c111fae3521994208eced2d5297/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/andreavisi/.gradle/caches/transforms-3/f354f76f063bdbc656c8d5d5db458608/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/andreavisi/.gradle/caches/transforms-3/7036c9f6aedba605cd222544b7671f22/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/32bb0e832e11e3bbb35fd434fc2af886/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
@@ -29,11 +29,6 @@ MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/andreavisi/.gradle/cac
 MERGED from [androidx.activity:activity:1.6.0] /Users/andreavisi/.gradle/caches/transforms-3/2e99a3968be3219438550679f18dec4b/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/4a3b05a3916007b6f87c59d796ea9439/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/2959b6c03f8ba80ab1192b77d4e7debd/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/42b8518e6497910f3b53e54efdf2f96a/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/402e8faabbb562989a4a6172d1d8a90d/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/andreavisi/.gradle/caches/transforms-3/9278523fd2a547e4a47473a0eb585b78/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
@@ -42,19 +37,24 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/andreavisi/.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/5196d54486a2abc72ff3d4e8c55f76ac/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/7a0ea86f9849774ed4f7cd05a4ffb317/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/62e2a8979c2a63b9321728bab7c312fc/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/00a2958d7eee59a9f37305b4a95cf54c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/82c2b10683c8f769dc4cf72cc573f494/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/d512968d0a1a1d09f6d77e8d024ea54d/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/0a14357bf046538deadb40edbda6a0c2/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/2a557c97b0c076c2d7b5a8a875527c51/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/e684ffbb44ae6b6b06bb9e8920414794/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/ef6540dac2e773c4e554f23370b596e0/transformed/core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/d4d0650109a3b462dc0272e65f8afac3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/4c578de6ad2afa1d811a68e1a8731eee/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/d3352c5a585f9704ce4654486a39631d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/4b89f4781cd9f61966010e52cea5ff28/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] /Users/andreavisi/.gradle/caches/transforms-3/182ef5059343be3d0a3ccc075bf6b66b/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/97a73472e2bcb1f3670fb6371d1272dd/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/52ae0994998245e0d562b448feefdf4a/transformed/lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/be0cdf0642749f90b15c0c3cfc41052a/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
@@ -64,14 +64,14 @@ MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/.gradle/caches/t
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/70ab5deada5496a3b26c20abf3389c3b/transformed/library-2.3/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ca5d2b685e0b6a86055f1f1e508d4767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e6c812492effcbea755c6be5eab5f08b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/.gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/andreavisi/.gradle/caches/transforms-3/c71654f8ce83c24fa874f53e5eaf754d/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/037f1994f63f8fe7655e7c161c0b3bf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/f5f2c2deb6cab2e464333ebb62204af8/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/andreavisi/.gradle/caches/transforms-3/6bddeb9fd271a880dacc5f34192837af/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ac81ced51f599326bcbe6e65375e2fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fb8e49019471f6cdfe566a95a257feab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ecbe6edc06023541e5a8af5778b15b09/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -97,28 +97,28 @@ INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETT
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:7:5-36:19
-MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/andreavisi/.gradle/caches/transforms-3/090ca54fdb6060d4d294b51c99b727d8/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/andreavisi/.gradle/caches/transforms-3/090ca54fdb6060d4d294b51c99b727d8/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/andreavisi/.gradle/caches/transforms-3/9cd8b2713fbf2e03112da917bcf7815a/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/andreavisi/.gradle/caches/transforms-3/9cd8b2713fbf2e03112da917bcf7815a/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/7463cb0897e1e4415f1441e4d5973cb2/transformed/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/7463cb0897e1e4415f1441e4d5973cb2/transformed/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/a5870c111fae3521994208eced2d5297/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/a5870c111fae3521994208eced2d5297/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/andreavisi/.gradle/caches/transforms-3/f354f76f063bdbc656c8d5d5db458608/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/andreavisi/.gradle/caches/transforms-3/f354f76f063bdbc656c8d5d5db458608/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/2959b6c03f8ba80ab1192b77d4e7debd/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
@@ -127,8 +127,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.grad
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/7a0ea86f9849774ed4f7cd05a4ffb317/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/.gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/.gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -138,7 +138,7 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/037f1994f63f8fe7655e7c161c0b3bf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/037f1994f63f8fe7655e7c161c0b3bf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -201,8 +201,8 @@ MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/.gra
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/36687ca8dc01b195a3ea510ae55b116c/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/b37ee5dbd708de9318df3b6d40fac00d/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0] /Users/andreavisi/.gradle/caches/transforms-3/40f4d3e59ef0fa7dc42fbb8eb5dad8af/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/5b9577ae87f53209eab93d2663fb27a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/andreavisi/.gradle/caches/transforms-3/341cef16136c2f73b03e2764d6e0ab6a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
@@ -211,10 +211,10 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/andreavisi/.gradle/cache
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/andreavisi/.gradle/caches/transforms-3/e8b22bc648297422d8bde1aa7744a60c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e53ef750f4babc74d9e109a04d19845a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e53ef750f4babc74d9e109a04d19845a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/andreavisi/.gradle/caches/transforms-3/090ca54fdb6060d4d294b51c99b727d8/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/andreavisi/.gradle/caches/transforms-3/090ca54fdb6060d4d294b51c99b727d8/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/andreavisi/.gradle/caches/transforms-3/9cd8b2713fbf2e03112da917bcf7815a/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/andreavisi/.gradle/caches/transforms-3/9cd8b2713fbf2e03112da917bcf7815a/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/7463cb0897e1e4415f1441e4d5973cb2/transformed/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/7463cb0897e1e4415f1441e4d5973cb2/transformed/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
@@ -225,10 +225,10 @@ MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/andreavisi/.g
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/a25f606508e6e5e44328a1b73f2b5932/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/andreavisi/.gradle/caches/transforms-3/a24127091ad5aefcf821446d84b5e117/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/andreavisi/.gradle/caches/transforms-3/a24127091ad5aefcf821446d84b5e117/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/a5870c111fae3521994208eced2d5297/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/a5870c111fae3521994208eced2d5297/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/andreavisi/.gradle/caches/transforms-3/f354f76f063bdbc656c8d5d5db458608/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/andreavisi/.gradle/caches/transforms-3/f354f76f063bdbc656c8d5d5db458608/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/andreavisi/.gradle/caches/transforms-3/7036c9f6aedba605cd222544b7671f22/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
@@ -245,16 +245,6 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/andreavisi/.gradl
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/4a3b05a3916007b6f87c59d796ea9439/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/2959b6c03f8ba80ab1192b77d4e7debd/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/2959b6c03f8ba80ab1192b77d4e7debd/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/42b8518e6497910f3b53e54efdf2f96a/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/42b8518e6497910f3b53e54efdf2f96a/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/andreavisi/.gradle/caches/transforms-3/402e8faabbb562989a4a6172d1d8a90d/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
@@ -271,6 +261,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.grad
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/7a0ea86f9849774ed4f7cd05a4ffb317/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/62e2a8979c2a63b9321728bab7c312fc/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/62e2a8979c2a63b9321728bab7c312fc/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e7f7d8ff5ac032c2f86f82cf1f0e2512/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/00a2958d7eee59a9f37305b4a95cf54c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/00a2958d7eee59a9f37305b4a95cf54c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/82c2b10683c8f769dc4cf72cc573f494/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -281,8 +273,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/andreavisi/.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/0a14357bf046538deadb40edbda6a0c2/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/2a557c97b0c076c2d7b5a8a875527c51/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/2a557c97b0c076c2d7b5a8a875527c51/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/e684ffbb44ae6b6b06bb9e8920414794/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/e684ffbb44ae6b6b06bb9e8920414794/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/ef6540dac2e773c4e554f23370b596e0/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/ef6540dac2e773c4e554f23370b596e0/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/1b51e3ba564613a737a08e06b9556523/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/80f48f876ee638fb39a6b0dc9b8d826d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/b164d3693f422ff0524f44dbdffc00f8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/8fabc65a7b370655cfe5cfe1769cd8ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/d4d0650109a3b462dc0272e65f8afac3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andreavisi/.gradle/caches/transforms-3/d4d0650109a3b462dc0272e65f8afac3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/andreavisi/.gradle/caches/transforms-3/4c578de6ad2afa1d811a68e1a8731eee/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -295,8 +295,8 @@ MERGED from [androidx.transition:transition:1.4.1] /Users/andreavisi/.gradle/cac
 MERGED from [androidx.transition:transition:1.4.1] /Users/andreavisi/.gradle/caches/transforms-3/182ef5059343be3d0a3ccc075bf6b66b/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/97a73472e2bcb1f3670fb6371d1272dd/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/97a73472e2bcb1f3670fb6371d1272dd/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/52ae0994998245e0d562b448feefdf4a/transformed/lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:20:5-44
@@ -315,10 +315,12 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andreavisi/.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ca5d2b685e0b6a86055f1f1e508d4767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e6c812492effcbea755c6be5eab5f08b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e6c812492effcbea755c6be5eab5f08b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/.gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/andreavisi/.gradle/caches/transforms-3/639289128b6031b7968f8370d8a144c4/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/andreavisi/.gradle/caches/transforms-3/c71654f8ce83c24fa874f53e5eaf754d/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/andreavisi/.gradle/caches/transforms-3/c71654f8ce83c24fa874f53e5eaf754d/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/99eb660c93b62881412ece93d3d6ffa3/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andreavisi/.gradle/caches/transforms-3/f2f305a0f35303ae683f69855e5f88da/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/b2f47dffdaa6e4bdfc37a05b7edf8ed5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
@@ -329,8 +331,6 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/andreavisi/.gradle/caches/tr
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/f5f2c2deb6cab2e464333ebb62204af8/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/andreavisi/.gradle/caches/transforms-3/6bddeb9fd271a880dacc5f34192837af/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/andreavisi/.gradle/caches/transforms-3/6bddeb9fd271a880dacc5f34192837af/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/db5dde9af0f24fe4a58cebe1a65b8fd4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ac81ced51f599326bcbe6e65375e2fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/ac81ced51f599326bcbe6e65375e2fe9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fb8e49019471f6cdfe566a95a257feab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -350,27 +350,27 @@ INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETT
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:31:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:36:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/andreavisi/.gradle/caches/transforms-3/87abfca0ee4b7631cbdb7fbb7212aff7/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/41a182857a5a9736dfd02549dc4726c8/transformed/firebase-storage-20.2.0/AndroidManifest.xml:33:17-107
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -380,17 +380,17 @@ ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/andreavisi/.gradle/caches/transforms-3/05c058e45750da475bd8a17edf103d09/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:27:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:29:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:28:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/andreavisi/.gradle/caches/transforms-3/9c56189cfa77aa86d850af8fa829d28b/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+		ADDED from [com.google.firebase:firebase-common:20.3.1] /Users/andreavisi/.gradle/caches/transforms-3/376ea5cfdf1e9fda42dae28e41b7c18e/transformed/firebase-common-20.3.1/AndroidManifest.xml:26:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/eecdf4201f99995699c9d5e6e134eef1/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
@@ -438,25 +438,25 @@ ADDED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/trans
 	android:name
 		ADDED from [androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dde90d0918dd6b5dfddba5561cb6573b/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 permission#com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 uses-permission#com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/27364c08ee59800297d61f495d9e318b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.10.1] /Users/andreavisi/.gradle/caches/transforms-3/4afa114ca962da2cd44f6a30a95e88cf/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.8] /Users/andreavisi/.gradle/caches/transforms-3/26e4cbc56ee735c28bb3f225af30124e/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
 	android:authorities

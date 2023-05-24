@@ -20,6 +20,9 @@ dimen fab_margin
 dimen nav_header_height
 dimen nav_header_vertical_spacing
 drawable bg
+drawable ic_carrello
+drawable ic_cucina
+drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_likes
@@ -31,6 +34,7 @@ drawable ic_search
 drawable ic_tempo
 drawable logo
 drawable logo_white
+drawable preferiti
 drawable side_nav_bar
 drawable wallpaper
 font audiowide
@@ -79,6 +83,7 @@ layout list_step_istruzioni
 layout list_step_istruzioni_items
 layout spinner_inner_text
 layout spinner_text
+menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
