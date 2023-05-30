@@ -1,0 +1,66 @@
+{
+  "text": "upc:074904100012",
+  "parsed": [],
+  "hints": [
+    {
+      "food": {
+        "foodId": "food_at3d0h3a03jukcbxqosd6bl2p8zf",
+        "label": "Chiquita Chiquita Organic Bananas",
+        "knownAs": "Chiquita Chiquita Organic Bananas",
+        "nutrients": {
+          "ENERC_KCAL": 89,
+          "FAT": 0,
+          "FASAT": 0,
+          "FATRN": 0,
+          "CHOCDF": 23,
+          "FIBTG": 3,
+          "SUGAR": 12,
+          "PROCNT": 1,
+          "CHOLE": 0,
+          "NA": 1,
+          "K": 358,
+          "VITD": 0
+        },
+        "brand": "Chiquita",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "ORGANIC BANANAS",
+        "image": "https://www.edamam.com/food-img/db0/db02b5c404099c175eb99e7aff16ff34.jpg",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 100
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 100
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    }
+  ]
+}

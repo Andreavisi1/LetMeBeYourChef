@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/my_nav_reg"
+            app:startDestination="@id/obbiettivoFragment">
+    <fragment android:id="@+id/pesoObbFragment" android:name="com.example.letmebeyourchef.autenticazione.SportFragment"
+              android:label="PesoObbFragment" tools:layout="@layout/fragment_sport">
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente" />
+        <action android:id="@+id/action_pesoObbFragment_to_registerActivity" app:destination="@id/registerActivity"/>
+    </fragment>
+    <fragment android:id="@+id/altezzaFragment" android:name="com.example.letmebeyourchef.autenticazione.AltezzaFragment"
+              android:label="AltezzaFragment" tools:layout="@layout/fragment_altezza">
+        <action android:id="@+id/action_altezzaFragment_to_pesoAttualeFragment"
+                app:destination="@id/pesoAttualeFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"/>
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente"/>
+    </fragment>
+    <fragment android:id="@+id/datiPersonaliFragment"
+              android:name="com.example.letmebeyourchef.autenticazione.DatiPersonaliFragment"
+              android:label="DatiPersonaliFragment" tools:layout="@layout/fragment_dati_personali">
+        <action android:id="@+id/action_datiPersonaliFragment_to_altezzaFragment"
+                app:destination="@id/altezzaFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"/>
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente" />
+    </fragment>
+    <fragment android:id="@+id/obbiettivoFragment"
+              android:name="com.example.letmebeyourchef.autenticazione.StileVitaFragment"
+              android:label="ObbiettivoFragment" tools:layout="@layout/fragment_stile_vita">
+        <action android:id="@+id/action_obbiettivoFragment_to_sessoFragment" app:destination="@id/sessoFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim">
+            <argument android:name="obbiettivo" android:defaultValue="-1"/>
+        </action>
+    </fragment>
+    <fragment android:id="@+id/pesoAttualeFragment"
+              android:name="com.example.letmebeyourchef.autenticazione.PesoAttualeFragment"
+              android:label="PesoAttualeFragment" tools:layout="@layout/fragment_peso_attuale">
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente"/>
+        <action android:id="@+id/action_pesoAttualeFragment_to_pesoObbFragment" app:destination="@id/pesoObbFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"/>
+        <action android:id="@+id/action_pesoAttualeFragment_to_registerActivity"
+                app:destination="@id/registerActivity" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/sessoFragment" android:name="com.example.letmebeyourchef.autenticazione.SessoFragment"
+              android:label="SessoFragment" tools:layout="@layout/fragment_sesso">
+        <action android:id="@+id/action_sessoFragment_to_datiPersonaliFragment"
+                app:destination="@id/datiPersonaliFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"/>
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente"/>
+    </fragment>
+    <activity android:id="@+id/registerActivity" android:name="com.example.letmebeyourchef.autenticazione.RegisterActivity"
+              android:label="activity_register" tools:layout="@layout/activity_register">
+        <argument android:name="utente" app:argType="com.example.letmebeyourchef.model.Utente"/>
+    </activity>
+</navigation>

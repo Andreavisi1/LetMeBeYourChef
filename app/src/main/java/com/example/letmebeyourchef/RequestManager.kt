@@ -1,14 +1,14 @@
 package com.example.letmebeyourchef
 
 import android.content.Context
-import com.example.letmebeyourchef.Listeners.DettagliRicettaListener
-import com.example.letmebeyourchef.Listeners.IstruzioniListener
-import com.example.letmebeyourchef.Listeners.ResponseListenerRicetteRandom
-import com.example.letmebeyourchef.Listeners.RicetteSimiliListener
-import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta
-import com.example.letmebeyourchef.Models.ResponseFromApiIstruzioni
-import com.example.letmebeyourchef.Models.ResponseFromApiRicetteRandom
-import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili
+import com.example.letmebeyourchef.listeners.DettagliRicettaListener
+import com.example.letmebeyourchef.listeners.IstruzioniListener
+import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
+import com.example.letmebeyourchef.listeners.RicetteSimiliListener
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

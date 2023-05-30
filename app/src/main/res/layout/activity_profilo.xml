@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+<data>
+    <variable
+            name="viewModel"
+            type="com.example.letmebeyourchef.profilo.ProfiloViewModel"/>
+</data>
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".profilo.ProfiloActivity">
+
+    <TextView
+            android:text="Profilo utente"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/green_primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/textView12"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="30dp"/>
+    <ScrollView
+            android:layout_width="0dp" android:gravity="center"
+
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp" app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:layout_marginStart="50dp" android:layout_marginEnd="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_salva" android:layout_marginBottom="30dp"
+            app:layout_constraintVertical_bias="0.0">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/input_bg_green">
+
+                <TextView
+                        android:text="Nome:"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView3238"
+                        android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:hint="Nome"
+                        android:text="@{viewModel.profilo.nome}"
+                        android:ems="10"
+                        android:id="@+id/eT_nome" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/input_bg_green"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                <TextView
+                        android:text="Cognome:"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView29"
+                        android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:hint="Cognome"
+                        android:text="@{viewModel.profilo.cognome}"
+                        android:ems="10"
+                        android:id="@+id/et_cognome" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Sesso:"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView248"
+                        android:layout_weight="1"/>
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/sW_sesso" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                <TextView
+                        android:text="E-mail:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView25"
+                        android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:text="@{viewModel.profilo.email}"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="Cambia E-mail"
+                        android:ems="10"
+                        android:id="@+id/eT_cambio_email" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                <TextView
+                        android:text="Password:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView88"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="150dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:text="Cambia password"
+                        android:ems="10"
+                        android:id="@+id/btn_cambio_pass" android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/data_di_nascita"
+                    android:background="@drawable/animazione_4"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Data di nascita:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView30"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@{viewModel.profilo.data_nascita}"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:layout_height="match_parent"
+                        android:hint="Data"
+                        android:ems="10"
+                        android:clickable="true"
+                        android:id="@+id/tV_data_nascita" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Stile di vita:"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView98"
+                        android:layout_weight="1"/>
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:id="@+id/sW_stile_di_vita" android:layout_weight="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Altezza:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView18"
+                        android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="100dp"
+                        android:text="@{Integer.valueOf(viewModel.profilo.altezza).toString()}"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned"
+                        android:hint="Altezza"
+                        android:ems="10"
+                        android:id="@+id/eT_altezza" android:layout_weight="1"/>
+                <TextView
+                        android:text="cm"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/textView128" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Peso:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+
+                        android:textSize="16sp"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView2348"
+                        android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="100dp"
+                        android:text="@{Double.valueOf(viewModel.profilo.peso_attuale).toString()}"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_height="match_parent"
+                        android:inputType="numberDecimal"
+                        android:hint="Peso"
+                        android:ems="10"
+                        android:id="@+id/eT_peso" android:layout_weight="1"/>
+                <TextView
+                        android:text="Kg"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="5dp"
+                        android:textSize="17sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/textView28" android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/selezioneSport"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Sport:"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView328"
+                        android:layout_weight="1"/>
+
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:id="@+id/sW_sport"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:background="@drawable/input_bg_green"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <Switch
+                        android:gravity="center"
+                        android:text="Sei un atleta agonistico?"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_height="wrap_content" android:id="@+id/switch_agonistico"
+                        android:layout_weight="1"
+                        tools:ignore="UseSwitchCompatOrMaterialXml"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+            android:text="Salva"
+            android:textStyle="bold"
+            android:background="@drawable/animazione_1"
+            android:textSize="23sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/btn_salva"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="40dp"
+            android:layout_marginStart="50dp" android:layout_marginEnd="50dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
+
+

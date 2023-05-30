@@ -9,16 +9,16 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.letmebeyourchef.Adapters.IngredientiAdapter
-import com.example.letmebeyourchef.Adapters.IstruzioniAdapter
-import com.example.letmebeyourchef.Adapters.RicetteSimiliAdapter
-import com.example.letmebeyourchef.Listeners.DettagliRicettaListener
-import com.example.letmebeyourchef.Listeners.IstruzioniListener
-import com.example.letmebeyourchef.Listeners.RicettaClickListener
-import com.example.letmebeyourchef.Listeners.RicetteSimiliListener
-import com.example.letmebeyourchef.Models.ResponseFromApiDettagliRicetta
-import com.example.letmebeyourchef.Models.ResponseFromApiIstruzioni
-import com.example.letmebeyourchef.Models.ResponseFromApiRicetteSimili
+import com.example.letmebeyourchef.adapters.IngredientiAdapter
+import com.example.letmebeyourchef.adapters.IstruzioniAdapter
+import com.example.letmebeyourchef.adapters.RicetteSimiliAdapter
+import com.example.letmebeyourchef.listeners.DettagliRicettaListener
+import com.example.letmebeyourchef.listeners.IstruzioniListener
+import com.example.letmebeyourchef.listeners.RicettaClickListener
+import com.example.letmebeyourchef.listeners.RicetteSimiliListener
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
 import com.squareup.picasso.Picasso
 
 class ActivityDettagliRicetta constructor() : AppCompatActivity() {

@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_diary"
+        android:icon="@mipmap/ic_diario"
+        android:title="Diario"/>
 
+    <item
+            android:id="@+id/ic_io"
+            android:icon="@mipmap/ic_io"
+            android:title="Statistiche"/>
+
+    <item
+            android:id="@+id/ic_diete"
+            android:icon="@mipmap/ic_diete"
+            android:title="Dieta"/>
+
+    <item
+            android:id="@+id/ic_funzioni"
+            android:icon="@mipmap/ic_funzioni"
+            android:title="Funzioni"/>
 </menu>

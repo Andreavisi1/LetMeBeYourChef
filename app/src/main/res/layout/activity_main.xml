@@ -1,76 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/LinearLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <androidx.appcompat.widget.Toolbar
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:gravity="center"
-                android:text="@string/app_name"
-                android:textColor="@color/white"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <Spinner
-                android:id="@+id/spinner_tags"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentEnd="true"
-                android:entries="@array/tags"
-                android:scrollbarSize="200sp"
-                android:gravity="center"
-                android:spinnerMode="dialog" />
-        </RelativeLayout>
-    </androidx.appcompat.widget.Toolbar>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_margin="8dp"
-        app:cardBackgroundColor="@color/orange"
-        app:cardElevation="8dp">
-
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/searchview_home"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:iconifiedByDefault="false"
-            app:queryHint="Cosa stai cercando?"
-            app:searchIcon="@drawable/ic_search" >
-
-        </androidx.appcompat.widget.SearchView>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_random"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp" />
-
-
-    <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/btm_nav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/> -->
-
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:background="@color/white"
+>
+    <TextView
+            android:text="@string/caricamento"
+            android:layout_width="327dp"
+            android:layout_height="67dp" android:id="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold|italic" android:textAlignment="center"
+            android:textSize="50sp" android:textColor="@color/green_primary_dark"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="59dp"
+            android:layout_height="65dp"
+            android:id="@+id/progressBar"
+            android:layout_marginTop="10dp"
+            android:indeterminateDrawable="@drawable/progress_bg_green"
+            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"/>
+    <ImageView
+            android:layout_width="463dp"
+            android:layout_height="413dp" app:srcCompat="@drawable/boh" android:id="@+id/imageView"
+            app:layout_constraintBottom_toTopOf="@+id/textView" android:layout_marginBottom="150dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0"/>
+    <ImageView
+            android:layout_width="139dp"
+            android:layout_height="159dp" app:srcCompat="@drawable/white_logo_no_bg_logo"
+            android:id="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-52:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-85:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/a290659370b3b8a04a340f367af8499c/transformed/material-1.9.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/a41d1c2de4641cddc0eac13f324ffec6/transformed/material-1.7.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

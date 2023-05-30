@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Ricerca"
+          android:id="@+id/ricerca"
+          android:icon="@drawable/ricerca"/>
+    <item android:title="Personalizzati"
+          android:id="@+id/personalizzati"
+          android:icon="@drawable/add_to_playlist"/>
+    <item android:title="Preferiti"
+          android:id="@+id/preferiti"
+          android:icon="@drawable/heart"/>
+</menu>
