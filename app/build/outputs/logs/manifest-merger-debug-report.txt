@@ -27,7 +27,7 @@ MERGED from [androidx.preference:preference:1.1.1] /Users/andreavisi/.gradle/cac
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/andreavisi/.gradle/caches/transforms-3/12afc1509033d8b0fc22b4477245c71d/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/andreavisi/.gradle/caches/transforms-3/aa67a76e428df0b6e3ce04a754269936/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/d07637ec69b02ef800abb0b4761aa66a/transformed/jetified-zxing-1.9.8/AndroidManifest.xml:2:1-13:12
-MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/633388ba322b5d5b7e00a2a25273c157/transformed/jetified-core-1.9.8/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/3038621390d02993368caf498b02e84c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.13.2] /Users/andreavisi/.gradle/caches/transforms-3/f78906c81c35d0bde582966547607ce9/transformed/jetified-glide-4.13.2/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.mlkit:barcode-scanning:17.0.2] /Users/andreavisi/.gradle/caches/transforms-3/1bf4c46d3b60718a6676334f5d78ced0/transformed/jetified-barcode-scanning-17.0.2/AndroidManifest.xml:2:1-7:12
@@ -118,7 +118,7 @@ MERGED from [androidx.room:room-runtime:2.4.3] /Users/andreavisi/.gradle/caches/
 MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] /Users/andreavisi/.gradle/caches/transforms-3/ec64eb2b188bce66398ce385a62c6770/transformed/jetified-circularprogressbar-3.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/andreavisi/.gradle/caches/transforms-3/87daa160c9f0eb656c284823ec9af96c/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:17:1-56:12
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/.gradle/caches/transforms-3/e348f2085e9387082e5ce6ba7df06437/transformed/jetified-library-2.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/b9a142e720d61c5d20f34849ce2d39d7/transformed/jetified-library-2.3/AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/8f9c63bc7aff7b77ad5625358a2098f6/transformed/jetified-library-2.3/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/andreavisi/.gradle/caches/transforms-3/df47e7ffbdc5925e2624eef357e5cba4/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/andreavisi/.gradle/caches/transforms-3/2b3202f678dbf6c4edefb12de161242a/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.test.ext:junit:1.1.3] /Users/andreavisi/.gradle/caches/transforms-3/53d0d482a730961c3cef8b228f84a962/transformed/jetified-junit-1.1.3/AndroidManifest.xml:17:1-24:12
@@ -224,8 +224,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andreavisi/.gradle/caches/transforms-3/4c964fbb06fc9df2ab7752d30cf74c57/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/d07637ec69b02ef800abb0b4761aa66a/transformed/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/d07637ec69b02ef800abb0b4761aa66a/transformed/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/633388ba322b5d5b7e00a2a25273c157/transformed/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/633388ba322b5d5b7e00a2a25273c157/transformed/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.2] /Users/andreavisi/.gradle/caches/transforms-3/f78906c81c35d0bde582966547607ce9/transformed/jetified-glide-4.13.2/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.2] /Users/andreavisi/.gradle/caches/transforms-3/f78906c81c35d0bde582966547607ce9/transformed/jetified-glide-4.13.2/AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/andreavisi/.gradle/caches/transforms-3/629a542f39348ac57d63d94f455d03ff/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
@@ -542,8 +542,8 @@ MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/andreavisi/.gradle/cache
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/andreavisi/.gradle/caches/transforms-3/aa67a76e428df0b6e3ce04a754269936/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/d07637ec69b02ef800abb0b4761aa66a/transformed/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/d07637ec69b02ef800abb0b4761aa66a/transformed/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/633388ba322b5d5b7e00a2a25273c157/transformed/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/andreavisi/.gradle/caches/transforms-3/633388ba322b5d5b7e00a2a25273c157/transformed/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/3038621390d02993368caf498b02e84c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/3038621390d02993368caf498b02e84c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.13.2] /Users/andreavisi/.gradle/caches/transforms-3/f78906c81c35d0bde582966547607ce9/transformed/jetified-glide-4.13.2/AndroidManifest.xml:6:5-8:41
@@ -724,8 +724,8 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/andreavisi/.gr
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/andreavisi/.gradle/caches/transforms-3/87daa160c9f0eb656c284823ec9af96c/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/.gradle/caches/transforms-3/e348f2085e9387082e5ce6ba7df06437/transformed/jetified-library-2.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.daimajia.easing:library:2.0] /Users/andreavisi/.gradle/caches/transforms-3/e348f2085e9387082e5ce6ba7df06437/transformed/jetified-library-2.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/b9a142e720d61c5d20f34849ce2d39d7/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
-MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/b9a142e720d61c5d20f34849ce2d39d7/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/8f9c63bc7aff7b77ad5625358a2098f6/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] /Users/andreavisi/.gradle/caches/transforms-3/8f9c63bc7aff7b77ad5625358a2098f6/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/andreavisi/.gradle/caches/transforms-3/df47e7ffbdc5925e2624eef357e5cba4/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/andreavisi/.gradle/caches/transforms-3/df47e7ffbdc5925e2624eef357e5cba4/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/andreavisi/.gradle/caches/transforms-3/2b3202f678dbf6c4edefb12de161242a/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41

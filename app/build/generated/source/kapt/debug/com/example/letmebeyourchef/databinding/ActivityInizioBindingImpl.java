@@ -17,10 +17,9 @@ public class ActivityInizioBindingImpl extends ActivityInizioBinding  {
         sViewsWithIds.put(R.id.videoView, 1);
         sViewsWithIds.put(R.id.btAccesso, 2);
         sViewsWithIds.put(R.id.btInizia, 3);
-        sViewsWithIds.put(R.id.textView9, 4);
-        sViewsWithIds.put(R.id.imageView5, 5);
-        sViewsWithIds.put(R.id.imageView70, 6);
-        sViewsWithIds.put(R.id.ProgressBar01, 7);
+        sViewsWithIds.put(R.id.imageView5, 4);
+        sViewsWithIds.put(R.id.imageView70, 5);
+        sViewsWithIds.put(R.id.ProgressBar01, 6);
     }
     // views
     @NonNull
@@ -31,16 +30,15 @@ public class ActivityInizioBindingImpl extends ActivityInizioBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityInizioBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private ActivityInizioBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ProgressBar) bindings[7]
+            , (android.widget.ProgressBar) bindings[6]
             , (android.widget.Button) bindings[2]
             , (android.widget.Button) bindings[3]
+            , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[5]
-            , (android.widget.ImageView) bindings[6]
-            , (android.widget.TextView) bindings[4]
             , (android.widget.VideoView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];

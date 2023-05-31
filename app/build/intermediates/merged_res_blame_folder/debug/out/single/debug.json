@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/mipmap-mdpi_ic_funzioni.png.flat",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/mipmap-mdpi/ic_funzioni.png"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_animazione_card.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/animazione_card.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/mipmap-mdpi_ic_funzioni.png.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/mipmap-mdpi/ic_funzioni.png"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_energy_bar.png.flat",
@@ -228,6 +228,10 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/circle.png"
     },
     {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/raw_programmer.gif.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/raw/programmer.gif"
+    },
+    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/ic_dashboard_black_24dp.xml"
     },
@@ -284,12 +288,12 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/add.png"
     },
     {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/layout_fragment_diario.xml.flat",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/layout/fragment_diario.xml"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_animazione_5.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/animazione_5.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/layout_fragment_diario.xml.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/layout/fragment_diario.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_google_wasi_norte.png.flat",
@@ -316,6 +320,10 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/layout/fragment_sport.xml"
     },
     {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/raw_awards.gif.flat",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/raw/awards.gif"
+    },
+    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_username_image.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/username_image.png"
     },
@@ -326,10 +334,6 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_keto_media.jpg.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/keto_media.jpg"
-    },
-    {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_color_logo_no_background.png.flat",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/color_logo_no_background.png"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/mipmap-mdpi_ic_diario.png.flat",
@@ -632,10 +636,6 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/white_logo_no_bg_solo_scritta.png"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-merged_res-87:/raw_programmer.gif.flat",
-        "source": "com.example.letmebeyourchef.app-main-89:/raw/programmer.gif"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_color_logo_no_background_logo.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/color_logo_no_background_logo.png"
     },
@@ -892,10 +892,6 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-merged_res-87:/raw_awards.gif.flat",
-        "source": "com.example.letmebeyourchef.app-main-89:/raw/awards.gif"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_heart.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/heart.png"
     },
@@ -930,6 +926,10 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/drawable_input_bg_green_dark.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-89:/drawable/input_bg_green_dark.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-87:/drawable_ic_porzioni.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-89:/drawable/ic_porzioni.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-87:/layout_activity_login.xml.flat",

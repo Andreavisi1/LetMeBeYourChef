@@ -1589,6 +1589,7 @@ color background_material_dark
 color background_material_light
 color black
 color black_overlay
+color blue
 color blue_dark_style_like_fb
 color blue_for_register
 color blue_from_inicio
@@ -1740,6 +1741,7 @@ color indigo_primary
 color indigo_primary_dark
 color light_blue_primary
 color light_blue_primary_dark
+color light_green
 color light_green_primary
 color light_green_primary_dark
 color lime_primary
@@ -2175,6 +2177,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color mint_green
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2253,6 +2256,7 @@ color purple_500
 color purple_700
 color purple_primary
 color purple_primary_dark
+color red
 color red_primary
 color red_primary_dark
 color red_sick
@@ -2283,6 +2287,7 @@ color viewfinder_mask
 color white
 color white_overlay
 color white_pressed
+color yellow
 color yellow_primary
 color yellow_primary_dark
 color zxing_custom_possible_result_points
@@ -3263,7 +3268,6 @@ drawable car_ui_toolbar_search_search_icon
 drawable circle
 drawable climatica
 drawable coffee
-drawable color_logo_no_background
 drawable color_logo_no_background_logo
 drawable color_logo_no_background_solo_scritta
 drawable coming_soon
@@ -4474,7 +4478,6 @@ id textView7
 id textView8
 id textView80
 id textView88
-id textView9
 id textView98
 id textViewMessage
 id textViewMessaggioEsercizio

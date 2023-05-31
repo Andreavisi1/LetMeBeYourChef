@@ -51,7 +51,7 @@
                     android:id="@+id/textView_porzioni"
                     android:textSize="14sp"
                     android:padding="8dp"
-                    android:text="2 Persone"
+                    android:text="2 persone"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -70,7 +70,7 @@
                     android:id="@+id/textView_likes"
                     android:textSize="14sp"
                     android:padding="8dp"
-                    android:text="2 Persone"
+                    android:text="2 likes"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -89,7 +89,7 @@
                     android:id="@+id/textView_tempo"
                     android:textSize="14sp"
                     android:padding="8dp"
-                    android:text="2 Persone"
+                    android:text="2 minuti"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
