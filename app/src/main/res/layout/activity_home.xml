@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout"
@@ -10,8 +10,12 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -41,19 +45,28 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_margin="8dp"
         app:cardBackgroundColor="@color/orange"
-        app:cardElevation="8dp">
+        app:cardElevation="8dp"
+        app:defaultNavHost="false"
+
+        app:layout_constraintBottom_toTopOf="@+id/recycler_random"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.appcompat.widget.SearchView
             android:id="@+id/searchview_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:iconifiedByDefault="false"
-            app:queryHint="Cosa stai cercando?"
-            app:searchIcon="@drawable/ic_search" >
+            app:queryHint="What are you looking for?"
+            app:searchIcon="@drawable/ic_search">
 
         </androidx.appcompat.widget.SearchView>
     </androidx.cardview.widget.CardView>
@@ -61,8 +74,36 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_random"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp" />
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        app:abb_iconSize="27dp"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorHeight="5dp"
+        app:abb_indicatorLocation="top"
+        app:abb_rippleEnabled="true"
+        app:abb_selectedTabType="text"
+        app:abb_tabAnimation="slide"
+        app:abb_tabAnimationSelected="fade"
+        app:abb_tabColor="@color/orange"
+        app:abb_tabs="@menu/bottom_menu"
+        app:abb_textSize="16sp"
+        app:abb_textStyle="bold"
+        app:itemTextColor="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -73,4 +114,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/> -->
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

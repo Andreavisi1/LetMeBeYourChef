@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.HomeActivity"
+        android:background="@drawable/app_bg">
+
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:abb_tabs="@menu/bottom_menu"
+            android:background="@color/green_primary"
+            app:itemTextColor="@color/white"
+            app:abb_selectedTabType="text"
+            app:abb_tabColor="@color/black_overlay"
+            app:abb_textStyle="bold"
+            app:abb_textSize="16sp"
+            app:abb_rippleEnabled="true"
+            app:abb_tabAnimation="slide"
+            app:abb_tabAnimationSelected="fade"
+            app:abb_indicatorHeight="5dp"
+            app:abb_indicatorAppearance="round"
+            app:abb_indicatorLocation="top"
+            app:abb_iconSize="27dp"
+
+
+    />
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:id="@+id/agg_toolbar"
+            app:title="Benvenuto in FitTracker!"
+            android:background="@color/green_primary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/toolbar_menu"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+    />
+    <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:defaultNavHost="false"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+            app:layout_constraintTop_toBottomOf="@+id/agg_toolbar" app:layout_constraintVertical_bias="0.0"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

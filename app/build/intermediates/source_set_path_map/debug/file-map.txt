@@ -24,8 +24,8 @@ com.example.letmebeyourchef.app-jetified-flexbox-2.0.1-22 /Users/andreavisi/.gra
 com.example.letmebeyourchef.app-navigation-runtime-2.5.2-23 /Users/andreavisi/.gradle/caches/transforms-3/6234f9374464ee6dc7668093f1976b07/transformed/navigation-runtime-2.5.2/res
 com.example.letmebeyourchef.app-core-1.9.0-24 /Users/andreavisi/.gradle/caches/transforms-3/624d0ce42bfe2315c5f2c45386d05853/transformed/core-1.9.0/res
 com.example.letmebeyourchef.app-jetified-ui-1.0.1-25 /Users/andreavisi/.gradle/caches/transforms-3/63812087e4f853d8db56a098950475b6/transformed/jetified-ui-1.0.1/res
-com.example.letmebeyourchef.app-navigation-common-ktx-2.5.2-26 /Users/andreavisi/.gradle/caches/transforms-3/69da3db2bf52bba308f6d767501e81dd/transformed/navigation-common-ktx-2.5.2/res
-com.example.letmebeyourchef.app-jetified-core-1.9.8-27 /Users/andreavisi/.gradle/caches/transforms-3/7822872e66337689940b79b66badfb97/transformed/jetified-core-1.9.8/res
+com.example.letmebeyourchef.app-jetified-core-1.9.8-26 /Users/andreavisi/.gradle/caches/transforms-3/63f1c24db9f92d0a46648e05443ca2bd/transformed/jetified-core-1.9.8/res
+com.example.letmebeyourchef.app-navigation-common-ktx-2.5.2-27 /Users/andreavisi/.gradle/caches/transforms-3/69da3db2bf52bba308f6d767501e81dd/transformed/navigation-common-ktx-2.5.2/res
 com.example.letmebeyourchef.app-cardview-1.0.0-28 /Users/andreavisi/.gradle/caches/transforms-3/7b2ee1288f4527b91124cdd0a9fc3d19/transformed/cardview-1.0.0/res
 com.example.letmebeyourchef.app-lifecycle-runtime-2.5.1-29 /Users/andreavisi/.gradle/caches/transforms-3/8662caa38e02b75abc661ef1a8576604/transformed/lifecycle-runtime-2.5.1/res
 com.example.letmebeyourchef.app-jetified-zxing-android-embedded-4.3.0-30 /Users/andreavisi/.gradle/caches/transforms-3/87daa160c9f0eb656c284823ec9af96c/transformed/jetified-zxing-android-embedded-4.3.0/res
@@ -48,8 +48,8 @@ com.example.letmebeyourchef.app-jetified-runtime-1.0.1-46 /Users/andreavisi/.gra
 com.example.letmebeyourchef.app-appcompat-1.5.1-47 /Users/andreavisi/.gradle/caches/transforms-3/aa67a76e428df0b6e3ce04a754269936/transformed/appcompat-1.5.1/res
 com.example.letmebeyourchef.app-jetified-core-1.10.3-48 /Users/andreavisi/.gradle/caches/transforms-3/af8f3d5318d7d23cfce9d37173431a14/transformed/jetified-core-1.10.3/res
 com.example.letmebeyourchef.app-lifecycle-livedata-2.5.1-49 /Users/andreavisi/.gradle/caches/transforms-3/b098491453d98c4734665115ddfeba64/transformed/lifecycle-livedata-2.5.1/res
-com.example.letmebeyourchef.app-jetified-library-2.3-50 /Users/andreavisi/.gradle/caches/transforms-3/b9a142e720d61c5d20f34849ce2d39d7/transformed/jetified-library-2.3/res
-com.example.letmebeyourchef.app-jetified-firebase-common-20.2.0-51 /Users/andreavisi/.gradle/caches/transforms-3/be28de99496f2ad58b28a688c54037de/transformed/jetified-firebase-common-20.2.0/res
+com.example.letmebeyourchef.app-jetified-firebase-common-20.2.0-50 /Users/andreavisi/.gradle/caches/transforms-3/be28de99496f2ad58b28a688c54037de/transformed/jetified-firebase-common-20.2.0/res
+com.example.letmebeyourchef.app-jetified-library-2.3-51 /Users/andreavisi/.gradle/caches/transforms-3/bf4d3a51e3ea5d48b64b007f0a57b625/transformed/jetified-library-2.3/res
 com.example.letmebeyourchef.app-drawerlayout-1.1.1-52 /Users/andreavisi/.gradle/caches/transforms-3/c73abb2f96ed56b45e7df328410315de/transformed/drawerlayout-1.1.1/res
 com.example.letmebeyourchef.app-jetified-savedstate-1.2.0-53 /Users/andreavisi/.gradle/caches/transforms-3/c93b927202f1fd03dc6e7d22be69701f/transformed/jetified-savedstate-1.2.0/res
 com.example.letmebeyourchef.app-jetified-runtime-saveable-1.0.1-54 /Users/andreavisi/.gradle/caches/transforms-3/c9edb62aed930152947c0097e841929c/transformed/jetified-runtime-saveable-1.0.1/res

@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/ic_diary"
-        android:icon="@mipmap/ic_diario"
-        android:title="Diario"/>
+        android:icon="@drawable/ic_cucina"
+        android:title="Storage"/>
 
     <item
             android:id="@+id/ic_io"
-            android:icon="@mipmap/ic_io"
-            android:title="Statistiche"/>
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
 
     <item
             android:id="@+id/ic_diete"
-            android:icon="@mipmap/ic_diete"
-            android:title="Dieta"/>
+            android:icon="@drawable/ic_likes"
+            android:title="Favourites"/>
 
     <item
             android:id="@+id/ic_funzioni"
-            android:icon="@mipmap/ic_funzioni"
-            android:title="Funzioni"/>
+            android:icon="@drawable/ic_carrello"
+            android:title="Cart"/>
 </menu>

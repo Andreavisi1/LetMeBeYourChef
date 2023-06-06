@@ -3776,6 +3776,7 @@ id car_ui_wideScreenExtractedTextIcon
 id car_ui_wideScreenInputArea
 id car_ui_wideScreenSearchResultList
 id carbo
+id cardView
 id carryVelocity
 id cena
 id center
@@ -4171,6 +4172,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id my_nav_reg
 id nav_controller_view_tag
+id nav_host_fragment
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -4522,6 +4524,7 @@ id titolo_dieta
 id to_left
 id to_right
 id toggle
+id toolbar
 id top
 id topPanel
 id top_to_bottom
@@ -4737,6 +4740,7 @@ layout activity_conosciamoci
 layout activity_dettagli_ricetta
 layout activity_esercizio
 layout activity_home
+layout activity_home2
 layout activity_inizio
 layout activity_login
 layout activity_main
