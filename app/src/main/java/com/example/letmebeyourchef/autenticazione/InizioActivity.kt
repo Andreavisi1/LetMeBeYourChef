@@ -29,7 +29,6 @@ class InizioActivity : AppCompatActivity() {
         progresBar.visibility = ProgressBar.INVISIBLE
 
 
-
         binding.btInizia.setOnClickListener(){
             progresBar.visibility = ProgressBar.VISIBLE
             lifecycleScope.launch {

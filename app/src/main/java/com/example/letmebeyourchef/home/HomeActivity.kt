@@ -44,7 +44,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         dialog = ProgressDialog(this)
-        dialog!!.setTitle("Caricamento ricette in corso...")
+        dialog!!.setTitle("Loading recipes...")
         searchView = findViewById(R.id.searchview_home)
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             public override fun onQueryTextSubmit(query: String): Boolean {
