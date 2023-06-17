@@ -1,4 +1,4 @@
-#Tue Jun 06 12:21:16 CEST 2023
+#Sat Jun 17 15:45:49 CEST 2023
 base.0=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
