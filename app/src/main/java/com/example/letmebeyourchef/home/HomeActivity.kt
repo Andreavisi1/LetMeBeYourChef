@@ -42,7 +42,7 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_home2)// !!!!!!!!!!!!!!!!!!!!!!!
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading recipes...")
         searchView = findViewById(R.id.searchview_home)
@@ -216,6 +216,4 @@ class HomeActivity : AppCompatActivity() {
 }
 
 */
-
-
 

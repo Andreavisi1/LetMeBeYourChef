@@ -28,8 +28,8 @@ class RicetteRandomAdapter(
         holder.textView_title.text = list!!.get(position)!!.title
         holder.textView_title.isSelected = true
         holder.textView_likes.text = list!!.get(position)!!.aggregateLikes.toString() + " likes"
-        holder.textView_porzioni.text = list!!.get(position)!!.servings.toString() + " porzioni"
-        holder.textView_tempo.text = (list!!.get(position)!!.readyInMinutes.toString() + " minuti")
+        holder.textView_porzioni.text = list!!.get(position)!!.servings.toString() + " portions"
+        holder.textView_tempo.text = (list!!.get(position)!!.readyInMinutes.toString() + " minutes")
         Picasso.get().load(list!![position]!!.image).into(holder.imageView_food)
         holder.random_list_container.setOnClickListener(View.OnClickListener {
             listener.onClickRicetta(

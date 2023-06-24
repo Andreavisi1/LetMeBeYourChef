@@ -15,7 +15,7 @@
         android:layout_height="wrap_content">
         <TextView
             android:id="@+id/textView_simili_titolo"
-            android:text="Nome simile"
+            android:text="Similar name"
             android:textStyle="bold"
             android:textColor="@color/orange"
             android:padding="8dp"
@@ -33,7 +33,7 @@
             android:layout_height="60dp"/>
         <TextView
             android:id="@+id/textView_simili_porzione"
-            android:text="Nome simile"
+            android:text="Similar name"
             android:textStyle="italic"
             android:textColor="@color/black"
             android:padding="8dp"

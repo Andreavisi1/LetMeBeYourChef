@@ -30,7 +30,7 @@ class RicetteSimiliAdapter constructor(
     public override fun onBindViewHolder(holder: RicetteSimiliViewHolder, position: Int) {
         holder.textView_simili_titolo.setText(list.get(position).title)
         holder.textView_simili_titolo.setSelected(true)
-        holder.textView_simili_porzione.setText(list.get(position).servings.toString() + " persone")
+        holder.textView_simili_porzione.setText(list.get(position).servings.toString() + " people")
         Picasso.get().load(
             "https://spoonacular.com/recipeImages/" + list.get(position).id + "-556x370." + list.get(
                 position

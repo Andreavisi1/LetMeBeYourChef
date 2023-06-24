@@ -32,46 +32,46 @@
     </string-array>
 
 
-        <string name="title_home">Home</string>
-        <string name="title_dashboard">Dashboard</string>
-        <string name="title_notifications">Notifications</string>
-        <string name="title_activity_homepage">Homepage</string>
-        <string name="registration">Registrazione</string>
-        <string name="lastname">Cognome</string>
-        <string name="name">Nome</string>
-        <string name="username">Username</string>
-        <string name="ho_account">Ho già un account!</string>
-        <string name="register">Registrati</string>
-        <string name="login_page">Login</string>
-        <string name="login">Accedi</string>
-        <string name="non_ho_account">Non hai un account? Registrati!</string>
-        <string name="email">Email</string>
-        <string name="password">Password</string>
-        <string name="forgotPass">Password dimenticata?</string>
-        <string name="caricamento">Caricamento...</string>
-        <string name="invia">Invia</string>
-        <string name="indietro">Indietro</string>
-        <string name="info1">Recupero Password</string>
-        <string name="info2">Immetti il tuo indirizzo email per cambiare la password.</string>
-        <string name="completa">Completa con i tuoi dati...</string>
-        <string name="inizio">La tua applicazione per la nutrizione e una vita più sana.</string>
-        <string name="sesso">Uomo o Donna?</string>
-        <string name="calorie_rimaste">KCal RIMANENTI</string>
-        <string name="congratulazioni">Congratulazioni hai raggiunto il tuo obiettivo giornaliero di 2 litri d\'acqua
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="registration">Registrazione</string>
+    <string name="lastname">Cognome</string>
+    <string name="name">Nome</string>
+    <string name="username">Username</string>
+    <string name="ho_account">Ho già un account!</string>
+    <string name="register">Registrati</string>
+    <string name="login_page">Login</string>
+    <string name="login">Accedi</string>
+    <string name="non_ho_account">Non hai un account? Registrati!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotPass">Password dimenticata?</string>
+    <string name="caricamento">Caricamento...</string>
+    <string name="invia">Invia</string>
+    <string name="indietro">Indietro</string>
+    <string name="info1">Recupero Password</string>
+    <string name="info2">Immetti il tuo indirizzo email per cambiare la password.</string>
+    <string name="completa">Completa con i tuoi dati...</string>
+    <string name="inizio">La tua applicazione per la nutrizione e una vita più sana.</string>
+    <string name="sesso">Uomo o Donna?</string>
+    <string name="calorie_rimaste">KCal RIMANENTI</string>
+    <string name="congratulazioni">Congratulazioni hai raggiunto il tuo obiettivo giornaliero di 2 litri d\'acqua
     </string>
-        <string name="not_ready">Ci dispiace ma questa funzionalità non è al momento disponibile, i nostri sviluppatori
+    <string name="not_ready">Ci dispiace ma questa funzionalità non è al momento disponibile, i nostri sviluppatori
         stanno lavorando per voi
     </string>
-        <string name="title_activity_main2">MainActivity2</string>
-        <!-- Strings used for fragments for navigation -->
-        <string name="first_fragment_label">First Fragment</string>
-        <string name="second_fragment_label">Second Fragment</string>
-        <string name="next">Next</string>
-        <string name="previous">Previous</string>
-        <string name="hello_first_fragment">Hello first fragment</string>
-        <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-        <string name="hello_blank_fragment">Hello blank fragment</string>
-        <string name="noInfo">Nessuna info disponibile</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="noInfo">Nessuna info disponibile</string>
 
 
 </resources>

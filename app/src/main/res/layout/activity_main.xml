@@ -8,7 +8,7 @@
         android:background="@color/white"
 >
     <TextView
-            android:text="@string/caricamento"
+            android:text="Loading..."
             android:layout_width="327dp"
             android:layout_height="67dp" android:id="@+id/textView"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"

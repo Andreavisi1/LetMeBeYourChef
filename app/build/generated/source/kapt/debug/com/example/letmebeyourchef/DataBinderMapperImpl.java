@@ -24,6 +24,7 @@ import com.example.letmebeyourchef.databinding.FragmentDatiPersonaliBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentDiarioBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentDieteBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentFunzioniBindingImpl;
+import com.example.letmebeyourchef.databinding.FragmentHomeBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentPersonalizzatiBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentPesoAttualeBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentPreferitiBindingImpl;
@@ -81,27 +82,29 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTFUNZIONI = 18;
 
-  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 19;
+  private static final int LAYOUT_FRAGMENTHOME = 19;
 
-  private static final int LAYOUT_FRAGMENTPESOATTUALE = 20;
+  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 20;
 
-  private static final int LAYOUT_FRAGMENTPREFERITI = 21;
+  private static final int LAYOUT_FRAGMENTPESOATTUALE = 21;
 
-  private static final int LAYOUT_FRAGMENTRICERCA = 22;
+  private static final int LAYOUT_FRAGMENTPREFERITI = 22;
 
-  private static final int LAYOUT_FRAGMENTSESSO = 23;
+  private static final int LAYOUT_FRAGMENTRICERCA = 23;
 
-  private static final int LAYOUT_FRAGMENTSPORT = 24;
+  private static final int LAYOUT_FRAGMENTSESSO = 24;
 
-  private static final int LAYOUT_FRAGMENTSTATISTICHE = 25;
+  private static final int LAYOUT_FRAGMENTSPORT = 25;
 
-  private static final int LAYOUT_FRAGMENTSTILEVITA = 26;
+  private static final int LAYOUT_FRAGMENTSTATISTICHE = 26;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 27;
+  private static final int LAYOUT_FRAGMENTSTILEVITA = 27;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 28;
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 28;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(28);
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 29;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(29);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi, LAYOUT_ACTIVITYAGGIUNGI);
@@ -122,6 +125,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_diario, LAYOUT_FRAGMENTDIARIO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_diete, LAYOUT_FRAGMENTDIETE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_funzioni, LAYOUT_FRAGMENTFUNZIONI);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_personalizzati, LAYOUT_FRAGMENTPERSONALIZZATI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_peso_attuale, LAYOUT_FRAGMENTPESOATTUALE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_preferiti, LAYOUT_FRAGMENTPREFERITI);
@@ -251,6 +255,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_funzioni is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTHOME: {
+          if ("layout/fragment_home_0".equals(tag)) {
+            return new FragmentHomeBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_home is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTPERSONALIZZATI: {
           if ("layout/fragment_personalizzati_0".equals(tag)) {
             return new FragmentPersonalizzatiBindingImpl(component, view);
@@ -365,7 +375,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(28);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(29);
 
     static {
       sKeys.put("layout/activity_aggiungi_0", com.example.letmebeyourchef.R.layout.activity_aggiungi);
@@ -386,6 +396,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_diario_0", com.example.letmebeyourchef.R.layout.fragment_diario);
       sKeys.put("layout/fragment_diete_0", com.example.letmebeyourchef.R.layout.fragment_diete);
       sKeys.put("layout/fragment_funzioni_0", com.example.letmebeyourchef.R.layout.fragment_funzioni);
+      sKeys.put("layout/fragment_home_0", com.example.letmebeyourchef.R.layout.fragment_home);
       sKeys.put("layout/fragment_personalizzati_0", com.example.letmebeyourchef.R.layout.fragment_personalizzati);
       sKeys.put("layout/fragment_peso_attuale_0", com.example.letmebeyourchef.R.layout.fragment_peso_attuale);
       sKeys.put("layout/fragment_preferiti_0", com.example.letmebeyourchef.R.layout.fragment_preferiti);

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
@@ -15,13 +19,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LetMeBeYourChef"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
+
         <activity
-            android:name=".ActivityDettagliRicetta"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.LetMeBeYourChef">
             <intent-filter>
@@ -30,12 +32,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
-            android:name=".SplashScreen"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-
-
+            android:name=".ActivityDettagliRicetta"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.LetMeBeYourChef"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".esercizio.EsercizioAddPrefActivity"
             android:exported="false"
@@ -72,7 +78,6 @@
             android:name=".aggiungi_pasto.AggiungiActivity"
             android:exported="false"
             android:parentActivityName=".home.HomeActivity" />
-
         <activity
             android:name=".autenticazione.RegisterActivity"
             android:exported="false"
@@ -88,8 +93,7 @@
         <activity
             android:name=".autenticazione.RecuperoPasswordActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".autenticazione.InizioActivity"
             android:exported="false"

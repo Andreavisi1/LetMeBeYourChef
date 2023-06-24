@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"/>
             <TextView
                 android:id="@+id/textView_titolo_step_istruzioni"
-                android:text="Titolo step"
+                android:text="Step title"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:textAlignment="textStart"
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:text="Strumenti"
+                android:text="Equipment"
                 android:textAlignment="textStart"
                 android:textColor="@color/orange"
                 android:textSize="18sp"
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:text="Ingredienti"
+                android:text="Ingredients"
                 android:textAlignment="textStart"
                 android:textColor="@color/orange"
                 android:textSize="18sp"

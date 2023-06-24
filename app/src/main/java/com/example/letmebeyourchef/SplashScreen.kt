@@ -17,11 +17,11 @@ class SplashScreen : AppCompatActivity() {
 
 
 
-        var textview = findViewById<TextView>(R.id.textView)
+//        var textview = findViewById<TextView>(R.id.textView)
 
 
 
-        setContentView(R.layout.activity_splash_screen)
+        setContentView(R.layout.activity_splash)
 
 
 

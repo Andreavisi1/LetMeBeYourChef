@@ -3,6 +3,7 @@ package com.example.letmebeyourchef
 import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
+import android.text.Html
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -45,7 +46,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         manager!!.getRicetteSimili(ricetteSimiliListener, id)
         manager!!.getIstruzioni(istruzioniListener, id)
         dialog = ProgressDialog(this)
-        dialog!!.setTitle("Caricamento dettagli...")
+        dialog!!.setTitle("Loading details...")
         dialog!!.show()
     }
 
@@ -68,7 +69,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
                 dialog!!.dismiss()
                 textView_nome_ricetta!!.setText(response!!.title)
                 textView_source_ricetta!!.setText(response.sourceName)
-                textView_descrizione_ricetta!!.setText(response.summary)
+                textView_descrizione_ricetta!!.setText(Html.fromHtml(response.summary))
                 Picasso.get().load(response.image).into(imageView_immagine_ricetta)
                 recycler_ingredienti_ricetta!!.setHasFixedSize(true)
                 recycler_ingredienti_ricetta!!.setLayoutManager(

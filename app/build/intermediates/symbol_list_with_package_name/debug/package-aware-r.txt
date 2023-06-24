@@ -4348,6 +4348,7 @@ id spacer
 id special_effects_controller_view_tag
 id spinner
 id spinner_tags
+id splashView
 id spline
 id split_action_bar
 id spread
@@ -4750,6 +4751,7 @@ layout activity_profilo
 layout activity_rec_password
 layout activity_register
 layout activity_scanner
+layout activity_splash
 layout activity_splash_screen
 layout add_delete_layout
 layout add_delete_layout_esercizi
@@ -4832,6 +4834,7 @@ layout fragment_dati_personali
 layout fragment_diario
 layout fragment_diete
 layout fragment_funzioni
+layout fragment_home
 layout fragment_personalizzati
 layout fragment_peso_attuale
 layout fragment_preferiti
@@ -4980,6 +4983,7 @@ raw awards
 raw car_ui_keep
 raw firebase_common_keep
 raw keep
+raw letmebeyourchef
 raw programmer
 raw videoapp
 raw zxing_beep

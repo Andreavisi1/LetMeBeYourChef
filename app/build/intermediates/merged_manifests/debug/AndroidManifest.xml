@@ -8,6 +8,10 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="32" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
@@ -36,10 +40,8 @@
         android:name="com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
+    <uses-permission android:name="com.example.letmebeyourchef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <uses-feature
         android:name="android.hardware.camera.front"
         android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
@@ -71,14 +73,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.LetMeBeYourChef" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
-            android:name="com.example.letmebeyourchef.ActivityDettagliRicetta"
-            android:exported="false" />
-        <activity
-            android:name="com.example.letmebeyourchef.MainActivity"
+            android:name="com.example.letmebeyourchef.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.LetMeBeYourChef" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -86,9 +85,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.letmebeyourchef.SplashScreen"
+            android:name="com.example.letmebeyourchef.ActivityDettagliRicetta"
+            android:exported="false" />
+        <activity
+            android:name="com.example.letmebeyourchef.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.LetMeBeYourChef" >
+        </activity>
         <activity
             android:name="com.example.letmebeyourchef.esercizio.EsercizioAddPrefActivity"
             android:exported="false"
@@ -140,8 +143,7 @@
         <activity
             android:name="com.example.letmebeyourchef.autenticazione.RecuperoPasswordActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.letmebeyourchef.autenticazione.InizioActivity"
             android:exported="false"

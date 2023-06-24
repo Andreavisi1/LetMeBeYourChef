@@ -1,22 +1,34 @@
 package com.example.letmebeyourchef.home
 
+import android.content.Intent
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Toast
+import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.recyclerview.widget.GridLayoutManager
+import com.example.letmebeyourchef.ActivityDettagliRicetta
+import com.example.letmebeyourchef.R
+import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
 import com.example.letmebeyourchef.databaseFB.UtenteDB
+import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
+import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.model.Utente
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 
-class HomeViewModel : ViewModel()  {
+class HomeViewModel : ViewModel() {
     private var auth: FirebaseAuth = FirebaseAuth.getInstance()
     private val utenteDB = UtenteDB()
 
     private var _utente = MutableLiveData(Utente())
     val utente: LiveData<Utente>
         get() = _utente
-
 
 
     fun getUtente() {
@@ -31,3 +43,52 @@ class HomeViewModel : ViewModel()  {
     }
 
 }
+/*
+    private val responseListenerRicetteRandom: ResponseListenerRicetteRandom =
+        object : ResponseListenerRicetteRandom {
+            public override fun didFetch(
+                response: ResponseFromApiRicetteRandom?,
+                message: String?
+            ) {
+                dialog!!.dismiss()
+                recyclerView = findViewById(R.id.recycler_random)
+                recyclerView.setHasFixedSize(true)
+                recyclerView.setLayoutManager(GridLayoutManager(this@HomeActivity, 1))
+                ricetteRandomAdapter = RicetteRandomAdapter(
+                    this@HomeActivity,
+                    response!!.recipes,
+                    ricettaClickListener
+                )
+                recyclerView.setAdapter(ricetteRandomAdapter)
+            }
+
+            public override fun didError(message: String?) {
+                Toast.makeText(this@HomeActivity, message, Toast.LENGTH_SHORT).show()
+            }
+        }
+    private val spinnerSelectedListener: AdapterView.OnItemSelectedListener =
+        object : AdapterView.OnItemSelectedListener {
+            public override fun onItemSelected(
+                adapterView: AdapterView<*>,
+                view: View,
+                i: Int,
+                l: Long
+            ) {
+                tags.clear()
+                tags.add(adapterView.getSelectedItem().toString())
+                manager!!.getRicetteRandom(responseListenerRicetteRandom, tags)
+                dialog!!.show()
+            }
+
+            public override fun onNothingSelected(adapterView: AdapterView<*>?) {}
+        }
+    private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
+        public override fun onClickRicetta(id: String?) {
+            startActivity(
+                Intent(this@HomeActivity, ActivityDettagliRicetta::class.java)
+                    .putExtra("id", id)
+            )
+        }
+    }
+
+*/

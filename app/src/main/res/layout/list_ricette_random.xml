@@ -14,7 +14,7 @@
         android:orientation="vertical">
         <TextView
             android:id="@+id/textView_title"
-            android:text="Nome del piatto"
+            android:text="Plate name"
             android:singleLine="true"
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
@@ -51,7 +51,7 @@
                     android:id="@+id/textView_porzioni"
                     android:textSize="14sp"
                     android:padding="8dp"
-                    android:text="2 persone"
+                    android:text="2 people"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -89,7 +89,7 @@
                     android:id="@+id/textView_tempo"
                     android:textSize="14sp"
                     android:padding="8dp"
-                    android:text="2 minuti"
+                    android:text="2 minutes"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
