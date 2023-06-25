@@ -141,8 +141,8 @@
 78-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:26:13-49
 79            android:exported="true"
 79-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:27:13-36
-80            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-80-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:28:13-69
+80            android:theme="@style/Theme.LetMeBeYourChef" >
+80-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:28:13-57
 81            <intent-filter>
 81-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:29:13-33:29
 82                <action android:name="android.intent.action.MAIN" />

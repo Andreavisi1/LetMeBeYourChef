@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.MotionEvent
+import android.widget.RelativeLayout
 import android.widget.VideoView
 
 
@@ -16,6 +17,8 @@ class SplashScreenActivity : Activity() {
             setContentView(videoHolder)
             val video = Uri.parse("android.resource://" + packageName + "/" + R.raw.letmebeyourchef)
             videoHolder.setVideoURI(video)
+
+
 
             videoHolder.setOnCompletionListener { jump() }
             videoHolder.start()

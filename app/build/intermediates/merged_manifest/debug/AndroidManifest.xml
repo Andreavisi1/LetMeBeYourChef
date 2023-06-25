@@ -77,7 +77,7 @@
         <activity
             android:name="com.example.letmebeyourchef.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            android:theme="@style/Theme.LetMeBeYourChef" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
