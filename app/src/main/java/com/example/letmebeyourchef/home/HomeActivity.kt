@@ -22,16 +22,31 @@ import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
 import com.example.letmebeyourchef.autenticazione.InizioActivity
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
+import com.example.letmebeyourchef.diario.DiarioFragment
+import com.example.letmebeyourchef.diete.DieteFragment
+import com.example.letmebeyourchef.funzioni.FunzioniFragment
 //import com.example.letmebeyourchef.diario.DiarioFragment
 //import com.example.letmebeyourchef.diete.DieteFragment
 //import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicettaClickListener
+import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
+import com.example.letmebeyourchef.statistiche.StatisticheFragment
 //import com.example.letmebeyourchef.statistiche.StatisticheFragment
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
 class HomeActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHomeBinding
+    val diarioFragment = DiarioFragment()
+    val statisticheFragment = StatisticheFragment()
+    val dieteFragment = DieteFragment()
+    val funzioniFragment = FunzioniFragment()
+
+    private val model = HomeViewModel()
+    private var doubleBackToExitPressedOnce = false
+
     var dialog: ProgressDialog? = null
     var manager: RequestManager? = null
     var ricetteRandomAdapter: RicetteRandomAdapter? = null
@@ -42,9 +57,24 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home2)// !!!!!!!!!!!!!!!!!!!!!!!
+
+        binding = ActivityHomeBinding.inflate(layoutInflater)
+
+        setContentView(R.layout.activity_home)
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading recipes...")
+
+
+
+
+
+        var bottomNav = binding.bottomNavigation
+        setContentView(binding.root)
+        binding.bottomNavigation.selectTabById(R.id.ic_home,true)
+//        replaceFragment(diarioFragment) // La home si aprirà sul fragment del diario
+
+
+
         searchView = findViewById(R.id.searchview_home)
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             public override fun onQueryTextSubmit(query: String): Boolean {
@@ -71,7 +101,77 @@ class HomeActivity : AppCompatActivity() {
         manager = RequestManager(this)
         //        manager.getRicetteRandom(responseListenerRicetteRandom);
 //        dialog.show();
+
+        bottomNav.setOnTabSelectListener(object : AnimatedBottomBar.OnTabSelectListener {
+            override fun onTabSelected(
+                lastIndex: Int,
+                lastTab: AnimatedBottomBar.Tab?,
+                newIndex: Int,
+                newTab: AnimatedBottomBar.Tab
+            ) {
+                //redirecting fragment
+                when(newIndex){
+                    0 -> replaceFragment(diarioFragment);
+                    1 -> replaceFragment(statisticheFragment);
+                    2 -> replaceFragment(dieteFragment);
+                    3 -> replaceFragment(funzioniFragment);
+                    else -> replaceFragment(diarioFragment)
+                }
+
+
+            }
+
+
+        })
+
+
+
+        /*binding.aggToolbar.setOnMenuItemClickListener {
+            when (it.itemId) {
+                R.id.ic_profilo ->  openProfilo()
+                R.id.ic_logout -> {
+                    model.logOut()
+                    startActivity(Intent(this,InizioActivity::class.java))
+                    finish()
+                }
+            }
+            true
+        }*/
+
+
     }
+
+
+
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            finish()
+        }
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Premi due volte indietro per uscire", Toast.LENGTH_SHORT).show()
+        Handler(Looper.getMainLooper()).postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
+    }
+
+    private fun replaceFragment(fragment: Fragment){
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.nav_host_fragment, fragment)
+            commit()
+        }
+    }
+    private fun openSettings(){
+
+    }
+
+    private fun openGuida(){
+
+    }
+
+    private fun openProfilo(){
+        startActivity(Intent(this, ProfiloActivity::class.java))
+        finish()
+    }
+
+
 
     private val responseListenerRicetteRandom: ResponseListenerRicetteRandom =
         object : ResponseListenerRicetteRandom {

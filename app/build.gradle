@@ -89,7 +89,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4"
     implementation "androidx.activity:activity-ktx:1.6.0"
     implementation "androidx.room:room-runtime:2.4.3"
-    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+    implementation 'com.google.firebase:firebase-database-ktx'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.room:room-compiler:2.4.3"
     implementation "androidx.room:room-ktx:2.4.3"
@@ -107,6 +107,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
     implementation 'com.google.firebase:firebase-firestore-ktx:24.4.0'
+    implementation "com.google.firebase:firebase-auth"
 
     testImplementation 'org.mockito:mockito-core:2.24.5'
     androidTestImplementation 'org.mockito:mockito-android:2.24.5'

@@ -17,6 +17,7 @@ import com.example.letmebeyourchef.databinding.ActivityProdottoBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityProfiloBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityRegisterBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityScannerBindingImpl;
+import com.example.letmebeyourchef.databinding.ActivitySplashScreenBindingImpl;
 import com.example.letmebeyourchef.databinding.AddDeleteLayoutEserciziBindingImpl;
 import com.example.letmebeyourchef.databinding.DelModSelezionatiLayoutBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentAltezzaBindingImpl;
@@ -68,43 +69,45 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYSCANNER = 11;
 
-  private static final int LAYOUT_ADDDELETELAYOUTESERCIZI = 12;
+  private static final int LAYOUT_ACTIVITYSPLASHSCREEN = 12;
 
-  private static final int LAYOUT_DELMODSELEZIONATILAYOUT = 13;
+  private static final int LAYOUT_ADDDELETELAYOUTESERCIZI = 13;
 
-  private static final int LAYOUT_FRAGMENTALTEZZA = 14;
+  private static final int LAYOUT_DELMODSELEZIONATILAYOUT = 14;
 
-  private static final int LAYOUT_FRAGMENTDATIPERSONALI = 15;
+  private static final int LAYOUT_FRAGMENTALTEZZA = 15;
 
-  private static final int LAYOUT_FRAGMENTDIARIO = 16;
+  private static final int LAYOUT_FRAGMENTDATIPERSONALI = 16;
 
-  private static final int LAYOUT_FRAGMENTDIETE = 17;
+  private static final int LAYOUT_FRAGMENTDIARIO = 17;
 
-  private static final int LAYOUT_FRAGMENTFUNZIONI = 18;
+  private static final int LAYOUT_FRAGMENTDIETE = 18;
 
-  private static final int LAYOUT_FRAGMENTHOME = 19;
+  private static final int LAYOUT_FRAGMENTFUNZIONI = 19;
 
-  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 20;
+  private static final int LAYOUT_FRAGMENTHOME = 20;
 
-  private static final int LAYOUT_FRAGMENTPESOATTUALE = 21;
+  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 21;
 
-  private static final int LAYOUT_FRAGMENTPREFERITI = 22;
+  private static final int LAYOUT_FRAGMENTPESOATTUALE = 22;
 
-  private static final int LAYOUT_FRAGMENTRICERCA = 23;
+  private static final int LAYOUT_FRAGMENTPREFERITI = 23;
 
-  private static final int LAYOUT_FRAGMENTSESSO = 24;
+  private static final int LAYOUT_FRAGMENTRICERCA = 24;
 
-  private static final int LAYOUT_FRAGMENTSPORT = 25;
+  private static final int LAYOUT_FRAGMENTSESSO = 25;
 
-  private static final int LAYOUT_FRAGMENTSTATISTICHE = 26;
+  private static final int LAYOUT_FRAGMENTSPORT = 26;
 
-  private static final int LAYOUT_FRAGMENTSTILEVITA = 27;
+  private static final int LAYOUT_FRAGMENTSTATISTICHE = 27;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 28;
+  private static final int LAYOUT_FRAGMENTSTILEVITA = 28;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 29;
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 29;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(29);
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 30;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(30);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi, LAYOUT_ACTIVITYAGGIUNGI);
@@ -118,6 +121,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_profilo, LAYOUT_ACTIVITYPROFILO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_register, LAYOUT_ACTIVITYREGISTER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_scanner, LAYOUT_ACTIVITYSCANNER);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_splash_screen, LAYOUT_ACTIVITYSPLASHSCREEN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.add_delete_layout_esercizi, LAYOUT_ADDDELETELAYOUTESERCIZI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.del_mod_selezionati_layout, LAYOUT_DELMODSELEZIONATILAYOUT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_altezza, LAYOUT_FRAGMENTALTEZZA);
@@ -212,6 +216,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityScannerBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_scanner is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYSPLASHSCREEN: {
+          if ("layout/activity_splash_screen_0".equals(tag)) {
+            return new ActivitySplashScreenBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_splash_screen is invalid. Received: " + tag);
         }
         case  LAYOUT_ADDDELETELAYOUTESERCIZI: {
           if ("layout/add_delete_layout_esercizi_0".equals(tag)) {
@@ -375,7 +385,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(29);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(30);
 
     static {
       sKeys.put("layout/activity_aggiungi_0", com.example.letmebeyourchef.R.layout.activity_aggiungi);
@@ -389,6 +399,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_profilo_0", com.example.letmebeyourchef.R.layout.activity_profilo);
       sKeys.put("layout/activity_register_0", com.example.letmebeyourchef.R.layout.activity_register);
       sKeys.put("layout/activity_scanner_0", com.example.letmebeyourchef.R.layout.activity_scanner);
+      sKeys.put("layout/activity_splash_screen_0", com.example.letmebeyourchef.R.layout.activity_splash_screen);
       sKeys.put("layout/add_delete_layout_esercizi_0", com.example.letmebeyourchef.R.layout.add_delete_layout_esercizi);
       sKeys.put("layout/del_mod_selezionati_layout_0", com.example.letmebeyourchef.R.layout.del_mod_selezionati_layout);
       sKeys.put("layout/fragment_altezza_0", com.example.letmebeyourchef.R.layout.fragment_altezza);

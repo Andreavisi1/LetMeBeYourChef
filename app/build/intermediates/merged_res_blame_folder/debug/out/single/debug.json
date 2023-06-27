@@ -332,6 +332,10 @@
         "source": "com.example.letmebeyourchef.app-main-89:/mipmap-xxxhdpi/ic_settings.png"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-merged_res-87:/layout_activity_splash_screen2.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_splash_screen2.xml"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-merged_res-87:/layout_win_layout_dialog.xml.flat",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/win_layout_dialog.xml"
     },
@@ -570,10 +574,6 @@
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-87:/drawable_circle.png.flat",
         "source": "com.example.letmebeyourchef.app-main-89:/drawable/circle.png"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-merged_res-87:/layout_activity_splash.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_splash.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-87:/mipmap-mdpi_ic_logout.png.flat",

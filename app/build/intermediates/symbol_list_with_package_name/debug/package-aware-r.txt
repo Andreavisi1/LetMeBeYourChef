@@ -3949,10 +3949,10 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
-id ic_diary
-id ic_diete
-id ic_funzioni
-id ic_io
+id ic_carrello
+id ic_cucina
+id ic_home
+id ic_likes
 id ic_logout
 id ic_profilo
 id icon
@@ -4348,7 +4348,6 @@ id spacer
 id special_effects_controller_view_tag
 id spinner
 id spinner_tags
-id splashView
 id spline
 id split_action_bar
 id spread
@@ -4751,8 +4750,8 @@ layout activity_profilo
 layout activity_rec_password
 layout activity_register
 layout activity_scanner
-layout activity_splash
 layout activity_splash_screen
+layout activity_splash_screen2
 layout add_delete_layout
 layout add_delete_layout_esercizi
 layout browser_actions_context_menu_page

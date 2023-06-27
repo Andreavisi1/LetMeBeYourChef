@@ -28,10 +28,6 @@
         "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_dettagli_ricetta.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_splash.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_splash.xml"
-    },
-    {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_stile_vita.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_stile_vita.xml"
     },
@@ -50,6 +46,10 @@
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_login.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_splash_screen2.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_splash_screen2.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_peso_attuale.xml",

@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "161508747965-oos36ifj2b9lbekd9v16ohvupdtvpom4.apps.googleusercontent.com",
+          "client_id": "161508747965-um4gbin56kq8rrgb8jhpva1nm83vpop1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letmebeyourchef",
+            "certificate_hash": "7123d435c3d9cb6661d8eb8bbae8ec859a9f0553"
+          }
+        },
+        {
+          "client_id": "161508747965-4mfa4ct15dgm9rlqu32t6s92k97ljckr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "161508747965-oos36ifj2b9lbekd9v16ohvupdtvpom4.apps.googleusercontent.com",
+              "client_id": "161508747965-4mfa4ct15dgm9rlqu32t6s92k97ljckr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

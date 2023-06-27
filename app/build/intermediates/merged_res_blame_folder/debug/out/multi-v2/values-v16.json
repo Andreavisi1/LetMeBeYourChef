@@ -4,7 +4,17 @@
             "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-85:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/aa67a76e428df0b6e3ce04a754269936/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/a45c89bca312db06e61440b1e0dd044b/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/624d0ce42bfe2315c5f2c45386d05853/transformed/core-1.9.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
