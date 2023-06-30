@@ -54,27 +54,6 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="altezzaFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="744" />
-                            <option name="y" value="20" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_altezzaFragment_to_pesoAttualeFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="datiPersonaliFragment">
                     <value>
                       <LayoutPositions>
@@ -86,7 +65,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_datiPersonaliFragment_to_altezzaFragment">
+                            <entry key="action_datiPersonaliFragment_to_intolleranzeFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -96,65 +75,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="obbiettivoFragment">
+                  <entry key="intolleranzeFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
+                            <option name="x" value="916" />
                             <option name="y" value="20" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_obbiettivoFragment_to_sessoFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="pesoAttualeFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="988" />
-                            <option name="y" value="20" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_pesoAttualeFragment_to_pesoObbFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="action_pesoAttualeFragment_to_registerActivity">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="pesoObbFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="1232" />
-                            <option name="y" value="63" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_pesoObbFragment_to_registerActivity">
+                            <entry key="action_intolleranzeFragment_to_registerActivity">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -169,8 +101,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="1476" />
-                            <option name="y" value="20" />
+                            <option name="x" value="1165" />
+                            <option name="y" value="19" />
                           </Point>
                         </option>
                       </LayoutPositions>

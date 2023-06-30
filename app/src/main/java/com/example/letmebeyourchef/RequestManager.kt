@@ -3,12 +3,17 @@ package com.example.letmebeyourchef
 import android.content.Context
 import com.example.letmebeyourchef.listeners.DettagliRicettaListener
 import com.example.letmebeyourchef.listeners.IstruzioniListener
+import com.example.letmebeyourchef.listeners.RecipesByIngredientsListener
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
+import com.example.letmebeyourchef.listeners.SearchIngredientsListener
+import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiRecipesByIngredients
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiSearchIngredients
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -17,6 +22,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.json.JSONArray
+import org.json.JSONObject
 
 class RequestManager constructor(var context: Context) {
     var retrofit: Retrofit = Retrofit.Builder()
@@ -128,6 +137,102 @@ class RequestManager constructor(var context: Context) {
         })
     }
 
+    fun searchIngredients(listener: SearchIngredientsListener, name: String) {
+        val callSearchIngredients: CallSearchIngredients = retrofit.create(
+            CallSearchIngredients::class.java
+        )
+        val call: Call<List<ResponseFromApiSearchIngredients>> =
+            callSearchIngredients.callSearchIngredients(
+                name, "en", context.getString(R.string.api_key)
+            )
+        call.enqueue(object : Callback<List<ResponseFromApiSearchIngredients>> {
+            public override fun onResponse(
+                call: Call<List<ResponseFromApiSearchIngredients>>,
+                response: Response<List<ResponseFromApiSearchIngredients>>
+            ) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message())
+                    return
+                }
+                listener.didFetch((response.body())!!, response.message())
+            }
+
+            override fun onFailure(
+                call: Call<List<ResponseFromApiSearchIngredients>>,
+                t: Throwable
+            ) {
+                listener.didError(t.message)
+            }
+        })
+    }
+
+    fun getRecipesByIngredients(listener: RecipesByIngredientsListener, tags: List<String>) {
+        val callRecipesByIngredients: CallRecipesByIngredients = retrofit.create(
+            CallRecipesByIngredients::class.java
+        )
+        val call: Call<List<ResponseFromApiRecipesByIngredients>> =
+            callRecipesByIngredients.callRecipesByIngredients(
+                tags, 1, true, context.getString(R.string.api_key)
+            )
+        call.enqueue(object : Callback<List<ResponseFromApiRecipesByIngredients>> {
+            public override fun onResponse(
+                call: Call<List<ResponseFromApiRecipesByIngredients>>,
+                response: Response<List<ResponseFromApiRecipesByIngredients>>
+            ) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message())
+                    return
+                }
+                listener.didFetch((response.body())!!, response.message())
+            }
+
+            override fun onFailure(
+                call: Call<List<ResponseFromApiRecipesByIngredients>>,
+                t: Throwable
+            ) {
+                listener.didError(t.message)
+            }
+        })
+    }
+
+    fun getAllIngredients(): List<String> {
+        /**
+         * This function connects to the Spoonacular API and retrieves all possible ingredients.
+         *
+         * Returns:
+         * List<String>: A list of all possible ingredients
+         */
+
+        val apiKey = context.getString(R.string.api_key) // Replace with your actual API key
+
+        val client = OkHttpClient()
+        val url = "https://api.spoonacular.com/food/ingredients"
+
+        val request = Request.Builder()
+            .url("$url?apiKey=$apiKey")
+            .build()
+
+        val response = client.newCall(request).execute()
+        val responseBody = response.body?.string()
+
+        val ingredientsList = mutableListOf<String>()
+
+        if (response.isSuccessful && responseBody != null) {
+            val jsonObject = JSONObject(responseBody)
+            val jsonArray = jsonObject.getJSONArray("results")
+
+            for (i in 0 until jsonArray.length()) {
+                val ingredientObject = jsonArray.getJSONObject(i)
+                val ingredientName = ingredientObject.getString("name")
+                ingredientsList.add(ingredientName)
+            }
+        } else {
+            println("Error: Failed to retrieve ingredients from the API")
+        }
+
+        return ingredientsList
+    }
+
     private open interface CallRicetteRandom {
         @GET("recipes/random")
         fun callRicetteRandom(
@@ -160,5 +265,25 @@ class RequestManager constructor(var context: Context) {
             @Path("id") id: Int,
             @Query("apiKey") apiKey: String?
         ): Call<List<ResponseFromApiIstruzioni>>
+    }
+
+    private open interface CallSearchIngredients {
+        @GET("food/ingredients/search")
+        fun callSearchIngredients(
+            @Query("query") query: String,
+            @Query("language") language: String,
+            @Query("apiKey") apiKey: String?
+        ): Call<List<ResponseFromApiSearchIngredients>>
+    }
+
+    private open interface CallRecipesByIngredients {
+        @GET("recipes/findByIngredients")
+        fun callRecipesByIngredients(
+            @Query("ingredients") ingredients: List<String>,
+            @Query("ranking") ranking: Int,
+            @Query("ignorePantry") ignorePantry: Boolean,
+            @Query("apiKey") apiKey: String
+
+        ): Call<List<ResponseFromApiRecipesByIngredients>>
     }
 }

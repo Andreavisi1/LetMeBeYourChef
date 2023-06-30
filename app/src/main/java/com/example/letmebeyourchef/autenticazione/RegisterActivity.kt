@@ -32,7 +32,6 @@ class RegisterActivity : AppCompatActivity() {
         utente = args.utente
         progressBar = binding.progressBar3
         progressBar.visibility = ProgressBar.INVISIBLE
-        binding.imageView68.isVisible = utente.agonistico
 
         binding.btnRegister.setOnClickListener {
             val email = binding.InputEmail.text.toString().trim()
@@ -46,9 +45,9 @@ class RegisterActivity : AppCompatActivity() {
                     if (model.singUp(email, pass) == null) {
                         checkError(isOnline(this@RegisterActivity))
                     } else {
-                        model.addAuthUtenteOnDB(utente.nome, utente.cognome, email, utente.LAF,utente.agonistico, utente.sesso,
-                            utente.data_nascita,utente.altezza,utente.peso_attuale,
-                            utente.sport, this@RegisterActivity)
+                        model.addAuthUtenteOnDB(utente.nome, utente.cognome, email, utente.sesso,
+                            utente.data_nascita,
+                            utente.intolleranze, this@RegisterActivity)
                         val intent = Intent(applicationContext, ConosciamociActivity::class.java)
                         intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                         intent.putExtra("EXIT", true)
@@ -68,14 +67,14 @@ class RegisterActivity : AppCompatActivity() {
     private fun checkFields(email: String, pass: String, confPass: String): Boolean {
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            binding.InputEmail.setError("Il formato dell'Email è errato!")
+            binding.InputEmail.setError("The email format is wrong!")
             binding.InputEmail.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (pass.isEmpty()) {
-            binding.InputPassword.setError("La password è richiesta")
+            binding.InputPassword.setError("Password is required")
             binding.InputPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
@@ -83,21 +82,21 @@ class RegisterActivity : AppCompatActivity() {
 
 
         if (pass.length < 6) {
-            binding.InputPassword.setError("La password deve essere di almeno 6 caratteri")
+            binding.InputPassword.setError("The password should have a minimum of 6 characters")
             binding.InputPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (confPass.isEmpty()) {
-            binding.InputCorrectPassword.setError("Conferma la tua password per favore")
+            binding.InputCorrectPassword.setError("Please confirm your password")
             binding.InputCorrectPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (!pass.equals(confPass)) {
-            binding.InputCorrectPassword.setError("Le password non corrispondono!")
+            binding.InputCorrectPassword.setError("The passwords don’t match!")
             binding.InputCorrectPassword.setText(" ")
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
@@ -109,9 +108,9 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun checkError(isOnline : Boolean){
         if (isOnline)
-            Toast.makeText(this,"L'utente è già registrato", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"The user is already registered", Toast.LENGTH_LONG).show()
         else
-            Toast.makeText(this,"Per favore attiva una connessione ad internet", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Please activate an internet connection", Toast.LENGTH_LONG).show()
         progressBar.visibility = ProgressBar.INVISIBLE
     }
 

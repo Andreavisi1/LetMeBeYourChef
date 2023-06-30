@@ -24,13 +24,18 @@
             <TextView
                 android:id="@+id/textView_nome_ricetta"
                 android:text="Receipe Name"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:padding="8dp"
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
             <TextView
                 android:id="@+id/textView_source_ricetta"
                 android:text="Source"
@@ -39,14 +44,27 @@
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 android:padding="8dp"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/likebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/blue"
+                    android:shadowColor="@color/blue"
+                    android:text="Like it!"
+                    android:layout_gravity="end"
+                    app:icon="@drawable/ic_likes" />
+            </LinearLayout>
+
             <ImageView
                 android:id="@+id/imageView_immagine_ricetta"
                 android:layout_margin="8dp"
                 android:scaleType="centerCrop"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
+
             <TextView
                 android:id="@+id/textView_descrizione_ricetta"
                 android:text="Description"
@@ -57,6 +75,14 @@
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe nutrition label widget"
+                android:backgroundTint="@color/green"/>
+
             <TextView
                 android:text="Ingredients:"
                 android:textStyle="bold"
@@ -70,11 +96,22 @@
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_istruzioni"
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/recipecardbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get recipe card"
+                android:backgroundTint="@color/red"/>
+
             <TextView
                 android:text="Similar receipes, if this doesn’t convince you:"
                 android:textStyle="bold"

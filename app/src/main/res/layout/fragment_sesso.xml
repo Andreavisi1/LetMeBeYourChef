@@ -6,20 +6,19 @@
         android:layout_height="match_parent"
         tools:context=".autenticazione.ConosciamociActivity"
         android:background="@color/white">
-
     <TextView
-            android:text="@string/sesso"
+            android:text="Are you a man or a woman?"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView2"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:textSize="40sp" android:textStyle="bold|italic" android:textAlignment="center"
             android:textColor="@color/black" android:textAllCaps="false" android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
             android:layout_marginStart="30dp" android:layout_marginEnd="30dp"
             app:layout_constraintBottom_toTopOf="@+id/GruppoRadio_Sesso" app:layout_constraintVertical_bias="0.0"
             android:layout_marginBottom="80dp"/>
     <Button
-            android:text="AVANTI"
+            android:text="NEXT"
             android:layout_width="225dp"
             android:layout_height="65dp" android:id="@+id/bt_AvantiSesso"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
@@ -35,19 +34,40 @@
             app:layout_constraintBottom_toTopOf="@+id/bt_AvantiSesso"
             android:layout_marginBottom="150dp" android:layout_marginStart="70dp" android:layout_marginEnd="70dp">
         <RadioButton
-                android:text="Uomo"
+                android:text="Man"
                 android:layout_width="match_parent"
                 android:layout_marginBottom="50dp"
                 android:layout_height="55dp" android:id="@+id/rB_uomo"
                 android:background="@drawable/input_bg_green"
                 android:textSize="30sp" android:textAlignment="center" android:textStyle="bold"/>
         <RadioButton
-                android:text="Donna"
+                android:text="Woman"
                 android:layout_width="match_parent"
                 android:layout_height="55dp" android:id="@+id/rB_donna"
                 android:background="@drawable/input_bg_green"
                 android:textSize="30sp" android:textStyle="bold" android:textAlignment="center"/>
     </RadioGroup>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="202dp"
+        android:layout_height="43dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/linearLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/textView2" android:layout_marginBottom="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/liniette" android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="match_parent" app:srcCompat="@drawable/color_logo_no_background_logo"
+            android:id="@+id/imageView4" android:layout_weight="1"/>
+        <TextView
+            android:text="Let's start!"
+            android:layout_width="154dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_weight="1"
+            android:textStyle="bold" android:textAlignment="center" android:textSize="17sp"
+            android:textColor="@color/green_primary_dark"/>
+    </LinearLayout>
     <LinearLayout
             android:gravity="center"
             android:orientation="horizontal"
@@ -55,36 +75,25 @@
             android:layout_height="60dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:id="@+id/linearLayout9" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"
+            android:id="@+id/liniette" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"
             android:layout_marginTop="10dp">
         <ImageView
                 android:src="@drawable/linietta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView6" android:layout_weight="1"/>
-        <ImageView
-                android:src="@drawable/linietta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView8" android:layout_weight="1"/>
+                android:layout_height="wrap_content" android:id="@+id/imageView6" android:layout_weight="2"/>
+
         <ImageView
                 android:src="@drawable/linietta_grigia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView9" android:layout_weight="1"/>
+                android:layout_height="wrap_content" android:id="@+id/imageView9" android:layout_weight="2"/>
         <ImageView
                 android:src="@drawable/linietta_grigia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView17" android:layout_weight="1"/>
+                android:layout_height="wrap_content" android:id="@+id/imageView17" android:layout_weight="2"/>
         <ImageView
                 android:src="@drawable/linietta_grigia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView18" android:layout_weight="1"/>
-        <ImageView
-                android:src="@drawable/linietta_grigia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView19" android:layout_weight="1"/>
-        <ImageView
-                android:src="@drawable/linietta_grigia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/imageView20" android:layout_weight="1"/>
+                android:layout_height="wrap_content" android:id="@+id/imageView18" android:layout_weight="2"/>
     </LinearLayout>
 
 

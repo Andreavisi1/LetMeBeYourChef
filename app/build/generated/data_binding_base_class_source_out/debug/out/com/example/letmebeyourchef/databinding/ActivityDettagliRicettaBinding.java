@@ -4,6 +4,7 @@ package com.example.letmebeyourchef.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,7 +23,16 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button button4;
+
+  @NonNull
   public final ImageView imageViewImmagineRicetta;
+
+  @NonNull
+  public final Button likebutton;
+
+  @NonNull
+  public final Button recipecardbutton;
 
   @NonNull
   public final RecyclerView recyclerIngredientiRicetta;
@@ -42,13 +52,17 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   @NonNull
   public final TextView textViewSourceRicetta;
 
-  private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageView imageViewImmagineRicetta, @NonNull RecyclerView recyclerIngredientiRicetta,
+  private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView, @NonNull Button button4,
+      @NonNull ImageView imageViewImmagineRicetta, @NonNull Button likebutton,
+      @NonNull Button recipecardbutton, @NonNull RecyclerView recyclerIngredientiRicetta,
       @NonNull RecyclerView recyclerIstruzioni, @NonNull RecyclerView recyclerRicetteSimili,
       @NonNull TextView textViewDescrizioneRicetta, @NonNull TextView textViewNomeRicetta,
       @NonNull TextView textViewSourceRicetta) {
     this.rootView = rootView;
+    this.button4 = button4;
     this.imageViewImmagineRicetta = imageViewImmagineRicetta;
+    this.likebutton = likebutton;
+    this.recipecardbutton = recipecardbutton;
     this.recyclerIngredientiRicetta = recyclerIngredientiRicetta;
     this.recyclerIstruzioni = recyclerIstruzioni;
     this.recyclerRicetteSimili = recyclerRicetteSimili;
@@ -84,9 +98,27 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button4;
+      Button button4 = ViewBindings.findChildViewById(rootView, id);
+      if (button4 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView_immagine_ricetta;
       ImageView imageViewImmagineRicetta = ViewBindings.findChildViewById(rootView, id);
       if (imageViewImmagineRicetta == null) {
+        break missingId;
+      }
+
+      id = R.id.likebutton;
+      Button likebutton = ViewBindings.findChildViewById(rootView, id);
+      if (likebutton == null) {
+        break missingId;
+      }
+
+      id = R.id.recipecardbutton;
+      Button recipecardbutton = ViewBindings.findChildViewById(rootView, id);
+      if (recipecardbutton == null) {
         break missingId;
       }
 
@@ -126,9 +158,10 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDettagliRicettaBinding((LinearLayout) rootView, imageViewImmagineRicetta,
-          recyclerIngredientiRicetta, recyclerIstruzioni, recyclerRicetteSimili,
-          textViewDescrizioneRicetta, textViewNomeRicetta, textViewSourceRicetta);
+      return new ActivityDettagliRicettaBinding((LinearLayout) rootView, button4,
+          imageViewImmagineRicetta, likebutton, recipecardbutton, recyclerIngredientiRicetta,
+          recyclerIstruzioni, recyclerRicetteSimili, textViewDescrizioneRicetta,
+          textViewNomeRicetta, textViewSourceRicetta);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

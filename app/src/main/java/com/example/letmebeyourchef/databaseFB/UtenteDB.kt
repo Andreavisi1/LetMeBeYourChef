@@ -12,34 +12,24 @@ import kotlinx.coroutines.tasks.await
 class UtenteDB : FirebaseDB() {
     // Riferimento alla collection Utente
 
-    val utenti_collection = db.collection("Utente")
+    val utenti_collection = db.collection("User")
     var status = false
 
     suspend fun addUtente(
         nome: String,
         cognome : String,
         email: String,
-        LAF: Double,
-        agonistico: Boolean,
         sesso: String,
         data_nascita: String,
-        altezza: Int,
-        peso_attuale: Double,
-        sport : String?,
-        contesto: Context,
-        dieta : String = "Climatica" ): Boolean {
+        intolleranze : String?,
+        contesto: Context, ): Boolean {
         val utente = hashMapOf<String, Any>(
             "nome" to nome,
             "cognome" to cognome,
             "email" to email,
-            "LAF" to LAF,
-            "agonistico" to agonistico,
             "sesso" to sesso,
             "data_nascita" to data_nascita,
-            "altezza" to altezza,
-            "peso_attuale" to peso_attuale,
-            "sport" to sport!!,
-            "dieta" to dieta
+            "intolleranze" to intolleranze!!,
         )
 
         withContext(Dispatchers.IO){
@@ -47,12 +37,12 @@ class UtenteDB : FirebaseDB() {
                 .document(email)
                 .set(utente)
                 .addOnSuccessListener {
-                    Toast.makeText(contesto, "Operazione completata con successo!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Operation  completed successfully!", Toast.LENGTH_SHORT).show()
                     status = true
 
                 }
                 .addOnFailureListener{
-                    Toast.makeText(contesto, "Qualcosa è andato storto...", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Something went wrong...", Toast.LENGTH_SHORT).show()
                     status = false
                 }
                 .await()
@@ -68,7 +58,7 @@ class UtenteDB : FirebaseDB() {
         val utentiList = getUtenti()
         for(utente in utentiList) {
             if (utente.email == email) {
-                Log.d("Utente",utente.toString())
+                Log.d("User",utente.toString())
                 return utente
             }
         }
@@ -79,25 +69,17 @@ class UtenteDB : FirebaseDB() {
         nome: String,
         cognome : String,
         email: String,
-        LAF: Double,
-        agonistico: Boolean,
         sesso: String,
         data_nascita: String,
-        altezza: Int,
-        peso_attuale: Double,
-        sport: String?,
+        intolleranze: String?,
         contesto: Context): Boolean {
         val utente = hashMapOf<String, Any>(
             "nome" to nome,
             "cognome" to cognome,
             "email" to email,
-            "LAF" to LAF,
-            "agonistico" to agonistico,
             "sesso" to sesso,
             "data_nascita" to data_nascita,
-            "altezza" to altezza,
-            "peso_attuale" to peso_attuale,
-            "sport" to sport!!
+            "intolleranze" to intolleranze!!
         )
 
         withContext(Dispatchers.IO){
@@ -105,38 +87,16 @@ class UtenteDB : FirebaseDB() {
                 .document(email)
                 .update(utente)
                 .addOnSuccessListener {
-                    Toast.makeText(contesto, "Operazione completata con successo!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Operation  completed successfully!", Toast.LENGTH_SHORT).show()
                     status = true
 
                 }
                 .addOnFailureListener{
-                    Toast.makeText(contesto, "Qualcosa è andato storto...", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Something went wrong...", Toast.LENGTH_SHORT).show()
                     status = false
                 }
                 .await()
         }
         return status
-    }
-
-    suspend fun updateDieta(titolo: String, email: String):Boolean{
-        val dieta = hashMapOf<String,Any>(
-            "dieta" to titolo
-        )
-
-        withContext(Dispatchers.IO){
-                utenti_collection
-                    .document(email)
-                    .update(dieta)
-                    .addOnSuccessListener {
-                        status = true
-
-                    }
-                    .addOnFailureListener{
-                        status = false
-                    }
-                    .await()
-        }
-        return status
-
     }
 }

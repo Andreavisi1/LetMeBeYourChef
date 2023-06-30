@@ -69,17 +69,7 @@ class DiarioViewModel : ViewModel() {
     val diarioSettato : LiveData<Boolean>
         get() = _diarioSettato
 
-    fun setDiarioOnDB(grassiTot:Int = 0, proteineTot:Int = 0,
-                      carboidratiTot:Int = 0, chiloCalorieEsercizio:Int = 0, chiloCalorieColazione:Int = 0,
-                      chiloCaloriePranzo:Int = 0, chiloCalorieCena:Int = 0, chiloCalorieSpuntino:Int = 0,
-                      acqua: ArrayList<Boolean> = arrayListOf(false, false, false, false, false, false, false, false)){
-        viewModelScope.launch {
-            val utente = utenteDB.getUtente(auth.currentUser?.email!!)
-            var fabbisogno = calculateFabbisogno(utente)
-            diarioDB.setDiario(auth.currentUser?.email!!,LocalDate.now().toString(), fabbisogno.toInt(), grassiTot, proteineTot, carboidratiTot, chiloCalorieEsercizio,
-                                chiloCalorieColazione, chiloCaloriePranzo, chiloCalorieCena, chiloCalorieSpuntino, acqua)
-        }
-    }
+
 
    fun getUserDiarioDB(){
        viewModelScope.launch {
@@ -130,20 +120,6 @@ class DiarioViewModel : ViewModel() {
         viewModelScope.launch {
             _eserciziSelezionati.value = esercizioDB.getEsercizi(LocalDate.now().toString())
         }
-    }
-
-    private fun calculateFabbisogno(utente: Utente) : Double{
-        val today = LocalDate.now()
-        val birthday: LocalDate = LocalDate.parse(utente.data_nascita)
-        val period: Period = Period.between(birthday, today)
-        if(utente.sesso == "Uomo")
-            return ((66 + (13.7 * utente.peso_attuale) + (5 * utente.altezza) - (6.8 * period.years)) * utente.LAF)
-        else
-            return ((65 + (9.6 * utente.peso_attuale) + (1.8 * utente.altezza) - (4.7 * period.years)) * utente.LAF)
-
-
-
-
     }
 
 }

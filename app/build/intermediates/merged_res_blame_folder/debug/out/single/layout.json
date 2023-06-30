@@ -8,6 +8,14 @@
         "source": "com.example.letmebeyourchef.app-main-89:/layout/list_istruzioni.xml"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/item_ingredient.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/item_ingredient.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_home22.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_home22.xml"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/registrazione_rapida_layout.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/registrazione_rapida_layout.xml"
     },
@@ -26,10 +34,6 @@
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_dettagli_ricetta.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_dettagli_ricetta.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_stile_vita.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_stile_vita.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_esercizio.xml",
@@ -52,20 +56,16 @@
         "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_splash_screen2.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_peso_attuale.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_peso_attuale.xml"
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_intolleranze.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_intolleranze.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_home.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_home.xml"
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_homepage22.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_homepage22.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/spinner_inner_text.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/spinner_inner_text.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_sport.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_sport.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_splash_screen.xml",
@@ -76,12 +76,12 @@
         "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_personalizzati.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/list_step_istruzioni.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/list_step_istruzioni.xml"
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_homepage.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_homepage.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_altezza.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_altezza.xml"
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/list_step_istruzioni.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/list_step_istruzioni.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_aggiungi_esercizio.xml",
@@ -118,10 +118,6 @@
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_funzioni.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_funzioni.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_home2.xml",
-        "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_home2.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/layout_item_esercizio_pref.xml",
@@ -186,6 +182,10 @@
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/activity_prodotto.xml",
         "source": "com.example.letmebeyourchef.app-main-89:/layout/activity_prodotto.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/fragment_dispensa.xml",
+        "source": "com.example.letmebeyourchef.app-main-89:/layout/fragment_dispensa.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-86:/layout/calorie_semplici_layout.xml",

@@ -14,27 +14,21 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.textView12, 7);
-        sViewsWithIds.put(R.id.textView3238, 8);
-        sViewsWithIds.put(R.id.textView29, 9);
-        sViewsWithIds.put(R.id.textView248, 10);
-        sViewsWithIds.put(R.id.sW_sesso, 11);
-        sViewsWithIds.put(R.id.textView25, 12);
-        sViewsWithIds.put(R.id.textView88, 13);
-        sViewsWithIds.put(R.id.btn_cambio_pass, 14);
-        sViewsWithIds.put(R.id.data_di_nascita, 15);
-        sViewsWithIds.put(R.id.textView30, 16);
-        sViewsWithIds.put(R.id.textView98, 17);
-        sViewsWithIds.put(R.id.sW_stile_di_vita, 18);
-        sViewsWithIds.put(R.id.textView18, 19);
-        sViewsWithIds.put(R.id.textView128, 20);
-        sViewsWithIds.put(R.id.textView2348, 21);
-        sViewsWithIds.put(R.id.textView28, 22);
-        sViewsWithIds.put(R.id.selezioneSport, 23);
-        sViewsWithIds.put(R.id.textView328, 24);
-        sViewsWithIds.put(R.id.sW_sport, 25);
-        sViewsWithIds.put(R.id.switch_agonistico, 26);
-        sViewsWithIds.put(R.id.btn_salva, 27);
+        sViewsWithIds.put(R.id.textView12, 5);
+        sViewsWithIds.put(R.id.textView3238, 6);
+        sViewsWithIds.put(R.id.textView29, 7);
+        sViewsWithIds.put(R.id.textView248, 8);
+        sViewsWithIds.put(R.id.sW_sesso, 9);
+        sViewsWithIds.put(R.id.textView25, 10);
+        sViewsWithIds.put(R.id.textView88, 11);
+        sViewsWithIds.put(R.id.btn_cambio_pass, 12);
+        sViewsWithIds.put(R.id.data_di_nascita, 13);
+        sViewsWithIds.put(R.id.textView30, 14);
+        sViewsWithIds.put(R.id.selezioneIntolleranze, 15);
+        sViewsWithIds.put(R.id.textView328, 16);
+        sViewsWithIds.put(R.id.sW_intolerances, 17);
+        sViewsWithIds.put(R.id.switch_agonistico, 18);
+        sViewsWithIds.put(R.id.btn_salva, 19);
     }
     // views
     @NonNull
@@ -45,42 +39,32 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityProfiloBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 28, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
     }
     private ActivityProfiloBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (android.widget.Button) bindings[14]
-            , (android.widget.Button) bindings[27]
-            , (android.widget.LinearLayout) bindings[15]
-            , (android.widget.EditText) bindings[5]
+            , (android.widget.Button) bindings[12]
+            , (android.widget.Button) bindings[19]
+            , (android.widget.LinearLayout) bindings[13]
             , (android.widget.EditText) bindings[3]
             , (android.widget.EditText) bindings[1]
-            , (android.widget.EditText) bindings[6]
             , (android.widget.EditText) bindings[2]
-            , (android.widget.Spinner) bindings[11]
-            , (android.widget.Spinner) bindings[25]
-            , (android.widget.Spinner) bindings[18]
-            , (android.widget.LinearLayout) bindings[23]
-            , (android.widget.Switch) bindings[26]
+            , (android.widget.Spinner) bindings[17]
+            , (android.widget.Spinner) bindings[9]
+            , (android.widget.LinearLayout) bindings[15]
+            , (android.widget.Switch) bindings[18]
             , (android.widget.TextView) bindings[4]
-            , (android.widget.TextView) bindings[7]
-            , (android.widget.TextView) bindings[20]
-            , (android.widget.TextView) bindings[19]
-            , (android.widget.TextView) bindings[21]
-            , (android.widget.TextView) bindings[10]
-            , (android.widget.TextView) bindings[12]
-            , (android.widget.TextView) bindings[22]
-            , (android.widget.TextView) bindings[9]
-            , (android.widget.TextView) bindings[16]
+            , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[8]
-            , (android.widget.TextView) bindings[24]
-            , (android.widget.TextView) bindings[13]
-            , (android.widget.TextView) bindings[17]
+            , (android.widget.TextView) bindings[10]
+            , (android.widget.TextView) bindings[7]
+            , (android.widget.TextView) bindings[14]
+            , (android.widget.TextView) bindings[6]
+            , (android.widget.TextView) bindings[16]
+            , (android.widget.TextView) bindings[11]
             );
-        this.eTAltezza.setTag(null);
         this.eTCambioEmail.setTag(null);
         this.eTNome.setTag(null);
-        this.eTPeso.setTag(null);
         this.etCognome.setTag(null);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
@@ -154,15 +138,9 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.Double doubleValueOfViewModelProfiloPesoAttuale = null;
         androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Utente> viewModelProfilo = null;
-        java.lang.Integer integerValueOfViewModelProfiloAltezza = null;
-        java.lang.String integerValueOfViewModelProfiloAltezzaToString = null;
         com.example.letmebeyourchef.model.Utente viewModelProfiloGetValue = null;
         java.lang.String viewModelProfiloCognome = null;
-        java.lang.String doubleValueOfViewModelProfiloPesoAttualeToString = null;
-        int viewModelProfiloAltezza = 0;
-        double viewModelProfiloPesoAttuale = 0.0;
         java.lang.String viewModelProfiloDataNascita = null;
         java.lang.String viewModelProfiloEmail = null;
         java.lang.String viewModelProfiloNome = null;
@@ -188,10 +166,6 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
                 if (viewModelProfiloGetValue != null) {
                     // read viewModel.profilo.getValue().cognome
                     viewModelProfiloCognome = viewModelProfiloGetValue.getCognome();
-                    // read viewModel.profilo.getValue().altezza
-                    viewModelProfiloAltezza = viewModelProfiloGetValue.getAltezza();
-                    // read viewModel.profilo.getValue().peso_attuale
-                    viewModelProfiloPesoAttuale = viewModelProfiloGetValue.getPeso_attuale();
                     // read viewModel.profilo.getValue().data_nascita
                     viewModelProfiloDataNascita = viewModelProfiloGetValue.getData_nascita();
                     // read viewModel.profilo.getValue().email
@@ -199,31 +173,13 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
                     // read viewModel.profilo.getValue().nome
                     viewModelProfiloNome = viewModelProfiloGetValue.getNome();
                 }
-
-
-                // read Integer.valueOf(viewModel.profilo.getValue().altezza)
-                integerValueOfViewModelProfiloAltezza = java.lang.Integer.valueOf(viewModelProfiloAltezza);
-                // read Double.valueOf(viewModel.profilo.getValue().peso_attuale)
-                doubleValueOfViewModelProfiloPesoAttuale = java.lang.Double.valueOf(viewModelProfiloPesoAttuale);
-
-
-                if (integerValueOfViewModelProfiloAltezza != null) {
-                    // read Integer.valueOf(viewModel.profilo.getValue().altezza).toString()
-                    integerValueOfViewModelProfiloAltezzaToString = integerValueOfViewModelProfiloAltezza.toString();
-                }
-                if (doubleValueOfViewModelProfiloPesoAttuale != null) {
-                    // read Double.valueOf(viewModel.profilo.getValue().peso_attuale).toString()
-                    doubleValueOfViewModelProfiloPesoAttualeToString = doubleValueOfViewModelProfiloPesoAttuale.toString();
-                }
         }
         // batch finished
         if ((dirtyFlags & 0x7L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.eTAltezza, integerValueOfViewModelProfiloAltezzaToString);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.eTCambioEmail, viewModelProfiloEmail);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.eTNome, viewModelProfiloNome);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.eTPeso, doubleValueOfViewModelProfiloPesoAttualeToString);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.etCognome, viewModelProfiloCognome);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tVDataNascita, viewModelProfiloDataNascita);
         }

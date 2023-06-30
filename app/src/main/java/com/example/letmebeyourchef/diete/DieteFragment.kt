@@ -84,7 +84,7 @@ class DieteFragment : Fragment() {
                     with(builder){
                         setTitle("Dettagli della dieta")
                         setPositiveButton("Seleziona"){dialog, which ->
-                            model.updateDieta(model.dieteLiveData.value!![position].titolo, requireContext())
+//                            model.updateDieta(model.dieteLiveData.value!![position].titolo, requireContext())
                             model.getDiete()
 
                         }

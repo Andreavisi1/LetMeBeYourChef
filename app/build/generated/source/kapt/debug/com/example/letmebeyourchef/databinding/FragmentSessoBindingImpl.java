@@ -19,14 +19,14 @@ public class FragmentSessoBindingImpl extends FragmentSessoBinding  {
         sViewsWithIds.put(R.id.GruppoRadio_Sesso, 3);
         sViewsWithIds.put(R.id.rB_uomo, 4);
         sViewsWithIds.put(R.id.rB_donna, 5);
-        sViewsWithIds.put(R.id.linearLayout9, 6);
-        sViewsWithIds.put(R.id.imageView6, 7);
-        sViewsWithIds.put(R.id.imageView8, 8);
-        sViewsWithIds.put(R.id.imageView9, 9);
-        sViewsWithIds.put(R.id.imageView17, 10);
-        sViewsWithIds.put(R.id.imageView18, 11);
-        sViewsWithIds.put(R.id.imageView19, 12);
-        sViewsWithIds.put(R.id.imageView20, 13);
+        sViewsWithIds.put(R.id.linearLayout2, 6);
+        sViewsWithIds.put(R.id.imageView4, 7);
+        sViewsWithIds.put(R.id.textView13, 8);
+        sViewsWithIds.put(R.id.liniette, 9);
+        sViewsWithIds.put(R.id.imageView6, 10);
+        sViewsWithIds.put(R.id.imageView9, 11);
+        sViewsWithIds.put(R.id.imageView17, 12);
+        sViewsWithIds.put(R.id.imageView18, 13);
     }
     // views
     @NonNull
@@ -43,16 +43,16 @@ public class FragmentSessoBindingImpl extends FragmentSessoBinding  {
         super(bindingComponent, root, 0
             , (android.widget.RadioGroup) bindings[3]
             , (android.widget.Button) bindings[2]
-            , (android.widget.ImageView) bindings[10]
-            , (android.widget.ImageView) bindings[11]
             , (android.widget.ImageView) bindings[12]
             , (android.widget.ImageView) bindings[13]
             , (android.widget.ImageView) bindings[7]
-            , (android.widget.ImageView) bindings[8]
-            , (android.widget.ImageView) bindings[9]
+            , (android.widget.ImageView) bindings[10]
+            , (android.widget.ImageView) bindings[11]
             , (android.widget.LinearLayout) bindings[6]
+            , (android.widget.LinearLayout) bindings[9]
             , (android.widget.RadioButton) bindings[5]
             , (android.widget.RadioButton) bindings[4]
+            , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];

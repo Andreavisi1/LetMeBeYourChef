@@ -31,11 +31,10 @@ class SessoFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         var utente = args.utente
         utente.sesso=""
-        binding.imageView20.isVisible = utente.agonistico
         var listener = View.OnClickListener { v ->
             when(v.id){
-                R.id.rB_uomo -> utente.sesso = "Uomo"
-                R.id.rB_donna -> utente.sesso = "Donna"
+                R.id.rB_uomo -> utente.sesso = "Man"
+                R.id.rB_donna -> utente.sesso = "Woman"
             }
         }
 
@@ -52,7 +51,7 @@ class SessoFragment : Fragment() {
 
             } else {
                 // If no radio button checked in this radio group
-                Toast.makeText(context, "Per favore, seleziona un'opzione",Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Please, select an option",Toast.LENGTH_SHORT).show()
             }
         }
     }

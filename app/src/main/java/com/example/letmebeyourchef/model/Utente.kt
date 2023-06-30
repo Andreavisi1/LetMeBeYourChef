@@ -13,30 +13,11 @@ data class Utente(
         var nome: String,
         var cognome: String,
         var email: String,
-        var LAF: Double,
-        var agonistico: Boolean,
         var sesso: String,
         var data_nascita: String,
-        var altezza: Int,
-        var peso_attuale: Double,
-        var sport: String?,
-        var dieta: String
+        var dieta: String,
+        var intolleranze: String?
 
-) : Parcelable {    constructor(): this("","","",0.0,false,"","",0,0.0,"","Climatica")
-
-        @RequiresApi(Build.VERSION_CODES.O)
-        fun calculateFabbisogno(data_nascita :String, sesso: String, peso_attuale: Double, altezza:Int, LAF:Double) : Int{
-                val today = LocalDate.now()
-                val birthday: LocalDate = LocalDate.parse(data_nascita)
-                val period: Period = Period.between(birthday, today)
-                if(sesso == "Uomo")
-                        return ((66 + (13.7 * peso_attuale) + (5 * altezza) - (6.8 * period.years)) * LAF).toInt()
-                else
-                        return ((65 + (9.6 * peso_attuale) + (1.8 * altezza) - (4.7 * period.years)) * LAF).toInt()
-
-
-        }
-
-
+) : Parcelable {    constructor(): this("","","","","","",null)
 
 }

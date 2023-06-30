@@ -40,7 +40,6 @@ class DatiPersonaliFragment : Fragment() {
         utente.data_nascita=""
         utente.nome=""
         utente.cognome=""
-        binding.imageView28.isVisible = utente.agonistico
         //calendario
         val oggi = LocalDate.now()
         val minima = LocalDate.of(oggi.year-15,oggi.monthValue,oggi.dayOfMonth)
@@ -82,11 +81,11 @@ class DatiPersonaliFragment : Fragment() {
             utente.nome = binding.tEName.text.toString()
             utente.cognome = binding.tESurname.text.toString()
             if(utente.data_nascita != "" && utente.nome != "" && utente.cognome != ""){
-                val action = DatiPersonaliFragmentDirections.actionDatiPersonaliFragmentToAltezzaFragment(utente)
+                val action = DatiPersonaliFragmentDirections.actionDatiPersonaliFragmentToIntolleranzeFragment(utente)
                 view.findNavController().navigate(action)
             }
             else
-                Toast.makeText(context, "Per favore, completa tutti i campi",Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Please, correctly fill all the required fields",Toast.LENGTH_SHORT).show()
 
         }
 

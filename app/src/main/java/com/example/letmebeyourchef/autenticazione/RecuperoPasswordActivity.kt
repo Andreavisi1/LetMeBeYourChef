@@ -28,10 +28,10 @@ class RecuperoPasswordActivity : AppCompatActivity() {
                     val task = model.resetPassword(email)
                     task.addOnCompleteListener{
                         if (it.isSuccessful) {
-                            Toast.makeText(this@RecuperoPasswordActivity, "Email inviata con successo all'indirizzo indicato!", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@RecuperoPasswordActivity, "Email successfully sent to the address indicated!", Toast.LENGTH_LONG).show()
                             finish()
                         } else {
-                            Toast.makeText(this@RecuperoPasswordActivity,"Email non registrata o non corretta!",Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@RecuperoPasswordActivity,"Unregistered or incorrect email!",Toast.LENGTH_LONG).show()
                         }
                     }
                 }
@@ -41,12 +41,12 @@ class RecuperoPasswordActivity : AppCompatActivity() {
     private fun checkFields(TextEmailInfo: String): Boolean {
 
         if(TextEmailInfo.isEmpty()) {
-            binding.InputRecupero.setError("Per favore completa il campo")
+            binding.InputRecupero.setError("Please complete the field")
             binding.InputRecupero.requestFocus()
             return false
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(TextEmailInfo).matches()) {
-            binding.InputRecupero.setError("Inserire un'email valida!")
+            binding.InputRecupero.setError("Insert a valid email")
             binding.InputRecupero.requestFocus()
             return false
         }

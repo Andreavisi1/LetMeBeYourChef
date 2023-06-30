@@ -15,20 +15,17 @@ public class FragmentDatiPersonaliBindingImpl extends FragmentDatiPersonaliBindi
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.linearLayout, 1);
-        sViewsWithIds.put(R.id.imageView22, 2);
-        sViewsWithIds.put(R.id.imageView23, 3);
-        sViewsWithIds.put(R.id.imageView24, 4);
-        sViewsWithIds.put(R.id.imageView25, 5);
-        sViewsWithIds.put(R.id.imageView26, 6);
-        sViewsWithIds.put(R.id.imageView27, 7);
-        sViewsWithIds.put(R.id.imageView28, 8);
-        sViewsWithIds.put(R.id.tE_name, 9);
-        sViewsWithIds.put(R.id.tE_surname, 10);
-        sViewsWithIds.put(R.id.bt_AvantiDati, 11);
-        sViewsWithIds.put(R.id.linearLayout3, 12);
-        sViewsWithIds.put(R.id.textView5, 13);
-        sViewsWithIds.put(R.id.tv_dataNascita, 14);
-        sViewsWithIds.put(R.id.textView3, 15);
+        sViewsWithIds.put(R.id.imageView6, 2);
+        sViewsWithIds.put(R.id.imageView9, 3);
+        sViewsWithIds.put(R.id.imageView17, 4);
+        sViewsWithIds.put(R.id.imageView18, 5);
+        sViewsWithIds.put(R.id.bt_AvantiDati, 6);
+        sViewsWithIds.put(R.id.textView3, 7);
+        sViewsWithIds.put(R.id.tE_name, 8);
+        sViewsWithIds.put(R.id.tE_surname, 9);
+        sViewsWithIds.put(R.id.linearLayout3, 10);
+        sViewsWithIds.put(R.id.textView5, 11);
+        sViewsWithIds.put(R.id.tv_dataNascita, 12);
     }
     // views
     @NonNull
@@ -39,25 +36,22 @@ public class FragmentDatiPersonaliBindingImpl extends FragmentDatiPersonaliBindi
     // Inverse Binding Event Handlers
 
     public FragmentDatiPersonaliBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
     private FragmentDatiPersonaliBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[11]
-            , (android.widget.ImageView) bindings[2]
-            , (android.widget.ImageView) bindings[3]
+            , (android.widget.Button) bindings[6]
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[5]
-            , (android.widget.ImageView) bindings[6]
-            , (android.widget.ImageView) bindings[7]
-            , (android.widget.ImageView) bindings[8]
+            , (android.widget.ImageView) bindings[2]
+            , (android.widget.ImageView) bindings[3]
             , (android.widget.LinearLayout) bindings[1]
-            , (android.widget.LinearLayout) bindings[12]
+            , (android.widget.LinearLayout) bindings[10]
+            , (android.widget.EditText) bindings[8]
             , (android.widget.EditText) bindings[9]
-            , (android.widget.EditText) bindings[10]
-            , (android.widget.TextView) bindings[15]
-            , (android.widget.TextView) bindings[13]
-            , (android.widget.TextView) bindings[14]
+            , (android.widget.TextView) bindings[7]
+            , (android.widget.TextView) bindings[11]
+            , (android.widget.TextView) bindings[12]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

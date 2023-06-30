@@ -40,17 +40,16 @@ class AuthViewModel : ViewModel() {
     }
 
 
-    suspend fun addAuthUtenteOnDB(nome:String, cognome:String, email:String, LAF:Double, agonistico:Boolean,
-                                  sesso:String, data_nascita:String, altezza:Int, peso_attuale:Double,
-                                  sport:String?,contesto: Context) {
+    suspend fun addAuthUtenteOnDB(nome:String, cognome:String, email:String,
+                                  sesso:String, data_nascita:String,
+                                  intolleranze:String?,contesto: Context) {
         try {
             val user = auth.currentUser
             val profileUpdates = userProfileChangeRequest {
                 displayName = nome + ' ' + cognome
             }
             user!!.updateProfile(profileUpdates)
-            utenteDB.addUtente(nome, cognome, email,LAF, agonistico ,sesso, data_nascita, altezza,
-                                peso_attuale, sport, contesto)
+            utenteDB.addUtente(nome, cognome, email, sesso, data_nascita, intolleranze, contesto)
 
         } catch (e: Exception) {
         }

@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:padding="8dp"
     android:text="Menù"
-    android:textSize="17sp"
+    android:textSize="7sp"
     android:textColor="@color/white"
     android:textAlignment="textEnd">
 </CheckedTextView>

@@ -18,7 +18,7 @@
             android:layout_marginTop="20dp" app:layout_constraintHorizontal_bias="0.498"
             android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
     <TextView
-            android:text="OK! Siamo arrivati all'ultimo passaggio"
+            android:text="PERFECT! We're at the final stage"
             android:layout_width="0dp"
             android:layout_height="wrap_content" android:id="@+id/TitleReg"
             android:textSize="30sp" android:textStyle="bold|italic" android:textAlignment="center"
@@ -78,7 +78,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:drawableLeft="@mipmap/baseline_password_white_24"
             app:layout_constraintHorizontal_bias="0.496"
-            android:hint="Conferma password" android:textColorHint="@color/white"
+            android:hint="Confirm password" android:textColorHint="@color/white"
             android:backgroundTint="@color/green_primary"
             android:textColor="@color/white" android:background="@drawable/input_bg_green" android:paddingLeft="20dp"
             android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp"
@@ -86,7 +86,7 @@
             app:layout_constraintTop_toBottomOf="@+id/InputPassword" android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"/>
     <Button
-            android:text="@string/register"
+            android:text="Register"
             android:layout_width="225dp"
             android:layout_height="65dp" android:id="@+id/btnRegister"
             app:layout_constraintEnd_toEndOf="@+id/InputCorrectPassword"
@@ -106,33 +106,22 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="10dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp">
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView66" android:layout_weight="1"/>
+            android:src="@drawable/linietta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView6" android:layout_weight="2"/>
+
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView62" android:layout_weight="1"/>
+            android:src="@drawable/linietta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView9" android:layout_weight="2"/>
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView63" android:layout_weight="1"/>
+            android:src="@drawable/linietta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView17" android:layout_weight="2"/>
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView64" android:layout_weight="1"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView65" android:layout_weight="1"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView67" android:layout_weight="1"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/linietta"
-                android:id="@+id/imageView68" android:layout_weight="1"/>
+            android:src="@drawable/linietta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView18" android:layout_weight="2"/>
     </LinearLayout>
 
     <ProgressBar

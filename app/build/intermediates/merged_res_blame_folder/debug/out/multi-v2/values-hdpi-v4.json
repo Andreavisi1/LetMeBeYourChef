@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/3ca8135f45033173671ecffcbc9c0617/transformed/jetified-core-1.9.8/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/040836791149e64feccbe93535580348/transformed/jetified-core-1.9.8/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

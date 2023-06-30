@@ -10,9 +10,14 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
+import androidx.room.InvalidationTracker
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.FragmentStatisticheBinding
+import com.example.letmebeyourchef.model.Diario
+import kotlinx.android.synthetic.main.fragment_statistiche.*
 import java.time.LocalDate
+import java.util.*
+import kotlin.collections.ArrayList
 
 class StatisticheFragment : Fragment() {
 

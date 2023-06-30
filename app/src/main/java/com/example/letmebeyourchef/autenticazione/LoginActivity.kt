@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.letmebeyourchef.databinding.ActivityLoginBinding
 import com.example.letmebeyourchef.home.HomeActivity
-import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.coroutines.launch
 
 
@@ -70,7 +69,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun checkFields(email : String , password: String) : Boolean{
         if(email.isEmpty()){
-            binding.InputEmailLogin.setError("Per favore completa il campo per effettuare l'accesso")
+            binding.InputEmailLogin.setError("Please complete the field to log in")
             binding.InputEmailLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false

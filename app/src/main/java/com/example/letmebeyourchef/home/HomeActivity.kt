@@ -5,34 +5,26 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.letmebeyourchef.ActivityDettagliRicetta
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
-import com.example.letmebeyourchef.autenticazione.InizioActivity
-//import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
+//import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.diario.DiarioFragment
 import com.example.letmebeyourchef.diete.DieteFragment
+import com.example.letmebeyourchef.dispensa.DispensaFragment
 import com.example.letmebeyourchef.funzioni.FunzioniFragment
+import com.example.letmebeyourchef.homepage.HomepageFragment
 //import com.example.letmebeyourchef.diario.DiarioFragment
 //import com.example.letmebeyourchef.diete.DieteFragment
 //import com.example.letmebeyourchef.funzioni.FunzioniFragment
-import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
-import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.profilo.ProfiloActivity
-import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
-import com.example.letmebeyourchef.statistiche.StatisticheFragment
 //import com.example.letmebeyourchef.statistiche.StatisticheFragment
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
@@ -40,9 +32,11 @@ class HomeActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
     val diarioFragment = DiarioFragment()
-    val statisticheFragment = StatisticheFragment()
+    val dispensaFragment = DispensaFragment()
     val dieteFragment = DieteFragment()
     val funzioniFragment = FunzioniFragment()
+
+    val homeFragment = HomepageFragment()
 
     private val model = HomeViewModel()
     private var doubleBackToExitPressedOnce = false
@@ -60,22 +54,19 @@ class HomeActivity : AppCompatActivity() {
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
 
-        setContentView(R.layout.activity_home)
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading recipes...")
-
-
 
 
 
         var bottomNav = binding.bottomNavigation
         setContentView(binding.root)
         binding.bottomNavigation.selectTabById(R.id.ic_home,true)
-//        replaceFragment(diarioFragment) // La home si aprirà sul fragment del diario
+        replaceFragment(homeFragment) // La home si aprirà sul fragment principale
 
 
 
-        searchView = findViewById(R.id.searchview_home)
+/*        searchView = findViewById(R.id.searchview_home)
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             public override fun onQueryTextSubmit(query: String): Boolean {
                 tags.clear()
@@ -100,7 +91,7 @@ class HomeActivity : AppCompatActivity() {
         spinner.setOnItemSelectedListener(spinnerSelectedListener)
         manager = RequestManager(this)
         //        manager.getRicetteRandom(responseListenerRicetteRandom);
-//        dialog.show();
+//        dialog.show();*/
 
         bottomNav.setOnTabSelectListener(object : AnimatedBottomBar.OnTabSelectListener {
             override fun onTabSelected(
@@ -111,8 +102,8 @@ class HomeActivity : AppCompatActivity() {
             ) {
                 //redirecting fragment
                 when(newIndex){
-                    0 -> replaceFragment(diarioFragment);
-                    1 -> replaceFragment(statisticheFragment);
+                    0 -> replaceFragment(homeFragment);
+                    1 -> replaceFragment(dispensaFragment);
                     2 -> replaceFragment(dieteFragment);
                     3 -> replaceFragment(funzioniFragment);
                     else -> replaceFragment(diarioFragment)
@@ -172,7 +163,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
 
-
+/*
     private val responseListenerRicetteRandom: ResponseListenerRicetteRandom =
         object : ResponseListenerRicetteRandom {
             public override fun didFetch(
@@ -220,7 +211,7 @@ class HomeActivity : AppCompatActivity() {
         }
     }
 
-
+*/
 }
 
 

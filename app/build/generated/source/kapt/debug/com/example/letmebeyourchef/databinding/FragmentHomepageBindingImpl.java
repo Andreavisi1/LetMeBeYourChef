@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
+public class FragmentHomepageBindingImpl extends FragmentHomepageBinding  {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -14,10 +14,13 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.spinner_tags, 1);
-        sViewsWithIds.put(R.id.cardView, 2);
-        sViewsWithIds.put(R.id.searchview_home, 3);
-        sViewsWithIds.put(R.id.recycler_random, 4);
+        sViewsWithIds.put(R.id.scrollView2, 1);
+        sViewsWithIds.put(R.id.linear, 2);
+        sViewsWithIds.put(R.id.linearLayout12, 3);
+        sViewsWithIds.put(R.id.cardView, 4);
+        sViewsWithIds.put(R.id.searchview_home, 5);
+        sViewsWithIds.put(R.id.spinner_tags, 6);
+        sViewsWithIds.put(R.id.recycler_random, 7);
     }
     // views
     @NonNull
@@ -27,15 +30,18 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
     // listeners
     // Inverse Binding Event Handlers
 
-    public FragmentHomeBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+    public FragmentHomepageBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
-    private FragmentHomeBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private FragmentHomepageBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (androidx.cardview.widget.CardView) bindings[2]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[4]
-            , (androidx.appcompat.widget.SearchView) bindings[3]
-            , (android.widget.Spinner) bindings[1]
+            , (androidx.cardview.widget.CardView) bindings[4]
+            , (android.widget.LinearLayout) bindings[2]
+            , (android.widget.LinearLayout) bindings[3]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[7]
+            , (android.widget.ScrollView) bindings[1]
+            , (androidx.appcompat.widget.SearchView) bindings[5]
+            , (android.widget.Spinner) bindings[6]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
@@ -66,7 +72,7 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.viewModel == variableId) {
-            setViewModel((com.example.letmebeyourchef.home.HomeViewModel) variable);
+            setViewModel((com.example.letmebeyourchef.homepage.HomepageViewModel) variable);
         }
         else {
             variableSet = false;
@@ -74,7 +80,7 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
             return variableSet;
     }
 
-    public void setViewModel(@Nullable com.example.letmebeyourchef.home.HomeViewModel ViewModel) {
+    public void setViewModel(@Nullable com.example.letmebeyourchef.homepage.HomepageViewModel ViewModel) {
         this.mViewModel = ViewModel;
     }
 

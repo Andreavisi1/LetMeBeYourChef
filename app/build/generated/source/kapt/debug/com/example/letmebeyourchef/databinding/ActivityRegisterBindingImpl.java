@@ -21,14 +21,11 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
         sViewsWithIds.put(R.id.InputCorrectPassword, 5);
         sViewsWithIds.put(R.id.btnRegister, 6);
         sViewsWithIds.put(R.id.linearLayout11, 7);
-        sViewsWithIds.put(R.id.imageView66, 8);
-        sViewsWithIds.put(R.id.imageView62, 9);
-        sViewsWithIds.put(R.id.imageView63, 10);
-        sViewsWithIds.put(R.id.imageView64, 11);
-        sViewsWithIds.put(R.id.imageView65, 12);
-        sViewsWithIds.put(R.id.imageView67, 13);
-        sViewsWithIds.put(R.id.imageView68, 14);
-        sViewsWithIds.put(R.id.progressBar3, 15);
+        sViewsWithIds.put(R.id.imageView6, 8);
+        sViewsWithIds.put(R.id.imageView9, 9);
+        sViewsWithIds.put(R.id.imageView17, 10);
+        sViewsWithIds.put(R.id.imageView18, 11);
+        sViewsWithIds.put(R.id.progressBar3, 12);
     }
     // views
     @NonNull
@@ -39,7 +36,7 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityRegisterBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
     private ActivityRegisterBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -48,16 +45,13 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
             , (android.widget.EditText) bindings[3]
             , (android.widget.TextView) bindings[2]
             , (android.widget.Button) bindings[6]
-            , (android.widget.ImageView) bindings[1]
-            , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[10]
             , (android.widget.ImageView) bindings[11]
-            , (android.widget.ImageView) bindings[12]
+            , (android.widget.ImageView) bindings[1]
             , (android.widget.ImageView) bindings[8]
-            , (android.widget.ImageView) bindings[13]
-            , (android.widget.ImageView) bindings[14]
+            , (android.widget.ImageView) bindings[9]
             , (android.widget.LinearLayout) bindings[7]
-            , (android.widget.ProgressBar) bindings[15]
+            , (android.widget.ProgressBar) bindings[12]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

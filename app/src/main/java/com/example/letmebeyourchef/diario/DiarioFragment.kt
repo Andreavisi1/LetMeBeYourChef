@@ -69,8 +69,6 @@ class DiarioFragment : Fragment() {
         glasses = arrayOf(binding.glass1,binding.glass2,binding.glass3,binding.glass4,
                             binding.glass5,binding.glass6,binding.glass7,binding.glass8)
 
-
-
         onClickGlass()
         setOnclickPasti()
 
@@ -78,7 +76,7 @@ class DiarioFragment : Fragment() {
 
         val diarioObserver = Observer<Diario> {
             if (model.diario.value == null && contatore == 0) {
-                model.setDiarioOnDB()
+//                model.setDiarioOnDB()
                 model.getUserDiarioDB()
             }else{
                 if(contatore < 1) {
@@ -105,7 +103,7 @@ class DiarioFragment : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        setDiario()
+//        setDiario()
 
 
 
@@ -113,7 +111,7 @@ class DiarioFragment : Fragment() {
 
     override fun onPause() {
         super.onPause()
-        setDiario()
+//        setDiario()
 
     }
 
@@ -335,14 +333,14 @@ class DiarioFragment : Fragment() {
 
 
 
-    private fun setDiario(){
+/*    private fun setDiario(){
         model.getUserDiarioDB()
         model.setDiarioOnDB(model.diario.value!!.grassiTot, model.diario.value!!.proteineTot,
             model.diario.value!!.carboidratiTot, model.diario.value!!.chiloCalorieEsercizio,
             model.diario.value!!.chiloCalorieColazione, model.diario.value!!.chiloCaloriePranzo,
             model.diario.value!!.chiloCalorieCena, model.diario.value!!.chiloCalorieSpuntino,
             acqua)
-    }
+    }*/
 
 
 

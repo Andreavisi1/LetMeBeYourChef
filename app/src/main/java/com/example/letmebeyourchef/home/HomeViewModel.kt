@@ -1,24 +1,11 @@
 package com.example.letmebeyourchef.home
 
-import android.content.Intent
-import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Toast
-import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.recyclerview.widget.GridLayoutManager
-import com.example.letmebeyourchef.ActivityDettagliRicetta
-import com.example.letmebeyourchef.R
-import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
 import com.example.letmebeyourchef.databaseFB.UtenteDB
-import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
-import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.model.Utente
-import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 
