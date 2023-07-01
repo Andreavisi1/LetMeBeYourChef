@@ -106,7 +106,7 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.2' //importa immagini da un URL specifico
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
-    implementation 'com.google.firebase:firebase-firestore-ktx:24.4.0'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.4.1'
     implementation "com.google.firebase:firebase-auth"
 
     testImplementation 'org.mockito:mockito-core:2.24.5'
@@ -182,5 +182,11 @@ dependencies {
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
+    implementation 'com.google.android.gms:play-services-auth:20.6.0'
+
+
+    implementation 'com.facebook.android:facebook-login:latest.release'
+
 
 }
+apply plugin: 'com.google.gms.google-services'

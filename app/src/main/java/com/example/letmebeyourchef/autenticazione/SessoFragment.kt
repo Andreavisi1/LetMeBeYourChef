@@ -12,10 +12,12 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.FragmentSessoBinding
+import com.example.letmebeyourchef.model.Utente
 
 class SessoFragment : Fragment() {
     lateinit var binding: FragmentSessoBinding
     val args: SessoFragmentArgs by navArgs()
+    val utente = Utente()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -29,7 +31,6 @@ class SessoFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        var utente = args.utente
         utente.sesso=""
         var listener = View.OnClickListener { v ->
             when(v.id){

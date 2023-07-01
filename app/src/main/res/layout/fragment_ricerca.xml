@@ -17,7 +17,7 @@
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:background="@color/green_primary"
+                android:background="@color/orange_white"
                 android:layout_height="50dp"
                 android:paddingLeft="20dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +29,7 @@
                     android:clickable="true"
                     app:iconifiedByDefault="false"
                     android:id="@+id/searchBar1"
+                    android:backgroundTint="@color/orange_primary"
                     android:layout_width="wrap_content"
                     android:minWidth = "300dp"
                     android:maxWidth = "450dp"
@@ -47,6 +48,7 @@
                     android:layout_width="50dp"
                     android:layout_height="40dp"
                     android:gravity="center"
+                    android:backgroundTint="@color/orange_primary"
                     android:background="@drawable/animazione_3">
 
                 <ImageView

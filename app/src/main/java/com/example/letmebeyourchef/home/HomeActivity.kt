@@ -1,5 +1,6 @@
 package com.example.letmebeyourchef.home
 
+import DispensaFragment
 import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
@@ -18,7 +19,6 @@ import com.example.letmebeyourchef.databinding.ActivityHomeBinding
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.diario.DiarioFragment
 import com.example.letmebeyourchef.diete.DieteFragment
-import com.example.letmebeyourchef.dispensa.DispensaFragment
 import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.homepage.HomepageFragment
 //import com.example.letmebeyourchef.diario.DiarioFragment
@@ -36,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
     val dieteFragment = DieteFragment()
     val funzioniFragment = FunzioniFragment()
 
-    val homeFragment = HomepageFragment()
+    val homepageFragment = HomepageFragment()
 
     private val model = HomeViewModel()
     private var doubleBackToExitPressedOnce = false
@@ -62,7 +62,7 @@ class HomeActivity : AppCompatActivity() {
         var bottomNav = binding.bottomNavigation
         setContentView(binding.root)
         binding.bottomNavigation.selectTabById(R.id.ic_home,true)
-        replaceFragment(homeFragment) // La home si aprirà sul fragment principale
+        replaceFragment(homepageFragment) // La home si aprirà sul fragment principale
 
 
 
@@ -102,8 +102,8 @@ class HomeActivity : AppCompatActivity() {
             ) {
                 //redirecting fragment
                 when(newIndex){
-                    0 -> replaceFragment(homeFragment);
-                    1 -> replaceFragment(dispensaFragment);
+                    0 -> replaceFragment(homepageFragment);
+                    1 -> replaceFragment(diarioFragment);
                     2 -> replaceFragment(dieteFragment);
                     3 -> replaceFragment(funzioniFragment);
                     else -> replaceFragment(diarioFragment)

@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
+public class ItemIngredienteBindingImpl extends ItemIngredienteBinding  {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -18,23 +18,21 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
     // views
     @NonNull
     private final android.widget.LinearLayout mboundView0;
-    @NonNull
-    private final android.widget.TextView mboundView1;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemIngredientBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemIngredienteBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
     }
-    private ItemIngredientBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemIngredienteBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.TextView) bindings[1]
             );
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
-        this.mboundView1 = (android.widget.TextView) bindings[1];
-        this.mboundView1.setTag(null);
+        this.nomeIngrediente.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -43,7 +41,7 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x4L;
+                mDirtyFlags = 0x2L;
         }
         requestRebind();
     }
@@ -61,11 +59,8 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
     @Override
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
-        if (BR.ingredient == variableId) {
-            setIngredient((java.lang.String) variable);
-        }
-        else if (BR.viewModel == variableId) {
-            setViewModel((com.example.letmebeyourchef.dispensa.DispensaViewModel) variable);
+        if (BR.ingrediente == variableId) {
+            setIngrediente((java.lang.String) variable);
         }
         else {
             variableSet = false;
@@ -73,16 +68,13 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
             return variableSet;
     }
 
-    public void setIngredient(@Nullable java.lang.String Ingredient) {
-        this.mIngredient = Ingredient;
+    public void setIngrediente(@Nullable java.lang.String Ingrediente) {
+        this.mIngrediente = Ingrediente;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
         }
-        notifyPropertyChanged(BR.ingredient);
+        notifyPropertyChanged(BR.ingrediente);
         super.requestRebind();
-    }
-    public void setViewModel(@Nullable com.example.letmebeyourchef.dispensa.DispensaViewModel ViewModel) {
-        this.mViewModel = ViewModel;
     }
 
     @Override
@@ -99,15 +91,15 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String ingredient = mIngredient;
+        java.lang.String ingrediente = mIngrediente;
 
-        if ((dirtyFlags & 0x5L) != 0) {
+        if ((dirtyFlags & 0x3L) != 0) {
         }
         // batch finished
-        if ((dirtyFlags & 0x5L) != 0) {
+        if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, ingredient);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.nomeIngrediente, ingrediente);
         }
     }
     // Listener Stub Implementations
@@ -115,9 +107,8 @@ public class ItemIngredientBindingImpl extends ItemIngredientBinding  {
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
-        flag 0 (0x1L): ingredient
-        flag 1 (0x2L): viewModel
-        flag 2 (0x3L): null
+        flag 0 (0x1L): ingrediente
+        flag 1 (0x2L): null
     flag mapping end*/
     //end
 }

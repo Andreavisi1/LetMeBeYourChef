@@ -21,6 +21,8 @@ import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import java.io.BufferedReader
+import java.io.InputStreamReader
 import java.time.LocalDate
 
 
@@ -49,10 +51,38 @@ class AggiungiViewModel : ViewModel() {
 
 
 
+    private var _ingredientiLiveData = MutableLiveData<List<String>>()
+    val ingredientiLiveData: MutableLiveData<List<String>>
+        get() = _ingredientiLiveData
+
 
 
 
     fun getFoodFromNameorUPC(ingr : String, upc : String, context: Context) {
+
+
+
+
+
+        /*val inputStream = context.assets.open("ingredienti.txt")
+        val reader = BufferedReader(InputStreamReader(inputStream))
+        val ingredienti = mutableListOf<String>()
+        var line: String? = reader.readLine()
+        while (line != null) {
+            val parts = line.split(";")
+            if (parts.size == 2) {
+                val nome = parts[0]
+                ingredienti.add(nome)
+            }
+            line = reader.readLine()
+        }
+        reader.close()
+
+        _ingredientiLiveData.postValue(ingredienti)*/
+
+
+
+
 
         RetrofitInstance.api.getFoodFromNameOrUPC(APICredentials.API_ID,APICredentials.API_KEY,ingr,upc)
             .enqueue(object : Callback<Json_FoodList> {

@@ -286,4 +286,12 @@ class RequestManager constructor(var context: Context) {
 
         ): Call<List<ResponseFromApiRecipesByIngredients>>
     }
+
+
+    private open interface GetIngredienti {
+        @GET("ingredients")
+        suspend fun getIngredienti(): Response<List<String>>
+
+
+    }
 }

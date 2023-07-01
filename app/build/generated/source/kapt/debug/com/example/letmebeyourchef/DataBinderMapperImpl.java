@@ -34,7 +34,7 @@ import com.example.letmebeyourchef.databinding.FragmentPreferitiBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentRicercaBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentSessoBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentStatisticheBindingImpl;
-import com.example.letmebeyourchef.databinding.ItemIngredientBindingImpl;
+import com.example.letmebeyourchef.databinding.ItemIngredienteBindingImpl;
 import com.example.letmebeyourchef.databinding.LayoutItemEsercizioPrefBindingImpl;
 import com.example.letmebeyourchef.databinding.LayoutItemEsercizioSelezionatoBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -104,7 +104,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTSTATISTICHE = 28;
 
-  private static final int LAYOUT_ITEMINGREDIENT = 29;
+  private static final int LAYOUT_ITEMINGREDIENTE = 29;
 
   private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 30;
 
@@ -141,7 +141,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ricerca, LAYOUT_FRAGMENTRICERCA);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_sesso, LAYOUT_FRAGMENTSESSO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_statistiche, LAYOUT_FRAGMENTSTATISTICHE);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.item_ingredient, LAYOUT_ITEMINGREDIENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.item_ingrediente, LAYOUT_ITEMINGREDIENTE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.layout_item_esercizio_pref, LAYOUT_LAYOUTITEMESERCIZIOPREF);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.layout_item_esercizio_selezionato, LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO);
   }
@@ -323,11 +323,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_statistiche is invalid. Received: " + tag);
         }
-        case  LAYOUT_ITEMINGREDIENT: {
-          if ("layout/item_ingredient_0".equals(tag)) {
-            return new ItemIngredientBindingImpl(component, view);
+        case  LAYOUT_ITEMINGREDIENTE: {
+          if ("layout/item_ingrediente_0".equals(tag)) {
+            return new ItemIngredienteBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for item_ingredient is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for item_ingrediente is invalid. Received: " + tag);
         }
         case  LAYOUT_LAYOUTITEMESERCIZIOPREF: {
           if ("layout/layout_item_esercizio_pref_0".equals(tag)) {
@@ -390,7 +390,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
     static {
       sKeys.put(0, "_all");
-      sKeys.put(1, "ingredient");
+      sKeys.put(1, "ingrediente");
       sKeys.put(2, "viewModel");
     }
   }
@@ -427,7 +427,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_ricerca_0", com.example.letmebeyourchef.R.layout.fragment_ricerca);
       sKeys.put("layout/fragment_sesso_0", com.example.letmebeyourchef.R.layout.fragment_sesso);
       sKeys.put("layout/fragment_statistiche_0", com.example.letmebeyourchef.R.layout.fragment_statistiche);
-      sKeys.put("layout/item_ingredient_0", com.example.letmebeyourchef.R.layout.item_ingredient);
+      sKeys.put("layout/item_ingrediente_0", com.example.letmebeyourchef.R.layout.item_ingrediente);
       sKeys.put("layout/layout_item_esercizio_pref_0", com.example.letmebeyourchef.R.layout.layout_item_esercizio_pref);
       sKeys.put("layout/layout_item_esercizio_selezionato_0", com.example.letmebeyourchef.R.layout.layout_item_esercizio_selezionato);
     }

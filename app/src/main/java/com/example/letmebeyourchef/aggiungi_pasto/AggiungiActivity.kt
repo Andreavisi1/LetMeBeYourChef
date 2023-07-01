@@ -17,19 +17,11 @@ class AggiungiActivity : AppCompatActivity() {
     val personalizzatiFragment = PersonalizzatiFragment()
     val preferitiFragment = PreferitiFragment ()
 
-
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_aggiungi)
 
-        if (intent.getStringExtra("bottone") != null)
-            binding.aggToolbar.title =  intent.getStringExtra("bottone")
-
-
+        binding.aggToolbar.title =  ("Which ingredients are you looking for?")
         var bottomNav = binding.bottomNavigation
         setContentView(binding.root)
         binding.bottomNavigation.selectTabById(R.id.ricerca,true)

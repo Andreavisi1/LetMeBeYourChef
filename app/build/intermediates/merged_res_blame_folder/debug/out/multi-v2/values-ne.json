@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-85:/values-ne/values-ne.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-ne/values-ne.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/7cbbb6461ab9ef01aa2bb2e7ba53f149/transformed/jetified-ui-1.0.1/res/values-ne/values-ne.xml",
@@ -106,7 +106,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/19d095a00823797431d29dea535ffc7d/transformed/jetified-play-services-basement-18.1.0/res/values-ne/values.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/070fbebdab32a94e4cda97f42af1d6de/transformed/jetified-play-services-basement-18.2.0/res/values-ne/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

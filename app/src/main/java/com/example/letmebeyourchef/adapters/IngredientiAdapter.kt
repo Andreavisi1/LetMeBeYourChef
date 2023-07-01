@@ -11,8 +11,10 @@ import com.example.letmebeyourchef.recipeModels.ExtendedIngredient
 import com.example.letmebeyourchef.R
 import com.squareup.picasso.Picasso
 
-class IngredientiAdapter(var context: Context, var list: List<ExtendedIngredient?>?) :
+class IngredientiAdapter(var context: Context, var list: ArrayList<ExtendedIngredient>?) :
     RecyclerView.Adapter<IngredientiViewHolder>() {
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): IngredientiViewHolder {
         return IngredientiViewHolder(
             LayoutInflater.from(context).inflate(R.layout.list_ingredienti_ricette, parent, false)

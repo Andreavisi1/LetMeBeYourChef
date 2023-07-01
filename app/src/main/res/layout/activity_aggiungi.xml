@@ -8,12 +8,13 @@
         tools:context=".aggiungi_pasto.AggiungiActivity">
 
     <androidx.appcompat.widget.Toolbar
+            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             android:id="@+id/agg_toolbar"
-            app:titleTextColor="@color/white"
-            android:background="@color/green_primary"
+            app:titleTextColor="@color/orange"
+            android:background="@color/orange_white"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
             app:layout_constraintTop_toBottomOf="@+id/agg_toolbar">
-
     </FrameLayout>
 
     <nl.joery.animatedbottombar.AnimatedBottomBar
@@ -35,10 +35,11 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             app:abb_tabs="@menu/bottom_nav_aggiungi"
-            android:background="@color/green_primary"
+            android:background="@color/orange_primary"
             app:itemTextColor="@color/white"
+            app:abb_badgeTextColor="@color/white"
             app:abb_selectedTabType="text"
-            app:abb_tabColor="@color/black_overlay"
+            app:abb_tabColor="@color/black"
             app:abb_textStyle="bold"
             app:abb_textSize="16sp"
             app:abb_rippleEnabled="true"

@@ -8,9 +8,9 @@ class APICredentials {
         @JvmStatic
         val BASE_URL: String = "https://api.edamam.com"
         @JvmStatic
-        val API_ID: String = "a4e62224"
+        val API_ID: String = "6d0d3ab1"
         @JvmStatic
-        val API_KEY: String = "2b0adbda47d1293d35d373d9f2ffcee1"
+        val API_KEY: String = "5355f539fc827d9d34f00f48942bd759"
         @JvmStatic
         val BASE_URL_ESERCIZI: String = "https://api.api-ninjas.com"
         @JvmStatic

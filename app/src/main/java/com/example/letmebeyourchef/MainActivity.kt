@@ -24,16 +24,15 @@ class MainActivity : AppCompatActivity() {
 
 
         if (model.checkUtenteisLoggato()) {
-            val intent = Intent(this@MainActivity, InizioActivity::class.java)
+            val intent = Intent(this@MainActivity, HomeActivity::class.java)
             startActivity(intent)
             finish()
 
 
-            //SCAMBIARE HOMEACTIVITY con INIZIOACTIVITY
 
 
         } else {
-            val intent = Intent(this@MainActivity, HomeActivity::class.java)
+            val intent = Intent(this@MainActivity, InizioActivity::class.java)
             startActivity(intent)
             finish()
         }

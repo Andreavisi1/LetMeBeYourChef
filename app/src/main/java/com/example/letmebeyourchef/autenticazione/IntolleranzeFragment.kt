@@ -52,13 +52,11 @@ class IntolleranzeFragment : Fragment() {
         utente.intolleranze = ""
         takeChecked()
         binding.btAvantiIntolleranze.setOnClickListener {
-            if (utente.intolleranze == "")
-                Toast.makeText(context,"Please, complete the field", Toast.LENGTH_SHORT).show()
-            else {
+
                 val intent = Intent(context, RegisterActivity::class.java)
-                intent.putExtra("user", utente)
+                intent.putExtra("utente", utente)
                 startActivity(intent)
-            }
+
         }
     }
 
