@@ -6,22 +6,23 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Bundle
 import android.util.Patterns
+import android.view.View
 import android.widget.ProgressBar
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.navArgs
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.ActivityRegisterBinding
 import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.Identity
 import com.google.android.gms.auth.api.identity.SignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.SignInButton
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
+
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var utente: Utente
@@ -40,6 +41,7 @@ class RegisterActivity : AppCompatActivity() {
         utente = args.utente
         progressBar = binding.progressBar3
         progressBar.visibility = ProgressBar.INVISIBLE
+        setGooglePlusButtonText(binding.signInGoogleButton, "Or sign in with Google")
 
         binding.btnRegister.setOnClickListener {
             val email = binding.InputEmail.text.toString().trim()
@@ -70,12 +72,24 @@ class RegisterActivity : AppCompatActivity() {
                     BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
                         .setSupported(true)
                         // Your server's client ID, not your Android client ID.
-                        .setServerClientId(getString(R.string.your_web_client_id))
+                        .setServerClientId(getString("161508747965-4mfa4ct15dgm9rlqu32t6s92k97ljckr.apps.googleusercontent.com"))
                         // Only show accounts previously used to sign in.
                         .setFilterByAuthorizedAccounts(true)
                         .build())
                 .build()*/
 
+        }
+    }
+
+    protected fun setGooglePlusButtonText(signInButton: SignInButton, buttonText: String?) {
+            // Find the TextView that is inside of the SignInButton and set its text
+            for (i in 0 until signInButton.childCount) {
+            val v: View = signInButton.getChildAt(i)
+            if (v is TextView) {
+                val tv = v as TextView
+                tv.text = buttonText
+                return
+            }
         }
     }
 

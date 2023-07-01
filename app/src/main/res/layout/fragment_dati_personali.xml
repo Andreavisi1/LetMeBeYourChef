@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="30dp"
         android:text="Personal data"
         android:textAlignment="center"
@@ -68,6 +68,7 @@
         android:background="@drawable/input_bg_green"
         android:gravity="center"
         android:hint="First name"
+        android:textColorHint="@color/grey_primary"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -87,6 +88,7 @@
         android:background="@drawable/input_bg_green"
         android:gravity="center"
         android:hint="Last name"
+        android:textColorHint="@color/grey_primary"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -132,7 +134,8 @@
         android:textColor="@color/black"
         android:textSize="22sp"
         tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="284dp" />
+        tools:layout_editor_absoluteY="284dp"
+        android:drawableStart="@drawable/ic_calendar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

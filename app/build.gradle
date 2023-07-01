@@ -90,6 +90,7 @@ dependencies {
     implementation "androidx.activity:activity-ktx:1.6.0"
     implementation "androidx.room:room-runtime:2.4.3"
     implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.firebaseui:firebase-ui-database:6.0.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.room:room-compiler:2.4.3"
     implementation "androidx.room:room-ktx:2.4.3"
@@ -106,8 +107,10 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.2' //importa immagini da un URL specifico
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
-    implementation 'com.google.firebase:firebase-firestore-ktx:24.4.1'
-    implementation "com.google.firebase:firebase-auth"
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.6.1'
+    implementation "com.google.firebase:firebase-auth:22.0.0"
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+
 
     testImplementation 'org.mockito:mockito-core:2.24.5'
     androidTestImplementation 'org.mockito:mockito-android:2.24.5'
@@ -134,7 +137,7 @@ dependencies {
     //Date range
     implementation 'me.moallemi.tools:kotlin-date-range:1.0.0'
     //material
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'com.google.android.material:material:1.9.0'
     //CAMERA
     //implementation 'com.google.android.gms:play-services-vision:19.0.0'
     implementation('com.journeyapps:zxing-android-embedded:4.3.0') { transitive = false }

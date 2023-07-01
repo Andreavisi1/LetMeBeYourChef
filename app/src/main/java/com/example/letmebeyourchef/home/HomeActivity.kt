@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
+import com.example.letmebeyourchef.autenticazione.InizioActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.diario.DiarioFragment
@@ -117,17 +118,17 @@ class HomeActivity : AppCompatActivity() {
 
 
 
-        /*binding.aggToolbar.setOnMenuItemClickListener {
+        binding.aggToolbar.setOnMenuItemClickListener {
             when (it.itemId) {
                 R.id.ic_profilo ->  openProfilo()
                 R.id.ic_logout -> {
                     model.logOut()
-                    startActivity(Intent(this,InizioActivity::class.java))
+                    startActivity(Intent(this, InizioActivity::class.java))
                     finish()
                 }
             }
             true
-        }*/
+        }
 
 
     }

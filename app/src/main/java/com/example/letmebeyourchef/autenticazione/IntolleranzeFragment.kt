@@ -2,18 +2,29 @@ package com.example.letmebeyourchef.autenticazione
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
-import android.widget.Toast
+import android.widget.RadioGroup
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.FragmentIntolleranzeBinding
 import com.example.letmebeyourchef.model.Utente
-import kotlinx.android.synthetic.main.fragment_intolleranze.*
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_altro
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_egg
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_gluten
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_grain
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_peanut
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_seafood
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_sesame
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_shellfish
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_soy
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_sulfite
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_tree_nut
+import kotlinx.android.synthetic.main.fragment_intolleranze.cB_wheat
 
 
 class IntolleranzeFragment : Fragment() {
@@ -37,10 +48,9 @@ class IntolleranzeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        enableDisableRadioGroup(binding.RadioGroupIntolleranze, false)
         binding.sBIntolleranze.setOnCheckedChangeListener { _, isChecked ->
-            binding.
-            RadioGroupIntolleranze.isClickable = isChecked
-            checked = isChecked
+            enableDisableRadioGroup(binding.RadioGroupIntolleranze, isChecked)
         }
 
         cbIntolleranze = arrayListOf(binding.cBDairy, binding.cBGluten ,binding.cBPeanut,
@@ -57,6 +67,12 @@ class IntolleranzeFragment : Fragment() {
                 intent.putExtra("utente", utente)
                 startActivity(intent)
 
+        }
+    }
+
+    private fun enableDisableRadioGroup(groupId: RadioGroup, isEnable: Boolean) {
+        for (i in 0 until groupId.childCount) {
+            groupId.getChildAt(i).isEnabled = isEnable
         }
     }
 

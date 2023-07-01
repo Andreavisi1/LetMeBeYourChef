@@ -12,7 +12,7 @@ import kotlinx.coroutines.tasks.await
 class UtenteDB : FirebaseDB() {
     // Riferimento alla collection Utente
 
-    val utenti_collection = db.collection("User")
+    val utenti_collection = db.collection("Utente")
     var status = false
 
     suspend fun addUtente(
@@ -31,18 +31,16 @@ class UtenteDB : FirebaseDB() {
             "data_nascita" to data_nascita,
             "intolleranze" to intolleranze!!,
         )
-
         withContext(Dispatchers.IO){
             utenti_collection
                 .document(email)
                 .set(utente)
                 .addOnSuccessListener {
-                    Toast.makeText(contesto, "Operation  completed successfully!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Operation  completed successfully! Click on SIGN IN to start", Toast.LENGTH_LONG).show()
                     status = true
-
                 }
                 .addOnFailureListener{
-                    Toast.makeText(contesto, "Something went wrong...", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(contesto, "Something went wrong... Retry or try to sign in", Toast.LENGTH_LONG).show()
                     status = false
                 }
                 .await()
@@ -58,7 +56,7 @@ class UtenteDB : FirebaseDB() {
         val utentiList = getUtenti()
         for(utente in utentiList) {
             if (utente.email == email) {
-                Log.d("User",utente.toString())
+                Log.d("Utente",utente.toString())
                 return utente
             }
         }

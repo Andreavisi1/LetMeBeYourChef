@@ -42,7 +42,7 @@ class DatiPersonaliFragment : Fragment() {
         utente.cognome=""
         //calendario
         val oggi = LocalDate.now()
-        val minima = LocalDate.of(oggi.year-15,oggi.monthValue,oggi.dayOfMonth)
+        val minima = LocalDate.of(oggi.year-14,oggi.monthValue,oggi.dayOfMonth)
 
         var date= LocalDate.now()
         var data_selezionata = date.toString()
@@ -64,9 +64,10 @@ class DatiPersonaliFragment : Fragment() {
                     data_selezionata = date.toString()
                     binding.tvDataNascita.error = null
                     binding.btAvantiDati.isEnabled=true
-                } else{
+                } else {
                     binding.tvDataNascita.text = ""
                     binding.tvDataNascita.error = "Seleziona una data corretta"
+                    Toast.makeText(context, "Select a correct date",Toast.LENGTH_SHORT).show()
                     binding.btAvantiDati.isEnabled=false
                 }
 
@@ -77,7 +78,10 @@ class DatiPersonaliFragment : Fragment() {
         binding.btAvantiDati.setOnClickListener{
             if (binding.tvDataNascita.text != "" )
                 utente.data_nascita = data_selezionata
-            else binding.tvDataNascita.error = "Seleziona una data corretta"
+            else {
+                binding.tvDataNascita.error = "Seleziona una data corretta"
+                Toast.makeText(context, "Select a correct date",Toast.LENGTH_SHORT).show()
+            }
             utente.nome = binding.tEName.text.toString()
             utente.cognome = binding.tESurname.text.toString()
             if(utente.data_nascita != "" && utente.nome != "" && utente.cognome != ""){

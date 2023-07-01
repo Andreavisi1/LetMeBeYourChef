@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-            android:text="ACCEDI"
+            android:text="SIGN IN"
             android:layout_width="245dp"
             android:layout_height="65dp" android:id="@+id/btAccesso"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
              android:textColor="#FFFFFF"
             android:background="@drawable/animazione_2" android:layout_marginBottom="15dp"/>
     <Button
-            android:text="INIZIA"
+            android:text="SIGN UP"
             android:layout_width="245dp"
             android:layout_height="65dp" android:id="@+id/btInizia"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,7 @@
         android:layout_width="1035dp"
         android:layout_height="334dp"
         android:layout_marginBottom="76dp"
-        android:src="@drawable/color_logo_no_background_logo"
+        android:src="@drawable/logo_no_background"
         app:layout_constraintBottom_toTopOf="@+id/btInizia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
