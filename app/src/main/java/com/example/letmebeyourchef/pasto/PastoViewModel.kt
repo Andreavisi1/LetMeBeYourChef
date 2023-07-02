@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DiarioDB
+import com.example.letmebeyourchef.databaseFB.DispensaDB
 import com.example.letmebeyourchef.databaseFB.ProdottoDB
 import com.example.letmebeyourchef.model.Pasto
 import com.google.firebase.auth.FirebaseAuth
@@ -18,13 +18,13 @@ import java.time.LocalDate
 class PastoViewModel : ViewModel() {
 
     private val prodottoDB = ProdottoDB()
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
     private var hashMapCalorie = HashMap<String, Int>()
     private var hashMapMacro = HashMap<String, Int>()
 
-    private var _diarioChanged = MutableLiveData<Boolean>()
-    val diarioChanged : LiveData<Boolean>
-        get() = _diarioChanged
+    private var _dispensaChanged = MutableLiveData<Boolean>()
+    val dispensaChanged : LiveData<Boolean>
+        get() = _dispensaChanged
 
     private val auth = FirebaseAuth.getInstance()
 
@@ -39,9 +39,9 @@ class PastoViewModel : ViewModel() {
         }
     }
 
-    fun updatePasto(tipologiaPasto: String, id:String,quantita : Double, context: Context){
+    fun updatePasto(tipologiaPasto: String, id:String, context: Context){
         viewModelScope.launch {
-            if(prodottoDB.updatePasto(auth.currentUser!!.email!!,LocalDate.now().toString(), tipologiaPasto,id,quantita)){
+            if(prodottoDB.updatePasto(auth.currentUser!!.email!!,LocalDate.now().toString(), tipologiaPasto,id)){
                 Toast.makeText(context,"Prodotto modificato con successo",Toast.LENGTH_LONG).show()
                 setChiloCalorie()
             }
@@ -52,8 +52,8 @@ class PastoViewModel : ViewModel() {
 
     private fun setChiloCalorie() {
         viewModelScope.launch {
-            val diario = diarioDB.getUserDiario(auth.currentUser!!.email!!)
-            Log.d("Pasto", diario!!.utente.toString())
+            val dispensa = dispensaDB.getUserDispensa(auth.currentUser!!.email!!)
+            Log.d("Pasto", dispensa!!.utente.toString())
             val tipologiaPasto = arrayListOf<String>("COLAZIONE", "PRANZO", "CENA", "SPUNTINO")
             val macroNutrienti = arrayListOf<String>("proteine", "carboidrati", "grassi")
             for (pasto in tipologiaPasto)
@@ -63,22 +63,22 @@ class PastoViewModel : ViewModel() {
             Log.d("Pasto", hashMapCalorie.toString())
             for (pasto in tipologiaPasto) {
                 val arrayProdotti = prodottoDB.getProdotti(LocalDate.now().toString(), auth.currentUser?.email!!, pasto)
-                setMacroDiario(arrayProdotti, pasto)
+                setMacroDispensa(arrayProdotti, pasto)
             }
-            Log.d("Diario", hashMapCalorie.toString())
-            diarioDB.setDiario(
-                auth.currentUser?.email!!, LocalDate.now().toString(), diario.fabbisogno,
+            Log.d("Dispensa", hashMapCalorie.toString())
+            dispensaDB.setDispensa(
+                auth.currentUser?.email!!, LocalDate.now().toString(), dispensa.fabbisogno,
                 hashMapMacro["grassi"]!!,  hashMapMacro["proteine"]!!,  hashMapMacro["carboidrati"]!!,
-                diario.chiloCalorieEsercizio, hashMapCalorie["COLAZIONE"]!!,
+                dispensa.chiloCalorieEsercizio, hashMapCalorie["COLAZIONE"]!!,
                 hashMapCalorie["PRANZO"]!!, hashMapCalorie["CENA"]!!,
-                hashMapCalorie["SPUNTINO"]!!, diario.acqua
+                hashMapCalorie["SPUNTINO"]!!, dispensa.acqua
             )
-            _diarioChanged.value = true
+            _dispensaChanged.value = true
         }
     }
 
 
-    private fun setMacroDiario(arrayProdotti: List<Pasto>?, pasto: String) {
+    private fun setMacroDispensa(arrayProdotti: List<Pasto>?, pasto: String) {
         if (arrayProdotti != null)
             if (arrayProdotti.isNotEmpty()) {
                 var calorie = 0.0
@@ -86,10 +86,10 @@ class PastoViewModel : ViewModel() {
                 var carboidrati = 0.0
                 var grassi = 0.0
                 for (prodotto in arrayProdotti) {
-                    calorie += prodotto.calorie * prodotto.quantita
-                    proteine += prodotto.proteine * prodotto.quantita
-                    carboidrati += prodotto.carboidrati * prodotto.quantita
-                    grassi += prodotto.grassi * prodotto.quantita
+                    calorie += prodotto.calorie
+                    proteine += prodotto.proteine
+                    carboidrati += prodotto.carboidrati
+                    grassi += prodotto.grassi
 
                 }
                 hashMapCalorie.put(pasto, calorie.toInt())

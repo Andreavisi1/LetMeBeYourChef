@@ -75,14 +75,14 @@ class LoginActivity : AppCompatActivity() {
             return false
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            binding.InputEmailLogin.setError("Per favore inserisci un formato email valido")
+            binding.InputEmailLogin.setError("Please insert a valid e-mail format")
             binding.InputEmailLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if(password.isEmpty()){
-            binding.InputPasswordLogin.setError("Per favore completa il campo per effettuare l'accesso")
+            binding.InputPasswordLogin.setError("Please fill the field to login")
             binding.InputPasswordLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
@@ -94,12 +94,12 @@ class LoginActivity : AppCompatActivity() {
 
     private fun checkError(isOnline : Boolean){
         if (isOnline) {
-            binding.InputEmailLogin.setError("Email o Password errate")
-            binding.InputPasswordLogin.setError("Email o Password errate")
+            binding.InputEmailLogin.setError("E-mail or password wrong")
+            binding.InputPasswordLogin.setError("E-mail or password wrong")
             progressBar.visibility = ProgressBar.INVISIBLE
         }
         else
-            Toast.makeText(this,"Per favore attiva una connessione ad internet", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Please activate an internet connection", Toast.LENGTH_LONG).show()
 
     }
 

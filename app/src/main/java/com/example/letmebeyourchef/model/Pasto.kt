@@ -8,7 +8,7 @@ data class Pasto(
     val image : String,
     val nome : String,
     val proteine : Double,
-    val quantita : Double
+//    val quantita : Double
 
-) { constructor(): this(0.0,0.0,0.0,"","","",0.0,0.0)
+) { constructor(): this(0.0,0.0,0.0,"","","",0.0)
 }

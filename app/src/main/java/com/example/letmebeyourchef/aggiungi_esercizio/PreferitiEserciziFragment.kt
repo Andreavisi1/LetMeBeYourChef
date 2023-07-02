@@ -18,7 +18,7 @@ import com.example.letmebeyourchef.databinding.FragmentPreferitiBinding
 import com.example.letmebeyourchef.model.Json_Parsing.Esercizio
 import com.example.letmebeyourchef.model.Json_Parsing.Prodotto
 import kotlinx.android.synthetic.main.add_delete_layout.*
-import kotlinx.android.synthetic.main.add_delete_layout.btnAddDiario
+import kotlinx.android.synthetic.main.add_delete_layout.btnAddDispensa
 import kotlinx.android.synthetic.main.add_delete_layout.btnAnnulla
 import kotlinx.android.synthetic.main.add_delete_layout.btnElimina
 import kotlinx.android.synthetic.main.add_delete_layout_esercizi.*
@@ -79,7 +79,7 @@ class PreferitiEserciziFragment : Fragment() {
 
 
         var flag = false
-        dialog.btnAddDiario.setOnClickListener {
+        dialog.btnAddDispensa.setOnClickListener {
             dialog.layout_durata.visibility = View.VISIBLE
             val durata = dialog.editTextDurata.text.toString()
             if(durata != "0" && durata != "") {

@@ -17,7 +17,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.493" android:layout_marginTop="5dp"/>
     <TextView
-            android:text="@string/login_page"
+            android:text="Sing In"
             android:layout_width="146dp"
             android:layout_height="55dp" android:id="@+id/TitleLog"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
             android:textSize="25sp"
             android:backgroundTint="@color/green_primary" app:layout_constraintHorizontal_bias="0.495"/>
     <Button
-            android:text="@string/login"
+            android:text="Login"
             android:layout_width="225dp"
             android:layout_height="65dp" android:id="@+id/btnLogin"
             android:textSize="25sp"
@@ -65,7 +65,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@color/black" android:layout_marginBottom="80dp"/>
     <TextView
-            android:text="@string/forgotPass"
+            android:text="Passsword forgotten"
             android:layout_width="201dp"
             android:layout_height="25dp" android:id="@+id/forgotPass"
             app:layout_constraintBottom_toBottomOf="@+id/InputPasswordLogin"
@@ -74,7 +74,7 @@
             android:clickable="true" android:textAlignment="textEnd" android:backgroundTint="@color/black_overlay"/>
     <ImageView
             android:layout_width="365dp"
-            android:layout_height="80dp" app:srcCompat="@drawable/black_color_no_bg_solo_scritta"
+            android:layout_height="80dp" app:srcCompat="@drawable/color_logo_no_background_solo_scritta"
             android:id="@+id/imageView7"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" app:layout_constraintBottom_toTopOf="@+id/TitleLog"

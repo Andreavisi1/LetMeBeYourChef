@@ -21,7 +21,9 @@ class AggiungiActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_aggiungi)
 
-        binding.aggToolbar.title =  ("Which ingredients are you looking for?")
+        binding.aggToolbar.title =  ("Search for ingredients here:")
+
+
         var bottomNav = binding.bottomNavigation
         setContentView(binding.root)
         binding.bottomNavigation.selectTabById(R.id.ricerca,true)

@@ -9,7 +9,6 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,6 +18,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -30,7 +30,7 @@ import com.example.letmebeyourchef.databinding.FragmentHomepageBinding
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
-import kotlinx.android.synthetic.main.fragment_diario.*
+import kotlinx.android.synthetic.main.fragment_dispensa.*
 import kotlinx.android.synthetic.main.win_layout_dialog.*
 
 class HomepageFragment : Fragment() {
@@ -40,15 +40,10 @@ class HomepageFragment : Fragment() {
     lateinit var recyclerView: RecyclerView
     var tags: MutableList<String> = ArrayList()
 
+    private var  mContext: Context? = null
+
     private val model = HomepageViewModel()
     private lateinit var binding: FragmentHomepageBinding
-
-    private lateinit var intent : Intent
-    private lateinit var glasses : Array<ImageView>
-    private var contatore = 0
-    private var flag_congratulazioni = false
-    private var acqua = arrayListOf(false,false,false,false,false,false,false,false)
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -106,7 +101,7 @@ class HomepageFragment : Fragment() {
 
                 recyclerView = binding.recyclerRandom
                 recyclerView.setHasFixedSize(true)
-                recyclerView.setLayoutManager(GridLayoutManager(requireContext(), 1))
+                recyclerView.setLayoutManager(GridLayoutManager(mContext, 1))
                 ricetteRandomAdapter = RicetteRandomAdapter(
                     requireContext(),
                     response!!.recipes,
@@ -190,6 +185,17 @@ class HomepageFragment : Fragment() {
         val vibrationEffect1 = VibrationEffect.createOneShot(100, VibrationEffect.DEFAULT_AMPLITUDE)
         vibrator.cancel()
         vibrator.vibrate(vibrationEffect1)
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        super.onAttach(requireActivity())
+        mContext = context
+    }
+
+    override fun onDetach() {
+        super.onDetach()
+        mContext = null
     }
 
 

@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -78,22 +77,22 @@ class PreferitiFragment : Fragment() {
 
 
         var flag = false
-        dialog.btnAddDiario.setOnClickListener {
-            dialog.layout_quantita.visibility = View.VISIBLE
-            val quantita = dialog.editTextQuantita.text.toString().toDouble()
-            if(quantita != 0.0 && quantita.toString() != "") {
+        dialog.btnAddDispensa.setOnClickListener {
+//            dialog.layout_quantita.visibility = View.VISIBLE
+            //val quantita = dialog.editTextQuantita.text.toString().toDouble()
+            //if(quantita != 0.0 && quantita.toString() != "") {
                 model.setPastoOnDB(requireArguments().getString("bottone")!!,model.preferitiLiveData.value!![position].id,
                     model.preferitiLiveData.value!![position].image,model.preferitiLiveData.value!![position].nome,
                     model.preferitiLiveData.value!![position].calorie,model.preferitiLiveData.value!![position].proteine,
                     model.preferitiLiveData.value!![position].carboidrati,model.preferitiLiveData.value!![position].grassi,
-                    quantita,requireContext())
-                dialog.dismiss()
-            }
+                    requireContext())
+ //               dialog.dismiss()
+            /*}
             else {
                 if (flag)
                     Toast.makeText(requireContext(),"Per favore inserisci una quantità diversa da $quantita se desideri aggiungere il prodotto al Diario",Toast.LENGTH_LONG).show()
                 flag = true
-            }
+            }*/
         }
 
         dialog.btnElimina.setOnClickListener {

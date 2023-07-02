@@ -44,6 +44,10 @@
         "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_preferiti.xml"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_ricette_preferite.xml",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_home.xml",
         "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_home.xml"
     },
@@ -146,10 +150,6 @@
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/list_ricette_simili.xml",
         "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ricette_simili.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_diario.xml",
-        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_diario.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/del_mod_selezionati_layout.xml",

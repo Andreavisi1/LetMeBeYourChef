@@ -102,7 +102,7 @@
                             android:layout_marginRight="8dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/btnAddDiario"
+                            android:id="@+id/btnAddDispensa"
                             android:layout_weight="1"/>
 
                     <Button

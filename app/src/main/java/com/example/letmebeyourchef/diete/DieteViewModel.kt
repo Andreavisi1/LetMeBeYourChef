@@ -38,6 +38,17 @@ class DieteViewModel : ViewModel() {
         }
     }
 
+    fun updateDieta(titolo: String, context:Context){
+        viewModelScope.launch {
+            if (utenteDB.updateDieta(titolo, user!!.email.toString())) Toast.makeText(
+                context,
+                "La dieta è stata cambiata con successo!",
+                Toast.LENGTH_LONG
+            ).show()
+            else Toast.makeText(context, "Qualcosa è andato storto, riprovare.", Toast.LENGTH_LONG).show()
+        }
+    }
+
 
 
 

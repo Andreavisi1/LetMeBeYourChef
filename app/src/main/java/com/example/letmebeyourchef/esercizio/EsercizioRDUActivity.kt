@@ -30,7 +30,7 @@ class EsercizioRDUActivity : AppCompatActivity() {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
-        model.diarioChanged.observe(this, observerDelete)
+        model.dispensaChanged.observe(this, observerDelete)
 
         binding.btnElimina.setOnClickListener {
             model.deleteEsercizio(esercizio["nome"]!!, this)

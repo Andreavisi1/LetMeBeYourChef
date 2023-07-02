@@ -97,4 +97,26 @@ class UtenteDB : FirebaseDB() {
         }
         return status
     }
+
+    suspend fun updateDieta(titolo: String, email: String):Boolean{
+        val dieta = hashMapOf<String,Any>(
+            "dieta" to titolo
+        )
+
+        withContext(Dispatchers.IO){
+            utenti_collection
+                .document(email)
+                .update(dieta)
+                .addOnSuccessListener {
+                    status = true
+
+                }
+                .addOnFailureListener{
+                    status = false
+                }
+                .await()
+        }
+        return status
+
+    }
 }

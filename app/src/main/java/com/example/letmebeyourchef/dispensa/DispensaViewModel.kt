@@ -1,32 +1,27 @@
 package com.example.letmebeyourchef.dispensa
 
-import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DiarioDB
 import com.example.letmebeyourchef.databaseFB.DietaDB
+import com.example.letmebeyourchef.databaseFB.DispensaDB
 import com.example.letmebeyourchef.databaseFB.EsercizioDB
 import com.example.letmebeyourchef.databaseFB.ProdottoDB
 import com.example.letmebeyourchef.databaseFB.UtenteDB
-import com.example.letmebeyourchef.model.Diario
+import com.example.letmebeyourchef.model.Dispensa
 import com.example.letmebeyourchef.model.Json_Parsing.Esercizio
 import com.example.letmebeyourchef.model.Pasto
 import com.example.letmebeyourchef.model.Utente
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import java.io.BufferedReader
-import java.io.InputStreamReader
 import java.time.LocalDate
 import java.time.Period
 
 class DispensaViewModel : ViewModel() {
 
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
     private val utenteDB = UtenteDB()
     private val dietaDB = DietaDB()
     private val prodottoDB = ProdottoDB()
@@ -44,9 +39,9 @@ class DispensaViewModel : ViewModel() {
         get() = _grassiMax
 
 
-    private var _diario = MutableLiveData<Diario>()
-    val diario: LiveData<Diario>
-        get() = _diario
+    private var _dispensa = MutableLiveData<Dispensa>()
+    val dispensa: LiveData<Dispensa>
+        get() = _dispensa
 
     private var _acqua = MutableLiveData<String>()
 
@@ -73,26 +68,26 @@ class DispensaViewModel : ViewModel() {
     val esercizioSelezionati : LiveData<List<Esercizio>>
         get() = _eserciziSelezionati
 
-    private var _diarioSettato = MutableLiveData<Boolean>()
-    val diarioSettato : LiveData<Boolean>
-        get() = _diarioSettato
+    private var _dispensaSettata = MutableLiveData<Boolean>()
+    val dispensaSettata : LiveData<Boolean>
+        get() = _dispensaSettata
 
-    fun setDiarioOnDB(grassiTot:Int = 0, proteineTot:Int = 0,
+    fun setDispensaOnDB(grassiTot:Int = 0, proteineTot:Int = 0,
                       carboidratiTot:Int = 0, chiloCalorieEsercizio:Int = 0, chiloCalorieColazione:Int = 0,
                       chiloCaloriePranzo:Int = 0, chiloCalorieCena:Int = 0, chiloCalorieSpuntino:Int = 0,
                       acqua: ArrayList<Boolean> = arrayListOf(false, false, false, false, false, false, false, false)){
         viewModelScope.launch {
             val utente = utenteDB.getUtente(auth.currentUser?.email!!)
             var fabbisogno = calculateFabbisogno(utente)
-            diarioDB.setDiario(auth.currentUser?.email!!,
+            dispensaDB.setDispensa(auth.currentUser?.email!!,
                 LocalDate.now().toString(), fabbisogno.toInt(), grassiTot, proteineTot, carboidratiTot, chiloCalorieEsercizio,
                 chiloCalorieColazione, chiloCaloriePranzo, chiloCalorieCena, chiloCalorieSpuntino, acqua)
         }
     }
 
-    fun getUserDiarioDB(){
+    fun getUserDispensaDB(){
         viewModelScope.launch {
-            _diario.value = diarioDB.getUserDiario(auth.currentUser?.email!!)
+            _dispensa.value = dispensaDB.getUserDispensa(auth.currentUser?.email!!)
         }
 
     }
@@ -104,16 +99,16 @@ class DispensaViewModel : ViewModel() {
     }
 
     fun setAssunte(){
-        _diarioSettato.value = false
-        val assunte = diario.value!!.chiloCalorieCena + diario.value!!.chiloCalorieColazione + diario.value!!.chiloCaloriePranzo + diario.value!!.chiloCalorieSpuntino
+        _dispensaSettata.value = false
+        val assunte = dispensa.value!!.chiloCalorieCena + dispensa.value!!.chiloCalorieColazione + dispensa.value!!.chiloCaloriePranzo + dispensa.value!!.chiloCalorieSpuntino
         _assunte.value = assunte.toString()
-        _diarioSettato.value = !(_diarioSettato.value)!!
+        _dispensaSettata.value = !(_dispensaSettata.value)!!
     }
 
     fun setRimanenti(){
-        val rimanenti = diario.value!!.fabbisogno - assunte.value!!.toInt()
+        val rimanenti = dispensa.value!!.fabbisogno - assunte.value!!.toInt()
         _rimanenti.value = rimanenti.toString()
-        _diarioSettato.value = !(_diarioSettato.value)!!
+        _dispensaSettata.value = !(_dispensaSettata.value)!!
 
 
     }
@@ -122,10 +117,10 @@ class DispensaViewModel : ViewModel() {
         viewModelScope.launch {
             val utente = utenteDB.getUtente(auth.currentUser?.email!!)
             val dieta = dietaDB.getDieta(utente.dieta)
-            _carboidratiMax.value = ((diario.value!!.fabbisogno*(dieta.perc_carb.toDouble()/100.0)) / 4).toInt() //1gr di carbo = 4Kcal
-            _proteineMax.value = ((diario.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 4).toInt() //1gr di prot = 4Kcal
-            _grassiMax.value = ((diario.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 9).toInt()//1gr di grassi = 9Kcal
-            _diarioSettato.value = !(_diarioSettato.value)!!
+            _carboidratiMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_carb.toDouble()/100.0)) / 4).toInt() //1gr di carbo = 4Kcal
+            _proteineMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 4).toInt() //1gr di prot = 4Kcal
+            _grassiMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 9).toInt()//1gr di grassi = 9Kcal
+            _dispensaSettata.value = !(_dispensaSettata.value)!!
         }
     }
 

@@ -21,7 +21,7 @@ class EsercizioAddPrefActivity : AppCompatActivity() {
 
         setLayout()
 
-        binding.btnAggiungiDiario.setOnClickListener {
+        binding.btnAggiungiDispensa.setOnClickListener {
             var durata = binding.eTDurataEsercizio.text.toString()
             if(durata != null && durata != "0" && durata != ""){
                 durata

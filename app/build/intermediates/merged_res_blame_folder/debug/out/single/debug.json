@@ -152,6 +152,10 @@
         "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_inizio.xml"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_no_background.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_no_background.png"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -414,10 +418,6 @@
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_input_bg_green.xml.flat",
         "source": "com.example.letmebeyourchef.app-main-92:/drawable/input_bg_green.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_diario.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_diario.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_close.xml.flat",
@@ -824,6 +824,10 @@
         "source": "com.example.letmebeyourchef.app-main-92:/drawable/empty_glass_plus.png"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_white_background.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_white_background.png"
+    },
+    {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_t.png.flat",
         "source": "com.example.letmebeyourchef.app-main-92:/drawable/t.png"
     },
@@ -918,6 +922,10 @@
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_2.xml.flat",
         "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_2.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_ricette_preferite.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
     },
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_launcher.png.flat",

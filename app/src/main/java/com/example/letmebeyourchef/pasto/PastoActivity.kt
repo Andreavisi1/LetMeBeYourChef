@@ -3,7 +3,6 @@ package com.example.letmebeyourchef.pasto
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
@@ -24,13 +23,13 @@ class PastoActivity : AppCompatActivity() {
 
         getExtra()
         setLayout()
-        binding.eTQuantita.isEnabled = false
+ //       binding.eTQuantita.isEnabled = false
 
         val observerDelete = Observer<Boolean>{
             startActivity(Intent(this,HomeActivity::class.java))
             finish()
         }
-        model.diarioChanged.observe(this,observerDelete)
+        model.dispensaChanged.observe(this,observerDelete)
 
         binding.btnElimina.setOnClickListener {
             model.deletePasto(pasto["tipologiaPasto"]!!,pasto["id"]!!,this)
@@ -38,19 +37,14 @@ class PastoActivity : AppCompatActivity() {
 
         var flag = false
         binding.btnModifica.setOnClickListener {
-            binding.eTQuantita.isEnabled = true
-            val quantita = binding.eTQuantita.text.toString()
-            if(quantita.toDouble() != 0.0 && quantita!= "" && quantita != pasto["quantità"]!!)
-                model.updatePasto(pasto["tipologiaPasto"]!!,pasto["id"]!!,quantita.toDouble(),this)
-            else {
-                if (flag)
-                    Toast.makeText(this,"Inserisci una quantita diversa da $quantita\naltrimenti se desideri eliminare il prodotto clicca su elimina",
-                        Toast.LENGTH_LONG).show()
-                flag = true
+//            binding.eTQuantita.isEnabled = true
+//            val quantita = binding.eTQuantita.text.toString()
+            model.updatePasto(pasto["tipologiaPasto"]!!,pasto["id"]!!,this)
+            flag = true
             }
         }
 
-    }
+
 
 
 
@@ -64,7 +58,7 @@ class PastoActivity : AppCompatActivity() {
         pasto.put("grassi",bundle.getString("grassi")!!)
         pasto.put("prodotto",bundle.getString("prodotto")!!)
         pasto.put("image",bundle.getString("image")!!)
-        pasto.put("quantità",bundle.getString("quantità")!!)
+        //        pasto.put("quantità",bundle.getString("quantità")!!)
     }
 
     private fun setLayout(){
@@ -78,7 +72,7 @@ class PastoActivity : AppCompatActivity() {
         binding.tVCarboidrati.text = pasto["carboidrati"].toString()
         binding.tVProteine.text = pasto["proteine"].toString()
         binding.tVGrassi.text = pasto["grassi"].toString()
-        binding.eTQuantita.setText(pasto["quantità"].toString())
+//        binding.eTQuantita.setText(pasto["quantità"].toString())
     }
 
     override fun onBackPressed() {

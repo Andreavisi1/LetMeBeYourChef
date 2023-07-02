@@ -20,7 +20,7 @@ public class AddDeleteLayoutEserciziBindingImpl extends AddDeleteLayoutEserciziB
         sViewsWithIds.put(R.id.textView35, 4);
         sViewsWithIds.put(R.id.editTextDurata, 5);
         sViewsWithIds.put(R.id.btnAnnulla, 6);
-        sViewsWithIds.put(R.id.btnAddDiario, 7);
+        sViewsWithIds.put(R.id.btnAddDispensa, 7);
         sViewsWithIds.put(R.id.btnElimina, 8);
     }
     // views

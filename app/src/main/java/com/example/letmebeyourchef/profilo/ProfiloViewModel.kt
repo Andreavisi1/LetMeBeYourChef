@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DiarioDB
+import com.example.letmebeyourchef.databaseFB.DispensaDB
 import com.example.letmebeyourchef.databaseFB.UtenteDB
 import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.tasks.Task
@@ -13,21 +13,20 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import kotlinx.coroutines.launch
 import java.time.LocalDate
-import java.time.Period
 
 class ProfiloViewModel : ViewModel() {
 
     private val utenteDB = UtenteDB()
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
 
     private var _profilo = MutableLiveData<Utente>()
 
     val profilo: LiveData<Utente>
         get() = _profilo
 
-    val _diarioUpdated = MutableLiveData<Boolean>()
-    val diarioUpdated: LiveData<Boolean>
-        get() = _diarioUpdated
+    val _dispensaUpdated = MutableLiveData<Boolean>()
+    val dispensaUpdated: LiveData<Boolean>
+        get() = _dispensaUpdated
 
     private val auth = FirebaseAuth.getInstance()
 
@@ -57,11 +56,11 @@ class ProfiloViewModel : ViewModel() {
                     nome, cognome, email, sesso, data_nascita,
                     intolleranze, contesto
                 )
-                val diario = diarioDB.getUserDiario(auth.currentUser!!.email!!)!!
-                /*diarioDB.setDiario(auth.currentUser!!.email!!, LocalDate.now().toString(),fabbisogno.toInt(),diario.grassiTot,
-                diario.proteineTot,diario.carboidratiTot,diario.chiloCalorieEsercizio,diario.chiloCalorieColazione,
-                diario.chiloCaloriePranzo,diario.chiloCalorieCena,diario.chiloCalorieSpuntino,diario.acqua)
-                _diarioUpdated.value = true*/
+                val dispensa = dispensaDB.getUserDispensa(auth.currentUser!!.email!!)!!
+                dispensaDB.setDispensa(auth.currentUser!!.email!!, LocalDate.now().toString(),1000,dispensa.grassiTot,
+                dispensa.proteineTot,dispensa.carboidratiTot,dispensa.chiloCalorieEsercizio,dispensa.chiloCalorieColazione,
+                dispensa.chiloCaloriePranzo,dispensa.chiloCalorieCena,dispensa.chiloCalorieSpuntino,dispensa.acqua)
+                _dispensaUpdated.value = true
             }
             } catch (e: Exception) {
             }

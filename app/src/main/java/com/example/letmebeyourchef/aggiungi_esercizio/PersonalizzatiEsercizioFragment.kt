@@ -74,7 +74,7 @@ class PersonalizzatiEsercizioFragment : Fragment() {
         val durata_min = dialogLayout.findViewById<EditText>(R.id.eT_durata_min)
         val btnAggiungiLista = dialogLayout.findViewById<Button>(R.id.btnAggiungiEsercizio)
         val btnElimina = dialogLayout.findViewById<Button>(R.id.buttonEliminaEsercizio)
-        val btnAggiungiDiario = dialogLayout.findViewById<Button>(R.id.btnAggiungiDiarioEsercizio)
+        val btnAggiungiDispensa = dialogLayout.findViewById<Button>(R.id.btnAggiungiDispensaEsercizio)
         val layout_info = dialogLayout.findViewById<LinearLayout>(R.id.layout_info_esercizio)
         val layout_durata  = dialogLayout.findViewById<LinearLayout>(R.id.llchooseDurata)
         if(bottone == "clickItem"){
@@ -82,17 +82,17 @@ class PersonalizzatiEsercizioFragment : Fragment() {
             layout_info.visibility = View.GONE
             layout_durata.visibility = View.GONE
             btnElimina.visibility = View.VISIBLE
-            btnAggiungiDiario.visibility = View.VISIBLE
+            btnAggiungiDispensa.visibility = View.VISIBLE
             setText(arrayOf(nome,kcal_h,durata_min),position)
 
         }else{
             btnAggiungiLista.text = "AGGIUNGI\nALLA LISTA"
             btnElimina.visibility = View.GONE
-            btnAggiungiDiario.visibility = View.GONE
+            btnAggiungiDispensa.visibility = View.GONE
             layout_durata.visibility = View.GONE
         }
         var flag_2 = false
-        btnAggiungiDiario.setOnClickListener {
+        btnAggiungiDispensa.setOnClickListener {
             layout_durata.visibility = View.VISIBLE
             layout_info.visibility = View.GONE
             val durata = durata_min.text.toString().toInt()

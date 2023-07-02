@@ -76,7 +76,7 @@ class ScannerActivity : AppCompatActivity(), ZXingScannerView.ResultHandler {
             when(requestCode){
                 1 -> {
                     if(grantResults.isEmpty() || grantResults[0] != PackageManager.PERMISSION_GRANTED){
-                        Toast.makeText(applicationContext, "Hai bisogno dei permessi della fotocamera", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(applicationContext, "Camera permissions needed", Toast.LENGTH_SHORT).show()
                     }
                 }
             }

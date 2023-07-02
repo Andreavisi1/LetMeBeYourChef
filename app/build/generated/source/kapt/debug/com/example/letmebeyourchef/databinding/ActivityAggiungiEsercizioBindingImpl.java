@@ -16,7 +16,7 @@ public class ActivityAggiungiEsercizioBindingImpl extends ActivityAggiungiEserci
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.nome_esercizio, 1);
         sViewsWithIds.put(R.id.linearLayout19, 2);
-        sViewsWithIds.put(R.id.btn_aggiungi_diario, 3);
+        sViewsWithIds.put(R.id.btn_aggiungi_dispensa, 3);
         sViewsWithIds.put(R.id.btn_aggiungi_preferiti, 4);
         sViewsWithIds.put(R.id.imageView37, 5);
         sViewsWithIds.put(R.id.linearLayout20, 6);

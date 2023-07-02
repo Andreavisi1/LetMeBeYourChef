@@ -176,12 +176,12 @@ class ProfiloActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
         }
         model.profilo.observe(this,profiloObserver)
 
-        val diarioUpdatedObserver = Observer<Boolean> {
+        val dispensaUpdatedObserver = Observer<Boolean> {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        model.diarioUpdated.observe(this,diarioUpdatedObserver)
+        model.dispensaUpdated.observe(this,dispensaUpdatedObserver)
 
 }
 

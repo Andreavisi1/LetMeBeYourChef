@@ -217,17 +217,17 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
             case 0 :
                 return onChangeViewModelAssunte((androidx.lifecycle.LiveData<java.lang.String>) object, fieldId);
             case 1 :
-                return onChangeViewModelDiario((androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Diario>) object, fieldId);
-            case 2 :
                 return onChangeViewModelProteineMax((androidx.lifecycle.LiveData<java.lang.Integer>) object, fieldId);
-            case 3 :
+            case 2 :
                 return onChangeViewModelResult((androidx.lifecycle.LiveData<java.lang.String>) object, fieldId);
-            case 4 :
+            case 3 :
                 return onChangeViewModelCarboidratiMax((androidx.lifecycle.LiveData<java.lang.Integer>) object, fieldId);
-            case 5 :
+            case 4 :
                 return onChangeViewModelAcqua((androidx.lifecycle.LiveData<java.lang.String>) object, fieldId);
-            case 6 :
+            case 5 :
                 return onChangeViewModelGrassiMax((androidx.lifecycle.LiveData<java.lang.Integer>) object, fieldId);
+            case 6 :
+                return onChangeViewModelDispensa((androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Dispensa>) object, fieldId);
         }
         return false;
     }
@@ -240,7 +240,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelDiario(androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Diario> ViewModelDiario, int fieldId) {
+    private boolean onChangeViewModelProteineMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelProteineMax, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x2L;
@@ -249,7 +249,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelProteineMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelProteineMax, int fieldId) {
+    private boolean onChangeViewModelResult(androidx.lifecycle.LiveData<java.lang.String> ViewModelResult, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x4L;
@@ -258,7 +258,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelResult(androidx.lifecycle.LiveData<java.lang.String> ViewModelResult, int fieldId) {
+    private boolean onChangeViewModelCarboidratiMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelCarboidratiMax, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x8L;
@@ -267,7 +267,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelCarboidratiMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelCarboidratiMax, int fieldId) {
+    private boolean onChangeViewModelAcqua(androidx.lifecycle.LiveData<java.lang.String> ViewModelAcqua, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x10L;
@@ -276,7 +276,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelAcqua(androidx.lifecycle.LiveData<java.lang.String> ViewModelAcqua, int fieldId) {
+    private boolean onChangeViewModelGrassiMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelGrassiMax, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x20L;
@@ -285,7 +285,7 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelGrassiMax(androidx.lifecycle.LiveData<java.lang.Integer> ViewModelGrassiMax, int fieldId) {
+    private boolean onChangeViewModelDispensa(androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Dispensa> ViewModelDispensa, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x40L;
@@ -303,53 +303,53 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
             mDirtyFlags = 0;
         }
         androidx.lifecycle.LiveData<java.lang.String> viewModelAssunte = null;
-        androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Diario> viewModelDiario = null;
-        java.lang.Integer integerValueOfViewModelDiarioChiloCalorieSpuntino = null;
-        java.lang.Integer integerValueOfViewModelDiarioProteineTot = null;
+        java.lang.String integerValueOfViewModelDispensaChiloCalorieEsercizioToString = null;
         androidx.lifecycle.LiveData<java.lang.Integer> viewModelProteineMax = null;
-        int viewModelDiarioChiloCaloriePranzo = 0;
         androidx.lifecycle.LiveData<java.lang.String> viewModelResult = null;
-        java.lang.String integerValueOfViewModelDiarioProteineTotToString = null;
+        int viewModelDispensaChiloCalorieEsercizio = 0;
         androidx.lifecycle.LiveData<java.lang.Integer> viewModelCarboidratiMax = null;
-        int viewModelDiarioChiloCalorieEsercizio = 0;
         java.lang.String viewModelResultGetValue = null;
-        int viewModelDiarioProteineTot = 0;
-        java.lang.Integer integerValueOfViewModelDiarioChiloCalorieEsercizio = null;
+        int viewModelDispensaProteineTot = 0;
+        java.lang.String integerValueOfViewModelDispensaCarboidratiTotToString = null;
         java.lang.String viewModelAcquaGetValue = null;
-        java.lang.Integer integerValueOfViewModelDiarioChiloCaloriePranzo = null;
-        int viewModelDiarioChiloCalorieColazione = 0;
+        java.lang.Integer integerValueOfViewModelDispensaChiloCalorieColazione = null;
         int androidxDatabindingViewDataBindingSafeUnboxViewModelProteineMaxGetValue = 0;
         int androidxDatabindingViewDataBindingSafeUnboxViewModelCarboidratiMaxGetValue = 0;
-        int viewModelDiarioCarboidratiTot = 0;
-        int viewModelDiarioGrassiTot = 0;
-        java.lang.Integer integerValueOfViewModelDiarioChiloCalorieColazione = null;
-        java.lang.Integer integerValueOfViewModelDiarioGrassiTot = null;
+        java.lang.Integer integerValueOfViewModelDispensaChiloCalorieEsercizio = null;
+        java.lang.String integerValueOfViewModelDispensaChiloCalorieCenaToString = null;
         androidx.lifecycle.LiveData<java.lang.String> viewModelAcqua = null;
-        java.lang.String integerValueOfViewModelDiarioChiloCalorieSpuntinoToString = null;
+        int viewModelDispensaCarboidratiTot = 0;
         androidx.lifecycle.LiveData<java.lang.Integer> viewModelGrassiMax = null;
+        int viewModelDispensaGrassiTot = 0;
+        java.lang.Integer integerValueOfViewModelDispensaChiloCaloriePranzo = null;
         java.lang.String integerValueOfViewModelGrassiMaxToString = null;
+        int viewModelDispensaChiloCaloriePranzo = 0;
+        com.example.letmebeyourchef.model.Dispensa viewModelDispensaGetValue = null;
         java.lang.String integerValueOfViewModelProteineMaxToString = null;
+        java.lang.String integerValueOfViewModelDispensaChiloCaloriePranzoToString = null;
         java.lang.Integer integerValueOfViewModelCarboidratiMax = null;
-        java.lang.Integer integerValueOfViewModelDiarioChiloCalorieCena = null;
-        java.lang.String integerValueOfViewModelDiarioChiloCalorieCenaToString = null;
         java.lang.Integer viewModelCarboidratiMaxGetValue = null;
         java.lang.String integerValueOfViewModelCarboidratiMaxToString = null;
-        java.lang.String integerValueOfViewModelDiarioChiloCaloriePranzoToString = null;
-        int viewModelDiarioChiloCalorieSpuntino = 0;
-        java.lang.Integer integerValueOfViewModelDiarioCarboidratiTot = null;
-        java.lang.String integerValueOfViewModelDiarioCarboidratiTotToString = null;
+        java.lang.String integerValueOfViewModelDispensaGrassiTotToString = null;
+        int viewModelDispensaChiloCalorieColazione = 0;
+        java.lang.String integerValueOfViewModelDispensaChiloCalorieSpuntinoToString = null;
+        androidx.lifecycle.LiveData<com.example.letmebeyourchef.model.Dispensa> viewModelDispensa = null;
         java.lang.Integer integerValueOfViewModelGrassiMax = null;
+        int viewModelDispensaChiloCalorieSpuntino = 0;
+        java.lang.Integer integerValueOfViewModelDispensaChiloCalorieSpuntino = null;
         java.lang.Integer viewModelGrassiMaxGetValue = null;
-        java.lang.String integerValueOfViewModelDiarioChiloCalorieEsercizioToString = null;
+        java.lang.Integer integerValueOfViewModelDispensaGrassiTot = null;
+        java.lang.Integer integerValueOfViewModelDispensaChiloCalorieCena = null;
+        java.lang.String integerValueOfViewModelDispensaProteineTotToString = null;
+        java.lang.Integer integerValueOfViewModelDispensaCarboidratiTot = null;
+        int viewModelDispensaChiloCalorieCena = 0;
         int androidxDatabindingViewDataBindingSafeUnboxViewModelGrassiMaxGetValue = 0;
-        java.lang.String integerValueOfViewModelDiarioGrassiTotToString = null;
         java.lang.String viewModelAssunteGetValue = null;
         java.lang.Integer viewModelProteineMaxGetValue = null;
-        int viewModelDiarioChiloCalorieCena = 0;
-        com.example.letmebeyourchef.model.Diario viewModelDiarioGetValue = null;
+        java.lang.Integer integerValueOfViewModelDispensaProteineTot = null;
         java.lang.Integer integerValueOfViewModelProteineMax = null;
         com.example.letmebeyourchef.dispensa.DispensaViewModel viewModel = mViewModel;
-        java.lang.String integerValueOfViewModelDiarioChiloCalorieColazioneToString = null;
+        java.lang.String integerValueOfViewModelDispensaChiloCalorieColazioneToString = null;
 
         if ((dirtyFlags & 0x1ffL) != 0) {
 
@@ -371,96 +371,10 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
             if ((dirtyFlags & 0x182L) != 0) {
 
                     if (viewModel != null) {
-                        // read viewModel.diario
-                        viewModelDiario = viewModel.getDiario();
-                    }
-                    updateLiveDataRegistration(1, viewModelDiario);
-
-
-                    if (viewModelDiario != null) {
-                        // read viewModel.diario.getValue()
-                        viewModelDiarioGetValue = viewModelDiario.getValue();
-                    }
-
-
-                    if (viewModelDiarioGetValue != null) {
-                        // read viewModel.diario.getValue().chiloCaloriePranzo
-                        viewModelDiarioChiloCaloriePranzo = viewModelDiarioGetValue.getChiloCaloriePranzo();
-                        // read viewModel.diario.getValue().chiloCalorieEsercizio
-                        viewModelDiarioChiloCalorieEsercizio = viewModelDiarioGetValue.getChiloCalorieEsercizio();
-                        // read viewModel.diario.getValue().proteineTot
-                        viewModelDiarioProteineTot = viewModelDiarioGetValue.getProteineTot();
-                        // read viewModel.diario.getValue().chiloCalorieColazione
-                        viewModelDiarioChiloCalorieColazione = viewModelDiarioGetValue.getChiloCalorieColazione();
-                        // read viewModel.diario.getValue().carboidratiTot
-                        viewModelDiarioCarboidratiTot = viewModelDiarioGetValue.getCarboidratiTot();
-                        // read viewModel.diario.getValue().grassiTot
-                        viewModelDiarioGrassiTot = viewModelDiarioGetValue.getGrassiTot();
-                        // read viewModel.diario.getValue().chiloCalorieSpuntino
-                        viewModelDiarioChiloCalorieSpuntino = viewModelDiarioGetValue.getChiloCalorieSpuntino();
-                        // read viewModel.diario.getValue().chiloCalorieCena
-                        viewModelDiarioChiloCalorieCena = viewModelDiarioGetValue.getChiloCalorieCena();
-                    }
-
-
-                    // read Integer.valueOf(viewModel.diario.getValue().chiloCaloriePranzo)
-                    integerValueOfViewModelDiarioChiloCaloriePranzo = java.lang.Integer.valueOf(viewModelDiarioChiloCaloriePranzo);
-                    // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieEsercizio)
-                    integerValueOfViewModelDiarioChiloCalorieEsercizio = java.lang.Integer.valueOf(viewModelDiarioChiloCalorieEsercizio);
-                    // read Integer.valueOf(viewModel.diario.getValue().proteineTot)
-                    integerValueOfViewModelDiarioProteineTot = java.lang.Integer.valueOf(viewModelDiarioProteineTot);
-                    // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieColazione)
-                    integerValueOfViewModelDiarioChiloCalorieColazione = java.lang.Integer.valueOf(viewModelDiarioChiloCalorieColazione);
-                    // read Integer.valueOf(viewModel.diario.getValue().carboidratiTot)
-                    integerValueOfViewModelDiarioCarboidratiTot = java.lang.Integer.valueOf(viewModelDiarioCarboidratiTot);
-                    // read Integer.valueOf(viewModel.diario.getValue().grassiTot)
-                    integerValueOfViewModelDiarioGrassiTot = java.lang.Integer.valueOf(viewModelDiarioGrassiTot);
-                    // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieSpuntino)
-                    integerValueOfViewModelDiarioChiloCalorieSpuntino = java.lang.Integer.valueOf(viewModelDiarioChiloCalorieSpuntino);
-                    // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieCena)
-                    integerValueOfViewModelDiarioChiloCalorieCena = java.lang.Integer.valueOf(viewModelDiarioChiloCalorieCena);
-
-
-                    if (integerValueOfViewModelDiarioChiloCaloriePranzo != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().chiloCaloriePranzo).toString()
-                        integerValueOfViewModelDiarioChiloCaloriePranzoToString = integerValueOfViewModelDiarioChiloCaloriePranzo.toString();
-                    }
-                    if (integerValueOfViewModelDiarioChiloCalorieEsercizio != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieEsercizio).toString()
-                        integerValueOfViewModelDiarioChiloCalorieEsercizioToString = integerValueOfViewModelDiarioChiloCalorieEsercizio.toString();
-                    }
-                    if (integerValueOfViewModelDiarioProteineTot != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().proteineTot).toString()
-                        integerValueOfViewModelDiarioProteineTotToString = integerValueOfViewModelDiarioProteineTot.toString();
-                    }
-                    if (integerValueOfViewModelDiarioChiloCalorieColazione != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieColazione).toString()
-                        integerValueOfViewModelDiarioChiloCalorieColazioneToString = integerValueOfViewModelDiarioChiloCalorieColazione.toString();
-                    }
-                    if (integerValueOfViewModelDiarioCarboidratiTot != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().carboidratiTot).toString()
-                        integerValueOfViewModelDiarioCarboidratiTotToString = integerValueOfViewModelDiarioCarboidratiTot.toString();
-                    }
-                    if (integerValueOfViewModelDiarioGrassiTot != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().grassiTot).toString()
-                        integerValueOfViewModelDiarioGrassiTotToString = integerValueOfViewModelDiarioGrassiTot.toString();
-                    }
-                    if (integerValueOfViewModelDiarioChiloCalorieSpuntino != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieSpuntino).toString()
-                        integerValueOfViewModelDiarioChiloCalorieSpuntinoToString = integerValueOfViewModelDiarioChiloCalorieSpuntino.toString();
-                    }
-                    if (integerValueOfViewModelDiarioChiloCalorieCena != null) {
-                        // read Integer.valueOf(viewModel.diario.getValue().chiloCalorieCena).toString()
-                        integerValueOfViewModelDiarioChiloCalorieCenaToString = integerValueOfViewModelDiarioChiloCalorieCena.toString();
-                    }
-            }
-            if ((dirtyFlags & 0x184L) != 0) {
-
-                    if (viewModel != null) {
                         // read viewModel.proteineMax
                         viewModelProteineMax = viewModel.getProteineMax();
                     }
-                    updateLiveDataRegistration(2, viewModelProteineMax);
+                    updateLiveDataRegistration(1, viewModelProteineMax);
 
 
                     if (viewModelProteineMax != null) {
@@ -482,13 +396,13 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
                         integerValueOfViewModelProteineMaxToString = integerValueOfViewModelProteineMax.toString();
                     }
             }
-            if ((dirtyFlags & 0x188L) != 0) {
+            if ((dirtyFlags & 0x184L) != 0) {
 
                     if (viewModel != null) {
                         // read viewModel.result
                         viewModelResult = viewModel.getResult();
                     }
-                    updateLiveDataRegistration(3, viewModelResult);
+                    updateLiveDataRegistration(2, viewModelResult);
 
 
                     if (viewModelResult != null) {
@@ -496,13 +410,13 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
                         viewModelResultGetValue = viewModelResult.getValue();
                     }
             }
-            if ((dirtyFlags & 0x190L) != 0) {
+            if ((dirtyFlags & 0x188L) != 0) {
 
                     if (viewModel != null) {
                         // read viewModel.carboidratiMax
                         viewModelCarboidratiMax = viewModel.getCarboidratiMax();
                     }
-                    updateLiveDataRegistration(4, viewModelCarboidratiMax);
+                    updateLiveDataRegistration(3, viewModelCarboidratiMax);
 
 
                     if (viewModelCarboidratiMax != null) {
@@ -524,13 +438,13 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
                         integerValueOfViewModelCarboidratiMaxToString = integerValueOfViewModelCarboidratiMax.toString();
                     }
             }
-            if ((dirtyFlags & 0x1a0L) != 0) {
+            if ((dirtyFlags & 0x190L) != 0) {
 
                     if (viewModel != null) {
                         // read viewModel.acqua
                         viewModelAcqua = viewModel.getAcqua();
                     }
-                    updateLiveDataRegistration(5, viewModelAcqua);
+                    updateLiveDataRegistration(4, viewModelAcqua);
 
 
                     if (viewModelAcqua != null) {
@@ -538,13 +452,13 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
                         viewModelAcquaGetValue = viewModelAcqua.getValue();
                     }
             }
-            if ((dirtyFlags & 0x1c0L) != 0) {
+            if ((dirtyFlags & 0x1a0L) != 0) {
 
                     if (viewModel != null) {
                         // read viewModel.grassiMax
                         viewModelGrassiMax = viewModel.getGrassiMax();
                     }
-                    updateLiveDataRegistration(6, viewModelGrassiMax);
+                    updateLiveDataRegistration(5, viewModelGrassiMax);
 
 
                     if (viewModelGrassiMax != null) {
@@ -566,6 +480,92 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
                         integerValueOfViewModelGrassiMaxToString = integerValueOfViewModelGrassiMax.toString();
                     }
             }
+            if ((dirtyFlags & 0x1c0L) != 0) {
+
+                    if (viewModel != null) {
+                        // read viewModel.dispensa
+                        viewModelDispensa = viewModel.getDispensa();
+                    }
+                    updateLiveDataRegistration(6, viewModelDispensa);
+
+
+                    if (viewModelDispensa != null) {
+                        // read viewModel.dispensa.getValue()
+                        viewModelDispensaGetValue = viewModelDispensa.getValue();
+                    }
+
+
+                    if (viewModelDispensaGetValue != null) {
+                        // read viewModel.dispensa.getValue().chiloCalorieEsercizio
+                        viewModelDispensaChiloCalorieEsercizio = viewModelDispensaGetValue.getChiloCalorieEsercizio();
+                        // read viewModel.dispensa.getValue().proteineTot
+                        viewModelDispensaProteineTot = viewModelDispensaGetValue.getProteineTot();
+                        // read viewModel.dispensa.getValue().carboidratiTot
+                        viewModelDispensaCarboidratiTot = viewModelDispensaGetValue.getCarboidratiTot();
+                        // read viewModel.dispensa.getValue().grassiTot
+                        viewModelDispensaGrassiTot = viewModelDispensaGetValue.getGrassiTot();
+                        // read viewModel.dispensa.getValue().chiloCaloriePranzo
+                        viewModelDispensaChiloCaloriePranzo = viewModelDispensaGetValue.getChiloCaloriePranzo();
+                        // read viewModel.dispensa.getValue().chiloCalorieColazione
+                        viewModelDispensaChiloCalorieColazione = viewModelDispensaGetValue.getChiloCalorieColazione();
+                        // read viewModel.dispensa.getValue().chiloCalorieSpuntino
+                        viewModelDispensaChiloCalorieSpuntino = viewModelDispensaGetValue.getChiloCalorieSpuntino();
+                        // read viewModel.dispensa.getValue().chiloCalorieCena
+                        viewModelDispensaChiloCalorieCena = viewModelDispensaGetValue.getChiloCalorieCena();
+                    }
+
+
+                    // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieEsercizio)
+                    integerValueOfViewModelDispensaChiloCalorieEsercizio = java.lang.Integer.valueOf(viewModelDispensaChiloCalorieEsercizio);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().proteineTot)
+                    integerValueOfViewModelDispensaProteineTot = java.lang.Integer.valueOf(viewModelDispensaProteineTot);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().carboidratiTot)
+                    integerValueOfViewModelDispensaCarboidratiTot = java.lang.Integer.valueOf(viewModelDispensaCarboidratiTot);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().grassiTot)
+                    integerValueOfViewModelDispensaGrassiTot = java.lang.Integer.valueOf(viewModelDispensaGrassiTot);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().chiloCaloriePranzo)
+                    integerValueOfViewModelDispensaChiloCaloriePranzo = java.lang.Integer.valueOf(viewModelDispensaChiloCaloriePranzo);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieColazione)
+                    integerValueOfViewModelDispensaChiloCalorieColazione = java.lang.Integer.valueOf(viewModelDispensaChiloCalorieColazione);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieSpuntino)
+                    integerValueOfViewModelDispensaChiloCalorieSpuntino = java.lang.Integer.valueOf(viewModelDispensaChiloCalorieSpuntino);
+                    // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieCena)
+                    integerValueOfViewModelDispensaChiloCalorieCena = java.lang.Integer.valueOf(viewModelDispensaChiloCalorieCena);
+
+
+                    if (integerValueOfViewModelDispensaChiloCalorieEsercizio != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieEsercizio).toString()
+                        integerValueOfViewModelDispensaChiloCalorieEsercizioToString = integerValueOfViewModelDispensaChiloCalorieEsercizio.toString();
+                    }
+                    if (integerValueOfViewModelDispensaProteineTot != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().proteineTot).toString()
+                        integerValueOfViewModelDispensaProteineTotToString = integerValueOfViewModelDispensaProteineTot.toString();
+                    }
+                    if (integerValueOfViewModelDispensaCarboidratiTot != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().carboidratiTot).toString()
+                        integerValueOfViewModelDispensaCarboidratiTotToString = integerValueOfViewModelDispensaCarboidratiTot.toString();
+                    }
+                    if (integerValueOfViewModelDispensaGrassiTot != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().grassiTot).toString()
+                        integerValueOfViewModelDispensaGrassiTotToString = integerValueOfViewModelDispensaGrassiTot.toString();
+                    }
+                    if (integerValueOfViewModelDispensaChiloCaloriePranzo != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().chiloCaloriePranzo).toString()
+                        integerValueOfViewModelDispensaChiloCaloriePranzoToString = integerValueOfViewModelDispensaChiloCaloriePranzo.toString();
+                    }
+                    if (integerValueOfViewModelDispensaChiloCalorieColazione != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieColazione).toString()
+                        integerValueOfViewModelDispensaChiloCalorieColazioneToString = integerValueOfViewModelDispensaChiloCalorieColazione.toString();
+                    }
+                    if (integerValueOfViewModelDispensaChiloCalorieSpuntino != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieSpuntino).toString()
+                        integerValueOfViewModelDispensaChiloCalorieSpuntinoToString = integerValueOfViewModelDispensaChiloCalorieSpuntino.toString();
+                    }
+                    if (integerValueOfViewModelDispensaChiloCalorieCena != null) {
+                        // read Integer.valueOf(viewModel.dispensa.getValue().chiloCalorieCena).toString()
+                        integerValueOfViewModelDispensaChiloCalorieCenaToString = integerValueOfViewModelDispensaChiloCalorieCena.toString();
+                    }
+            }
         }
         // batch finished
         if ((dirtyFlags & 0x181L) != 0) {
@@ -573,41 +573,41 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.calAssunte, viewModelAssunteGetValue);
         }
-        if ((dirtyFlags & 0x182L) != 0) {
-            // api target 1
-
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.calBruciate, integerValueOfViewModelDiarioChiloCalorieEsercizioToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalCena, integerValueOfViewModelDiarioChiloCalorieCenaToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalColazione, integerValueOfViewModelDiarioChiloCalorieColazioneToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalEsercizio, integerValueOfViewModelDiarioChiloCalorieEsercizioToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalPranzo, integerValueOfViewModelDiarioChiloCaloriePranzoToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalSpuntino, integerValueOfViewModelDiarioChiloCalorieSpuntinoToString);
-            this.pgBarCarboidrati.setProgress(viewModelDiarioCarboidratiTot);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntCarboidrati, integerValueOfViewModelDiarioCarboidratiTotToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntGrassi, integerValueOfViewModelDiarioGrassiTotToString);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntProteine, integerValueOfViewModelDiarioProteineTotToString);
-        }
-        if ((dirtyFlags & 0x188L) != 0) {
-            // api target 1
-
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.calorieRimanenti, viewModelResultGetValue);
-        }
-        if ((dirtyFlags & 0x190L) != 0) {
-            // api target 1
-
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntCarboMAX, integerValueOfViewModelCarboidratiMaxToString);
-        }
         if ((dirtyFlags & 0x1c0L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntGrsMAX, integerValueOfViewModelGrassiMaxToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.calBruciate, integerValueOfViewModelDispensaChiloCalorieEsercizioToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalCena, integerValueOfViewModelDispensaChiloCalorieCenaToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalColazione, integerValueOfViewModelDispensaChiloCalorieColazioneToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalEsercizio, integerValueOfViewModelDispensaChiloCalorieEsercizioToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalPranzo, integerValueOfViewModelDispensaChiloCaloriePranzoToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.kcalSpuntino, integerValueOfViewModelDispensaChiloCalorieSpuntinoToString);
+            this.pgBarCarboidrati.setProgress(viewModelDispensaCarboidratiTot);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntCarboidrati, integerValueOfViewModelDispensaCarboidratiTotToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntGrassi, integerValueOfViewModelDispensaGrassiTotToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntProteine, integerValueOfViewModelDispensaProteineTotToString);
         }
         if ((dirtyFlags & 0x184L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntProMAX, integerValueOfViewModelProteineMaxToString);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.calorieRimanenti, viewModelResultGetValue);
+        }
+        if ((dirtyFlags & 0x188L) != 0) {
+            // api target 1
+
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntCarboMAX, integerValueOfViewModelCarboidratiMaxToString);
         }
         if ((dirtyFlags & 0x1a0L) != 0) {
+            // api target 1
+
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntGrsMAX, integerValueOfViewModelGrassiMaxToString);
+        }
+        if ((dirtyFlags & 0x182L) != 0) {
+            // api target 1
+
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.qntProMAX, integerValueOfViewModelProteineMaxToString);
+        }
+        if ((dirtyFlags & 0x190L) != 0) {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.textView25, viewModelAcquaGetValue);
@@ -619,12 +619,12 @@ public class FragmentDispensaBindingImpl extends FragmentDispensaBinding  {
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
         flag 0 (0x1L): viewModel.assunte
-        flag 1 (0x2L): viewModel.diario
-        flag 2 (0x3L): viewModel.proteineMax
-        flag 3 (0x4L): viewModel.result
-        flag 4 (0x5L): viewModel.carboidratiMax
-        flag 5 (0x6L): viewModel.acqua
-        flag 6 (0x7L): viewModel.grassiMax
+        flag 1 (0x2L): viewModel.proteineMax
+        flag 2 (0x3L): viewModel.result
+        flag 3 (0x4L): viewModel.carboidratiMax
+        flag 4 (0x5L): viewModel.acqua
+        flag 5 (0x6L): viewModel.grassiMax
+        flag 6 (0x7L): viewModel.dispensa
         flag 7 (0x8L): viewModel
         flag 8 (0x9L): null
     flag mapping end*/

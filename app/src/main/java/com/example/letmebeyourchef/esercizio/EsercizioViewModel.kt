@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DiarioDB
+import com.example.letmebeyourchef.databaseFB.DispensaDB
 import com.example.letmebeyourchef.databaseFB.EsercizioDB
 import com.example.letmebeyourchef.databaseFB.PreferitiDB
 import com.google.firebase.auth.FirebaseAuth
@@ -18,12 +18,12 @@ class EsercizioViewModel : ViewModel(){
 
     private val esercizioDB = EsercizioDB()
     private val preferitiDB = PreferitiDB()
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
     private val auth = FirebaseAuth.getInstance()
 
-    private var _diarioChanged = MutableLiveData<Boolean>()
-    val diarioChanged : LiveData<Boolean>
-        get() = _diarioChanged
+    private var _dispensaChanged = MutableLiveData<Boolean>()
+    val dispensaChanged : LiveData<Boolean>
+        get() = _dispensaChanged
 
     fun setEsercizioOnDB(nome: String/*label*/, calorieOra: Int, durata: Int, context: Context) {
         viewModelScope.launch {
@@ -71,7 +71,7 @@ class EsercizioViewModel : ViewModel(){
 
     private fun setChiloCalorie() {
         viewModelScope.launch {
-            val diario = diarioDB.getUserDiario(auth.currentUser!!.email!!)
+            val dispensa = dispensaDB.getUserDispensa(auth.currentUser!!.email!!)
             val arrayEsercizi = esercizioDB.getEsercizi(LocalDate.now().toString())
             var calorie_esercizio = 0.0
             if (arrayEsercizi != null) {
@@ -82,11 +82,11 @@ class EsercizioViewModel : ViewModel(){
                     }
                 }
             }
-            diarioDB.setDiario( auth.currentUser?.email!!, LocalDate.now().toString(), diario!!.fabbisogno,
-                diario.grassiTot,  diario.proteineTot,  diario.carboidratiTot, calorie_esercizio.toInt(),
-                diario.chiloCalorieColazione, diario.chiloCaloriePranzo, diario.chiloCalorieCena,diario.chiloCalorieSpuntino
-                , diario.acqua)
-            _diarioChanged.value = true
+            dispensaDB.setDispensa( auth.currentUser?.email!!, LocalDate.now().toString(), dispensa!!.fabbisogno,
+                dispensa.grassiTot,  dispensa.proteineTot,  dispensa.carboidratiTot, calorie_esercizio.toInt(),
+                dispensa.chiloCalorieColazione, dispensa.chiloCaloriePranzo, dispensa.chiloCalorieCena,dispensa.chiloCalorieSpuntino
+                , dispensa.acqua)
+            _dispensaChanged.value = true
         }
     }
 

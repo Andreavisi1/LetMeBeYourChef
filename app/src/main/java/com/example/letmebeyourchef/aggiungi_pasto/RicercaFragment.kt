@@ -46,7 +46,7 @@ class RicercaFragment : Fragment() {
 
 
         val searchBar = binding.searchBar1
-        searchBar.queryHint = "Cerca il tuo prodotto"
+        searchBar.queryHint = "What are you looking for?"
         searchBar.onActionViewCollapsed()
         searchBar.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(query: String?): Boolean {

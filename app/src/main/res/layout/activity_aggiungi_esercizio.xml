@@ -40,7 +40,7 @@
                 android:background="@drawable/animazione_1"
                 android:layout_marginRight="20dp"
                 android:layout_width="150dp"
-                android:layout_height="match_parent" android:id="@+id/btn_aggiungi_diario"
+                android:layout_height="match_parent" android:id="@+id/btn_aggiungi_dispensa"
         />
         <Button
                 android:text="Aggiungi \n ai preferiti"

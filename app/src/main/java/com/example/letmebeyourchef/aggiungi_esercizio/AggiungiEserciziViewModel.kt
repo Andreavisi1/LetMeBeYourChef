@@ -24,7 +24,7 @@ class AggiungiEserciziViewModel : ViewModel() {
     private val preferitiDB = PreferitiDB()
     private val esercizioDB = EsercizioDB()
     private val personalizzatiDB = PersonalizzatiDB()
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
     private val auth = FirebaseAuth.getInstance()
 
     private var _eserciziLiveData = MutableLiveData<ArrayList<Esercizio>>()
@@ -120,7 +120,7 @@ class AggiungiEserciziViewModel : ViewModel() {
 
     private fun setChiloCalorie() {
         viewModelScope.launch {
-            val diario = diarioDB.getUserDiario(auth.currentUser!!.email!!)
+            val dispensa = dispensaDB.getUserDispensa(auth.currentUser!!.email!!)
             val arrayEsercizi = esercizioDB.getEsercizi(LocalDate.now().toString())
             var calorie_esercizio = 0.0
             if (arrayEsercizi != null) {
@@ -129,10 +129,10 @@ class AggiungiEserciziViewModel : ViewModel() {
                         calorie_esercizio += esercizio.calorieOra * (esercizio.durata/60.0)
                 }
             }
-            diarioDB.setDiario( auth.currentUser?.email!!, LocalDate.now().toString(), diario!!.fabbisogno,
-                diario.grassiTot,  diario.proteineTot,  diario.carboidratiTot, calorie_esercizio.toInt(),
-                diario.chiloCalorieColazione, diario.chiloCaloriePranzo, diario.chiloCalorieCena,diario.chiloCalorieSpuntino
-                , diario.acqua)
+            dispensaDB.setDispensa( auth.currentUser?.email!!, LocalDate.now().toString(), dispensa!!.fabbisogno,
+                dispensa.grassiTot,  dispensa.proteineTot,  dispensa.carboidratiTot, calorie_esercizio.toInt(),
+                dispensa.chiloCalorieColazione, dispensa.chiloCaloriePranzo, dispensa.chiloCalorieCena,dispensa.chiloCalorieSpuntino
+                , dispensa.acqua)
         }
     }
 

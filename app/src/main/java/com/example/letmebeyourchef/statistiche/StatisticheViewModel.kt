@@ -1,21 +1,20 @@
 package com.example.letmebeyourchef.statistiche
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DiarioDB
-import com.example.letmebeyourchef.model.Diario
+import com.example.letmebeyourchef.databaseFB.DispensaDB
+import com.example.letmebeyourchef.model.Dispensa
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 
 class StatisticheViewModel : ViewModel() {
-    private val diarioDB = DiarioDB()
+    private val dispensaDB = DispensaDB()
     private val auth = FirebaseAuth.getInstance()
 
-    private var _statiticheLiveData  = MutableLiveData<ArrayList<Diario>>()
-    val statisticheLivedata : LiveData<ArrayList<Diario>>
+    private var _statiticheLiveData  = MutableLiveData<ArrayList<Dispensa>>()
+    val statisticheLivedata : LiveData<ArrayList<Dispensa>>
         get() = _statiticheLiveData
 
     private var _kcalAssunte = MutableLiveData<Int>()
@@ -50,22 +49,22 @@ class StatisticheViewModel : ViewModel() {
 
     fun ottieniStatistihe(data_inizio: String, data_fine: String)  {
         viewModelScope.launch {
-            _statiticheLiveData.value = diarioDB.getStatistiche(data_inizio, data_fine)
+            _statiticheLiveData.value = dispensaDB.getStatistiche(data_inizio, data_fine)
             _kcalAssunte.value = 0
             _grCarboidrati.value = 0
             _grProteine.value = 0
             _grGrassi.value = 0
             _litriBevuti.value = 0.0
             _giorniAcqua.value = 0
-            for (diario in _statiticheLiveData.value!!){
-                _kcalAssunte.value = _kcalAssunte.value!! + (diario.chiloCalorieCena + diario.chiloCalorieColazione + diario.chiloCaloriePranzo + diario.chiloCalorieSpuntino)
-                _grCarboidrati.value = _grCarboidrati.value!! + diario.carboidratiTot
-                _grProteine.value = _grProteine.value!! + diario.proteineTot
-                _grGrassi.value = _grGrassi.value!! + diario.grassiTot
+            for (dispensa in _statiticheLiveData.value!!){
+                _kcalAssunte.value = _kcalAssunte.value!! + (dispensa.chiloCalorieCena + dispensa.chiloCalorieColazione + dispensa.chiloCaloriePranzo + dispensa.chiloCalorieSpuntino)
+                _grCarboidrati.value = _grCarboidrati.value!! + dispensa.carboidratiTot
+                _grProteine.value = _grProteine.value!! + dispensa.proteineTot
+                _grGrassi.value = _grGrassi.value!! + dispensa.grassiTot
                 var acqua = 0
                 for(i in 0..7) {
 
-                    if (diario.acqua[i]) {
+                    if (dispensa.acqua[i]) {
                         _litriBevuti.value = _litriBevuti.value!! + 0.25
                         acqua +=1
                     }

@@ -76,7 +76,8 @@
     <string name="facebook_app_id">1234</string>
     <string name="fb_login_protocol_scheme">fb1234</string>
     <string name="facebook_client_token">56789</string>
-    <string name="which_ingredient_are_you_looking_for">Which ingredient are you looking for?</string>
+    <string name="which_ingredient_are_you_looking_for">Search ingredients here:</string>
+    <string name="no_info_avalaible">No info avalaible</string>
 
 
 </resources>

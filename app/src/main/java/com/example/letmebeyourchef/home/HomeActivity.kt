@@ -18,11 +18,9 @@ import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
 import com.example.letmebeyourchef.autenticazione.InizioActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
-import com.example.letmebeyourchef.diario.DiarioFragment
 import com.example.letmebeyourchef.diete.DieteFragment
 import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.homepage.HomepageFragment
-//import com.example.letmebeyourchef.diario.DiarioFragment
 //import com.example.letmebeyourchef.diete.DieteFragment
 //import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.profilo.ProfiloActivity
@@ -32,7 +30,6 @@ import nl.joery.animatedbottombar.AnimatedBottomBar
 class HomeActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
-    val diarioFragment = DiarioFragment()
     val dispensaFragment = DispensaFragment()
     val dieteFragment = DieteFragment()
     val funzioniFragment = FunzioniFragment()
@@ -104,10 +101,10 @@ class HomeActivity : AppCompatActivity() {
                 //redirecting fragment
                 when(newIndex){
                     0 -> replaceFragment(homepageFragment);
-                    1 -> replaceFragment(diarioFragment);
+                    1 -> replaceFragment(this@HomeActivity.dispensaFragment);
                     2 -> replaceFragment(dieteFragment);
                     3 -> replaceFragment(funzioniFragment);
-                    else -> replaceFragment(diarioFragment)
+                    else -> replaceFragment(this@HomeActivity.dispensaFragment)
                 }
 
 
@@ -218,7 +215,7 @@ class HomeActivity : AppCompatActivity() {
 
 /*
     private lateinit var binding: ActivityHomeBinding
-     val diarioFragment = DiarioFragment()
+     val dispensaFragment = DispensaFragment()
      val statisticheFragment = StatisticheFragment()
      val dieteFragment = DieteFragment()
      val funzioniFragment = FunzioniFragment()
@@ -248,11 +245,11 @@ class HomeActivity : AppCompatActivity() {
             ) {
                 //redirecting fragment
                 when(newIndex){
-                    0 -> replaceFragment(diarioFragment);
+                    0 -> replaceFragment(dispensaFragment);
                     1 -> replaceFragment(statisticheFragment);
                     2 -> replaceFragment(dieteFragment);
                     3 -> replaceFragment(funzioniFragment);
-                    else -> replaceFragment(diarioFragment)
+                    else -> replaceFragment(homeFragment)
                 }
 
 

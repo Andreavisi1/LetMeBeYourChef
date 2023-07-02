@@ -22,7 +22,6 @@ class ProdottoDB : FirebaseDB(){
         proteine : Double,
         carboidrati : Double,
         grassi: Double,
-        quanita: Double
     ): Boolean {
         val prodotto = hashMapOf<String, Any>(
             "id" to foodId,
@@ -32,9 +31,7 @@ class ProdottoDB : FirebaseDB(){
             "proteine" to proteine,
             "carboidrati" to carboidrati,
             "grassi" to grassi,
-            "quantita" to quanita
         )
-        Log.d("prodotto", prodotto.toString())
         withContext(Dispatchers.IO) {
             prodotti_collection
                 .document(date)
@@ -62,10 +59,8 @@ class ProdottoDB : FirebaseDB(){
         date : String,
         tipologiaPasto: String,
         foodId : String,
-        quanita: Double
     ): Boolean {
         val prodotto = hashMapOf<String, Any>(
-            "quantita" to quanita
         )
         withContext(Dispatchers.IO) {
             prodotti_collection

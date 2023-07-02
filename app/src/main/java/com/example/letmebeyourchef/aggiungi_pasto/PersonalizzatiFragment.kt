@@ -112,40 +112,40 @@ class PersonalizzatiFragment : Fragment() {
         val titolo = dialogLayout.findViewById<EditText>(R.id.eT_nomeEs)
         val btnAggiungiLista = dialogLayout.findViewById<Button>(R.id.btnAggiungi)
         val btnElimina = dialogLayout.findViewById<Button>(R.id.buttonElimina)
-        val btnAggiungiDiario = dialogLayout.findViewById<Button>(R.id.btnAggiungiDiario)
+        val btnAggiungiDispensa = dialogLayout.findViewById<Button>(R.id.btnAggiungiDispensa)
         val layout_info = dialogLayout.findViewById<LinearLayout>(R.id.layout_info)
-        val layout_quantita  = dialogLayout.findViewById<LinearLayout>(R.id.layout_quantita)
+//        val layout_quantita  = dialogLayout.findViewById<LinearLayout>(R.id.layout_quantita)
         if(bottone == "clickItem"){
             btnAggiungiLista.text = "AGGIORNA\nNELLA LISTA"
             layout_info.visibility = View.GONE
             btnElimina.visibility = View.VISIBLE
-            btnAggiungiDiario.visibility = View.VISIBLE
+            btnAggiungiDispensa.visibility = View.VISIBLE
             setText(arrayOf(titolo,kcal,carbo,grassi,proteine),position)
 
         }else{
             btnAggiungiLista.text = "AGGIUNGI\nALLA LISTA"
             btnElimina.visibility = View.GONE
-            btnAggiungiDiario.visibility = View.GONE
+            btnAggiungiDispensa.visibility = View.GONE
         }
         var flag_2 = false
         var flag=false
-        btnAggiungiDiario.setOnClickListener {
-            layout_quantita.visibility = View.VISIBLE
+        btnAggiungiDispensa.setOnClickListener {
+    //        layout_quantita.visibility = View.VISIBLE
             layout_info.visibility = View.GONE
-            val quantita = dialogLayout.findViewById<EditText>(R.id.etNumQuantita).text.toString().toDouble()
-            if(quantita != 0.0 && quantita.toString() != ""){
+            //val quantita = dialogLayout.findViewById<EditText>(R.id.etNumQuantita).text.toString().toDouble()
+            //if(quantita != 0.0 && quantita.toString() != ""){
                 model.setPastoOnDB(requireArguments().getString("bottone")!!,model.personalizzatiLiveData.value!![position].id,
                     model.personalizzatiLiveData.value!![position].image,model.personalizzatiLiveData.value!![position].nome,
                     model.personalizzatiLiveData.value!![position].calorie,model.personalizzatiLiveData.value!![position].proteine,
-                    model.personalizzatiLiveData.value!![position].carboidrati,model.personalizzatiLiveData.value!![position].grassi,
-                    quantita,requireContext())
-                dialogLayout.visibility = View.GONE
-            }else {
+                    model.personalizzatiLiveData.value!![position].carboidrati,model.personalizzatiLiveData.value!![position].grassi, requireContext())
+
+                //dialogLayout.visibility = View.GONE
+            /*}else {
                 if (flag_2)
-                    Toast.makeText(requireContext(),"Per favore inserisci una quantità diversa da $quantita se desideri aggiungere il prodotto al Diario",Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(),"Per favore inserisci una quantità diversa da $quantita se desideri aggiungere il prodotto alla Dispensa",Toast.LENGTH_LONG).show()
                 flag_2 = true
-            }
-            flag=false
+            }*/
+            //flag=false
 
         }
 
@@ -154,7 +154,7 @@ class PersonalizzatiFragment : Fragment() {
 
         btnAggiungiLista.setOnClickListener {
             layout_info.visibility = View.VISIBLE
-            layout_quantita.visibility = View.GONE
+//            layout_quantita.visibility = View.GONE
             var kcal_salva = kcal.text.toString()
             var carbo_salva = carbo.text.toString()
             var proteine_salva = proteine.text.toString()

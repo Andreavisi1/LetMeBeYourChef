@@ -33,10 +33,8 @@ public class ActivityProdottoBindingImpl extends ActivityProdottoBinding  {
         sViewsWithIds.put(R.id.tvCategory, 17);
         sViewsWithIds.put(R.id.textView57, 18);
         sViewsWithIds.put(R.id.tvDescription, 19);
-        sViewsWithIds.put(R.id.textView58, 20);
-        sViewsWithIds.put(R.id.etQuantita, 21);
-        sViewsWithIds.put(R.id.btnAddDiary, 22);
-        sViewsWithIds.put(R.id.btnAddPreferiti, 23);
+        sViewsWithIds.put(R.id.btnAddDiary, 20);
+        sViewsWithIds.put(R.id.btnAddPreferiti, 21);
     }
     // views
     @NonNull
@@ -47,13 +45,12 @@ public class ActivityProdottoBindingImpl extends ActivityProdottoBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityProdottoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 24, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 22, sIncludes, sViewsWithIds));
     }
     private ActivityProdottoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[22]
-            , (android.widget.Button) bindings[23]
-            , (android.widget.EditText) bindings[21]
+            , (android.widget.Button) bindings[20]
+            , (android.widget.Button) bindings[21]
             , (android.widget.ImageView) bindings[2]
             , (android.widget.LinearLayout) bindings[1]
             , (android.widget.TextView) bindings[5]
@@ -65,7 +62,6 @@ public class ActivityProdottoBindingImpl extends ActivityProdottoBinding  {
             , (android.widget.TextView) bindings[14]
             , (android.widget.TextView) bindings[16]
             , (android.widget.TextView) bindings[18]
-            , (android.widget.TextView) bindings[20]
             , (android.widget.TextView) bindings[15]
             , (android.widget.TextView) bindings[6]
             , (android.widget.TextView) bindings[8]

@@ -26,15 +26,9 @@ class ProdottoActivity : AppCompatActivity() {
         setLayout()
 
         binding.btnAddDiary.setOnClickListener {
-            val quantita = binding.etQuantita.text.toString().toDouble()
-            if(quantita != 0.0 && quantita.toString() != ""){
                 model.setPastoOnDB(prodotto["tipologiaPasto"]!!, prodotto["foodId"]!!, prodotto["image"]!!,
                     prodotto["label"]!!, nutrients["calorie"]!!, nutrients["proteine"]!!, nutrients["carboidrati"]!!,
-                    nutrients["grassi"]!!, quantita, this)
-                finish()
-            }else{
-                Toast.makeText(this, "Per favore inserisci una quantità diversa da $quantita",Toast.LENGTH_LONG).show()
-            }
+                    nutrients["grassi"]!!, this)
 
         }
 
