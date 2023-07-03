@@ -400,12 +400,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:35:27-74
-activity#com.example.letmebeyourchef.ActivityDettagliRicetta
+activity#com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:41:13-52
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:41:13-60
 activity#com.example.letmebeyourchef.MainActivity
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:43:9-47:20
 	android:exported

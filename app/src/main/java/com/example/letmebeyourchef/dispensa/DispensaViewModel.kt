@@ -140,7 +140,7 @@ class DispensaViewModel : ViewModel() {
         val today = LocalDate.now()
         val birthday: LocalDate = LocalDate.parse(utente.data_nascita)
         val period: Period = Period.between(birthday, today)
-            return 88.0
+        return 88.0
 
 
 

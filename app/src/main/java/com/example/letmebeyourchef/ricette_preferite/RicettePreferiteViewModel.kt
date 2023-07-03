@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.letmebeyourchef.databaseFB.UtenteDB
 import com.example.letmebeyourchef.model.Utente
 import com.example.letmebeyourchef.recipeModels.Recipe
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 
@@ -18,12 +19,14 @@ class RicettePreferiteViewModel : ViewModel() {
     val utente: LiveData<Utente>
         get() = _utente
 
-    private val favoriteRecipes = MutableLiveData<List<Recipe>>()
+    private val favoriteRecipes: MutableLiveData<List<Recipe>> = MutableLiveData()
 
     // Metodo per aggiungere una ricetta preferita
-    fun addFavoriteRecipe(recipe: Recipe) {
+    fun addFavoriteRecipe(recipe: Recipe?) {
         val currentList = favoriteRecipes.value.orEmpty().toMutableList()
-        currentList.add(recipe)
+        if (recipe != null) {
+            currentList.add(recipe)
+        }
         favoriteRecipes.value = currentList
     }
 

@@ -24,6 +24,7 @@ import com.example.letmebeyourchef.homepage.HomepageFragment
 //import com.example.letmebeyourchef.diete.DieteFragment
 //import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.profilo.ProfiloActivity
+import com.example.letmebeyourchef.ricette_preferite.RicettePreferiteFragment
 //import com.example.letmebeyourchef.statistiche.StatisticheFragment
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
@@ -33,7 +34,7 @@ class HomeActivity : AppCompatActivity() {
     val dispensaFragment = DispensaFragment()
     val dieteFragment = DieteFragment()
     val funzioniFragment = FunzioniFragment()
-
+    val ricettePreferiteFragment = RicettePreferiteFragment()
     val homepageFragment = HomepageFragment()
 
     private val model = HomeViewModel()
@@ -102,9 +103,9 @@ class HomeActivity : AppCompatActivity() {
                 when(newIndex){
                     0 -> replaceFragment(homepageFragment);
                     1 -> replaceFragment(this@HomeActivity.dispensaFragment);
-                    2 -> replaceFragment(dieteFragment);
+                    2 -> replaceFragment(ricettePreferiteFragment);
                     3 -> replaceFragment(funzioniFragment);
-                    else -> replaceFragment(this@HomeActivity.dispensaFragment)
+                    else -> replaceFragment(this@HomeActivity.homepageFragment)
                 }
 
 

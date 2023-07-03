@@ -29,7 +29,6 @@
             app:layout_constraintTop_toTopOf="parent"
             android:id="@+id/linear" android:layout_width="match_parent" android:layout_height="50dp"
             android:orientation="vertical">
-            >
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -42,6 +41,7 @@
                 android:id="@+id/linearLayout18">
 
                 <TextView
+                    android:id="@+id/preferiti_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="There aren't favourites recipes yet"

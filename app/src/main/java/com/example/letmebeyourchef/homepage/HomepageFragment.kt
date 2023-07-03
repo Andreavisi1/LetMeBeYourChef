@@ -22,7 +22,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.letmebeyourchef.ActivityDettagliRicetta
+import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter

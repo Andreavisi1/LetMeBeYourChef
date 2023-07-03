@@ -4614,6 +4614,7 @@ id position
 id postLayout
 id pranzo
 id preferiti
+id preferiti_title
 id pressed
 id progress
 id progressBar
@@ -4646,6 +4647,7 @@ id recycler_ingredienti_ricetta
 id recycler_istruzioni
 id recycler_istruzioni_ingredienti
 id recycler_istruzioni_strumenti
+id recycler_preferiti
 id recycler_random
 id recycler_ricette_simili
 id recycler_step_istruzione
@@ -5238,6 +5240,7 @@ layout layout_item_prodotto_pref_pers
 layout layout_item_prodotto_selezionato
 layout list_ingredienti_ricette
 layout list_istruzioni
+layout list_ricette_preferite
 layout list_ricette_random
 layout list_ricette_simili
 layout list_step_istruzioni
