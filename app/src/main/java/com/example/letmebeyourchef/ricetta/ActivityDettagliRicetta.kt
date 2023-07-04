@@ -20,15 +20,18 @@ import com.example.letmebeyourchef.adapters.IstruzioniAdapter
 import com.example.letmebeyourchef.adapters.RicetteSimiliAdapter
 import com.example.letmebeyourchef.listeners.DettagliRicettaListener
 import com.example.letmebeyourchef.listeners.IstruzioniListener
+import com.example.letmebeyourchef.listeners.NutritionLabelListener
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.listeners.RicettePreferiteListener
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
 import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
 import com.example.letmebeyourchef.ricette_preferite.RicettePreferiteViewModel
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.activity_dettagli_ricetta.nutrition_label_button
 
 class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var id: Int = 0
@@ -40,6 +43,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var recycler_ricette_simili: RecyclerView? = null
     var recycler_istruzioni: RecyclerView? = null
     var like_button: Button? = null
+    var nutrition_label_button: Button? = null
     var manager: RequestManager? = null
     var dialog: ProgressDialog? = null
     var ingredientiAdapter: IngredientiAdapter? = null
@@ -47,9 +51,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var istruzioniAdapter: IstruzioniAdapter? = null
 
 
-
     var selectedRecipe: Recipe? = null
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -77,6 +79,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         recycler_ricette_simili = findViewById(R.id.recycler_ricette_simili)
         recycler_istruzioni = findViewById(R.id.recycler_istruzioni)
         like_button = findViewById(R.id.likebutton)
+        nutrition_label_button = findViewById(R.id.nutrition_label_button)
     }
 
     private val dettagliRicettaListener: DettagliRicettaListener =
@@ -137,7 +140,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         }
     }
 
-/*    private val ricettePreferiteListener: RicettePreferiteListener =
+    /*    private val ricettePreferiteListener: RicettePreferiteListener =
         object : RicettePreferiteListener {
             public override fun didFetch(
                 response: Recipe?,
@@ -199,7 +202,6 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     }
 
 
-
     /*private fun onRecipeSelected(recipe: Recipe) {
         selectedRecipe = recipe
     }
@@ -219,5 +221,26 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         viewModel.addFavoriteRecipe(selectedRecipe)
 
         // Visualizza un messaggio di conferma all'utente
-        Toast.makeText(this, "Ricetta aggiunta ai preferiti", Toast.LENGTH_SHORT).show()}
+        Toast.makeText(this, "Ricetta aggiunta ai preferiti", Toast.LENGTH_SHORT).show()
+    }
+
+    private val nutritionLabelListener: NutritionLabelListener =
+        object : NutritionLabelListener {
+            public override fun didFetch(
+                response: ResponseFromApiNutritionLabel?,
+                message: String?
+            ) {
+                dialog!!.dismiss()
+
+            }
+
+            public override fun didError(message: String?) {
+                Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
+            }
+        }
+
+    fun seeNutritionLabel(view: View) { // Aggiungi la ricetta ai preferiti
+        manager!!.getNutritionLabel(nutritionLabelListener, id)
+
+    }
 }

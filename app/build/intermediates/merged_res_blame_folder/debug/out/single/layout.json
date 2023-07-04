@@ -20,12 +20,12 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/activity_scanner.xml"
     },
     {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_diete.xml",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/fragment_diete.xml"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/win_layout_dialog.xml",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/win_layout_dialog.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_diete.xml",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/fragment_diete.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_profilo.xml",
@@ -36,16 +36,16 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/activity_home.xml"
     },
     {
-        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_ricette_preferite.xml",
-        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_dettagli_ricetta.xml",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/activity_dettagli_ricetta.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_register.xml",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_splash_screen.xml",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_splash_screen.xml",
@@ -192,12 +192,12 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_ricette_preferite.xml",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/layout_item_prodotto_selezionato.xml",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/layout_item_prodotto_selezionato.xml"
+    },
+    {
+        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/fragment_ricette_preferite.xml",
+        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-mergeDebugResources-89:/layout/activity_inizio.xml",

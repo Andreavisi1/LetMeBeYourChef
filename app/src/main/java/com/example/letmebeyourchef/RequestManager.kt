@@ -3,6 +3,7 @@ package com.example.letmebeyourchef
 import android.content.Context
 import com.example.letmebeyourchef.listeners.DettagliRicettaListener
 import com.example.letmebeyourchef.listeners.IstruzioniListener
+import com.example.letmebeyourchef.listeners.NutritionLabelListener
 import com.example.letmebeyourchef.listeners.RecipesByIngredientsListener
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
@@ -10,6 +11,7 @@ import com.example.letmebeyourchef.listeners.SearchIngredientsListener
 import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRecipesByIngredients
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
@@ -233,6 +235,33 @@ class RequestManager constructor(var context: Context) {
         return ingredientsList
     }
 
+    fun getNutritionLabel(listener: NutritionLabelListener, id: Int) {
+        val callNutritionLabel: CallNutritionLabel = retrofit.create(
+            CallNutritionLabel::class.java
+        )
+        val call: Call<ResponseFromApiNutritionLabel> =
+            callNutritionLabel.callNutritionLabel(id, context.getString((R.string.api_key)))
+        call.enqueue(object : Callback<ResponseFromApiNutritionLabel?> {
+            public override fun onResponse(
+                call: Call<ResponseFromApiNutritionLabel?>,
+                response: Response<ResponseFromApiNutritionLabel?>
+            ) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message())
+                    return
+                }
+                listener.didFetch(response.body(), response.message())
+            }
+
+            public override fun onFailure(
+                call: Call<ResponseFromApiNutritionLabel?>,
+                t: Throwable
+            ) {
+                listener.didError(t.message)
+            }
+        })
+    }
+
     private open interface CallRicetteRandom {
         @GET("recipes/random")
         fun callRicetteRandom(
@@ -293,5 +322,13 @@ class RequestManager constructor(var context: Context) {
         suspend fun getIngredienti(): Response<List<String>>
 
 
+    }
+
+    private open interface CallNutritionLabel {
+        @GET("recipes/{id}/nutritionLabel.png")
+        fun callNutritionLabel(
+            @Path("id") id: Int,
+            @Query("apiKey") apiKey: String?
+        ): Call<ResponseFromApiNutritionLabel>
     }
 }

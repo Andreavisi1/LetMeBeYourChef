@@ -13,14 +13,11 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.navArgs
-import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.ActivityRegisterBinding
 import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.common.SignInButton
-import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 
 
@@ -52,7 +49,7 @@ class RegisterActivity : AppCompatActivity() {
 
             lifecycleScope.launch {
                 if (check) {
-                    if (model.singUp(email, pass) == null) {
+                    if (model.signUp(email, pass) == null) {
                         checkError(isOnline(this@RegisterActivity))
                     } else {
                         model.addAuthUtenteOnDB(utente.nome, utente.cognome, email, utente.sesso,

@@ -23,16 +23,16 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button button4;
-
-  @NonNull
   public final ImageView imageViewImmagineRicetta;
 
   @NonNull
   public final Button likebutton;
 
   @NonNull
-  public final Button recipecardbutton;
+  public final Button nutritionLabelButton;
+
+  @NonNull
+  public final Button recipeCardButton;
 
   @NonNull
   public final RecyclerView recyclerIngredientiRicetta;
@@ -52,17 +52,17 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   @NonNull
   public final TextView textViewSourceRicetta;
 
-  private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView, @NonNull Button button4,
+  private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView,
       @NonNull ImageView imageViewImmagineRicetta, @NonNull Button likebutton,
-      @NonNull Button recipecardbutton, @NonNull RecyclerView recyclerIngredientiRicetta,
-      @NonNull RecyclerView recyclerIstruzioni, @NonNull RecyclerView recyclerRicetteSimili,
-      @NonNull TextView textViewDescrizioneRicetta, @NonNull TextView textViewNomeRicetta,
-      @NonNull TextView textViewSourceRicetta) {
+      @NonNull Button nutritionLabelButton, @NonNull Button recipeCardButton,
+      @NonNull RecyclerView recyclerIngredientiRicetta, @NonNull RecyclerView recyclerIstruzioni,
+      @NonNull RecyclerView recyclerRicetteSimili, @NonNull TextView textViewDescrizioneRicetta,
+      @NonNull TextView textViewNomeRicetta, @NonNull TextView textViewSourceRicetta) {
     this.rootView = rootView;
-    this.button4 = button4;
     this.imageViewImmagineRicetta = imageViewImmagineRicetta;
     this.likebutton = likebutton;
-    this.recipecardbutton = recipecardbutton;
+    this.nutritionLabelButton = nutritionLabelButton;
+    this.recipeCardButton = recipeCardButton;
     this.recyclerIngredientiRicetta = recyclerIngredientiRicetta;
     this.recyclerIstruzioni = recyclerIstruzioni;
     this.recyclerRicetteSimili = recyclerRicetteSimili;
@@ -98,12 +98,6 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView_immagine_ricetta;
       ImageView imageViewImmagineRicetta = ViewBindings.findChildViewById(rootView, id);
       if (imageViewImmagineRicetta == null) {
@@ -116,9 +110,15 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recipecardbutton;
-      Button recipecardbutton = ViewBindings.findChildViewById(rootView, id);
-      if (recipecardbutton == null) {
+      id = R.id.nutrition_label_button;
+      Button nutritionLabelButton = ViewBindings.findChildViewById(rootView, id);
+      if (nutritionLabelButton == null) {
+        break missingId;
+      }
+
+      id = R.id.recipe_card_button;
+      Button recipeCardButton = ViewBindings.findChildViewById(rootView, id);
+      if (recipeCardButton == null) {
         break missingId;
       }
 
@@ -158,8 +158,8 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDettagliRicettaBinding((LinearLayout) rootView, button4,
-          imageViewImmagineRicetta, likebutton, recipecardbutton, recyclerIngredientiRicetta,
+      return new ActivityDettagliRicettaBinding((LinearLayout) rootView, imageViewImmagineRicetta,
+          likebutton, nutritionLabelButton, recipeCardButton, recyclerIngredientiRicetta,
           recyclerIstruzioni, recyclerRicetteSimili, textViewDescrizioneRicetta,
           textViewNomeRicetta, textViewSourceRicetta);
     }

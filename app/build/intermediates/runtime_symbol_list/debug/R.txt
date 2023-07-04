@@ -4074,7 +4074,6 @@ int id btn_reset 0x7f0a00b0
 int id btn_salva 0x7f0a00b1
 int id btn_scanner 0x7f0a00b2
 int id button 0x7f0a00b3
-int id button4 0x7f0a00b4
 int id buttonElimina 0x7f0a00b5
 int id buttonEliminaEsercizio 0x7f0a00b6
 int id buttonPanel 0x7f0a00b7
@@ -4579,6 +4578,7 @@ int id notification_background 0x7f0a02a9
 int id notification_main_column 0x7f0a02aa
 int id notification_main_column_container 0x7f0a02ab
 int id nowrap 0x7f0a02ac
+int id nutrition_label_button 0x7f0a044a
 int id off 0x7f0a02ad
 int id on 0x7f0a02ae
 int id onAttachStateChangeListener 0x7f0a02af
@@ -4639,7 +4639,7 @@ int id radio 0x7f0a02e5
 int id radio_button 0x7f0a02e6
 int id random_list_container 0x7f0a02e7
 int id ratio 0x7f0a02e8
-int id recipecardbutton 0x7f0a02e9
+int id recipe_card_button 0x7f0a044b
 int id rectangles 0x7f0a02ea
 int id recyclerViewSelezionati 0x7f0a02eb
 int id recycler_ingredienti_ricetta 0x7f0a02ec
@@ -5375,6 +5375,7 @@ int raw car_ui_keep 0x7f130001
 int raw firebase_common_keep 0x7f130002
 int raw keep 0x7f130003
 int raw letmebeyourchef 0x7f130004
+int raw letmebeyourchef22 0x7f130009
 int raw programmer 0x7f130005
 int raw videoapp 0x7f130006
 int raw zxing_beep 0x7f130007
