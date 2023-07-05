@@ -21,7 +21,7 @@ class AuthViewModel : ViewModel() {
     val utente: LiveData<Utente>
         get() = _utente
 
-    suspend fun singUp(email: String, password: String): FirebaseUser? {
+    suspend fun signUp(email: String, password: String): FirebaseUser? {
         return try {
             val response = auth.createUserWithEmailAndPassword(email, password).await()
             response.user

@@ -136,22 +136,10 @@ class RicettePreferiteFragment : Fragment() {
     private val ricettePreferiteListener: RicettePreferiteListener =
         object : RicettePreferiteListener {
             public override fun didFetch(
-                response: ResponseFromApiRicetteRandom?,
+                response: Recipe?,
                 message: String?
             ) {
 
-
-
-                recyclerView = binding.recyclerPreferiti
-                recyclerView.setHasFixedSize(true)
-                recyclerView.setLayoutManager(GridLayoutManager(mContext, 1))
-                ricettePreferiteAdapter = RicettePreferiteAdapter(
-                    requireContext(),
-                    response!!.recipes,
-                    ricettaClickListener,
-                )
-
-                recyclerView.setAdapter(ricettePreferiteAdapter)
 
             }
 

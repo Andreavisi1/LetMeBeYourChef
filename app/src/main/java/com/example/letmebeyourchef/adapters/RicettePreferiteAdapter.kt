@@ -9,8 +9,10 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
+import com.example.letmebeyourchef.aggiungi_pasto.MyAdapterRicerca
 import com.example.letmebeyourchef.databinding.ListRicettePreferiteBinding
 import com.example.letmebeyourchef.listeners.RicettaClickListener
+import com.example.letmebeyourchef.model.Json_Parsing.Prodotto
 import com.example.letmebeyourchef.recipeModels.Recipe
 import com.squareup.picasso.Picasso
 
@@ -18,14 +20,14 @@ class RicettePreferiteAdapter(
     var context: Context,
     var list: List<Recipe?>?,
     var listener: RicettaClickListener
-    ) : RecyclerView.Adapter<RicetteRandomViewHolder>() {
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RicetteRandomViewHolder {
-            return RicetteRandomViewHolder(
-                LayoutInflater.from(context).inflate(R.layout.list_ricette_random, parent, false)
+    ) : RecyclerView.Adapter<RicettePreferiteViewHolder>() {
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RicettePreferiteViewHolder {
+            return RicettePreferiteViewHolder(
+                LayoutInflater.from(context).inflate(R.layout.list_ricette_preferite, parent, false)
             )
         }
 
-        override fun onBindViewHolder(holder: RicetteRandomViewHolder, position: Int) {
+        override fun onBindViewHolder(holder: RicettePreferiteViewHolder, position: Int) {
             holder.textView_title.text = list!!.get(position)!!.title
             holder.textView_title.isSelected = true
             holder.textView_likes.text = list!!.get(position)!!.aggregateLikes.toString() + " likes"

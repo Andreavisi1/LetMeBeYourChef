@@ -4075,7 +4075,6 @@ id btn_reset
 id btn_salva
 id btn_scanner
 id button
-id button4
 id buttonElimina
 id buttonEliminaEsercizio
 id buttonPanel
@@ -4580,6 +4579,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id nowrap
+id nutrition_label_button
 id off
 id on
 id onAttachStateChangeListener
@@ -4640,7 +4640,7 @@ id radio
 id radio_button
 id random_list_container
 id ratio
-id recipecardbutton
+id recipe_card_button
 id rectangles
 id recyclerViewSelezionati
 id recycler_ingredienti_ricetta
@@ -5376,6 +5376,7 @@ raw car_ui_keep
 raw firebase_common_keep
 raw keep
 raw letmebeyourchef
+raw letmebeyourchef22
 raw programmer
 raw videoapp
 raw zxing_beep

@@ -80,11 +80,17 @@
                 android:layout_height="wrap_content"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/nutrition_label_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Recipe nutrition label widget"
-                android:backgroundTint="@color/green"/>
+                android:backgroundTint="@color/green"
+                android:onClick="seeNutritionLabel"
+                android:text="See nutrition label"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
 
             <TextView
                 android:text="Ingredients:"
@@ -109,11 +115,17 @@
             </androidx.recyclerview.widget.RecyclerView>
 
             <Button
-                android:id="@+id/recipecardbutton"
+                android:id="@+id/recipe_card_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/red"
+                android:onClick="seeNutritionLabel"
                 android:text="Get recipe card"
-                android:backgroundTint="@color/red"/>
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
 
             <TextView
                 android:text="Similar receipes, if this doesn’t convince you:"
