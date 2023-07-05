@@ -5,6 +5,8 @@ import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
 
 open interface RicettePreferiteListener {
+
+    fun onItemClick(position: Int)
     fun didFetch(response: Recipe?, message: String?)
     fun didError(message: String?)
 }

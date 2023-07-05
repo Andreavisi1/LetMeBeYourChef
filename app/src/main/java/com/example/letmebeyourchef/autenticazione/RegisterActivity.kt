@@ -36,8 +36,12 @@ class RegisterActivity : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
         utente = args.utente
+
+      /*
         progressBar = binding.progressBar3
         progressBar.visibility = ProgressBar.INVISIBLE
+       */
+
         setGooglePlusButtonText(binding.signInGoogleButton, "Or sign in with Google")
 
         binding.btnRegister.setOnClickListener {

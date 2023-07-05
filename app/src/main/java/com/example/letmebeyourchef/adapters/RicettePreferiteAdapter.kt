@@ -9,16 +9,14 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
-import com.example.letmebeyourchef.aggiungi_pasto.MyAdapterRicerca
-import com.example.letmebeyourchef.databinding.ListRicettePreferiteBinding
 import com.example.letmebeyourchef.listeners.RicettaClickListener
-import com.example.letmebeyourchef.model.Json_Parsing.Prodotto
-import com.example.letmebeyourchef.recipeModels.Recipe
+import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
 import com.squareup.picasso.Picasso
 
+//ArrayList<Prodotto>
 class RicettePreferiteAdapter(
     var context: Context,
-    var list: List<Recipe?>?,
+    var list: List<FavouriteRecipe>?,
     var listener: RicettaClickListener
     ) : RecyclerView.Adapter<RicettePreferiteViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RicettePreferiteViewHolder {
@@ -26,7 +24,6 @@ class RicettePreferiteAdapter(
                 LayoutInflater.from(context).inflate(R.layout.list_ricette_preferite, parent, false)
             )
         }
-
         override fun onBindViewHolder(holder: RicettePreferiteViewHolder, position: Int) {
             holder.textView_title.text = list!!.get(position)!!.title
             holder.textView_title.isSelected = true
@@ -34,11 +31,20 @@ class RicettePreferiteAdapter(
             holder.textView_porzioni.text = list!!.get(position)!!.servings.toString() + " portions"
             holder.textView_tempo.text = (list!!.get(position)!!.readyInMinutes.toString() + " minutes")
             Picasso.get().load(list!![position]!!.image).into(holder.imageView_food)
-            holder.random_list_container.setOnClickListener(View.OnClickListener {
+            holder.random_list_container.setOnClickListener {
                 listener.onClickRicetta(
-                    list!![holder.adapterPosition]!!.id.toString()
+                    list!![holder.adapterPosition]!!.id.toString(),
+                    list!![holder.adapterPosition]!!.title.toString(),
+                    list!![holder.adapterPosition]!!.sourceName.toString(),
+                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
+                    list!![holder.adapterPosition]!!.servings.toInt(),
+                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
+                    list!![holder.adapterPosition]!!.image.toString(),
+                    list!![holder.adapterPosition]!!.imageType.toString(),
+                    list!![holder.adapterPosition]!!.instructions.toString(),
+                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
                 )
-            })
+            }
         }
 
         override fun getItemCount(): Int {
@@ -63,3 +69,4 @@ class RicettePreferiteAdapter(
             imageView_food = itemView.findViewById(R.id.imageView_food)
         }
     }
+
