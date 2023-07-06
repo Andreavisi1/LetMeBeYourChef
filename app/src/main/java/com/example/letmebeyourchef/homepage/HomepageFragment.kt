@@ -22,7 +22,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
@@ -30,6 +29,7 @@ import com.example.letmebeyourchef.databinding.FragmentHomepageBinding
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
+import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 import kotlinx.android.synthetic.main.fragment_dispensa.*
 import kotlinx.android.synthetic.main.win_layout_dialog.*
 
@@ -132,19 +132,41 @@ class HomepageFragment : Fragment() {
             public override fun onNothingSelected(adapterView: AdapterView<*>?) {}
         }
     private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
-        public override fun onClickRicetta(id: String?) {
-            startActivity(
-                Intent(requireActivity(), ActivityDettagliRicetta::class.java)
-                    .putExtra("id", id)
-            )
+
+        public override fun onClickRicetta(
+            id: String,
+            title: String?,
+            sourceName: String?,
+            readyInMinutes: Int,
+            servings: Int,
+            sourceUrl: String?,
+            image: String,
+            imageType: String?,
+            instructions: String?,
+            spoonacularSourceUrl: String?
+        ) {
+
+            val intent = Intent(requireActivity(), ActivityDettagliRicetta::class.java)
+            val extras = Bundle()
+            extras.putString("id", id)
+            extras.putString("image", image)
+            extras.putString("sourceName", sourceName)
+            extras.putString("title", title)
+            extras.putInt("readyInMinutes", readyInMinutes)
+            extras.putInt("servings", servings)
+            extras.putString("sourceUrl", sourceUrl)
+            extras.putString("imageType", imageType)
+            extras.putString("instructions", instructions)
+            extras.putString("spoonacularSourceUrl", spoonacularSourceUrl)
+            intent.putExtras(extras)
+            startActivity(intent)
+
         }
     }
 
     override fun onDestroy() {
         super.onDestroy()
         //setDiario()
-
-
 
     }
 
@@ -160,8 +182,6 @@ class HomepageFragment : Fragment() {
         val frameAnimation: AnimationDrawable = glass.background as AnimationDrawable
         frameAnimation.start()
     }
-
-
 
     @SuppressLint("ResourceAsColor")
     private fun openCongratulazioni() {
@@ -197,6 +217,5 @@ class HomepageFragment : Fragment() {
         super.onDetach()
         mContext = null
     }
-
 
 }

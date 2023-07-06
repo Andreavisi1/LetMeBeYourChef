@@ -9,40 +9,22 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
-import android.text.Html
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import android.widget.ImageView
-import android.widget.Toast
-import androidx.appcompat.widget.SearchView
-import androidx.core.view.isEmpty
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
-import com.example.letmebeyourchef.adapters.IngredientiAdapter
 import com.example.letmebeyourchef.adapters.RicettePreferiteAdapter
-import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
-import com.example.letmebeyourchef.databinding.FragmentHomepageBinding
 import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBinding
-import com.example.letmebeyourchef.homepage.HomepageViewModel
-import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicettaClickListener
-import com.example.letmebeyourchef.listeners.RicettePreferiteListener
-import com.example.letmebeyourchef.recipeModels.Recipe
-import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
-import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteRandom
-import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.win_layout_dialog.btn_OK
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewClose
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewWin
@@ -51,17 +33,17 @@ import kotlinx.android.synthetic.main.win_layout_dialog.imageViewWin
 class RicettePreferiteFragment : Fragment() {
 
     lateinit var manager: RequestManager
-    private lateinit var ricettePreferiteAdapter: RicettePreferiteAdapter
-    lateinit var recyclerView: RecyclerView
     var tags: MutableList<String> = ArrayList()
+
+    private lateinit var ricettePreferiteAdapter: RicettePreferiteAdapter
 
     private var  mContext: Context? = null
 
     private val model = RicettePreferiteViewModel()
     private lateinit var binding: FragmentRicettePreferiteBinding
 
-    var selectedRecipe: Recipe? = null
 
+    private lateinit var recyclerViewPreferiti: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -81,10 +63,27 @@ class RicettePreferiteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        if (!binding.recyclerPreferiti.isEmpty()) {
-            binding.preferitiTitle.setText("Here are your favourites recipes")
+        model.getFavoriteRecipes()
+        recyclerViewPreferiti = binding.recyclerPreferiti
+        recyclerViewPreferiti.setLayoutManager(GridLayoutManager(mContext, 1))
+        recyclerViewPreferiti.setHasFixedSize(true)
+        ricettePreferiteAdapter = RicettePreferiteAdapter(
+            requireContext(),
+            model.getRicettePreferite(),
+            ricettaClickListener,
+        )
 
-        }
+
+
+        Log.e(model.getFavoriteRecipes().value.toString(), "MODEL FAVOURITES fragment")
+
+        Log.e(binding.recyclerPreferiti.toString(), "EX")
+
+
+        recyclerViewPreferiti.setAdapter(ricettePreferiteAdapter)
+
+
+
 
 
         /*binding.searchviewHome.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -105,57 +104,40 @@ class RicettePreferiteFragment : Fragment() {
 
     }
 
-    private val responseListenerRicetteRandom: ResponseListenerRicetteRandom =
-        object : ResponseListenerRicetteRandom {
-            public override fun didFetch(
-                response: ResponseFromApiRicetteRandom?,
-                message: String?
-            ) {
-
-                recyclerView = binding.recyclerPreferiti
-                recyclerView.setHasFixedSize(true)
-                recyclerView.setLayoutManager(GridLayoutManager(mContext, 1))
-                ricettePreferiteAdapter = RicettePreferiteAdapter(
-                    requireContext(),
-                    response!!.recipes,
-                    ricettaClickListener,
-                )
-
-                recyclerView.setAdapter(ricettePreferiteAdapter)
-
-            }
-
-            public override fun didError(message: String?) {
-                Toast.makeText(requireActivity(), message, Toast.LENGTH_SHORT).show()
-            }
-        }
-
-
-
-
-    private val ricettePreferiteListener: RicettePreferiteListener =
-        object : RicettePreferiteListener {
-            public override fun didFetch(
-                response: Recipe?,
-                message: String?
-            ) {
-
-
-            }
-
-            public override fun didError(message: String?) {
-                Toast.makeText(requireActivity(), message, Toast.LENGTH_SHORT).show()
-            }
-        }
 
     private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
-        public override fun onClickRicetta(id: String?) {
-            startActivity(
-                Intent(requireActivity(), ActivityDettagliRicetta::class.java)
-                    .putExtra("id", id)
-            )
+
+        public override fun onClickRicetta(
+            id: String,
+            title: String?,
+            sourceName: String?,
+            readyInMinutes: Int,
+            servings: Int,
+            sourceUrl: String?,
+            image: String,
+            imageType: String?,
+            instructions: String?,
+            spoonacularSourceUrl: String?
+        ) {
+
+            val intent = Intent(requireActivity(), ActivityDettagliRicetta::class.java)
+            val extras = Bundle()
+            extras.putString("id", id)
+            extras.putString("image", image)
+            extras.putString("sourceName", sourceName)
+            extras.putString("title", title)
+            extras.putInt("readyInMinutes", readyInMinutes)
+            extras.putInt("servings", servings)
+            extras.putString("sourceUrl", sourceUrl)
+            extras.putString("imageType", imageType)
+            extras.putString("instructions", instructions)
+            extras.putString("spoonacularSourceUrl", spoonacularSourceUrl)
+            intent.putExtras(extras)
+            startActivity(intent)
+
         }
     }
+
 
     override fun onDestroy() {
         super.onDestroy()
@@ -214,6 +196,7 @@ class RicettePreferiteFragment : Fragment() {
         super.onDetach()
         mContext = null
     }
+
 
 
 }

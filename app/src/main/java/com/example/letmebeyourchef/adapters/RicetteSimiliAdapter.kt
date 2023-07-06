@@ -38,7 +38,16 @@ class RicetteSimiliAdapter constructor(
         ).into(holder.imageView_simili)
         holder.ricette_simili_holder.setOnClickListener(object : View.OnClickListener {
             public override fun onClick(view: View) {
-                listener.onClickRicetta(list.get(holder.getAdapterPosition()).id.toString())
+                listener.onClickRicetta(list!![holder.adapterPosition]!!.id.toString() ,
+                    list!![holder.adapterPosition]!!.title.toString(),
+                    list!![holder.adapterPosition]!!.sourceName.toString(),
+                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
+                    list!![holder.adapterPosition]!!.servings.toInt(),
+                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
+                    list!![holder.adapterPosition]!!.image.toString(),
+                    list!![holder.adapterPosition]!!.imageType.toString(),
+                    list!![holder.adapterPosition]!!.instructions.toString(),
+                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString())
             }
         })
     }

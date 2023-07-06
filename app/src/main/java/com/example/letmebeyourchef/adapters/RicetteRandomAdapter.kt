@@ -31,11 +31,20 @@ class RicetteRandomAdapter(
         holder.textView_porzioni.text = list!!.get(position)!!.servings.toString() + " portions"
         holder.textView_tempo.text = (list!!.get(position)!!.readyInMinutes.toString() + " minutes")
         Picasso.get().load(list!![position]!!.image).into(holder.imageView_food)
-        holder.random_list_container.setOnClickListener(View.OnClickListener {
+        holder.random_list_container.setOnClickListener {
             listener.onClickRicetta(
-                list!![holder.adapterPosition]!!.id.toString()
+                list!![holder.adapterPosition]!!.id.toString(),
+                list!![holder.adapterPosition]!!.title.toString(),
+                list!![holder.adapterPosition]!!.sourceName.toString(),
+                list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
+                list!![holder.adapterPosition]!!.servings.toInt(),
+                list!![holder.adapterPosition]!!.sourceUrl.toString(),
+                list!![holder.adapterPosition]!!.image.toString(),
+                list!![holder.adapterPosition]!!.imageType.toString(),
+                list!![holder.adapterPosition]!!.instructions.toString(),
+                list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
             )
-        })
+        }
     }
 
     override fun getItemCount(): Int {

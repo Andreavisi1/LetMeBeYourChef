@@ -22,8 +22,8 @@ import com.example.letmebeyourchef.listeners.DettagliRicettaListener
 import com.example.letmebeyourchef.listeners.IstruzioniListener
 import com.example.letmebeyourchef.listeners.NutritionLabelListener
 import com.example.letmebeyourchef.listeners.RicettaClickListener
-import com.example.letmebeyourchef.listeners.RicettePreferiteListener
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
+import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
 import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
@@ -31,10 +31,18 @@ import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
 import com.example.letmebeyourchef.ricette_preferite.RicettePreferiteViewModel
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_dettagli_ricetta.nutrition_label_button
 
 class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var id: Int = 0
+    var sourceName: String? = null
+    var readyInMinutes: Int = 0
+    var servings: Int = 0
+    var sourceUrl: String? = null
+    var image: String? = null
+    var imageType: String? = null
+    var instructions: String? = null
+    var spoonacularSourceUrl: String? = null
+
     var textView_nome_ricetta: TextView? = null
     var textView_source_ricetta: TextView? = null
     var textView_descrizione_ricetta: TextView? = null
@@ -51,19 +59,28 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var istruzioniAdapter: IstruzioniAdapter? = null
 
 
-    var selectedRecipe: Recipe? = null
+    private val model = RicettePreferiteViewModel()
+
+    var selectedRecipe: FavouriteRecipe? = null
+
+    private var ricette_preferite  = HashMap<String,String?>()
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dettagli_ricetta)
         findViews()
-        id = getIntent().getStringExtra("id")!!.toInt()
+
+        getExtra()
+
+
         manager = RequestManager(this)
         manager!!.getDettagliRicetta(dettagliRicettaListener, id)
         manager!!.getRicetteSimili(ricetteSimiliListener, id)
         manager!!.getIstruzioni(istruzioniListener, id)
 
+        like_button?.setOnClickListener(ricettePreferiteListener)
 
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading details...")
@@ -89,12 +106,6 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
                 message: String?
             ) {
                 dialog!!.dismiss()
-
-
-
-
-
-
 
                 textView_nome_ricetta!!.setText(response!!.title)
                 textView_source_ricetta!!.setText(response.sourceName)
@@ -177,7 +188,18 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         }*/
 
     private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
-        public override fun onClickRicetta(id: String?) {
+        public override fun onClickRicetta(
+            id: String,
+            title: String?,
+            sourceName: String?,
+            readyInMinutes: Int,
+            servings: Int,
+            sourceUrl: String?,
+            image: String,
+            imageType: String?,
+            instructions: String?,
+            spoonacularSourceUrl: String?
+        ) {
             startActivity(
                 Intent(this@ActivityDettagliRicetta, ActivityDettagliRicetta::class.java)
                     .putExtra("id", id)
@@ -207,14 +229,6 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     }
     */
 
-    private val likeClickListener: RicettaClickListener = object : RicettaClickListener {
-        public override fun onClickRicetta(id: String?) {
-            startActivity(
-                Intent(this@ActivityDettagliRicetta, ActivityDettagliRicetta::class.java)
-                    .putExtra("id", id)
-            )
-        }
-    }
 
     fun addToFavorites(view: View) { // Aggiungi la ricetta ai preferiti
         val viewModel = ViewModelProvider(this).get(RicettePreferiteViewModel::class.java)
@@ -243,4 +257,52 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         manager!!.getNutritionLabel(nutritionLabelListener, id)
 
     }
+
+    private fun getExtra(){
+
+        val extras = intent.extras
+
+        id = extras!!.getString("id")!!.toInt()
+        image = extras!!.getString("image")!!
+        sourceName = extras!!.getString("sourceName")!!
+        title = extras!!.getString("title")!!
+        readyInMinutes = extras!!.getInt("readyInMinutes")!!.toInt()
+        servings = extras!!.getInt("servings")!!.toInt()
+        sourceUrl = extras!!.getString("sourceUrl")!!
+        imageType = extras!!.getString("imageType")!!
+        instructions = extras!!.getString("instructions")!!
+        spoonacularSourceUrl = extras!!.getString("spoonacularSourceUrl")!!
+    }
+
+    private val ricettePreferiteListener = View.OnClickListener {view ->
+        model.setRicettePreferiteOnDB(
+            id.toString(), title.toString()!!, sourceName!!,  readyInMinutes!!, servings!!,
+            sourceUrl.toString()!!, image!!, imageType!!, instructions!!,spoonacularSourceUrl!!,
+            this@ActivityDettagliRicetta
+        )
+    }
+
+/*    private val ricettePreferiteListener: RicettePreferiteListener =
+        object : RicettePreferiteListener {
+            public override fun didFetch(
+                response: Recipe?,
+                message: String?
+            ) {
+                dialog!!.dismiss()
+
+                    model.setRicettePreferiteOnDB(
+                        ricette_preferite["id"]!!, ricette_preferite["title"]!!, ricette_preferite["sourceName"]!!,
+                        ricette_preferite["readyInMinutes"]!!.toInt(), ricette_preferite["servings"]!!.toInt(), ricette_preferite["sourceUrl"]!!,
+                        ricette_preferite["image"]!!, ricette_preferite["imageType"]!!, ricette_preferite["instructions"]!!,
+                        ricette_preferite["spoonacularSourceUrl"]!!, this@ActivityDettagliRicetta
+                    )
+                    finish()
+
+
+            }
+
+            public override fun didError(message: String?) {
+                Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
+            }
+        }*/
 }

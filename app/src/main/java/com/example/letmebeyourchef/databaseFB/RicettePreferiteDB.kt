@@ -1,9 +1,12 @@
 package com.example.letmebeyourchef.databaseFB
 
+import android.util.Log
 import com.example.letmebeyourchef.model.Json_Parsing.Esercizio
 import com.example.letmebeyourchef.model.Pasto
 import com.example.letmebeyourchef.recipeModels.AnalyzedInstruction
 import com.example.letmebeyourchef.recipeModels.ExtendedIngredient
+import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
+import com.example.letmebeyourchef.recipeModels.Recipe
 import com.google.firebase.firestore.ktx.toObjects
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.tasks.await
@@ -71,11 +74,9 @@ class RicettePreferiteDB : FirebaseDB() {
         return status
     }
 
-    suspend fun getPastiPreferiti(utente: String, tipologia: String): List<Pasto> {
+    suspend fun getRicettePreferite(): List<FavouriteRecipe> {
         return ricette_preferite_collection
-            .document(utente)
-            .collection(tipologia).get().await().toObjects()
-
+            .get().await().toObjects()
     }
     suspend fun getEserciziPreferiti(utente: String): List<Esercizio> {
         return ricette_preferite_collection
