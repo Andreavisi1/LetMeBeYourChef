@@ -1,1046 +1,1042 @@
 [
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_password_white_18.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_password_white_18.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_lunch.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/lunch.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_dettagli_ricetta.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_dettagli_ricetta.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_black_color_no_bg_solo_scritta.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/black_color_no_bg_solo_scritta.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_breakfast.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\breakfast.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_badge_white_20.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_badge_white_20.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_statistiche.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_statistiche.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_transparency.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/transparency.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_register.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_diario.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_diario.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_step_istruzioni.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_step_istruzioni.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_input_bg_green_white.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/input_bg_green_white.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_diario.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_diario.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_sports.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/sports.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_small_icon_only.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_small_icon_only.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_menu_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_menu_book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_heart.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/heart.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_menu_gallery.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_glass_1.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/glass_1.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_coffee.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\coffee.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_breakfast_2.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/breakfast_2.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_black_color_no_bg_solo_scritta.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\black_color_no_bg_solo_scritta.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_add.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/add.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_setting.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\setting.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_filling_animation.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\filling_animation.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_barcode.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/barcode.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_rec_password.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_rec_password.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_login.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_transparency.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\transparency.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_coffee.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/coffee.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_spinner_inner_text.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\spinner_inner_text.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_bg_dark_green.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/bg_dark_green.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_lock_image.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\lock_image.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/menu_bottom_menu.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/menu/bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_progress_bg_white.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\progress_bg_white.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_ricerca.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_ricerca.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_wallpaper.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\wallpaper.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_small.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_small.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_linietta.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\linietta.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_diete.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_diete.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_rec_password.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_rec_password.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_input_bg_green_dark.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\input_bg_green_dark.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/raw_videoapp.mp4.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/raw/videoapp.mp4"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_glod_medal.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\glod_medal.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_carrello.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_carrello.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_intolleranze.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_intolleranze.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_linietta.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/linietta.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_login.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/raw_programmer.gif.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/raw/programmer.gif"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_lunch_time.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\lunch_time.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_io.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_io.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_diete.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_diete.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_io.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_io.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_white.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_white.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_recent.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/recent.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_funzioni.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_funzioni.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_nuovo_logo.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/nuovo_logo.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_ricette_preferite.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_ricette_preferite.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_person_white_24.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_person_white_24.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_prodotto_pref_pers.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_prodotto_pref_pers.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_dettagli_ricetta.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_dettagli_ricetta.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_add_delete_layout_esercizi.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\add_delete_layout_esercizi.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_keto_media.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/keto_media.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_rounded_rectangle.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\rounded_rectangle.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_ricette_random.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ricette_random.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_alert_icon.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\alert_icon.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_badge_white_36.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_badge_white_36.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_inizio.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_inizio.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_registrazione_rapida_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\registrazione_rapida_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_no_background.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_no_background.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_energy_bar.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\energy_bar.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_wallpaper.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/wallpaper.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_bg_dark_green.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\bg_dark_green.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_password_white_36.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_password_white_36.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_istruzioni.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_istruzioni.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_b.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/b.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_funzioni.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_funzioni.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ricerca.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ricerca.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_person_white_48.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_person_white_48.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_bg_card_selezionata.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/bg_card_selezionata.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_menu_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_menu_book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_progress_bg_green.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/progress_bg_green.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_climatica.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\climatica.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_personalizzati.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_personalizzati.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_keto_leggera.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\keto_leggera.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_glass_2.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/glass_2.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_sports.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\sports.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_likes.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_likes.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_password_white_24.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_password_white_24.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_prodotto_selezionato.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_prodotto_selezionato.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_menu_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_menu_book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_dinner.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/dinner.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_large.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_large.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_facebook_wasi_norte.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/facebook_wasi_norte.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_funzioni.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_funzioni.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_mediterranea.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/mediterranea.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_calendar.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_calendar.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_sport.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/sport.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_diario.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_diario.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_person_white_18.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_person_white_18.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_inizio.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_inizio.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_dashboard_activity.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/dashboard_activity.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_dashboard_activity.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\dashboard_activity.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_f.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/f.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_menu_slideshow.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_bg_card.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/bg_card.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_btn_congr_ok.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\btn_congr_ok.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_preferiti.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_preferiti.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_badge_white_18.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_badge_white_18.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_separatore.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/separatore.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_home.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_no_image.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/no_image.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_profilo.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_profilo.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_badge_white_24.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_badge_white_24.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_step_istruzioni_items.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_step_istruzioni_items.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_add.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\add.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_btn_congr_ok.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/btn_congr_ok.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_small_icon_only_inverted.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_small_icon_only_inverted.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_funzioni.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_funzioni.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_dati_personali.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_dati_personali.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_pasto.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_pasto.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_password_white_18.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_password_white_18.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_circle.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\circle.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_4.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_4.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_black_color_no_bg.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\black_color_no_bg.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_input_bg_green_dark.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/input_bg_green_dark.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_bg_card.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\bg_card.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_5.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_5.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_sesso.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_sesso.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_funzioni.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_funzioni.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_email.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/menu_bottom_nav_aggiungi.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/menu/bottom_nav_aggiungi.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_likes.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_likes.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_home22.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_home22.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_person_white_24.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_person_white_24.png"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_separatore.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\separatore.png"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_4.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_4.xml"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\raw_letmebeyourchef22.mp4.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\raw\\letmebeyourchef22.mp4"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\raw_videoapp.mp4.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\raw\\videoapp.mp4"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_carrello.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_carrello.xml"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\raw_awards.gif.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\raw\\awards.gif"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_app_bg.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\app_bg.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_diete.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_diete.png"
     },
     {
         "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_register.xml.flat",
         "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_cross.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\cross.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_funzioni.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_funzioni.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_white_logo_no_bg.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\white_logo_no_bg.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_pasto.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_pasto.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_io.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_io.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_rounded_rectangle.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/rounded_rectangle.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_close.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/xml_backup_rules.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_color_logo_no_background_solo_scritta.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\color_logo_no_background_solo_scritta.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_ingredienti_ricette.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_ingredienti_ricette.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_prodotto.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_prodotto.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_dispensa.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_dispensa.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_turkey.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\turkey.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_3.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_3.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_keto_leggera.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/keto_leggera.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\raw_programmer.gif.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\raw\\programmer.gif"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\xml_activity_inizio_scene.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\xml\\activity_inizio_scene.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_white_logo_no_bg.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/white_logo_no_bg.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_settings.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\font_audiowide.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\font\\audiowide.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_empty_glass.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\empty_glass.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_settings.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_a.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\a.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_email.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_del_mod_selezionati_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\del_mod_selezionati_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_password_white_24.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_password_white_24.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_recent.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\recent.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_diete.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_diete.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_username_image.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\username_image.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/raw_letmebeyourchef22.mp4.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/raw/letmebeyourchef22.mp4"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_b.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\b.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_a.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/a.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_ricette_preferite.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_ricette_preferite.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_io.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_io.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_add_delete_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\add_delete_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_funzioni.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_funzioni.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_empty_glass_plus.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\empty_glass_plus.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_linietta_grigia.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/linietta_grigia.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_glass_3.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\glass_3.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_prodotto_pref_pers.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_prodotto_pref_pers.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_homepage.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_homepage.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_diario.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_diario.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_home_black_24dp.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_settings.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_glass_3.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/glass_3.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_facebook_wasi_norte.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\facebook_wasi_norte.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_circle.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/circle.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_no_image.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\no_image.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_badge_white_24.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_badge_white_24.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_input_bg_green.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/input_bg_green.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_input_bg_green.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\input_bg_green.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_close.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_esercizio.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_esercizio.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_diete.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_diete.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_menu_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_menu_book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_bg_card_selezionata.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\bg_card_selezionata.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_white_large.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_white_large.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_person_white_36.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_person_white_36.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/raw_awards.gif.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/raw/awards.gif"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\xml\\backup_rules.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_letra_facebook.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\letra_facebook.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_g.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/g.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_calorie_semplici_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\calorie_semplici_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_person_white_20.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_person_white_20.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_riautenticazione_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\riautenticazione_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_win_layout_dialog.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/win_layout_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_diario.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_diario.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_coming_soon.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/coming_soon.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_descrizione_dieta_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\descrizione_dieta_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_menu_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_menu_book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_esercizio_pref.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_esercizio_pref.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_notifications_black_24dp.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_conosciamoci.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_conosciamoci.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_profilo.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_profilo.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_heart.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\heart.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_riautenticazione_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/riautenticazione_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_linietta_grigia.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\linietta_grigia.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_btn_bg.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/btn_bg.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_f.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\f.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/xml_activity_inizio_scene.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/xml/activity_inizio_scene.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\navigation_my_nav_reg.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\navigation\\my_nav_reg.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_glod_medal.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/glod_medal.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_search.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_statistiche.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_statistiche.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_diete.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_diete.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_1.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_1.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_boh.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\boh.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_ricette_random.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_ricette_random.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_information.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/information.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_dashboard_black_24dp.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_small_icon_only_inverted.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_small_icon_only_inverted.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_glass_1.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\glass_1.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_step_istruzioni.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_step_istruzioni.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_card_selezionata.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_card_selezionata.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_descrizione_dieta_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/descrizione_dieta_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_small.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_small.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_setting.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/setting.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_input_bg.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\input_bg.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_spinner_inner_text.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/spinner_inner_text.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_password_white_48.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_password_white_48.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_letra_facebook.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/letra_facebook.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_diario.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_diario.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_color_logo_no_background_solo_scritta.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/color_logo_no_background_solo_scritta.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_t.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\t.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_diete.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_diete.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_porzioni.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_porzioni.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_io.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_io.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_empty_glass.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/empty_glass.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_badge_white_20.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_badge_white_20.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_alert_icon.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/alert_icon.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_io.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_io.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_ricette_simili.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ricette_simili.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_home.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_card.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_card.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_preferiti.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/preferiti.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_homepage22.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_homepage22.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_imagen_registro.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/imagen_registro.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_g.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\g.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_item_ingrediente.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/item_ingrediente.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ricerca.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ricerca.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_codigobarras.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_codigobarras.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_glass_2.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\glass_2.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_menu_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_menu_book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\side_nav_bar.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_funzioni.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_funzioni.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_input_bg_green_white.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\input_bg_green_white.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_1.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_1.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_lock_image.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/lock_image.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_password_white_20.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_password_white_20.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_progress_bg_white.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/progress_bg_white.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_small_icon_only.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_small_icon_only.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_climatica.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/climatica.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_home22.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_home22.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_color_logo_no_background_logo.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/color_logo_no_background_logo.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_google_wasi_norte.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\google_wasi_norte.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_sport_shoe.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/sport_shoe.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_bg.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\bg.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_badge_white_18.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_badge_white_18.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_username_image.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/username_image.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\raw_letmebeyourchef.mp4.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\raw\\letmebeyourchef.mp4"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/font_audiowide.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/font/audiowide.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_coming_soon.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\coming_soon.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_splash_screen2.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_splash_screen2.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_keto_media.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\keto_media.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_aggiungi.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_aggiungi.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\menu_bottom_nav_aggiungi.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\menu\\bottom_nav_aggiungi.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_add_to_playlist.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/add_to_playlist.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_menu_book.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_menu_book.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_white_logo_no_bg_solo_scritta.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/white_logo_no_bg_solo_scritta.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_color_logo_no_background_logo.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\color_logo_no_background_logo.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_settings.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_preferiti.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\preferiti.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_settings.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_scanner.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_scanner.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_white_logo_no_bg_solo_scritta.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\white_logo_no_bg_solo_scritta.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_tempo.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_tempo.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_aggiungi_esercizio.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_aggiungi_esercizio.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_filling_animation.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/filling_animation.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_main.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_aggiungi_esercizio.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_aggiungi_esercizio.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_funzioni.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_funzioni.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_badge_white_48.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_badge_white_48.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_ricette_preferite.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ricette_preferite.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/menu_toolbar_aggiungi.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/menu/toolbar_aggiungi.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_white_large.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_white_large.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_3.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_3.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_diete.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_diete.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_preferiti.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_preferiti.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_btn_bg_4.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/btn_bg_4.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_btn_bg_4.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\btn_bg_4.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_conosciamoci.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_conosciamoci.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_dati_personali.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_dati_personali.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/navigation_my_nav_reg.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/navigation/my_nav_reg.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_tempo.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_tempo.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_cucina.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_cucina.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_password_white_20.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_password_white_20.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_funzioni.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_funzioni.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_input_bg.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_barcode.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\barcode.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_large.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_large.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\menu\\bottom_menu.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_energy_bar.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/energy_bar.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_funzioni.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_funzioni.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_breakfast_2.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\breakfast_2.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_badge_white_36.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_badge_white_36.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_2.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_2.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_menu_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_menu_book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_io.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_io.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_diario.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_diario.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_step_istruzioni_items.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_step_istruzioni_items.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_sesso.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_sesso.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_white_logo_no_bg_logo.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\white_logo_no_bg_logo.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_rounded_rectangle_vuoto.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/rounded_rectangle_vuoto.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\baseline_person_24.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_diete.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_diete.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_c.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\c.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_settings.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_nuovo_logo.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\nuovo_logo.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_diario.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_diario.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_esercizio.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_esercizio.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_add_delete_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/add_delete_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_btn_bg_2.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\btn_bg_2.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_istruzioni.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_istruzioni.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_aggiungi.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_aggiungi.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_btn_bg_3.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/btn_bg_3.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_cucina.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_cucina.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_c.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/c.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_dieta_layout.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\dieta_layout.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_search.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\menu_toolbar_menu.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\menu\\toolbar_menu.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_imagen_registro.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\imagen_registro.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_main.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_ricerca.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_ricerca.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_cross.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/cross.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_settings.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_password_white_48.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_password_white_48.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_rounded_rectangle_vuoto.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\rounded_rectangle_vuoto.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_white_logo_no_bg_logo.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/white_logo_no_bg_logo.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_person_white_48.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_person_white_48.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_animazione_5.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\animazione_5.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_esercizio.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_esercizio.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_sport.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\sport.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_calorie_semplici_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/calorie_semplici_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_mediterranea.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\mediterranea.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_breakfast.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/breakfast.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_password_white_36.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_password_white_36.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_boh.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/boh.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_no_background.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_no_background.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_intolleranze.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_intolleranze.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_diete.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_diete.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_empty_glass_plus.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/empty_glass_plus.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_homepage22.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_homepage22.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_white_background.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_white_background.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_information.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\information.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_t.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/t.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_porzioni.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_porzioni.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_funzioni.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_funzioni.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_ingredienti_ricette.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ingredienti_ricette.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_sport_shoe.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\sport_shoe.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_ic_io.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/ic_io.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_scanner.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_scanner.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_bg.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/bg.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_prodotto.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_prodotto.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_scandinava.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\scandinava.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_google_wasi_norte.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/google_wasi_norte.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_esercizio_selezionato.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_esercizio_selezionato.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_turkey.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/turkey.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_white_background.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_white_background.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_diete.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_diete.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_prodotto.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_prodotto.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_add_to_playlist.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\add_to_playlist.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_list_ricette_simili.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\list_ricette_simili.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_add_delete_layout_esercizi.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/add_delete_layout_esercizi.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_btn_bg_3.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\btn_bg_3.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_dieta_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/dieta_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_settings.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_baseline_person_18.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/baseline_person_18.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_progress_bg_green.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\progress_bg_green.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_registrazione_rapida_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/registrazione_rapida_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_logo_codigobarras.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\logo_codigobarras.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_card.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_card.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\menu_toolbar_aggiungi.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\menu\\toolbar_aggiungi.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/menu_toolbar_menu.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/menu/toolbar_menu.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_prodotto_selezionato.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_prodotto_selezionato.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_del_mod_selezionati_layout.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/del_mod_selezionati_layout.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_diete.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_diete.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_app_bg.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/app_bg.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_baseline_person_18.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\baseline_person_18.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_btn_bg_2.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/btn_bg_2.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_spinner_text.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\spinner_text.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_badge_white_48.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_badge_white_48.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xhdpi\\ic_settings.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_person_white_18.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_person_white_18.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_2.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_2.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_esercizio_pref.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_esercizio_pref.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_ricette_preferite.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_ricette_preferite.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_fragment_personalizzati.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\fragment_personalizzati.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_item_ingrediente.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\item_ingrediente.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_calendar.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_win_layout_dialog.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\win_layout_dialog.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_scandinava.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/scandinava.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_settings.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_lunch_time.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/lunch_time.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxhdpi_ic_diario.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_diario.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_lunch.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\lunch.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_animazione_card_selezionata.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/animazione_card_selezionata.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_baseline_person_white_20.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\baseline_person_white_20.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo_white.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo_white.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_dinner.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\dinner.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_menu_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_menu_book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_btn_bg.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\btn_bg.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_menu_book.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_menu_book.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_logout.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_dispensa.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_dispensa.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_home.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_logo.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/logo.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_layout_item_esercizio.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\layout_item_esercizio.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/raw_letmebeyourchef.mp4.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/raw/letmebeyourchef.mp4"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-mdpi_ic_io.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-mdpi\\ic_io.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_spinner_text.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/spinner_text.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\layout_activity_splash_screen2.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\layout\\activity_splash_screen2.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_dieta_puliuta.jpg.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/dieta_puliuta.jpg"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\ic_menu_camera.xml"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-hdpi_ic_io.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-hdpi\\ic_io.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-mdpi_ic_logout.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-mdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\mipmap-xxhdpi_ic_diario.png.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\mipmap-xxhdpi\\ic_diario.png"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_home.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-merged_res-90:\\drawable_dieta_puliuta.jpg.flat",
-        "source": "C:\\Users\\CiaMb\\.gradle\\daemon\\7.4\\com.example.letmebeyourchef.app-main-92:\\drawable\\dieta_puliuta.jpg"
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_prodotto.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_prodotto.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_layout_item_esercizio_selezionato.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/layout_item_esercizio_selezionato.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-hdpi_baseline_person_white_36.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-hdpi/baseline_person_white_36.png"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_fragment_homepage.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/fragment_homepage.xml"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/drawable_black_color_no_bg.png.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/drawable/black_color_no_bg.png"
+    },
+    {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

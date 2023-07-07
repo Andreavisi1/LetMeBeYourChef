@@ -173,7 +173,7 @@ class RicettePreferiteFragment : Fragment() {
                 spoonacularSourceUrl: String?,
             ) {
                 model.removeFavoriteRecipe(
-                    this@RicettePreferiteFragment.id.toString(),
+                    id,
                     requireContext()
                 )
             }

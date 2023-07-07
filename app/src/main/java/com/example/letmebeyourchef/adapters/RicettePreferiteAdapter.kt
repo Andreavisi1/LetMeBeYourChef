@@ -49,7 +49,21 @@ class RicettePreferiteAdapter(
                     list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
                 )
             }
-            holder.show_btn.setOnClickListener{
+            holder.show_btn.setOnClickListener {
+                listener.onClickRicetta(
+                    list!![holder.adapterPosition]!!.id.toString(),
+                    list!![holder.adapterPosition]!!.title.toString(),
+                    list!![holder.adapterPosition]!!.sourceName.toString(),
+                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
+                    list!![holder.adapterPosition]!!.servings.toInt(),
+                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
+                    list!![holder.adapterPosition]!!.image.toString(),
+                    list!![holder.adapterPosition]!!.imageType.toString(),
+                    list!![holder.adapterPosition]!!.instructions.toString(),
+                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
+                )
+            }
+            holder.delete_btn.setOnClickListener{
                 deleteListener.onClickDeleteRicetta(
                     list!![holder.adapterPosition]!!.id.toString(),
                     list!![holder.adapterPosition]!!.title.toString(),

@@ -2,6 +2,7 @@ package com.example.letmebeyourchef.home
 
 import DispensaFragment
 import android.app.ProgressDialog
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -16,6 +17,7 @@ import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
 import com.example.letmebeyourchef.autenticazione.InizioActivity
+import com.example.letmebeyourchef.autenticazione.RegisterActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.diete.DieteFragment
@@ -159,6 +161,13 @@ class HomeActivity : AppCompatActivity() {
     private fun openProfilo(){
         startActivity(Intent(this, ProfiloActivity::class.java))
         finish()
+    }
+
+
+    companion object {
+        fun getLaunchIntent(from: Context) = Intent(from, RegisterActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        }
     }
 
 

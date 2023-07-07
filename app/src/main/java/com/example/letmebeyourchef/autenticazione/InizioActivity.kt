@@ -1,5 +1,6 @@
 package com.example.letmebeyourchef.autenticazione
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -79,6 +80,13 @@ class InizioActivity : AppCompatActivity() {
         super.onDestroy()
         binding.videoView.stopPlayback()
         progresBar.visibility = ProgressBar.INVISIBLE
+    }
+
+
+    companion object {
+        fun getLaunchIntent(from: Context) = Intent(from, RegisterActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        }
     }
 
 
