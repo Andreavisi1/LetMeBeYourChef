@@ -48,6 +48,39 @@ class UtenteDB : FirebaseDB() {
         return status
     }
 
+    suspend fun addUtenteFromGoogle(
+        nome: String,
+        cognome : String,
+        email: String?,
+        sesso: String,
+        data_nascita: String,
+        intolleranze : String?,
+        contesto: Context, ): Boolean {
+        val utente = hashMapOf<String, Any>(
+            "nome" to nome,
+            "cognome" to cognome,
+            "email" to email!!,
+            "sesso" to sesso,
+            "data_nascita" to data_nascita,
+            "intolleranze" to intolleranze!!,
+        )
+        withContext(Dispatchers.IO){
+            utenti_collection
+                .document(email)
+                .set(utente)
+                .addOnSuccessListener {
+                    Toast.makeText(contesto, "Operation  completed successfully! Click on SIGN IN to start", Toast.LENGTH_LONG).show()
+                    status = true
+                }
+                .addOnFailureListener{
+                    Toast.makeText(contesto, "Something went wrong... Retry or try to sign in", Toast.LENGTH_LONG).show()
+                    status = false
+                }
+                .await()
+        }
+        return status
+    }
+
     suspend fun getUtenti(): List<Utente>{
         return utenti_collection.get().await().toObjects()
     }

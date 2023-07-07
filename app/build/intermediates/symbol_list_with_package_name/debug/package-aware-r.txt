@@ -4258,6 +4258,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_btn
 id deltaRelative
 id dependency_ordering
 id descrizione_dieta
@@ -4322,6 +4323,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favourite_list_container
 id fill
 id fill_horizontal
 id fill_vertical
@@ -4647,8 +4649,8 @@ id recycler_ingredienti_ricetta
 id recycler_istruzioni
 id recycler_istruzioni_ingredienti
 id recycler_istruzioni_strumenti
-id recycler_preferiti
 id recycler_random
+id recycler_ricette_preferite
 id recycler_ricette_simili
 id recycler_step_istruzione
 id recycler_view
@@ -4728,6 +4730,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_btn
 id sign_in_google_button
 id sin
 id skipCollapsed

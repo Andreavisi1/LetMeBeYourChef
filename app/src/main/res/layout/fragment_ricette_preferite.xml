@@ -22,7 +22,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"/>
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginBottom="50dp"/>
         <LinearLayout
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
@@ -55,7 +56,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_preferiti"
+            android:id="@+id/recycler_ricette_preferite"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="4dp"

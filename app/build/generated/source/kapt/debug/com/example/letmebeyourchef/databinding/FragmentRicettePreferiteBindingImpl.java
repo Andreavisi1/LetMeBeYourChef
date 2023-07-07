@@ -18,7 +18,7 @@ public class FragmentRicettePreferiteBindingImpl extends FragmentRicettePreferit
         sViewsWithIds.put(R.id.linear, 2);
         sViewsWithIds.put(R.id.linearLayout18, 3);
         sViewsWithIds.put(R.id.preferiti_title, 4);
-        sViewsWithIds.put(R.id.recycler_preferiti, 5);
+        sViewsWithIds.put(R.id.recycler_ricette_preferite, 5);
     }
     // views
     @NonNull

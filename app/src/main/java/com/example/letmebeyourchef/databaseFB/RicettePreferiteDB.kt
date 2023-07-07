@@ -74,23 +74,23 @@ class RicettePreferiteDB : FirebaseDB() {
         return status
     }
 
-    suspend fun getRicettePreferite(): List<FavouriteRecipe> {
-        return ricette_preferite_collection
+    suspend fun getRicettePreferite(utente: String): List<FavouriteRecipe> {
+        return db
+            .collection("Utente")
+            .document(utente)
+            .collection("Ricette preferite")
             .get().await().toObjects()
     }
-    suspend fun getEserciziPreferiti(utente: String): List<Esercizio> {
-        return ricette_preferite_collection
-            .document(utente)
-            .collection("ESERCIZIO").get().await().toObjects()
 
-    }
-
-    suspend fun deletePreferiti(utente: String,id:String,tipologia: String): Boolean{
+    suspend fun deleteRicettaPreferita(utente: String,id:String): Boolean{
         withContext(Dispatchers.IO) {
-            ricette_preferite_collection
-            .document(id).delete()
-            .addOnSuccessListener {status = true }
-            .addOnFailureListener {status = false }
+                db
+                .collection("Utente")
+                .document(utente)
+                .collection("Ricette preferite")
+                .document(id).delete()
+                .addOnSuccessListener {status = true }
+                .addOnFailureListener {status = false }
         }.await()
         return status
     }
