@@ -19,7 +19,7 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
         sViewsWithIds.put(R.id.InputPassword, 3);
         sViewsWithIds.put(R.id.InputEmail, 4);
         sViewsWithIds.put(R.id.InputCorrectPassword, 5);
-        sViewsWithIds.put(R.id.sign_in_button, 6);
+        sViewsWithIds.put(R.id.signInButton, 6);
         sViewsWithIds.put(R.id.btnRegister, 7);
         sViewsWithIds.put(R.id.linearLayout11, 8);
         sViewsWithIds.put(R.id.imageView6, 9);

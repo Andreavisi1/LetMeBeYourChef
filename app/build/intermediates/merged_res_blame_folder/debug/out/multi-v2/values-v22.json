@@ -4,7 +4,7 @@
             "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\CiaMb\\.gradle\\caches\\transforms-3\\edcde99d73e3fad70f7055d0dac7a9f6\\transformed\\appcompat-1.5.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

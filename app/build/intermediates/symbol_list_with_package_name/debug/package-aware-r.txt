@@ -4731,6 +4731,7 @@ id showCustom
 id showHome
 id showTitle
 id show_btn
+id signInButton
 id sign_in_google_button
 id sin
 id skipCollapsed

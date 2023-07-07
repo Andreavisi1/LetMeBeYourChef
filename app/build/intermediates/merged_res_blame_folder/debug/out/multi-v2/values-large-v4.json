@@ -4,7 +4,7 @@
             "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\CiaMb\\.gradle\\caches\\transforms-3\\edcde99d73e3fad70f7055d0dac7a9f6\\transformed\\appcompat-1.5.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/c080845dfb3f5b47f2dcef6cd233af32/transformed/material-1.9.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\CiaMb\\.gradle\\caches\\transforms-3\\c080845dfb3f5b47f2dcef6cd233af32\\transformed\\material-1.9.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",

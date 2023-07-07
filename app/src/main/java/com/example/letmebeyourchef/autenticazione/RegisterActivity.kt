@@ -1,10 +1,12 @@
 package com.example.letmebeyourchef.autenticazione
 
+import android.R
 import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Bundle
+import android.provider.ContactsContract.CommonDataKinds.Email
 import android.util.Patterns
 import android.view.View
 import android.widget.ProgressBar
@@ -17,17 +19,25 @@ import com.example.letmebeyourchef.databinding.ActivityRegisterBinding
 import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.identity.SignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.SignInButton
+import com.google.android.gms.common.api.ApiException
+import com.google.android.gms.tasks.Task
+import kotlinx.android.synthetic.main.activity_register.signInButton
 import kotlinx.coroutines.launch
 
+
+const val RC_SIGN_IN = 123
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var utente: Utente
     private lateinit var binding: ActivityRegisterBinding
-    private val model= AuthViewModel()
+    private val model = AuthViewModel()
     val args: RegisterActivityArgs by navArgs()
-    private lateinit var progressBar : ProgressBar
-
+    private lateinit var progressBar: ProgressBar
+    private lateinit var signInButton : SignInButton
     private lateinit var oneTapClient: SignInClient
     private lateinit var signInRequest: BeginSignInRequest
 
@@ -37,34 +47,87 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(binding.root)
         utente = args.utente
         progressBar = binding.progressBar3
+        signInButton = binding.signInButton
         progressBar.visibility = ProgressBar.INVISIBLE
-        setGooglePlusButtonText(binding.signInGoogleButton, "Or sign in with Google")
+        setGooglePlusButtonText(binding.signInButton, "Or sign in with Google")
+         /*
+        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestEmail()
+            .build()
 
-        binding.btnRegister.setOnClickListener {
+        val mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
+
+        val signInButton = findViewById<SignInButton>(R.id.sign_in_button_g)
+        signInButton.setSize(SignInButton.SIZE_STANDARD)
+
+
+        fun signIn() {
+            val signInIntent = mGoogleSignInClient.getSignInIntent()
+
+            startActivityForResult(signInIntent, RC_SIGN_IN)
+        }
+
+        val acct = GoogleSignIn.getLastSignedInAccount(this)
+        if (acct != null) {
+            sign_in_button_g.visibility=View.VISIBLE
+            //val Email = acct.email
+
+        }
+
+        fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+            super.onActivityResult(requestCode, resultCode, data)
+
+            // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
+            if (requestCode == RC_SIGN_IN) {
+                // The Task returned from this call is always completed, no need to attach
+                // a listener.
+                val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+                handleSignInResult(task);
+            }
+        }
+
+    fun handleSignInResult(task: Task<GoogleSignInAccount>) {
+        try {
+            //val account : GoogleSignInAccount = completedTask.getResult(ApiException.class) :
+
+            sign_in_button_g.visibility=View.VISIBLE
+            // Signed in successfully, show authenticated UI.
+
+        } catch (e: ApiException) {
+            // The ApiException status code indicates the detailed failure reason.
+            // Please refer to the GoogleSignInStatusCodes class reference for more information.
+            //Log.w(TAG, "signInResult:failed code=" + e.getStatusCode());
+            sign_in_button_g.visibility=View.VISIBLE
+        } 
+    }*/
+
+    binding.btnRegister.setOnClickListener {
             val email = binding.InputEmail.text.toString().trim()
             val pass = binding.InputPassword.text.toString().trim()
             val confPass = binding.InputCorrectPassword.text.toString().trim()
             progressBar.visibility = ProgressBar.VISIBLE
             val check = checkFields(email, pass, confPass)
 
-            lifecycleScope.launch {
-                if (check) {
-                    if (model.signUp(email, pass) == null) {
-                        checkError(isOnline(this@RegisterActivity))
-                    } else {
-                        model.addAuthUtenteOnDB(utente.nome, utente.cognome, email, utente.sesso,
-                            utente.data_nascita,
-                            utente.intolleranze, this@RegisterActivity)
-                        val intent = Intent(applicationContext, ConosciamociActivity::class.java)
-                        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
-                        intent.putExtra("EXIT", true)
-                        startActivity(intent)
-                        finish()
-                    }
+        lifecycleScope.launch {
+            if (check) {
+                if (model.signUp(email, pass) == null) {
+                    checkError(isOnline(this@RegisterActivity))
+                } else {
+                    model.addAuthUtenteOnDB(
+                        utente.nome, utente.cognome, email, utente.sesso,
+                        utente.data_nascita,
+                        utente.intolleranze, this@RegisterActivity
+                    )
+                    val intent = Intent(applicationContext, ConosciamociActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+                    intent.putExtra("EXIT", true)
+                    startActivity(intent)
+                    finish()
                 }
             }
-
-            /*signInRequest = BeginSignInRequest.builder()
+        }
+    }
+        /*signInRequest = BeginSignInRequest.builder()
                 .setGoogleIdTokenRequestOptions(
                     BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
                         .setSupported(true)
@@ -75,10 +138,10 @@ class RegisterActivity : AppCompatActivity() {
                         .build())
                 .build()*/
 
-        }
     }
+}
 
-    protected fun setGooglePlusButtonText(signInButton: SignInButton, buttonText: String?) {
+    fun setGooglePlusButtonText(signInButton: SignInButton, buttonText: String?) {
             // Find the TextView that is inside of the SignInButton and set its text
             for (i in 0 until signInButton.childCount) {
             val v: View = signInButton.getChildAt(i)
@@ -92,6 +155,7 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+
         progressBar.visibility = ProgressBar.INVISIBLE
     }
     private fun checkFields(email: String, pass: String, confPass: String): Boolean {
@@ -161,4 +225,3 @@ class RegisterActivity : AppCompatActivity() {
         }
         return false
     }
-}
