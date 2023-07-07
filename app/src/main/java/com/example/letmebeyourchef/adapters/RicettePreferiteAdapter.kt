@@ -47,8 +47,9 @@ class RicettePreferiteAdapter(
             }
         }
 
+
         override fun getItemCount(): Int {
-            return list!!.size
+            return list?.size ?: 0
         }
     }
 
@@ -61,7 +62,7 @@ class RicettePreferiteAdapter(
         var imageView_food: ImageView
 
         init {
-            random_list_container = itemView.findViewById(R.id.random_list_container)
+            random_list_container = itemView.findViewById(R.id.favourite_list_container)
             textView_title = itemView.findViewById(R.id.textView_title)
             textView_porzioni = itemView.findViewById(R.id.textView_porzioni)
             textView_likes = itemView.findViewById(R.id.textView_likes)
@@ -69,4 +70,3 @@ class RicettePreferiteAdapter(
             imageView_food = itemView.findViewById(R.id.imageView_food)
         }
     }
-

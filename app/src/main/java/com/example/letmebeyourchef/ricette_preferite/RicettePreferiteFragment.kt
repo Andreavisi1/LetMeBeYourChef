@@ -16,6 +16,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -25,6 +26,7 @@ import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicettePreferiteAdapter
 import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBinding
 import com.example.letmebeyourchef.listeners.RicettaClickListener
+import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
 import kotlinx.android.synthetic.main.win_layout_dialog.btn_OK
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewClose
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewWin
@@ -63,24 +65,43 @@ class RicettePreferiteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
+
         model.getFavoriteRecipes()
-        recyclerViewPreferiti = binding.recyclerPreferiti
+        recyclerViewPreferiti = binding.recyclerRicettePreferite
         recyclerViewPreferiti.setLayoutManager(GridLayoutManager(mContext, 1))
         recyclerViewPreferiti.setHasFixedSize(true)
-        ricettePreferiteAdapter = RicettePreferiteAdapter(
+
+
+
+        /*ricettePreferiteAdapter = RicettePreferiteAdapter(
             requireContext(),
             model.getRicettePreferite(),
             ricettaClickListener,
-        )
+        )*/
 
 
 
-        Log.e(model.getFavoriteRecipes().value.toString(), "MODEL FAVOURITES fragment")
+        val preferitiObserver = Observer<List<FavouriteRecipe>>{
+            val adapter = RicettePreferiteAdapter(requireContext(),
+                model.ricettePreferiteLiveData.value!! as ArrayList<FavouriteRecipe>,
+                ricettaClickListener,)
+            recyclerViewPreferiti.adapter = adapter
 
-        Log.e(binding.recyclerPreferiti.toString(), "EX")
+            if (adapter.getItemCount() != 0) binding.preferitiTitle.text = "Your favourite recipes here"
+
+            }
 
 
-        recyclerViewPreferiti.setAdapter(ricettePreferiteAdapter)
+
+        model.ricettePreferiteLiveData.observe(viewLifecycleOwner,preferitiObserver)
+
+        Log.e(model.getFavoriteRecipes().toString(), "MODEL FAVOURITES fragment")
+
+        Log.e(binding.recyclerRicettePreferite.toString(), "EX")
+
+
+        //recyclerViewPreferiti.setAdapter(ricettePreferiteAdapter)
 
 
 

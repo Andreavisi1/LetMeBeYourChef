@@ -4322,6 +4322,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favourite_list_container
 id fill
 id fill_horizontal
 id fill_vertical
@@ -4647,8 +4648,8 @@ id recycler_ingredienti_ricetta
 id recycler_istruzioni
 id recycler_istruzioni_ingredienti
 id recycler_istruzioni_strumenti
-id recycler_preferiti
 id recycler_random
+id recycler_ricette_preferite
 id recycler_ricette_simili
 id recycler_step_istruzione
 id recycler_view

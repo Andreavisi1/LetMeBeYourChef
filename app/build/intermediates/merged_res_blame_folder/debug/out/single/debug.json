@@ -228,10 +228,6 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/layout/add_delete_layout_esercizi.xml"
     },
     {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/raw_letmebeyourchef.mov.flat",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/raw/letmebeyourchef.mov"
-    },
-    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/drawable_progress_bg_white.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/drawable/progress_bg_white.xml"
     },
@@ -720,6 +716,10 @@
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/mipmap-xxhdpi/ic_settings.png"
     },
     {
+        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_list_ricette_preferite.xml.flat",
+        "source": "com.example.letmebeyourchef.app-main-92:/layout/list_ricette_preferite.xml"
+    },
+    {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/menu_toolbar_aggiungi.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/menu/toolbar_aggiungi.xml"
     },
@@ -746,10 +746,6 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/drawable_separatore.png.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/drawable/separatore.png"
-    },
-    {
-        "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/raw_letmebeyourchef2.mov.flat",
-        "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/raw/letmebeyourchef2.mov"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_likes.xml.flat",
@@ -830,10 +826,6 @@
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/drawable_ic_cucina.xml.flat",
         "source": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-main-92:/drawable/ic_cucina.xml"
-    },
-    {
-        "merged": "com.example.letmebeyourchef.app-merged_res-90:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.letmebeyourchef.app-main-92:/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-90:/layout_del_mod_selezionati_layout.xml.flat",

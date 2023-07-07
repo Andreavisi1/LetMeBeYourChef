@@ -62,14 +62,16 @@ class RicettePreferiteViewModel : ViewModel() {
     }
 
     // Metodo per ottenere la lista delle ricette preferite
-    fun getFavoriteRecipes(): LiveData<List<FavouriteRecipe>> {
+    fun getFavoriteRecipes() {
             viewModelScope.launch {
-                Log.e(favoriteRecipes.value.toString(), "1 FAvourite recipes view model")
-                favoriteRecipes.value =
-                    ricettePreferiteDB.getRicettePreferite()
-                Log.e(favoriteRecipes.value.toString(), "2 FAvourite recipes view model")
+
+
+                _ricettePreferiteLiveData.value =
+                    ricettePreferiteDB.getRicettePreferite(auth.currentUser!!.email!!)
+
+
             }
-        return favoriteRecipes
+   //     return favoriteRecipes
 
     }
 
@@ -79,8 +81,8 @@ class RicettePreferiteViewModel : ViewModel() {
         viewModelScope.launch {
 
             ricettePreferite =
-                ricettePreferiteDB.getRicettePreferite()
-            Log.e(favoriteRecipes.value.toString(), "2 FAvourite recipes view model")
+                ricettePreferiteDB.getRicettePreferite(auth.currentUser!!.email!!)
+            Log.e(favoriteRecipes.value.toString(), "3 FAvourite recipes view model")
         }
         return ricettePreferite
 

@@ -12,4 +12,5 @@ class FavouriteRecipe {
     var imageType: String? = null
     var instructions: String? = null
     var spoonacularSourceUrl: String? = null
+    var utente: String = ""
 }

@@ -74,8 +74,11 @@ class RicettePreferiteDB : FirebaseDB() {
         return status
     }
 
-    suspend fun getRicettePreferite(): List<FavouriteRecipe> {
-        return ricette_preferite_collection
+    suspend fun getRicettePreferite(utente: String): List<FavouriteRecipe> {
+        return db
+            .collection("Utente")
+            .document(utente)
+            .collection("Ricette preferite")
             .get().await().toObjects()
     }
     suspend fun getEserciziPreferiti(utente: String): List<Esercizio> {

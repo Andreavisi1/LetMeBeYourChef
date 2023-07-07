@@ -55,6 +55,21 @@ class AuthViewModel : ViewModel() {
         }
     }
 
+    suspend fun addAuthUtenteOnDBFromGoogle(nome:String, cognome:String, email:String?,
+                                  sesso:String, data_nascita:String,
+                                  intolleranze:String?,contesto: Context) {
+        try {
+            val user = auth.currentUser
+            val profileUpdates = userProfileChangeRequest {
+                displayName = nome + ' ' + cognome
+            }
+            user!!.updateProfile(profileUpdates)
+            utenteDB.addUtenteFromGoogle(nome, cognome, email, sesso, data_nascita, intolleranze, contesto)
+
+        } catch (e: Exception) {
+        }
+    }
+
     fun checkUtenteisLoggato() : Boolean{
         if(auth.currentUser != null)
             return true
