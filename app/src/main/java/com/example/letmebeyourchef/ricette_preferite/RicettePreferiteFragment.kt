@@ -14,7 +14,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
@@ -27,6 +29,7 @@ import com.example.letmebeyourchef.adapters.RicettePreferiteAdapter
 import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBinding
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
+import kotlinx.android.synthetic.main.list_ricette_preferite.show_btn
 import kotlinx.android.synthetic.main.win_layout_dialog.btn_OK
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewClose
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewWin
@@ -40,6 +43,7 @@ class RicettePreferiteFragment : Fragment() {
     private lateinit var ricettePreferiteAdapter: RicettePreferiteAdapter
 
     private var  mContext: Context? = null
+    var show_btn: Button? = null
 
     private val model = RicettePreferiteViewModel()
     private lateinit var binding: FragmentRicettePreferiteBinding
@@ -53,6 +57,7 @@ class RicettePreferiteFragment : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_ricette_preferite, container, false)
         //aggiornamento automatico view
         binding.viewModel = model
@@ -91,6 +96,8 @@ class RicettePreferiteFragment : Fragment() {
             if (adapter.getItemCount() != 0) binding.preferitiTitle.text = "Your favourite recipes here"
 
             }
+
+
 
 
 
