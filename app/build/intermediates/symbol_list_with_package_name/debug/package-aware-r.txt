@@ -4258,6 +4258,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_btn
 id deltaRelative
 id dependency_ordering
 id descrizione_dieta
@@ -4729,6 +4730,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_btn
 id sign_in_google_button
 id sin
 id skipCollapsed

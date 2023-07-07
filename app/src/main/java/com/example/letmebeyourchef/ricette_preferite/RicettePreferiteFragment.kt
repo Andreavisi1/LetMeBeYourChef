@@ -16,7 +16,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
@@ -28,8 +27,8 @@ import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicettePreferiteAdapter
 import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBinding
 import com.example.letmebeyourchef.listeners.RicettaClickListener
+import com.example.letmebeyourchef.listeners.RicettaDeleteClickListener
 import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
-import kotlinx.android.synthetic.main.list_ricette_preferite.show_btn
 import kotlinx.android.synthetic.main.win_layout_dialog.btn_OK
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewClose
 import kotlinx.android.synthetic.main.win_layout_dialog.imageViewWin
@@ -90,7 +89,7 @@ class RicettePreferiteFragment : Fragment() {
         val preferitiObserver = Observer<List<FavouriteRecipe>>{
             val adapter = RicettePreferiteAdapter(requireContext(),
                 model.ricettePreferiteLiveData.value!! as ArrayList<FavouriteRecipe>,
-                ricettaClickListener,)
+                ricettaClickListener, ricettaDeleteClickListener)
             recyclerViewPreferiti.adapter = adapter
 
             if (adapter.getItemCount() != 0) binding.preferitiTitle.text = "Your favourite recipes here"
@@ -102,8 +101,6 @@ class RicettePreferiteFragment : Fragment() {
 
 
         model.ricettePreferiteLiveData.observe(viewLifecycleOwner,preferitiObserver)
-
-        Log.e(model.getFavoriteRecipes().toString(), "MODEL FAVOURITES fragment")
 
         Log.e(binding.recyclerRicettePreferite.toString(), "EX")
 
@@ -128,8 +125,6 @@ class RicettePreferiteFragment : Fragment() {
             }
         })*/
 
-
-
     }
 
 
@@ -147,7 +142,6 @@ class RicettePreferiteFragment : Fragment() {
             instructions: String?,
             spoonacularSourceUrl: String?
         ) {
-
             val intent = Intent(requireActivity(), ActivityDettagliRicetta::class.java)
             val extras = Bundle()
             extras.putString("id", id)
@@ -162,15 +156,32 @@ class RicettePreferiteFragment : Fragment() {
             extras.putString("spoonacularSourceUrl", spoonacularSourceUrl)
             intent.putExtras(extras)
             startActivity(intent)
-
         }
     }
 
+        private val ricettaDeleteClickListener: RicettaDeleteClickListener = object : RicettaDeleteClickListener {
+            public override fun onClickDeleteRicetta(
+                id: String,
+                title: String?,
+                sourceName: String?,
+                readyInMinutes: Int,
+                servings: Int,
+                sourceUrl: String?,
+                image: String,
+                imageType: String?,
+                instructions: String?,
+                spoonacularSourceUrl: String?,
+            ) {
+                model.removeFavoriteRecipe(
+                    this@RicettePreferiteFragment.id.toString(),
+                    requireContext()
+                )
+            }
+        }
 
     override fun onDestroy() {
         super.onDestroy()
         //setDiario()
-
 
 
     }

@@ -12,6 +12,7 @@ import com.example.letmebeyourchef.databaseFB.PreferitiDB
 import com.example.letmebeyourchef.databaseFB.ProdottoDB
 import com.example.letmebeyourchef.databaseFB.RicettePreferiteDB
 import com.example.letmebeyourchef.databaseFB.UtenteDB
+import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.model.Pasto
 import com.example.letmebeyourchef.model.Utente
 import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
@@ -54,39 +55,36 @@ class RicettePreferiteViewModel : ViewModel() {
         favoriteRecipes.value = currentList
     }
 
-    // Metodo per rimuovere una ricetta preferita
-    fun removeFavoriteRecipe(recipe: FavouriteRecipe) {
-        val currentList = favoriteRecipes.value.orEmpty().toMutableList()
-        currentList.remove(recipe)
-        favoriteRecipes.value = currentList
+    fun getRicettePreferite(){
+        viewModelScope.launch {
+            _ricettePreferiteLiveData.value =
+                ricettePreferiteDB.getRicettePreferite(auth.currentUser!!.email!!)
+        }
     }
+
+    // Metodo per rimuovere una ricetta preferita
+    fun removeFavoriteRecipe(id: String, context:Context) {
+        viewModelScope.launch {
+            if(ricettePreferiteDB.deleteRicettaPreferita(auth.currentUser!!.email!!, id)){
+                Toast.makeText(context,"Product correctly deleted",Toast.LENGTH_LONG).show()
+                getRicettePreferite()
+            }else{
+                Toast.makeText(context,"ATTENTION!\nProduct not deleted",Toast.LENGTH_LONG).show()
+            }
+        }
+    }
+
+
 
     // Metodo per ottenere la lista delle ricette preferite
     fun getFavoriteRecipes() {
             viewModelScope.launch {
-
-
                 _ricettePreferiteLiveData.value =
                     ricettePreferiteDB.getRicettePreferite(auth.currentUser!!.email!!)
-
-
             }
-   //     return favoriteRecipes
-
     }
 
-    fun getRicettePreferite(): List<FavouriteRecipe>? {
 
-
-        viewModelScope.launch {
-
-            ricettePreferite =
-                ricettePreferiteDB.getRicettePreferite(auth.currentUser!!.email!!)
-            Log.e(favoriteRecipes.value.toString(), "3 FAvourite recipes view model")
-        }
-        return ricettePreferite
-
-    }
 
 /*    fun getPreferiti(tipologiaPasto : String){
         viewModelScope.launch {
