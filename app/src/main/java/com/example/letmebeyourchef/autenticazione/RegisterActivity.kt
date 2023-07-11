@@ -13,7 +13,6 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat.startActivityForResult
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.navArgs
 import com.example.letmebeyourchef.R
@@ -60,7 +59,7 @@ class RegisterActivity : AppCompatActivity() {
         progressBar = binding.progressBar3
         signInButton = binding.signInButton
         progressBar.visibility = ProgressBar.INVISIBLE
-        setGooglePlusButtonText(binding.signInButton, "Or sign in with Google")
+        setGooglePlusButtonText(binding.signInButton, "Sign in with Google")
 
         /*val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestEmail()
@@ -89,41 +88,6 @@ class RegisterActivity : AppCompatActivity() {
 
         }
 
-
-        fun handleSignInResult(task: Task<GoogleSignInAccount>) {
-            try {
-                //val account : GoogleSignInAccount = task.getResult(ApiException.class) :
-                val account: GoogleSignInAccount = task.getResult(ApiException::class.java)
-
-                lifecycleScope.launch {
-
-                            account.email?.let {
-                                model.addAuthUtenteOnDB(
-                                    utente.nome, utente.cognome, it, utente.sesso,
-                                    utente.data_nascita,
-                                    utente.intolleranze, this@RegisterActivity
-                                )
-                            }
-                            val intent = Intent(applicationContext, ConosciamociActivity::class.java)
-                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
-                            intent.putExtra("EXIT", true)
-                            startActivity(intent)
-                            finish()
-                    }
-
-
-                // Signed in successfully, show authenticated UI.
-
-                signInButton.visibility=View.VISIBLE
-                // Signed in successfully, show authenticated UI.
-
-            } catch (e: ApiException) {
-                // The ApiException status code indicates the detailed failure reason.
-                // Please refer to the GoogleSignInStatusCodes class reference for more information.
-                Log.w(TAG, "signInResult:failed code=" + e.getStatusCode());
-                signInButton.visibility=View.VISIBLE
-            }
-        }
 
 
 

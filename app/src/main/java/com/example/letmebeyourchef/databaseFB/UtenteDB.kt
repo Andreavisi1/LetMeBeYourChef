@@ -3,6 +3,7 @@ package com.example.letmebeyourchef.databaseFB
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
+import androidx.browser.customtabs.CustomTabsIntent
 import com.example.letmebeyourchef.model.Utente
 import com.google.firebase.firestore.ktx.toObjects
 import kotlinx.coroutines.*
@@ -17,11 +18,11 @@ class UtenteDB : FirebaseDB() {
 
     suspend fun addUtente(
         nome: String,
-        cognome : String,
+        cognome: String,
         email: String,
         sesso: String,
         data_nascita: String,
-        intolleranze : String?,
+        intolleranze: ArrayList<String>?,
         contesto: Context, ): Boolean {
         val utente = hashMapOf<String, Any>(
             "nome" to nome,
@@ -54,7 +55,7 @@ class UtenteDB : FirebaseDB() {
         email: String?,
         sesso: String,
         data_nascita: String,
-        intolleranze : String?,
+        intolleranze: ArrayList<String>?,
         contesto: Context, ): Boolean {
         val utente = hashMapOf<String, Any>(
             "nome" to nome,
@@ -102,7 +103,7 @@ class UtenteDB : FirebaseDB() {
         email: String,
         sesso: String,
         data_nascita: String,
-        intolleranze: String?,
+        intolleranze: ArrayList<String>?,
         contesto: Context): Boolean {
         val utente = hashMapOf<String, Any>(
             "nome" to nome,
@@ -112,6 +113,7 @@ class UtenteDB : FirebaseDB() {
             "data_nascita" to data_nascita,
             "intolleranze" to intolleranze!!
         )
+
 
         withContext(Dispatchers.IO){
             utenti_collection
@@ -137,6 +139,7 @@ class UtenteDB : FirebaseDB() {
         )
 
         withContext(Dispatchers.IO){
+
             utenti_collection
                 .document(email)
                 .update(dieta)

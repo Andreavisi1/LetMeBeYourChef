@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:background="@color/white">
+
+        <ScrollView
+            android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/checkboxes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/bt_AvantiIntolleranze"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            >
+
+            <TextView
+                android:text="Change intolerances"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/orange"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/title"/>
+
+            <CheckBox
+                android:id="@+id/cB_dairy_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Dairy"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cB_gluten_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Gluten"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cB_peanut_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Peanut"
+                android:textSize="22sp"/>
+
+            <CheckBox
+                android:id="@+id/cB_grain_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Grain"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cB_seafood_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Seafood"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_egg_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Egg"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_sesame_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Sesame"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_shellfish_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Shellfish"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_soy_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Soy"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_sulfite_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Sulfite"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_tree_nut_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Tree Nut"
+                android:textSize="22sp"/>
+            <CheckBox
+                android:id="@+id/cB_wheat_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Wheat"
+                android:textSize="22sp" />
+            <CheckBox
+                android:id="@+id/cB_altro_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Other"
+                android:textSize="22sp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="SAVE"
+        android:layout_width="225dp"
+        android:layout_height="65dp" android:id="@+id/btn_save_intolleranze"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll"
+        android:layout_marginBottom="20dp" android:background="@drawable/animazione_1" android:textStyle="bold"
+        android:textAlignment="center" android:textSize="25sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

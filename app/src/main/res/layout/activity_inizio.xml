@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-            android:text="SIGN IN"
+            android:text="LOGIN"
             android:layout_width="245dp"
             android:layout_height="65dp" android:id="@+id/btAccesso"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"

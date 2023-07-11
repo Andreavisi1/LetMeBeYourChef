@@ -20,7 +20,6 @@
             android:src="@drawable/linietta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/imageView6" android:layout_weight="2"/>
-
         <ImageView
             android:src="@drawable/linietta"
             android:layout_width="wrap_content"
@@ -38,7 +37,7 @@
         android:text="Do you have any allergy or food intolerance?"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:id="@+id/sB_intolleranze"
         app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="30dp" android:textStyle="bold|italic" android:textColor="@color/black"
@@ -48,136 +47,156 @@
         app:layout_constraintBottom_toTopOf="@+id/bt_AvantiIntolleranze" app:layout_constraintVertical_bias="0.0"
         android:layout_marginTop="50dp" tools:ignore="UseSwitchCompatOrMaterialXml"/>
 
-    <ScrollView android:layout_width="0dp" android:layout_height="0dp"
-                android:gravity="center"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/bt_AvantiIntolleranze"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sB_intolleranze"
+            app:layout_constraintVertical_bias="1.0">
+
+            <LinearLayout
+                android:id="@+id/checkboxes_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                app:layout_constraintTop_toBottomOf="@+id/sB_intolleranze" android:layout_marginTop="30dp"
-                app:layout_constraintBottom_toTopOf="@+id/bt_AvantiIntolleranze" android:layout_marginBottom="50dp">
-        <LinearLayout
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11"
                 app:layout_constraintBottom_toTopOf="@+id/bt_AvantiIntolleranze"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="30dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="30dp">
-            <RadioGroup android:layout_width="match_parent"
-                        android:gravity="center"
-                        android:id="@+id/RadioGroup_Intolleranze"
-                        android:layout_height="match_parent"
-                        android:clickable="false">
-                <RadioButton
-                        android:text="Dairy (milk and derivates)"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                android:clickable="false"
+                >
+
+                    <CheckBox
+                        android:id="@+id/cB_dairy"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_dairy" />
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Dairy"
+                        android:textSize="22sp" />
+
+                    <CheckBox
+                        android:id="@+id/cB_gluten"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Gluten"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+
+                    <CheckBox
+                        android:id="@+id/cB_peanut"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_gluten"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Peanut"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp"/>
+
+                    <CheckBox
+                        android:id="@+id/cB_grain"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_peanut"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Grain"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+
+                    <CheckBox
+                        android:id="@+id/cB_seafood"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_grain"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Seafood"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_egg"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_seafood"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Egg"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_sesame"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_egg"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Sesame"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_shellfish"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_sesame"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Shellfish"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_soy"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_shellfish"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Soy"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_sulfite"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_soy"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Sulfite"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_tree_nut"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_sulfite"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Tree Nut"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp"/>
+                    <CheckBox
+                        android:id="@+id/cB_wheat"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_tree_nut"/>
-                <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
                         android:text="Wheat"
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="150dp"
-                        android:gravity="center"
+                        android:textSize="22sp" />
+                    <CheckBox
+                        android:id="@+id/cB_altro"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_wheat"/>
-                <RadioButton
+                        android:gravity="center"
                         android:text="Other"
-                        android:layout_width="150dp"
-                        android:gravity="center"
-                        android:layout_height="wrap_content"
-                        android:textSize="22sp"
-                        android:id="@+id/cB_altro"/>
-            </RadioGroup>
-        </LinearLayout>
-    </ScrollView>
-    <Button
+                        android:textSize="22sp"/>
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup_Intolleranze"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
             android:text="NEXT"
             android:layout_width="225dp"
             android:layout_height="65dp" android:id="@+id/bt_AvantiIntolleranze"

@@ -65,7 +65,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="24dp"
-        android:background="@drawable/input_bg_green"
+        android:background="@drawable/input_bg_blue"
         android:gravity="center"
         android:hint="First name"
         android:textColorHint="@color/grey_primary"
@@ -85,7 +85,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="116dp"
-        android:background="@drawable/input_bg_green"
+        android:background="@drawable/input_bg_blue"
         android:gravity="center"
         android:hint="Last name"
         android:textColorHint="@color/grey_primary"
@@ -103,7 +103,7 @@
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:id="@+id/linearLayout3"
-        android:background="@drawable/input_bg_green"
+        android:background="@drawable/input_bg_blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/tE_name"
         android:layout_marginStart="30dp" android:layout_marginEnd="30dp"
@@ -122,20 +122,21 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="286dp" />
-    <TextView
-        android:id="@+id/tv_dataNascita"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:hint="Select date"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="284dp"
-        android:drawableStart="@drawable/ic_calendar" />
+
+        <TextView
+            android:id="@+id/tv_dataNascita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableStart="@drawable/ic_calendar"
+            android:gravity="center"
+            android:text="Select date"
+            android:textAlignment="center"
+            android:textColor="@color/grey_primary"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="284dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

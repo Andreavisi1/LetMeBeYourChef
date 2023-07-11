@@ -5,7 +5,7 @@
 
     <LinearLayout
             android:orientation="vertical"
-            android:background="@drawable/input_bg_green"
+            android:background="@drawable/input_bg_blue"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"

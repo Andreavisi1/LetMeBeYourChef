@@ -40,9 +40,10 @@ class AuthViewModel : ViewModel() {
     }
 
 
-    suspend fun addAuthUtenteOnDB(nome:String, cognome:String, email:String,
-                                  sesso:String, data_nascita:String,
-                                  intolleranze:String?,contesto: Context) {
+    suspend fun addAuthUtenteOnDB(
+        nome:String, cognome:String, email:String,
+        sesso:String, data_nascita:String,
+        intolleranze: ArrayList<String>?, contesto: Context) {
         try {
             val user = auth.currentUser
             val profileUpdates = userProfileChangeRequest {
@@ -57,7 +58,7 @@ class AuthViewModel : ViewModel() {
 
     suspend fun addAuthUtenteOnDBFromGoogle(nome:String, cognome:String, email:String?,
                                   sesso:String, data_nascita:String,
-                                  intolleranze:String?,contesto: Context) {
+                                  intolleranze:ArrayList<String>?,contesto: Context) {
         try {
             val user = auth.currentUser
             val profileUpdates = userProfileChangeRequest {

@@ -1,6 +1,7 @@
 package com.example.letmebeyourchef.profilo
 
 import android.content.Context
+import androidx.browser.customtabs.CustomTabsIntent.KEY_DESCRIPTION
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -11,6 +12,9 @@ import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
+import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 
@@ -18,6 +22,7 @@ class ProfiloViewModel : ViewModel() {
 
     private val utenteDB = UtenteDB()
     private val dispensaDB = DispensaDB()
+    val db = Firebase.firestore
 
     private var _profilo = MutableLiveData<Utente>()
 
@@ -43,7 +48,7 @@ class ProfiloViewModel : ViewModel() {
     fun updateAuthUtenteOnDB(
         nome: String, cognome: String, email: String,
         sesso: String, data_nascita: String,
-        intolleranze: String?, contesto: Context
+        intolleranze: ArrayList<String>?, contesto: Context
     ) {
         try {
             val user = auth.currentUser
@@ -51,16 +56,30 @@ class ProfiloViewModel : ViewModel() {
                 displayName = "$nome $cognome"
             }
             user!!.updateProfile(profileUpdates)
+
+
+
+
+
+
+
             viewModelScope.launch {
+                val docRef = db.collection("Utente").document("email")
+
+                // Remove the 'intolleranze' field from the document
+                val updates = hashMapOf<String, Any>(
+                    "intolleranze" to FieldValue.delete(),
+                )
+
+                docRef.update(updates)
+
+
+
                 utenteDB.updateUtente(
                     nome, cognome, email, sesso, data_nascita,
-                    intolleranze, contesto
+                    intolleranze!!, contesto
                 )
-                val dispensa = dispensaDB.getUserDispensa(auth.currentUser!!.email!!)!!
-                dispensaDB.setDispensa(auth.currentUser!!.email!!, LocalDate.now().toString(),1000,dispensa.grassiTot,
-                dispensa.proteineTot,dispensa.carboidratiTot,dispensa.chiloCalorieEsercizio,dispensa.chiloCalorieColazione,
-                dispensa.chiloCaloriePranzo,dispensa.chiloCalorieCena,dispensa.chiloCalorieSpuntino,dispensa.acqua)
-                _dispensaUpdated.value = true
+
             }
             } catch (e: Exception) {
             }

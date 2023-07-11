@@ -24,11 +24,9 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
         sViewsWithIds.put(R.id.btn_cambio_pass, 12);
         sViewsWithIds.put(R.id.data_di_nascita, 13);
         sViewsWithIds.put(R.id.textView30, 14);
-        sViewsWithIds.put(R.id.selezioneIntolleranze, 15);
-        sViewsWithIds.put(R.id.textView328, 16);
-        sViewsWithIds.put(R.id.sW_intolerances, 17);
-        sViewsWithIds.put(R.id.switch_agonistico, 18);
-        sViewsWithIds.put(R.id.btn_salva, 19);
+        sViewsWithIds.put(R.id.textView81, 15);
+        sViewsWithIds.put(R.id.btn_cambio_intolleranze, 16);
+        sViewsWithIds.put(R.id.btn_salva, 17);
     }
     // views
     @NonNull
@@ -39,20 +37,18 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityProfiloBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 18, sIncludes, sViewsWithIds));
     }
     private ActivityProfiloBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
+            , (android.widget.Button) bindings[16]
             , (android.widget.Button) bindings[12]
-            , (android.widget.Button) bindings[19]
+            , (android.widget.Button) bindings[17]
             , (android.widget.LinearLayout) bindings[13]
             , (android.widget.EditText) bindings[3]
             , (android.widget.EditText) bindings[1]
             , (android.widget.EditText) bindings[2]
-            , (android.widget.Spinner) bindings[17]
             , (android.widget.Spinner) bindings[9]
-            , (android.widget.LinearLayout) bindings[15]
-            , (android.widget.Switch) bindings[18]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[8]
@@ -60,7 +56,7 @@ public class ActivityProfiloBindingImpl extends ActivityProfiloBinding  {
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[14]
             , (android.widget.TextView) bindings[6]
-            , (android.widget.TextView) bindings[16]
+            , (android.widget.TextView) bindings[15]
             , (android.widget.TextView) bindings[11]
             );
         this.eTCambioEmail.setTag(null);

@@ -94,7 +94,6 @@ class DatiPersonaliFragment : Fragment() {
         }
 
 
-
     }
 
     override fun onStop() {

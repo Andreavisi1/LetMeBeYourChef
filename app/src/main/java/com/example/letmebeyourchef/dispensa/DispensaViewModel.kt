@@ -116,11 +116,11 @@ class DispensaViewModel : ViewModel() {
     fun setMacro(){
         viewModelScope.launch {
             val utente = utenteDB.getUtente(auth.currentUser?.email!!)
-            val dieta = dietaDB.getDieta(utente.dieta)
+/*            val dieta = dietaDB.getDieta(utente.dieta)
             _carboidratiMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_carb.toDouble()/100.0)) / 4).toInt() //1gr di carbo = 4Kcal
             _proteineMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 4).toInt() //1gr di prot = 4Kcal
             _grassiMax.value = ((dispensa.value!!.fabbisogno*(dieta.perc_prot.toDouble()/100.0)) / 9).toInt()//1gr di grassi = 9Kcal
-            _dispensaSettata.value = !(_dispensaSettata.value)!!
+            _dispensaSettata.value = !(_dispensaSettata.value)!!*/
         }
     }
 

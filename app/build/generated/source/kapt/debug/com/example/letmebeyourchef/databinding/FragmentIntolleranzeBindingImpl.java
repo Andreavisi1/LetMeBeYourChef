@@ -20,7 +20,7 @@ public class FragmentIntolleranzeBindingImpl extends FragmentIntolleranzeBinding
         sViewsWithIds.put(R.id.imageView17, 4);
         sViewsWithIds.put(R.id.imageView18, 5);
         sViewsWithIds.put(R.id.sB_intolleranze, 6);
-        sViewsWithIds.put(R.id.RadioGroup_Intolleranze, 7);
+        sViewsWithIds.put(R.id.checkboxes_layout, 7);
         sViewsWithIds.put(R.id.cB_dairy, 8);
         sViewsWithIds.put(R.id.cB_gluten, 9);
         sViewsWithIds.put(R.id.cB_peanut, 10);
@@ -34,7 +34,8 @@ public class FragmentIntolleranzeBindingImpl extends FragmentIntolleranzeBinding
         sViewsWithIds.put(R.id.cB_tree_nut, 18);
         sViewsWithIds.put(R.id.cB_wheat, 19);
         sViewsWithIds.put(R.id.cB_altro, 20);
-        sViewsWithIds.put(R.id.bt_AvantiIntolleranze, 21);
+        sViewsWithIds.put(R.id.RadioGroup_Intolleranze, 21);
+        sViewsWithIds.put(R.id.bt_AvantiIntolleranze, 22);
     }
     // views
     @NonNull
@@ -45,25 +46,26 @@ public class FragmentIntolleranzeBindingImpl extends FragmentIntolleranzeBinding
     // Inverse Binding Event Handlers
 
     public FragmentIntolleranzeBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 22, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 23, sIncludes, sViewsWithIds));
     }
     private FragmentIntolleranzeBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.RadioGroup) bindings[7]
-            , (android.widget.Button) bindings[21]
-            , (android.widget.RadioButton) bindings[20]
-            , (android.widget.RadioButton) bindings[8]
-            , (android.widget.RadioButton) bindings[13]
-            , (android.widget.RadioButton) bindings[9]
-            , (android.widget.RadioButton) bindings[11]
-            , (android.widget.RadioButton) bindings[10]
-            , (android.widget.RadioButton) bindings[12]
-            , (android.widget.RadioButton) bindings[14]
-            , (android.widget.RadioButton) bindings[15]
-            , (android.widget.RadioButton) bindings[16]
-            , (android.widget.RadioButton) bindings[17]
-            , (android.widget.RadioButton) bindings[18]
-            , (android.widget.RadioButton) bindings[19]
+            , (android.widget.RadioGroup) bindings[21]
+            , (android.widget.Button) bindings[22]
+            , (android.widget.CheckBox) bindings[20]
+            , (android.widget.CheckBox) bindings[8]
+            , (android.widget.CheckBox) bindings[13]
+            , (android.widget.CheckBox) bindings[9]
+            , (android.widget.CheckBox) bindings[11]
+            , (android.widget.CheckBox) bindings[10]
+            , (android.widget.CheckBox) bindings[12]
+            , (android.widget.CheckBox) bindings[14]
+            , (android.widget.CheckBox) bindings[15]
+            , (android.widget.CheckBox) bindings[16]
+            , (android.widget.CheckBox) bindings[17]
+            , (android.widget.CheckBox) bindings[18]
+            , (android.widget.CheckBox) bindings[19]
+            , (android.widget.LinearLayout) bindings[7]
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[5]
             , (android.widget.ImageView) bindings[2]

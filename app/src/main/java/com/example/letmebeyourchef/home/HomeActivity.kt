@@ -20,7 +20,6 @@ import com.example.letmebeyourchef.autenticazione.InizioActivity
 import com.example.letmebeyourchef.autenticazione.RegisterActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
 //import com.example.letmebeyourchef.profilo.ProfiloActivity
-import com.example.letmebeyourchef.diete.DieteFragment
 import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.homepage.HomepageFragment
 //import com.example.letmebeyourchef.diete.DieteFragment
@@ -34,7 +33,6 @@ class HomeActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
     val dispensaFragment = DispensaFragment()
-    val dieteFragment = DieteFragment()
     val funzioniFragment = FunzioniFragment()
     val ricettePreferiteFragment = RicettePreferiteFragment()
     val homepageFragment = HomepageFragment()
