@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-or/values-or.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-86:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/2b7353e9c26955f7973d737c8a8ad24c/transformed/preference-1.1.1/res/values-or/values-or.xml",

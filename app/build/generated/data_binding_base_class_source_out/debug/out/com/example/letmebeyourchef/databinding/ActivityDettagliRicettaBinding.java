@@ -29,6 +29,9 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
   public final Button likebutton;
 
   @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
   public final Button nutritionLabelButton;
 
   @NonNull
@@ -54,13 +57,15 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
 
   private ActivityDettagliRicettaBinding(@NonNull LinearLayout rootView,
       @NonNull ImageView imageViewImmagineRicetta, @NonNull Button likebutton,
-      @NonNull Button nutritionLabelButton, @NonNull Button recipeCardButton,
-      @NonNull RecyclerView recyclerIngredientiRicetta, @NonNull RecyclerView recyclerIstruzioni,
-      @NonNull RecyclerView recyclerRicetteSimili, @NonNull TextView textViewDescrizioneRicetta,
-      @NonNull TextView textViewNomeRicetta, @NonNull TextView textViewSourceRicetta) {
+      @NonNull LinearLayout linearLayout, @NonNull Button nutritionLabelButton,
+      @NonNull Button recipeCardButton, @NonNull RecyclerView recyclerIngredientiRicetta,
+      @NonNull RecyclerView recyclerIstruzioni, @NonNull RecyclerView recyclerRicetteSimili,
+      @NonNull TextView textViewDescrizioneRicetta, @NonNull TextView textViewNomeRicetta,
+      @NonNull TextView textViewSourceRicetta) {
     this.rootView = rootView;
     this.imageViewImmagineRicetta = imageViewImmagineRicetta;
     this.likebutton = likebutton;
+    this.linearLayout = linearLayout;
     this.nutritionLabelButton = nutritionLabelButton;
     this.recipeCardButton = recipeCardButton;
     this.recyclerIngredientiRicetta = recyclerIngredientiRicetta;
@@ -109,6 +114,8 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
       if (likebutton == null) {
         break missingId;
       }
+
+      LinearLayout linearLayout = (LinearLayout) rootView;
 
       id = R.id.nutrition_label_button;
       Button nutritionLabelButton = ViewBindings.findChildViewById(rootView, id);
@@ -159,9 +166,9 @@ public final class ActivityDettagliRicettaBinding implements ViewBinding {
       }
 
       return new ActivityDettagliRicettaBinding((LinearLayout) rootView, imageViewImmagineRicetta,
-          likebutton, nutritionLabelButton, recipeCardButton, recyclerIngredientiRicetta,
-          recyclerIstruzioni, recyclerRicetteSimili, textViewDescrizioneRicetta,
-          textViewNomeRicetta, textViewSourceRicetta);
+          likebutton, linearLayout, nutritionLabelButton, recipeCardButton,
+          recyclerIngredientiRicetta, recyclerIstruzioni, recyclerRicetteSimili,
+          textViewDescrizioneRicetta, textViewNomeRicetta, textViewSourceRicetta);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

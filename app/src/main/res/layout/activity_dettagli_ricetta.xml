@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -83,14 +84,13 @@
                 android:id="@+id/nutrition_label_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="@color/green"
                 android:onClick="seeNutritionLabel"
-                android:text="See nutrition label"
-                android:layout_marginStart="60dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                />
+                android:text="See nutrition label" />
 
             <TextView
                 android:text="Ingredients:"
@@ -141,5 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

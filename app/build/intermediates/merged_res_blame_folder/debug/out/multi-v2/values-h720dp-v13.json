@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-86:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-h720dp-v13/values-h720dp-v13.xml",

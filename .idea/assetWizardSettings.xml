@@ -344,7 +344,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/date_range/baseline_date_range_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/close/baseline_close_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -354,7 +354,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_calendar" />
+                            <entry key="color" value="111bd9" />
+                            <entry key="outputName" value="baseline_close_24" />
                             <entry key="sourceFile" value="/C:\Users\CiaMb\AndroidStudioProjects\LetMeBeYourChef" />
                           </map>
                         </option>

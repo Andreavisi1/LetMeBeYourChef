@@ -49,12 +49,10 @@ class InizioActivity : AppCompatActivity() {
 
         }
 
-
-
     }
 
     private fun avvioVideo() {
-        uri = Uri.parse("android.resource://"+ packageName +"/"+R.raw.videoapp)
+        uri = Uri.parse("android.resource://"+ packageName +"/" + R.raw.videoapp)
         binding.videoView.setVideoURI(uri)
         binding.videoView.start()
 

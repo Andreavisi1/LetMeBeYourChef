@@ -88,4 +88,10 @@
         <item name="cornerSize">20dp</item>
         <item name="color">@color/white</item>
     </style>
+
+    <style name="dialogAnimation" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
 </resources>

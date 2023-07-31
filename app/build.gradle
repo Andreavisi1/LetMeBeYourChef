@@ -182,13 +182,13 @@ dependencies {
     //Picasso library
     implementation 'com.squareup.picasso:picasso:2.8'
 
+    implementation 'com.squareup.okhttp3:okhttp:VERSION'
+
+
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
     implementation 'com.google.android.gms:play-services-auth:20.6.0'
-
-
-    implementation 'com.facebook.android:facebook-login:latest.release'
 
 
 }

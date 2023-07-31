@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-sl/values-sl.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-86:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/f0a7be616b90331c8d087fea3d724907/transformed/jetified-car-ui-lib-2.3.0/res/values-sl/values.xml",

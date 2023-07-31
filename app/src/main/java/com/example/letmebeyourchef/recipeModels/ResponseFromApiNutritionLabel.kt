@@ -1,5 +1,7 @@
 package com.example.letmebeyourchef.recipeModels
 
-class ResponseFromApiNutritionLabel {
+import android.widget.ImageView
 
+class ResponseFromApiNutritionLabel {
+    var img: String? = null
 }

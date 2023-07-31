@@ -4,9 +4,13 @@ import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
 import android.text.Html
+import android.view.Gravity
+import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.PopupWindow
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -63,8 +67,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
 
     var selectedRecipe: FavouriteRecipe? = null
 
-    private var ricette_preferite  = HashMap<String,String?>()
-
+    private var ricette_preferite = HashMap<String, String?>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,8 +82,10 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         manager!!.getDettagliRicetta(dettagliRicettaListener, id)
         manager!!.getRicetteSimili(ricetteSimiliListener, id)
         manager!!.getIstruzioni(istruzioniListener, id)
+        manager!!.getNutritionLabel(nutritionLabelListener, id)
 
         like_button?.setOnClickListener(ricettePreferiteListener)
+        nutrition_label_button?.setOnClickListener(tabellaNutrizionaleListener)
 
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading details...")
@@ -246,6 +251,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
             ) {
                 dialog!!.dismiss()
 
+
             }
 
             public override fun didError(message: String?) {
@@ -258,7 +264,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
 
     }
 
-    private fun getExtra(){
+    private fun getExtra() {
 
         val extras = intent.extras
 
@@ -274,15 +280,40 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         spoonacularSourceUrl = extras!!.getString("spoonacularSourceUrl")!!
     }
 
-    private val ricettePreferiteListener = View.OnClickListener {view ->
+    private val ricettePreferiteListener = View.OnClickListener { view ->
         model.setRicettePreferiteOnDB(
-            id.toString(), title.toString()!!, sourceName!!,  readyInMinutes!!, servings!!,
-            sourceUrl.toString()!!, image!!, imageType!!, instructions!!,spoonacularSourceUrl!!,
+            id.toString(), title.toString()!!, sourceName!!, readyInMinutes!!, servings!!,
+            sourceUrl.toString()!!, image!!, imageType!!, instructions!!, spoonacularSourceUrl!!,
             this@ActivityDettagliRicetta
         )
     }
 
-/*    private val ricettePreferiteListener: RicettePreferiteListener =
+    private val tabellaNutrizionaleListener = View.OnClickListener { view ->
+        var inflater = LayoutInflater.from(this)
+        var popupview = inflater.inflate(R.layout.nutrition_label, null, false)
+        var image = popupview.findViewById<ImageView>(R.id.imagepopup)
+
+        image.setImageResource(R.drawable.book)
+
+        var close = popupview.findViewById<ImageView>(R.id.close)
+
+        var builder = PopupWindow(
+            popupview, LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT, true
+        )
+
+        builder.setBackgroundDrawable(getDrawable(R.drawable.background))
+        builder.animationStyle = R.style.dialogAnimation
+        builder.showAtLocation(
+            this.findViewById(R.id.linearLayout),
+            Gravity.CENTER, 0, 0
+        )
+
+        close.setOnClickListener {
+            builder.dismiss()
+        }
+
+        /*    private val ricettePreferiteListener: RicettePreferiteListener =
         object : RicettePreferiteListener {
             public override fun didFetch(
                 response: Recipe?,
@@ -305,4 +336,5 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
                 Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
             }
         }*/
+    }
 }

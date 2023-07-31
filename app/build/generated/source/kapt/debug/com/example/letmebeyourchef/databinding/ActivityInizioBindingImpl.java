@@ -14,9 +14,9 @@ public class ActivityInizioBindingImpl extends ActivityInizioBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.videoView, 1);
-        sViewsWithIds.put(R.id.btAccesso, 2);
-        sViewsWithIds.put(R.id.btInizia, 3);
+        sViewsWithIds.put(R.id.btAccesso, 1);
+        sViewsWithIds.put(R.id.btInizia, 2);
+        sViewsWithIds.put(R.id.videoView, 3);
         sViewsWithIds.put(R.id.imageView5, 4);
         sViewsWithIds.put(R.id.imageView70, 5);
         sViewsWithIds.put(R.id.ProgressBar01, 6);
@@ -35,11 +35,11 @@ public class ActivityInizioBindingImpl extends ActivityInizioBinding  {
     private ActivityInizioBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.ProgressBar) bindings[6]
+            , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[2]
-            , (android.widget.Button) bindings[3]
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[5]
-            , (android.widget.VideoView) bindings[1]
+            , (android.widget.VideoView) bindings[3]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

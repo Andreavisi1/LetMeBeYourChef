@@ -1,6 +1,7 @@
 package com.example.letmebeyourchef
 
 import android.content.Context
+import android.view.View
 import com.example.letmebeyourchef.listeners.DettagliRicettaListener
 import com.example.letmebeyourchef.listeners.IstruzioniListener
 import com.example.letmebeyourchef.listeners.NutritionLabelListener
@@ -8,7 +9,6 @@ import com.example.letmebeyourchef.listeners.RecipesByIngredientsListener
 import com.example.letmebeyourchef.listeners.ResponseListenerRicetteRandom
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
 import com.example.letmebeyourchef.listeners.SearchIngredientsListener
-import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
@@ -26,7 +26,6 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.json.JSONArray
 import org.json.JSONObject
 
 class RequestManager constructor(var context: Context) {
@@ -235,12 +234,13 @@ class RequestManager constructor(var context: Context) {
         return ingredientsList
     }
 
+
     fun getNutritionLabel(listener: NutritionLabelListener, id: Int) {
         val callNutritionLabel: CallNutritionLabel = retrofit.create(
             CallNutritionLabel::class.java
         )
         val call: Call<ResponseFromApiNutritionLabel> =
-            callNutritionLabel.callNutritionLabel(id, context.getString((R.string.api_key)))
+            callNutritionLabel.callNutritionLabel(id, context.getString(R.string.api_key))
         call.enqueue(object : Callback<ResponseFromApiNutritionLabel?> {
             public override fun onResponse(
                 call: Call<ResponseFromApiNutritionLabel?>,
@@ -316,12 +316,9 @@ class RequestManager constructor(var context: Context) {
         ): Call<List<ResponseFromApiRecipesByIngredients>>
     }
 
-
     private open interface GetIngredienti {
         @GET("ingredients")
         suspend fun getIngredienti(): Response<List<String>>
-
-
     }
 
     private open interface CallNutritionLabel {

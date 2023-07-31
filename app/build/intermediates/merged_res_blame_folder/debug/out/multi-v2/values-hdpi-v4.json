@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-88:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-86:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-hdpi-v4/values-hdpi-v4.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/9b8d441188baab5df98b120daf65de02/transformed/jetified-core-1.9.8/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/62219bd55259b8a828f5b14ea3f61d6f/transformed/jetified-core-1.9.8/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -14,12 +14,12 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imageView2, 1);
-        sViewsWithIds.put(R.id.TitleReg, 2);
-        sViewsWithIds.put(R.id.InputPassword, 3);
-        sViewsWithIds.put(R.id.InputEmail, 4);
-        sViewsWithIds.put(R.id.InputCorrectPassword, 5);
-        sViewsWithIds.put(R.id.sign_in_button, 6);
+        sViewsWithIds.put(R.id.TitleReg, 1);
+        sViewsWithIds.put(R.id.imageView2, 2);
+        sViewsWithIds.put(R.id.InputEmail, 3);
+        sViewsWithIds.put(R.id.InputCorrectPassword, 4);
+        sViewsWithIds.put(R.id.sign_in_button, 5);
+        sViewsWithIds.put(R.id.InputPassword, 6);
         sViewsWithIds.put(R.id.btnRegister, 7);
         sViewsWithIds.put(R.id.linearLayout11, 8);
         sViewsWithIds.put(R.id.imageView6, 9);
@@ -41,19 +41,19 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     }
     private ActivityRegisterBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.EditText) bindings[5]
             , (android.widget.EditText) bindings[4]
             , (android.widget.EditText) bindings[3]
-            , (android.widget.TextView) bindings[2]
+            , (android.widget.EditText) bindings[6]
+            , (android.widget.TextView) bindings[1]
             , (android.widget.Button) bindings[7]
             , (android.widget.ImageView) bindings[11]
             , (android.widget.ImageView) bindings[12]
-            , (android.widget.ImageView) bindings[1]
+            , (android.widget.ImageView) bindings[2]
             , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[10]
             , (android.widget.LinearLayout) bindings[8]
             , (android.widget.ProgressBar) bindings[13]
-            , (com.google.android.gms.common.SignInButton) bindings[6]
+            , (com.google.android.gms.common.SignInButton) bindings[5]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

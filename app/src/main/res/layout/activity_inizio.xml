@@ -8,19 +8,6 @@
         tools:context=".autenticazione.InizioActivity"
         app:layoutDescription="@xml/activity_inizio_scene">
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/black_overlay"
-        android:scaleX="1.4"
-        android:scaleY="1.5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <Button
             android:text="LOGIN"
             android:layout_width="245dp"
@@ -44,28 +31,43 @@
             app:layout_constraintBottom_toTopOf="@+id/btAccesso"
             android:layout_marginBottom="20dp"/>
 
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:scaleX="1.4"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="1035dp"
-        android:layout_height="334dp"
-        android:layout_marginBottom="76dp"
+        android:layout_width="241dp"
+        android:layout_height="235dp"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/logo_no_background"
-        app:layout_constraintBottom_toTopOf="@+id/btInizia"
+        app:layout_constraintBottom_toTopOf="@+id/imageView70"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoView"
+        app:layout_constraintVertical_bias="0.15" />
 
     <ImageView
         android:id="@+id/imageView70"
-        android:layout_width="402dp"
+        android:layout_width="match_parent"
         android:layout_height="133dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        android:layout_marginBottom="284dp"
+        app:layout_constraintBottom_toTopOf="@+id/btInizia"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/videoView"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/color_logo_no_background_solo_scritta" />
+        app:srcCompat="@drawable/logo_scritta_pane" />
 
     <ProgressBar
         android:id="@+id/ProgressBar01"
@@ -73,6 +75,7 @@
         android:layout_width="67dp"
         android:layout_height="68dp"
         android:layout_centerInParent="true"
+        android:layout_marginBottom="44dp"
         android:indeterminate="true"
         android:indeterminateDrawable="@drawable/progress_bg_white"
         android:progress="0"

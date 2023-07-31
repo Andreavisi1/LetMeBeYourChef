@@ -20,7 +20,7 @@
     <TextView
         android:id="@+id/TitleLog"
         android:layout_width="146dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="60dp"
         android:text="Sign in"
         android:textAlignment="center"
@@ -119,12 +119,13 @@
 
     <TextView
             android:text="Password forgotten?"
-            android:layout_width="201dp"
-            android:layout_height="25dp" android:id="@+id/forgotPass"
+            android:layout_width="300dp"
+            android:layout_height="35dp" android:id="@+id/forgotPass"
             app:layout_constraintBottom_toBottomOf="@+id/InputPasswordLogin"
             app:layout_constraintEnd_toEndOf="@+id/InputPasswordLogin"
             android:layout_marginBottom="-30dp" android:textStyle="bold" android:textSize="18sp"
-            android:clickable="true" android:textAlignment="textEnd" android:backgroundTint="@color/black_overlay"/>
+            android:clickable="true" android:textAlignment="textEnd" android:backgroundTint="@color/black_overlay"
+        />
 
     <ProgressBar
             style="?android:attr/progressBarStyle"

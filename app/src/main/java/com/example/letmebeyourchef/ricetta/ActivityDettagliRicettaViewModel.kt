@@ -44,4 +44,6 @@ class ActivityDettagliRicettaViewModel: ViewModel() {
         }
     }
 
+
+
 }
