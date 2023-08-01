@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="057304cd-2e30-462a-9a94-f6a256a7dd34" name="Changes" comment="nutrition label">
+    <list default="true" id="057304cd-2e30-462a-9a94-f6a256a7dd34" name="Changes" comment="un botto de roba, sto apposto per due settimane">
       <change afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/letmebeyourchef/databinding/ActivityAggiungiIngredienteBindingImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/letmebeyourchef/databinding/FragmentIngredientiPersonalizzatiBindingImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/letmebeyourchef/databinding/FragmentIngredientiPreferitiBindingImpl.java" afterDir="false" />
@@ -36,7 +36,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/letmebeyourchef/storage/StorageViewModel.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/letmebeyourchef/storage/ingredienti.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_arrow_circle_right_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cuore_spezzato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cuore_spezzato.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dontlike.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_aggiungi_ingrediente.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ingredienti_personalizzati.xml" afterDir="false" />
@@ -637,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689074289044</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="un botto de roba, sto apposto per due settimane">
+      <created>1690885155759</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1690885155759</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -663,7 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
     <MESSAGE value="splash activity" />
     <MESSAGE value="bozza login" />
     <MESSAGE value="p2" />
@@ -688,6 +694,7 @@
     <MESSAGE value="favourites delete" />
     <MESSAGE value="ci siamo" />
     <MESSAGE value="update profile works" />
-    <option name="LAST_COMMIT_MESSAGE" value="update profile works" />
+    <MESSAGE value="un botto de roba, sto apposto per due settimane" />
+    <option name="LAST_COMMIT_MESSAGE" value="un botto de roba, sto apposto per due settimane" />
   </component>
 </project>
