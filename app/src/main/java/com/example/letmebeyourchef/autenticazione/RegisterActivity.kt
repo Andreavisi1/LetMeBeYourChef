@@ -201,7 +201,7 @@ class RegisterActivity : AppCompatActivity() {
         for (i in 0 until signInButton.childCount) {
             val v: View = signInButton.getChildAt(i)
             if (v is TextView) {
-                val tv = v as TextView
+                val tv = v
                 tv.text = buttonText
                 return
             }
@@ -217,14 +217,14 @@ class RegisterActivity : AppCompatActivity() {
     private fun checkFields(email: String, pass: String, confPass: String): Boolean {
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            binding.InputEmail.setError("The email format is wrong!")
+            binding.InputEmail.error = "The email format is wrong!"
             binding.InputEmail.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (pass.isEmpty()) {
-            binding.InputPassword.setError("Password is required")
+            binding.InputPassword.error = "Password is required"
             binding.InputPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
@@ -232,21 +232,21 @@ class RegisterActivity : AppCompatActivity() {
 
 
         if (pass.length < 6) {
-            binding.InputPassword.setError("The password should have a minimum of 6 characters")
+            binding.InputPassword.error = "The password should have a minimum of 6 characters"
             binding.InputPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (confPass.isEmpty()) {
-            binding.InputCorrectPassword.setError("Please confirm your password")
+            binding.InputCorrectPassword.error = "Please confirm your password"
             binding.InputCorrectPassword.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if (!pass.equals(confPass)) {
-            binding.InputCorrectPassword.setError("The passwords don’t match!")
+            binding.InputCorrectPassword.error = "The passwords don’t match!"
             binding.InputCorrectPassword.setText(" ")
             progressBar.visibility = ProgressBar.INVISIBLE
             return false

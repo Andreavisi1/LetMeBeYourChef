@@ -16,6 +16,4 @@ data class Prodotto(
     val knownAs: String? = "",
     val label: String? = "",
     val nutrients: Nutrients? = Nutrients()
-){
-
-}
+)

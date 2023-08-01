@@ -18,7 +18,7 @@ class RicetteSimiliAdapter constructor(
     var list: List<ResponseFromApiRicetteSimili>,
     var listener: RicettaClickListener
 ) : RecyclerView.Adapter<RicetteSimiliViewHolder>() {
-    public override fun onCreateViewHolder(
+    override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): RicetteSimiliViewHolder {
@@ -27,32 +27,33 @@ class RicetteSimiliAdapter constructor(
         )
     }
 
-    public override fun onBindViewHolder(holder: RicetteSimiliViewHolder, position: Int) {
-        holder.textView_simili_titolo.setText(list.get(position).title)
-        holder.textView_simili_titolo.setSelected(true)
-        holder.textView_simili_porzione.setText(list.get(position).servings.toString() + " people")
+    override fun onBindViewHolder(holder: RicetteSimiliViewHolder, position: Int) {
+        holder.textView_simili_titolo.text = list.get(position).title
+        holder.textView_simili_titolo.isSelected = true
+        holder.textView_simili_porzione.text = list.get(position).servings.toString() + " people"
         Picasso.get().load(
             "https://spoonacular.com/recipeImages/" + list.get(position).id + "-556x370." + list.get(
                 position
             ).imageType
         ).into(holder.imageView_simili)
         holder.ricette_simili_holder.setOnClickListener(object : View.OnClickListener {
-            public override fun onClick(view: View) {
-                listener.onClickRicetta(list!![holder.adapterPosition]!!.id.toString() ,
-                    list!![holder.adapterPosition]!!.title.toString(),
-                    list!![holder.adapterPosition]!!.sourceName.toString(),
-                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
-                    list!![holder.adapterPosition]!!.servings.toInt(),
-                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
-                    list!![holder.adapterPosition]!!.image.toString(),
-                    list!![holder.adapterPosition]!!.imageType.toString(),
-                    list!![holder.adapterPosition]!!.instructions.toString(),
-                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString())
+            override fun onClick(view: View) {
+                listener.onClickRicetta(
+                    list[holder.adapterPosition].id.toString() ,
+                    list[holder.adapterPosition].title.toString(),
+                    list[holder.adapterPosition].sourceName.toString(),
+                    list[holder.adapterPosition].readyInMinutes.toInt(),
+                    list[holder.adapterPosition].servings.toInt(),
+                    list[holder.adapterPosition].sourceUrl.toString(),
+                    list[holder.adapterPosition].image.toString(),
+                    list[holder.adapterPosition].imageType.toString(),
+                    list[holder.adapterPosition].instructions.toString(),
+                    list[holder.adapterPosition].spoonacularSourceUrl.toString())
             }
         })
     }
 
-    public override fun getItemCount(): Int {
+    override fun getItemCount(): Int {
         return list.size
     }
 }

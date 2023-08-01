@@ -106,7 +106,7 @@ class RicettePreferiteViewModel : ViewModel() {
             ) {
                 Toast.makeText(context, "$title added to favourites", Toast.LENGTH_LONG).show()
             } else
-                Toast.makeText(context, "Adding ingredient to favourites failed", Toast.LENGTH_LONG).show()
+                Toast.makeText(context, "Adding receipe to favourites failed", Toast.LENGTH_LONG).show()
         }
     }
 

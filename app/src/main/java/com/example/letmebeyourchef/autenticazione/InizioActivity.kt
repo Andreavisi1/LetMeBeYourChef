@@ -30,7 +30,7 @@ class InizioActivity : AppCompatActivity() {
         progresBar.visibility = ProgressBar.INVISIBLE
 
 
-        binding.btInizia.setOnClickListener(){
+        binding.btInizia.setOnClickListener {
             progresBar.visibility = ProgressBar.VISIBLE
             lifecycleScope.launch {
                 var a = Intent(this@InizioActivity, ConosciamociActivity::class.java)
@@ -39,7 +39,7 @@ class InizioActivity : AppCompatActivity() {
         }
 
 
-        binding.btAccesso.setOnClickListener(){
+        binding.btAccesso.setOnClickListener {
             progresBar.visibility = ProgressBar.VISIBLE
             lifecycleScope.launch {
                 var a = Intent(this@InizioActivity, LoginActivity::class.java)

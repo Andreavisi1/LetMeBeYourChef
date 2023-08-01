@@ -18,7 +18,7 @@ class RecuperoPasswordActivity : AppCompatActivity() {
         binding = ActivityRecPasswordBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnIndietro.setOnClickListener(){
+        binding.btnIndietro.setOnClickListener {
             finish()
         }
         binding.btnInvia.setOnClickListener {
@@ -41,12 +41,12 @@ class RecuperoPasswordActivity : AppCompatActivity() {
     private fun checkFields(TextEmailInfo: String): Boolean {
 
         if(TextEmailInfo.isEmpty()) {
-            binding.InputRecupero.setError("Please complete the field")
+            binding.InputRecupero.error = "Please complete the field"
             binding.InputRecupero.requestFocus()
             return false
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(TextEmailInfo).matches()) {
-            binding.InputRecupero.setError("Insert a valid email")
+            binding.InputRecupero.error = "Insert a valid email"
             binding.InputRecupero.requestFocus()
             return false
         }

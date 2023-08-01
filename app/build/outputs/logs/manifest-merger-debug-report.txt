@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] /Users/andreavisi/.gradle/caches/transforms-3/b9ffb60ebcaf7081faba0722cd2a95eb/transformed/databinding-adapters-7.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.2.2] /Users/andreavisi/.gradle/caches/transforms-3/eba2a3e72fed9a63661b193fb92b6e78/transformed/jetified-databinding-ktx-7.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.2] /Users/andreavisi/.gradle/caches/transforms-3/a8ef35a8a94e1967ff38f7a42046d33b/transformed/databinding-runtime-7.2.2/AndroidManifest.xml:17:1-24:12
@@ -163,22 +163,22 @@ MERGED from [io.grpc:grpc-android:1.52.1] /Users/andreavisi/.gradle/caches/trans
 MERGED from [com.google.android.play:core:1.10.3] /Users/andreavisi/.gradle/caches/transforms-3/19e8b76c662729d7bfc96fb49241c78d/transformed/jetified-core-1.10.3/AndroidManifest.xml:2:1-46:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/andreavisi/.gradle/caches/transforms-3/2f689fd3ef2312125b9617e51cb49be2/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/andreavisi/.gradle/caches/transforms-3/e93410ba4664193afdde7d3749004464/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
-INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
 	package
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-122:12
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:1-115:12
 		INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:2:11-69
@@ -243,7 +243,7 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/andreavisi/.gr
 	android:name
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:14:22-62
 application
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:16:5-120:19
+ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:16:5-113:19
 MERGED from [com.android.car.ui:car-ui-lib:2.3.0] /Users/andreavisi/.gradle/caches/transforms-3/f0a7be616b90331c8d087fea3d724907/transformed/jetified-car-ui-lib-2.3.0/AndroidManifest.xml:36:5-49:19
 MERGED from [com.android.car.ui:car-ui-lib:2.3.0] /Users/andreavisi/.gradle/caches/transforms-3/f0a7be616b90331c8d087fea3d724907/transformed/jetified-car-ui-lib-2.3.0/AndroidManifest.xml:36:5-49:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/c080845dfb3f5b47f2dcef6cd233af32/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
@@ -414,14 +414,14 @@ ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/L
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:50:13-73
-activity#com.example.letmebeyourchef.esercizio.AggiungiEsercizioActivity
+activity#com.example.letmebeyourchef.aggiungi_ingrediente.AggiungiIngredienteActivity
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:56:13-49
 	android:exported
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:54:13-64
+		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:54:13-77
 activity#com.example.letmebeyourchef.esercizio.EsercizioRDUActivity
 ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
@@ -536,20 +536,6 @@ ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/L
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:111:64-109
 	android:name
 		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:111:20-63
-activity#com.facebook.FacebookActivity
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:113:9-116:48
-	android:label
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:116:13-45
-	android:configChanges
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:114:13-113
-	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:113:19-63
-activity#com.facebook.CustomTabActivity
-ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:117:9-119:38
-	android:exported
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:119:13-36
-	android:name
-		ADDED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:118:13-58
 uses-sdk
 INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml

@@ -46,12 +46,7 @@ class HomepageFragment : Fragment() {
     private lateinit var binding: FragmentHomepageBinding
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_homepage, container, false)
         //aggiornamento automatico view
         binding.viewModel = model
@@ -65,15 +60,15 @@ class HomepageFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.searchviewHome.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-            public override fun onQueryTextSubmit(query: String): Boolean {
+            override fun onQueryTextSubmit(query: String): Boolean {
                 tags.clear()
                 tags.add(query)
-                manager!!.getRicetteRandom(responseListenerRicetteRandom, tags)
+                manager.getRicetteRandom(responseListenerRicetteRandom, tags)
 
                 return true
             }
 
-            public override fun onQueryTextChange(s: String): Boolean {
+            override fun onQueryTextChange(s: String): Boolean {
                 return false
             }
         })
@@ -84,8 +79,8 @@ class HomepageFragment : Fragment() {
             R.layout.spinner_text
         )
         arrayAdapter.setDropDownViewResource(R.layout.spinner_inner_text)
-        binding.spinnerTags.setAdapter(arrayAdapter)
-        binding.spinnerTags.setOnItemSelectedListener(spinnerSelectedListener)
+        binding.spinnerTags.adapter = arrayAdapter
+        binding.spinnerTags.onItemSelectedListener = spinnerSelectedListener
         manager = RequestManager(requireContext())
         //        manager.getRicetteRandom(responseListenerRicetteRandom);
 //        dialog.show();
@@ -94,46 +89,46 @@ class HomepageFragment : Fragment() {
 
     private val responseListenerRicetteRandom: ResponseListenerRicetteRandom =
         object : ResponseListenerRicetteRandom {
-            public override fun didFetch(
+            override fun didFetch(
                 response: ResponseFromApiRicetteRandom?,
                 message: String?
             ) {
 
                 recyclerView = binding.recyclerRandom
                 recyclerView.setHasFixedSize(true)
-                recyclerView.setLayoutManager(GridLayoutManager(mContext, 1))
+                recyclerView.layoutManager = GridLayoutManager(mContext, 1)
                 ricetteRandomAdapter = RicetteRandomAdapter(
                     requireContext(),
                     response!!.recipes,
                     ricettaClickListener,
                 )
 
-                recyclerView.setAdapter(ricetteRandomAdapter)
+                recyclerView.adapter = ricetteRandomAdapter
 
             }
 
-            public override fun didError(message: String?) {
+            override fun didError(message: String?) {
                 Toast.makeText(requireActivity(), message, Toast.LENGTH_SHORT).show()
             }
         }
     private val spinnerSelectedListener: AdapterView.OnItemSelectedListener =
         object : AdapterView.OnItemSelectedListener {
-            public override fun onItemSelected(
+            override fun onItemSelected(
                 adapterView: AdapterView<*>,
                 view: View?,
                 i: Int,
                 l: Long
             ) {
                 tags.clear()
-                tags.add(adapterView.getSelectedItem().toString())
-                manager!!.getRicetteRandom(responseListenerRicetteRandom, tags)
+                tags.add(adapterView.selectedItem.toString())
+                manager.getRicetteRandom(responseListenerRicetteRandom, tags)
             }
 
-            public override fun onNothingSelected(adapterView: AdapterView<*>?) {}
+            override fun onNothingSelected(adapterView: AdapterView<*>?) {}
         }
     private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
 
-        public override fun onClickRicetta(
+        override fun onClickRicetta(
             id: String,
             title: String?,
             sourceName: String?,
@@ -162,18 +157,6 @@ class HomepageFragment : Fragment() {
             startActivity(intent)
 
         }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        //setDiario()
-
-    }
-
-    override fun onPause() {
-        super.onPause()
-        //setDiario()
-
     }
 
 

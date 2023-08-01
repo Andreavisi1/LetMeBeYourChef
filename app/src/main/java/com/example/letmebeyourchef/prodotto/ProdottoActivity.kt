@@ -57,9 +57,9 @@ class ProdottoActivity : AppCompatActivity() {
         prodotto.put("label",bundle.getString("label"))
         var nut = bundle.getParcelable<Nutrients>("nutrients")
         nutrients.put("calorie",nut!!.chiloCalorie!!.times(100.0).roundToInt()/100.0)
-        nutrients.put("proteine",nut!!.proteine!!.times(100.0).roundToInt()/100.0)
-        nutrients.put("carboidrati",nut!!.carboidrati!!.times(100.0).roundToInt()/100.0)
-        nutrients.put("grassi",nut!!.grassi!!.times(100.0).roundToInt()/100.0)
+        nutrients.put("proteine", nut.proteine!!.times(100.0).roundToInt()/100.0)
+        nutrients.put("carboidrati", nut.carboidrati!!.times(100.0).roundToInt()/100.0)
+        nutrients.put("grassi", nut.grassi!!.times(100.0).roundToInt()/100.0)
     }
 
     private fun setLayout(){

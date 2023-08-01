@@ -25,7 +25,7 @@ import kotlinx.android.synthetic.main.add_delete_layout_esercizi.*
 
 class PreferitiEserciziFragment : Fragment() {
 
-    lateinit private var binding: FragmentPreferitiBinding
+    private lateinit var binding: FragmentPreferitiBinding
 
 
     //Prova adapter
@@ -35,13 +35,8 @@ class PreferitiEserciziFragment : Fragment() {
     private val model = AggiungiEserciziViewModel()
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle? ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_preferiti, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle? ): View {
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_ingredienti_preferiti, container, false)
         return binding.root
     }
 

@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso
 
 class IstruzioniIngredientiAdapter constructor(var context: Context, var list: List<Ingredient?>?) :
     RecyclerView.Adapter<IstruzioniIngredientiViewHolder>() {
-    public override fun onCreateViewHolder(
+    override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): IstruzioniIngredientiViewHolder {
@@ -22,15 +22,15 @@ class IstruzioniIngredientiAdapter constructor(var context: Context, var list: L
         )
     }
 
-    public override fun onBindViewHolder(holder: IstruzioniIngredientiViewHolder, position: Int) {
-        holder.textView_step_istruzioni_item.setText(list!!.get(position)!!.name)
-        holder.textView_step_istruzioni_item.setSelected(true)
+    override fun onBindViewHolder(holder: IstruzioniIngredientiViewHolder, position: Int) {
+        holder.textView_step_istruzioni_item.text = list!!.get(position)!!.name
+        holder.textView_step_istruzioni_item.isSelected = true
         Picasso.get()
             .load("https://spoonacular.com/cdn/ingredients_100x100/" + list!!.get(position)!!.image)
             .into(holder.imageView_step_istruzioni_items)
     }
 
-    public override fun getItemCount(): Int {
+    override fun getItemCount(): Int {
         return list!!.size
     }
 }

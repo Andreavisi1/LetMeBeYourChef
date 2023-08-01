@@ -28,53 +28,53 @@ class RicettePreferiteAdapter(
             )
         }
         override fun onBindViewHolder(holder: RicettePreferiteViewHolder, position: Int) {
-            holder.textView_title.text = list!!.get(position)!!.title
+            holder.textView_title.text = list!!.get(position).title
             holder.textView_title.isSelected = true
-            holder.textView_likes.text = list!!.get(position)!!.aggregateLikes.toString() + " likes"
-            holder.textView_porzioni.text = list!!.get(position)!!.servings.toString() + " portions"
+            holder.textView_likes.text = list!!.get(position).aggregateLikes.toString() + " likes"
+            holder.textView_porzioni.text = list!!.get(position).servings.toString() + " portions"
             holder.textView_tempo.text =
-                (list!!.get(position)!!.readyInMinutes.toString() + " minutes")
-            Picasso.get().load(list!![position]!!.image).into(holder.imageView_food)
+                (list!!.get(position).readyInMinutes.toString() + " minutes")
+            Picasso.get().load(list!![position].image).into(holder.imageView_food)
             holder.favourite_list_container.setOnClickListener {
                 listener.onClickRicetta(
-                    list!![holder.adapterPosition]!!.id.toString(),
-                    list!![holder.adapterPosition]!!.title.toString(),
-                    list!![holder.adapterPosition]!!.sourceName.toString(),
-                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
-                    list!![holder.adapterPosition]!!.servings.toInt(),
-                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
-                    list!![holder.adapterPosition]!!.image.toString(),
-                    list!![holder.adapterPosition]!!.imageType.toString(),
-                    list!![holder.adapterPosition]!!.instructions.toString(),
-                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
+                    list!![holder.adapterPosition].id.toString(),
+                    list!![holder.adapterPosition].title.toString(),
+                    list!![holder.adapterPosition].sourceName.toString(),
+                    list!![holder.adapterPosition].readyInMinutes.toInt(),
+                    list!![holder.adapterPosition].servings.toInt(),
+                    list!![holder.adapterPosition].sourceUrl.toString(),
+                    list!![holder.adapterPosition].image.toString(),
+                    list!![holder.adapterPosition].imageType.toString(),
+                    list!![holder.adapterPosition].instructions.toString(),
+                    list!![holder.adapterPosition].spoonacularSourceUrl.toString()
                 )
             }
             holder.show_btn.setOnClickListener {
                 listener.onClickRicetta(
-                    list!![holder.adapterPosition]!!.id.toString(),
-                    list!![holder.adapterPosition]!!.title.toString(),
-                    list!![holder.adapterPosition]!!.sourceName.toString(),
-                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
-                    list!![holder.adapterPosition]!!.servings.toInt(),
-                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
-                    list!![holder.adapterPosition]!!.image.toString(),
-                    list!![holder.adapterPosition]!!.imageType.toString(),
-                    list!![holder.adapterPosition]!!.instructions.toString(),
-                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
+                    list!![holder.adapterPosition].id.toString(),
+                    list!![holder.adapterPosition].title.toString(),
+                    list!![holder.adapterPosition].sourceName.toString(),
+                    list!![holder.adapterPosition].readyInMinutes.toInt(),
+                    list!![holder.adapterPosition].servings.toInt(),
+                    list!![holder.adapterPosition].sourceUrl.toString(),
+                    list!![holder.adapterPosition].image.toString(),
+                    list!![holder.adapterPosition].imageType.toString(),
+                    list!![holder.adapterPosition].instructions.toString(),
+                    list!![holder.adapterPosition].spoonacularSourceUrl.toString()
                 )
             }
             holder.delete_btn.setOnClickListener{
                 deleteListener.onClickDeleteRicetta(
-                    list!![holder.adapterPosition]!!.id.toString(),
-                    list!![holder.adapterPosition]!!.title.toString(),
-                    list!![holder.adapterPosition]!!.sourceName.toString(),
-                    list!![holder.adapterPosition]!!.readyInMinutes.toInt(),
-                    list!![holder.adapterPosition]!!.servings.toInt(),
-                    list!![holder.adapterPosition]!!.sourceUrl.toString(),
-                    list!![holder.adapterPosition]!!.image.toString(),
-                    list!![holder.adapterPosition]!!.imageType.toString(),
-                    list!![holder.adapterPosition]!!.instructions.toString(),
-                    list!![holder.adapterPosition]!!.spoonacularSourceUrl.toString()
+                    list!![holder.adapterPosition].id.toString(),
+                    list!![holder.adapterPosition].title.toString(),
+                    list!![holder.adapterPosition].sourceName.toString(),
+                    list!![holder.adapterPosition].readyInMinutes.toInt(),
+                    list!![holder.adapterPosition].servings.toInt(),
+                    list!![holder.adapterPosition].sourceUrl.toString(),
+                    list!![holder.adapterPosition].image.toString(),
+                    list!![holder.adapterPosition].imageType.toString(),
+                    list!![holder.adapterPosition].instructions.toString(),
+                    list!![holder.adapterPosition].spoonacularSourceUrl.toString()
                 )
             }
         }

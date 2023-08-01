@@ -12,7 +12,7 @@ import com.example.letmebeyourchef.R
 
 class IstruzioniStepAdapter constructor(var context: Context, var list: List<Step?>?) :
     RecyclerView.Adapter<IstruzioniStepViewHolder>() {
-    public override fun onCreateViewHolder(
+    override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): IstruzioniStepViewHolder {
@@ -21,37 +21,33 @@ class IstruzioniStepAdapter constructor(var context: Context, var list: List<Ste
         )
     }
 
-    public override fun onBindViewHolder(holder: IstruzioniStepViewHolder, position: Int) {
-        holder.textView_numero_step_istruzioni.setText(list!!.get(position)!!.number.toString())
-        holder.textView_titolo_step_istruzioni.setText(list!!.get(position)!!.step)
+    override fun onBindViewHolder(holder: IstruzioniStepViewHolder, position: Int) {
+        holder.textView_numero_step_istruzioni.text = list!!.get(position)!!.number.toString()
+        holder.textView_titolo_step_istruzioni.text = list!!.get(position)!!.step
         holder.recycler_istruzioni_ingredienti.setHasFixedSize(true)
-        holder.recycler_istruzioni_ingredienti.setLayoutManager(
-            LinearLayoutManager(
-                context,
-                LinearLayoutManager.HORIZONTAL,
-                false
-            )
+        holder.recycler_istruzioni_ingredienti.layoutManager = LinearLayoutManager(
+            context,
+            LinearLayoutManager.HORIZONTAL,
+            false
         )
         val istruzioniIngredientiAdapter: IstruzioniIngredientiAdapter =
             IstruzioniIngredientiAdapter(
                 context, list!!.get(position)!!.ingredients
             )
-        holder.recycler_istruzioni_ingredienti.setAdapter(istruzioniIngredientiAdapter)
+        holder.recycler_istruzioni_ingredienti.adapter = istruzioniIngredientiAdapter
         holder.recycler_istruzioni_strumenti.setHasFixedSize(true)
-        holder.recycler_istruzioni_strumenti.setLayoutManager(
-            LinearLayoutManager(
-                context,
-                LinearLayoutManager.HORIZONTAL,
-                false
-            )
+        holder.recycler_istruzioni_strumenti.layoutManager = LinearLayoutManager(
+            context,
+            LinearLayoutManager.HORIZONTAL,
+            false
         )
         val istruzioniStrumentiAdapter: IstruzioniStrumentiAdapter = IstruzioniStrumentiAdapter(
             context, list!!.get(position)!!.equipment
         )
-        holder.recycler_istruzioni_strumenti.setAdapter(istruzioniStrumentiAdapter)
+        holder.recycler_istruzioni_strumenti.adapter = istruzioniStrumentiAdapter
     }
 
-    public override fun getItemCount(): Int {
+    override fun getItemCount(): Int {
         return list!!.size
     }
 }

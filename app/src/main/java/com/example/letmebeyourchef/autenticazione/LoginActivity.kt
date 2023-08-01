@@ -69,20 +69,20 @@ class LoginActivity : AppCompatActivity() {
 
     private fun checkFields(email : String , password: String) : Boolean{
         if(email.isEmpty()){
-            binding.InputEmailLogin.setError("Please complete the field to log in")
+            binding.InputEmailLogin.error = "Please complete the field to log in"
             binding.InputEmailLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            binding.InputEmailLogin.setError("Please insert a valid e-mail format")
+            binding.InputEmailLogin.error = "Please insert a valid e-mail format"
             binding.InputEmailLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
         }
 
         if(password.isEmpty()){
-            binding.InputPasswordLogin.setError("Please fill the field to login")
+            binding.InputPasswordLogin.error = "Please fill the field to login"
             binding.InputPasswordLogin.requestFocus()
             progressBar.visibility = ProgressBar.INVISIBLE
             return false
@@ -94,8 +94,8 @@ class LoginActivity : AppCompatActivity() {
 
     private fun checkError(isOnline : Boolean){
         if (isOnline) {
-            binding.InputEmailLogin.setError("E-mail or password wrong")
-            binding.InputPasswordLogin.setError("E-mail or password wrong")
+            binding.InputEmailLogin.error = "E-mail or password wrong"
+            binding.InputPasswordLogin.error = "E-mail or password wrong"
             progressBar.visibility = ProgressBar.INVISIBLE
         }
         else

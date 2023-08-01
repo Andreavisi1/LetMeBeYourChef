@@ -42,18 +42,18 @@ class RequestManager constructor(var context: Context) {
             context.getString(R.string.api_key), "10", tags
         )
         call.enqueue(object : Callback<ResponseFromApiRicetteRandom?> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<ResponseFromApiRicetteRandom?>,
                 response: Response<ResponseFromApiRicetteRandom?>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
                 listener.didFetch(response.body(), response.message())
             }
 
-            public override fun onFailure(call: Call<ResponseFromApiRicetteRandom?>, t: Throwable) {
+            override fun onFailure(call: Call<ResponseFromApiRicetteRandom?>, t: Throwable) {
                 listener.didError(t.message)
             }
         })
@@ -66,18 +66,18 @@ class RequestManager constructor(var context: Context) {
         val call: Call<ResponseFromApiDettagliRicetta> =
             callDettagliRicetta.callDettagliRicetta(id, context.getString((R.string.api_key)))
         call.enqueue(object : Callback<ResponseFromApiDettagliRicetta?> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<ResponseFromApiDettagliRicetta?>,
                 response: Response<ResponseFromApiDettagliRicetta?>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
                 listener.didFetch(response.body(), response.message())
             }
 
-            public override fun onFailure(
+            override fun onFailure(
                 call: Call<ResponseFromApiDettagliRicetta?>,
                 t: Throwable
             ) {
@@ -93,18 +93,18 @@ class RequestManager constructor(var context: Context) {
         val call: Call<List<ResponseFromApiRicetteSimili>> =
             callRicetteSimili.callRicetteSimili(id, "8", context.getString(R.string.api_key))
         call.enqueue(object : Callback<List<ResponseFromApiRicetteSimili>> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<List<ResponseFromApiRicetteSimili>>,
                 response: Response<List<ResponseFromApiRicetteSimili>>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
                 listener.didFetch((response.body())!!, response.message())
             }
 
-            public override fun onFailure(
+            override fun onFailure(
                 call: Call<List<ResponseFromApiRicetteSimili>>,
                 t: Throwable
             ) {
@@ -118,18 +118,18 @@ class RequestManager constructor(var context: Context) {
         val call: Call<List<ResponseFromApiIstruzioni>> =
             callIstruzioni.callIstruzioni(id, context.getString(R.string.api_key))
         call.enqueue(object : Callback<List<ResponseFromApiIstruzioni>> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<List<ResponseFromApiIstruzioni>>,
                 response: Response<List<ResponseFromApiIstruzioni>>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
                 listener.didFetch((response.body())!!, response.message())
             }
 
-            public override fun onFailure(
+            override fun onFailure(
                 call: Call<List<ResponseFromApiIstruzioni>>,
                 t: Throwable
             ) {
@@ -138,20 +138,20 @@ class RequestManager constructor(var context: Context) {
         })
     }
 
-    fun searchIngredients(listener: SearchIngredientsListener, name: String) {
+    fun searchIngredient(listener: SearchIngredientsListener, name: String) {
         val callSearchIngredients: CallSearchIngredients = retrofit.create(
             CallSearchIngredients::class.java
         )
-        val call: Call<List<ResponseFromApiSearchIngredients>> =
+        val call: Call<ResponseFromApiSearchIngredients> =
             callSearchIngredients.callSearchIngredients(
                 name, "en", context.getString(R.string.api_key)
             )
-        call.enqueue(object : Callback<List<ResponseFromApiSearchIngredients>> {
-            public override fun onResponse(
-                call: Call<List<ResponseFromApiSearchIngredients>>,
-                response: Response<List<ResponseFromApiSearchIngredients>>
+        call.enqueue(object : Callback<ResponseFromApiSearchIngredients> {
+            override fun onResponse(
+                call: Call<ResponseFromApiSearchIngredients>,
+                response: Response<ResponseFromApiSearchIngredients>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
@@ -159,7 +159,7 @@ class RequestManager constructor(var context: Context) {
             }
 
             override fun onFailure(
-                call: Call<List<ResponseFromApiSearchIngredients>>,
+                call: Call<ResponseFromApiSearchIngredients>,
                 t: Throwable
             ) {
                 listener.didError(t.message)
@@ -176,11 +176,11 @@ class RequestManager constructor(var context: Context) {
                 tags, 1, true, context.getString(R.string.api_key)
             )
         call.enqueue(object : Callback<List<ResponseFromApiRecipesByIngredients>> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<List<ResponseFromApiRecipesByIngredients>>,
                 response: Response<List<ResponseFromApiRecipesByIngredients>>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
@@ -242,18 +242,18 @@ class RequestManager constructor(var context: Context) {
         val call: Call<ResponseFromApiNutritionLabel> =
             callNutritionLabel.callNutritionLabel(id, context.getString(R.string.api_key))
         call.enqueue(object : Callback<ResponseFromApiNutritionLabel?> {
-            public override fun onResponse(
+            override fun onResponse(
                 call: Call<ResponseFromApiNutritionLabel?>,
                 response: Response<ResponseFromApiNutritionLabel?>
             ) {
-                if (!response.isSuccessful()) {
+                if (!response.isSuccessful) {
                     listener.didError(response.message())
                     return
                 }
                 listener.didFetch(response.body(), response.message())
             }
 
-            public override fun onFailure(
+            override fun onFailure(
                 call: Call<ResponseFromApiNutritionLabel?>,
                 t: Throwable
             ) {
@@ -302,7 +302,7 @@ class RequestManager constructor(var context: Context) {
             @Query("query") query: String,
             @Query("language") language: String,
             @Query("apiKey") apiKey: String?
-        ): Call<List<ResponseFromApiSearchIngredients>>
+        ): Call<ResponseFromApiSearchIngredients>
     }
 
     private open interface CallRecipesByIngredients {

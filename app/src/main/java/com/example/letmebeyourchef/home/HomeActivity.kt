@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.RicetteRandomAdapter
+import com.example.letmebeyourchef.aggiungi_ingrediente.RicercaIngredientiFragment
 import com.example.letmebeyourchef.autenticazione.InizioActivity
 import com.example.letmebeyourchef.autenticazione.RegisterActivity
 import com.example.letmebeyourchef.databinding.ActivityHomeBinding
@@ -26,6 +27,7 @@ import com.example.letmebeyourchef.homepage.HomepageFragment
 //import com.example.letmebeyourchef.funzioni.FunzioniFragment
 import com.example.letmebeyourchef.profilo.ProfiloActivity
 import com.example.letmebeyourchef.ricette_preferite.RicettePreferiteFragment
+import com.example.letmebeyourchef.storage.StorageFragment
 //import com.example.letmebeyourchef.statistiche.StatisticheFragment
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
@@ -36,6 +38,7 @@ class HomeActivity : AppCompatActivity() {
     val funzioniFragment = FunzioniFragment()
     val ricettePreferiteFragment = RicettePreferiteFragment()
     val homepageFragment = HomepageFragment()
+    val storageFragment = StorageFragment()
 
     private val model = HomeViewModel()
     private var doubleBackToExitPressedOnce = false
@@ -101,10 +104,10 @@ class HomeActivity : AppCompatActivity() {
             ) {
                 //redirecting fragment
                 when(newIndex){
-                    0 -> replaceFragment(homepageFragment);
-                    1 -> replaceFragment(this@HomeActivity.dispensaFragment);
-                    2 -> replaceFragment(ricettePreferiteFragment);
-                    3 -> replaceFragment(funzioniFragment);
+                    0 -> replaceFragment(homepageFragment)
+                    1 -> replaceFragment(storageFragment)
+                    2 -> replaceFragment(ricettePreferiteFragment)
+                    3 -> replaceFragment(funzioniFragment)
                     else -> replaceFragment(this@HomeActivity.homepageFragment)
                 }
 

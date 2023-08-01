@@ -22,7 +22,7 @@ import com.example.letmebeyourchef.model.Pasto
 
 class PersonalizzatiFragment : Fragment() {
 
-    lateinit private var binding: FragmentPersonalizzatiBinding
+    private lateinit var binding: FragmentPersonalizzatiBinding
 
 
     //Prova adapter
@@ -31,12 +31,7 @@ class PersonalizzatiFragment : Fragment() {
     val model = AggiungiViewModel()
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_personalizzati, container, false)
         return binding.root
     }

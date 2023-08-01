@@ -20,18 +20,13 @@ import com.example.letmebeyourchef.model.Json_Parsing.Esercizio
 
 class PersonalizzatiEsercizioFragment : Fragment() {
 
-    lateinit private var binding: FragmentPersonalizzatiBinding
+    private lateinit var binding: FragmentPersonalizzatiBinding
 
     private lateinit var recyclerViewPersonalizzati: RecyclerView
     val model = AggiungiEserciziViewModel()
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_personalizzati, container, false)
         return binding.root
     }

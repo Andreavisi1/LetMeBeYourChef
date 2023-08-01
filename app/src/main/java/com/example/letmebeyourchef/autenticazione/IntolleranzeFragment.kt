@@ -23,12 +23,7 @@ class IntolleranzeFragment : Fragment() {
     var checked = false
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_intolleranze, container, false)
         return binding.root
     }
@@ -38,7 +33,7 @@ class IntolleranzeFragment : Fragment() {
 
 
         binding.sBIntolleranze.setOnCheckedChangeListener{ _, isChecked ->
-            binding.checkboxesLayout.isClickable()
+            binding.checkboxesLayout.isClickable
         }
 
         cbIntolleranze = arrayListOf(binding.cBDairy, binding.cBGluten ,binding.cBPeanut,

@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.IngredientiAdapter
+import com.example.letmebeyourchef.adapters.IngredientiRicettaAdapter
 import com.example.letmebeyourchef.adapters.IstruzioniAdapter
 import com.example.letmebeyourchef.adapters.RicetteSimiliAdapter
 import com.example.letmebeyourchef.listeners.DettagliRicettaListener
@@ -28,7 +29,6 @@ import com.example.letmebeyourchef.listeners.NutritionLabelListener
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
 import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
-import com.example.letmebeyourchef.recipeModels.Recipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
@@ -36,7 +36,7 @@ import com.example.letmebeyourchef.recipeModels.ResponseFromApiRicetteSimili
 import com.example.letmebeyourchef.ricette_preferite.RicettePreferiteViewModel
 import com.squareup.picasso.Picasso
 
-class ActivityDettagliRicetta constructor() : AppCompatActivity() {
+class ActivityDettagliRicetta : AppCompatActivity() {
     var id: Int = 0
     var sourceName: String? = null
     var readyInMinutes: Int = 0
@@ -58,7 +58,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
     var nutrition_label_button: Button? = null
     var manager: RequestManager? = null
     var dialog: ProgressDialog? = null
-    var ingredientiAdapter: IngredientiAdapter? = null
+    var ingredientiAdapter: IngredientiRicettaAdapter? = null
     var ricetteSimiliAdapter: RicetteSimiliAdapter? = null
     var istruzioniAdapter: IstruzioniAdapter? = null
 
@@ -106,52 +106,48 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
 
     private val dettagliRicettaListener: DettagliRicettaListener =
         object : DettagliRicettaListener {
-            public override fun didFetch(
+            override fun didFetch(
                 response: ResponseFromApiDettagliRicetta?,
                 message: String?
             ) {
                 dialog!!.dismiss()
 
-                textView_nome_ricetta!!.setText(response!!.title)
-                textView_source_ricetta!!.setText(response.sourceName)
-                textView_descrizione_ricetta!!.setText(Html.fromHtml(response.summary))
+                textView_nome_ricetta!!.text = response!!.title
+                textView_source_ricetta!!.text = response.sourceName
+                textView_descrizione_ricetta!!.text = Html.fromHtml(response.summary)
                 Picasso.get().load(response.image).into(imageView_immagine_ricetta)
                 recycler_ingredienti_ricetta!!.setHasFixedSize(true)
-                recycler_ingredienti_ricetta!!.setLayoutManager(
-                    LinearLayoutManager(
-                        this@ActivityDettagliRicetta,
-                        LinearLayoutManager.HORIZONTAL,
-                        false
-                    )
-                )
-                ingredientiAdapter =
-                    IngredientiAdapter(this@ActivityDettagliRicetta, response.extendedIngredients)
-                recycler_ingredienti_ricetta!!.setAdapter(ingredientiAdapter)
-            }
-
-            public override fun didError(message: String?) {
-                Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
-            }
-        }
-    private val ricetteSimiliListener: RicetteSimiliListener = object : RicetteSimiliListener {
-        public override fun didFetch(
-            response: List<ResponseFromApiRicetteSimili>,
-            message: String?
-        ) {
-            recycler_ricette_simili!!.setHasFixedSize(true)
-            recycler_ricette_simili!!.setLayoutManager(
-                LinearLayoutManager(
+                recycler_ingredienti_ricetta!!.layoutManager = LinearLayoutManager(
                     this@ActivityDettagliRicetta,
                     LinearLayoutManager.HORIZONTAL,
                     false
                 )
+                ingredientiAdapter =
+                    IngredientiRicettaAdapter(this@ActivityDettagliRicetta, response.extendedIngredients!!)
+                recycler_ingredienti_ricetta!!.adapter = ingredientiAdapter
+            }
+
+            override fun didError(message: String?) {
+                Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
+            }
+        }
+    private val ricetteSimiliListener: RicetteSimiliListener = object : RicetteSimiliListener {
+        override fun didFetch(
+            response: List<ResponseFromApiRicetteSimili>,
+            message: String?
+        ) {
+            recycler_ricette_simili!!.setHasFixedSize(true)
+            recycler_ricette_simili!!.layoutManager = LinearLayoutManager(
+                this@ActivityDettagliRicetta,
+                LinearLayoutManager.HORIZONTAL,
+                false
             )
             ricetteSimiliAdapter =
                 RicetteSimiliAdapter(this@ActivityDettagliRicetta, response, ricettaClickListener)
-            recycler_ricette_simili!!.setAdapter(ricetteSimiliAdapter)
+            recycler_ricette_simili!!.adapter = ricetteSimiliAdapter
         }
 
-        public override fun didError(message: String?) {
+        override fun didError(message: String?) {
             Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
         }
     }
@@ -193,7 +189,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         }*/
 
     private val ricettaClickListener: RicettaClickListener = object : RicettaClickListener {
-        public override fun onClickRicetta(
+        override fun onClickRicetta(
             id: String,
             title: String?,
             sourceName: String?,
@@ -212,20 +208,18 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         }
     }
     private val istruzioniListener: IstruzioniListener = object : IstruzioniListener {
-        public override fun didFetch(response: List<ResponseFromApiIstruzioni>, message: String?) {
+        override fun didFetch(response: List<ResponseFromApiIstruzioni>, message: String?) {
             recycler_istruzioni!!.setHasFixedSize(true)
-            recycler_istruzioni!!.setLayoutManager(
-                LinearLayoutManager(
-                    this@ActivityDettagliRicetta,
-                    LinearLayoutManager.VERTICAL,
-                    false
-                )
+            recycler_istruzioni!!.layoutManager = LinearLayoutManager(
+                this@ActivityDettagliRicetta,
+                LinearLayoutManager.VERTICAL,
+                false
             )
             istruzioniAdapter = IstruzioniAdapter(this@ActivityDettagliRicetta, response)
-            recycler_istruzioni!!.setAdapter(istruzioniAdapter)
+            recycler_istruzioni!!.adapter = istruzioniAdapter
         }
 
-        public override fun didError(message: String?) {}
+        override fun didError(message: String?) {}
     }
 
 
@@ -245,7 +239,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
 
     private val nutritionLabelListener: NutritionLabelListener =
         object : NutritionLabelListener {
-            public override fun didFetch(
+            override fun didFetch(
                 response: ResponseFromApiNutritionLabel?,
                 message: String?
             ) {
@@ -254,7 +248,7 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
 
             }
 
-            public override fun didError(message: String?) {
+            override fun didError(message: String?) {
                 Toast.makeText(this@ActivityDettagliRicetta, message, Toast.LENGTH_SHORT).show()
             }
         }
@@ -269,21 +263,21 @@ class ActivityDettagliRicetta constructor() : AppCompatActivity() {
         val extras = intent.extras
 
         id = extras!!.getString("id")!!.toInt()
-        image = extras!!.getString("image")!!
-        sourceName = extras!!.getString("sourceName")!!
-        title = extras!!.getString("title")!!
-        readyInMinutes = extras!!.getInt("readyInMinutes")!!.toInt()
-        servings = extras!!.getInt("servings")!!.toInt()
-        sourceUrl = extras!!.getString("sourceUrl")!!
-        imageType = extras!!.getString("imageType")!!
-        instructions = extras!!.getString("instructions")!!
-        spoonacularSourceUrl = extras!!.getString("spoonacularSourceUrl")!!
+        image = extras.getString("image")!!
+        sourceName = extras.getString("sourceName")!!
+        title = extras.getString("title")!!
+        readyInMinutes = extras.getInt("readyInMinutes").toInt()
+        servings = extras.getInt("servings").toInt()
+        sourceUrl = extras.getString("sourceUrl")!!
+        imageType = extras.getString("imageType")!!
+        instructions = extras.getString("instructions")!!
+        spoonacularSourceUrl = extras.getString("spoonacularSourceUrl")!!
     }
 
     private val ricettePreferiteListener = View.OnClickListener { view ->
         model.setRicettePreferiteOnDB(
-            id.toString(), title.toString()!!, sourceName!!, readyInMinutes!!, servings!!,
-            sourceUrl.toString()!!, image!!, imageType!!, instructions!!, spoonacularSourceUrl!!,
+            id.toString(), title.toString(), sourceName!!, readyInMinutes, servings,
+            sourceUrl.toString(), image!!, imageType!!, instructions!!, spoonacularSourceUrl!!,
             this@ActivityDettagliRicetta
         )
     }

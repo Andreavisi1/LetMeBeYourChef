@@ -16,7 +16,7 @@ class FunzioniFragment : Fragment() {
 
     private lateinit var binding : FragmentFunzioniBinding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_funzioni,container,false)
         return binding.root
 

@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.letmebeyourchef.databinding.ActivityAggiungiBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityAggiungiEsercizioBindingImpl;
+import com.example.letmebeyourchef.databinding.ActivityAggiungiIngredienteBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityConosciamociBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityEsercizioBindingImpl;
 import com.example.letmebeyourchef.databinding.ActivityHomeBindingImpl;
@@ -27,14 +28,18 @@ import com.example.letmebeyourchef.databinding.FragmentDispensaBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentFunzioniBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentHomepage22BindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentHomepageBindingImpl;
+import com.example.letmebeyourchef.databinding.FragmentIngredientiPersonalizzatiBindingImpl;
+import com.example.letmebeyourchef.databinding.FragmentIngredientiPreferitiBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentIntolleranze22BindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentIntolleranzeBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentPersonalizzatiBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentPreferitiBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentRicercaBindingImpl;
+import com.example.letmebeyourchef.databinding.FragmentRicercaIngredienteBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentSessoBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentStatisticheBindingImpl;
+import com.example.letmebeyourchef.databinding.FragmentStorageBindingImpl;
 import com.example.letmebeyourchef.databinding.ItemIngredienteBindingImpl;
 import com.example.letmebeyourchef.databinding.LayoutItemEsercizioPrefBindingImpl;
 import com.example.letmebeyourchef.databinding.LayoutItemEsercizioSelezionatoBindingImpl;
@@ -53,71 +58,82 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYAGGIUNGIESERCIZIO = 2;
 
-  private static final int LAYOUT_ACTIVITYCONOSCIAMOCI = 3;
+  private static final int LAYOUT_ACTIVITYAGGIUNGIINGREDIENTE = 3;
 
-  private static final int LAYOUT_ACTIVITYESERCIZIO = 4;
+  private static final int LAYOUT_ACTIVITYCONOSCIAMOCI = 4;
 
-  private static final int LAYOUT_ACTIVITYHOME = 5;
+  private static final int LAYOUT_ACTIVITYESERCIZIO = 5;
 
-  private static final int LAYOUT_ACTIVITYINIZIO = 6;
+  private static final int LAYOUT_ACTIVITYHOME = 6;
 
-  private static final int LAYOUT_ACTIVITYMAIN = 7;
+  private static final int LAYOUT_ACTIVITYINIZIO = 7;
 
-  private static final int LAYOUT_ACTIVITYPASTO = 8;
+  private static final int LAYOUT_ACTIVITYMAIN = 8;
 
-  private static final int LAYOUT_ACTIVITYPRODOTTO = 9;
+  private static final int LAYOUT_ACTIVITYPASTO = 9;
 
-  private static final int LAYOUT_ACTIVITYPROFILO = 10;
+  private static final int LAYOUT_ACTIVITYPRODOTTO = 10;
 
-  private static final int LAYOUT_ACTIVITYREGISTER = 11;
+  private static final int LAYOUT_ACTIVITYPROFILO = 11;
 
-  private static final int LAYOUT_ACTIVITYSCANNER = 12;
+  private static final int LAYOUT_ACTIVITYREGISTER = 12;
 
-  private static final int LAYOUT_ACTIVITYSPLASHSCREEN = 13;
+  private static final int LAYOUT_ACTIVITYSCANNER = 13;
 
-  private static final int LAYOUT_ADDDELETELAYOUTESERCIZI = 14;
+  private static final int LAYOUT_ACTIVITYSPLASHSCREEN = 14;
 
-  private static final int LAYOUT_DELMODSELEZIONATILAYOUT = 15;
+  private static final int LAYOUT_ADDDELETELAYOUTESERCIZI = 15;
 
-  private static final int LAYOUT_FRAGMENTDATIPERSONALI = 16;
+  private static final int LAYOUT_DELMODSELEZIONATILAYOUT = 16;
 
-  private static final int LAYOUT_FRAGMENTDIETE = 17;
+  private static final int LAYOUT_FRAGMENTDATIPERSONALI = 17;
 
-  private static final int LAYOUT_FRAGMENTDISPENSA = 18;
+  private static final int LAYOUT_FRAGMENTDIETE = 18;
 
-  private static final int LAYOUT_FRAGMENTFUNZIONI = 19;
+  private static final int LAYOUT_FRAGMENTDISPENSA = 19;
 
-  private static final int LAYOUT_FRAGMENTHOMEPAGE = 20;
+  private static final int LAYOUT_FRAGMENTFUNZIONI = 20;
 
-  private static final int LAYOUT_FRAGMENTHOMEPAGE22 = 21;
+  private static final int LAYOUT_FRAGMENTHOMEPAGE = 21;
 
-  private static final int LAYOUT_FRAGMENTINTOLLERANZE = 22;
+  private static final int LAYOUT_FRAGMENTHOMEPAGE22 = 22;
 
-  private static final int LAYOUT_FRAGMENTINTOLLERANZE22 = 23;
+  private static final int LAYOUT_FRAGMENTINGREDIENTIPERSONALIZZATI = 23;
 
-  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 24;
+  private static final int LAYOUT_FRAGMENTINGREDIENTIPREFERITI = 24;
 
-  private static final int LAYOUT_FRAGMENTPREFERITI = 25;
+  private static final int LAYOUT_FRAGMENTINTOLLERANZE = 25;
 
-  private static final int LAYOUT_FRAGMENTRICERCA = 26;
+  private static final int LAYOUT_FRAGMENTINTOLLERANZE22 = 26;
 
-  private static final int LAYOUT_FRAGMENTRICETTEPREFERITE = 27;
+  private static final int LAYOUT_FRAGMENTPERSONALIZZATI = 27;
 
-  private static final int LAYOUT_FRAGMENTSESSO = 28;
+  private static final int LAYOUT_FRAGMENTPREFERITI = 28;
 
-  private static final int LAYOUT_FRAGMENTSTATISTICHE = 29;
+  private static final int LAYOUT_FRAGMENTRICERCA = 29;
 
-  private static final int LAYOUT_ITEMINGREDIENTE = 30;
+  private static final int LAYOUT_FRAGMENTRICERCAINGREDIENTE = 30;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 31;
+  private static final int LAYOUT_FRAGMENTRICETTEPREFERITE = 31;
 
-  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 32;
+  private static final int LAYOUT_FRAGMENTSESSO = 32;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(32);
+  private static final int LAYOUT_FRAGMENTSTATISTICHE = 33;
+
+  private static final int LAYOUT_FRAGMENTSTORAGE = 34;
+
+  private static final int LAYOUT_ITEMINGREDIENTE = 35;
+
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOPREF = 36;
+
+  private static final int LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO = 37;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(37);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi, LAYOUT_ACTIVITYAGGIUNGI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi_esercizio, LAYOUT_ACTIVITYAGGIUNGIESERCIZIO);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi_ingrediente, LAYOUT_ACTIVITYAGGIUNGIINGREDIENTE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_conosciamoci, LAYOUT_ACTIVITYCONOSCIAMOCI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_esercizio, LAYOUT_ACTIVITYESERCIZIO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_home, LAYOUT_ACTIVITYHOME);
@@ -137,14 +153,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_funzioni, LAYOUT_FRAGMENTFUNZIONI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_homepage, LAYOUT_FRAGMENTHOMEPAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_homepage22, LAYOUT_FRAGMENTHOMEPAGE22);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ingredienti_personalizzati, LAYOUT_FRAGMENTINGREDIENTIPERSONALIZZATI);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ingredienti_preferiti, LAYOUT_FRAGMENTINGREDIENTIPREFERITI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_intolleranze, LAYOUT_FRAGMENTINTOLLERANZE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_intolleranze22, LAYOUT_FRAGMENTINTOLLERANZE22);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_personalizzati, LAYOUT_FRAGMENTPERSONALIZZATI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_preferiti, LAYOUT_FRAGMENTPREFERITI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ricerca, LAYOUT_FRAGMENTRICERCA);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ricerca_ingrediente, LAYOUT_FRAGMENTRICERCAINGREDIENTE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_ricette_preferite, LAYOUT_FRAGMENTRICETTEPREFERITE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_sesso, LAYOUT_FRAGMENTSESSO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_statistiche, LAYOUT_FRAGMENTSTATISTICHE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_storage, LAYOUT_FRAGMENTSTORAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.item_ingrediente, LAYOUT_ITEMINGREDIENTE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.layout_item_esercizio_pref, LAYOUT_LAYOUTITEMESERCIZIOPREF);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.layout_item_esercizio_selezionato, LAYOUT_LAYOUTITEMESERCIZIOSELEZIONATO);
@@ -170,6 +190,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityAggiungiEsercizioBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_aggiungi_esercizio is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYAGGIUNGIINGREDIENTE: {
+          if ("layout/activity_aggiungi_ingrediente_0".equals(tag)) {
+            return new ActivityAggiungiIngredienteBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_aggiungi_ingrediente is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYCONOSCIAMOCI: {
           if ("layout/activity_conosciamoci_0".equals(tag)) {
@@ -285,6 +311,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_homepage22 is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTINGREDIENTIPERSONALIZZATI: {
+          if ("layout/fragment_ingredienti_personalizzati_0".equals(tag)) {
+            return new FragmentIngredientiPersonalizzatiBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_ingredienti_personalizzati is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTINGREDIENTIPREFERITI: {
+          if ("layout/fragment_ingredienti_preferiti_0".equals(tag)) {
+            return new FragmentIngredientiPreferitiBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_ingredienti_preferiti is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTINTOLLERANZE: {
           if ("layout/fragment_intolleranze_0".equals(tag)) {
             return new FragmentIntolleranzeBindingImpl(component, view);
@@ -315,6 +353,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_ricerca is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTRICERCAINGREDIENTE: {
+          if ("layout/fragment_ricerca_ingrediente_0".equals(tag)) {
+            return new FragmentRicercaIngredienteBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_ricerca_ingrediente is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTRICETTEPREFERITE: {
           if ("layout/fragment_ricette_preferite_0".equals(tag)) {
             return new FragmentRicettePreferiteBindingImpl(component, view);
@@ -332,6 +376,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentStatisticheBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_statistiche is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTSTORAGE: {
+          if ("layout/fragment_storage_0".equals(tag)) {
+            return new FragmentStorageBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_storage is invalid. Received: " + tag);
         }
         case  LAYOUT_ITEMINGREDIENTE: {
           if ("layout/item_ingrediente_0".equals(tag)) {
@@ -406,11 +456,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(32);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(37);
 
     static {
       sKeys.put("layout/activity_aggiungi_0", com.example.letmebeyourchef.R.layout.activity_aggiungi);
       sKeys.put("layout/activity_aggiungi_esercizio_0", com.example.letmebeyourchef.R.layout.activity_aggiungi_esercizio);
+      sKeys.put("layout/activity_aggiungi_ingrediente_0", com.example.letmebeyourchef.R.layout.activity_aggiungi_ingrediente);
       sKeys.put("layout/activity_conosciamoci_0", com.example.letmebeyourchef.R.layout.activity_conosciamoci);
       sKeys.put("layout/activity_esercizio_0", com.example.letmebeyourchef.R.layout.activity_esercizio);
       sKeys.put("layout/activity_home_0", com.example.letmebeyourchef.R.layout.activity_home);
@@ -430,14 +481,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_funzioni_0", com.example.letmebeyourchef.R.layout.fragment_funzioni);
       sKeys.put("layout/fragment_homepage_0", com.example.letmebeyourchef.R.layout.fragment_homepage);
       sKeys.put("layout/fragment_homepage22_0", com.example.letmebeyourchef.R.layout.fragment_homepage22);
+      sKeys.put("layout/fragment_ingredienti_personalizzati_0", com.example.letmebeyourchef.R.layout.fragment_ingredienti_personalizzati);
+      sKeys.put("layout/fragment_ingredienti_preferiti_0", com.example.letmebeyourchef.R.layout.fragment_ingredienti_preferiti);
       sKeys.put("layout/fragment_intolleranze_0", com.example.letmebeyourchef.R.layout.fragment_intolleranze);
       sKeys.put("layout/fragment_intolleranze22_0", com.example.letmebeyourchef.R.layout.fragment_intolleranze22);
       sKeys.put("layout/fragment_personalizzati_0", com.example.letmebeyourchef.R.layout.fragment_personalizzati);
       sKeys.put("layout/fragment_preferiti_0", com.example.letmebeyourchef.R.layout.fragment_preferiti);
       sKeys.put("layout/fragment_ricerca_0", com.example.letmebeyourchef.R.layout.fragment_ricerca);
+      sKeys.put("layout/fragment_ricerca_ingrediente_0", com.example.letmebeyourchef.R.layout.fragment_ricerca_ingrediente);
       sKeys.put("layout/fragment_ricette_preferite_0", com.example.letmebeyourchef.R.layout.fragment_ricette_preferite);
       sKeys.put("layout/fragment_sesso_0", com.example.letmebeyourchef.R.layout.fragment_sesso);
       sKeys.put("layout/fragment_statistiche_0", com.example.letmebeyourchef.R.layout.fragment_statistiche);
+      sKeys.put("layout/fragment_storage_0", com.example.letmebeyourchef.R.layout.fragment_storage);
       sKeys.put("layout/item_ingrediente_0", com.example.letmebeyourchef.R.layout.item_ingrediente);
       sKeys.put("layout/layout_item_esercizio_pref_0", com.example.letmebeyourchef.R.layout.layout_item_esercizio_pref);
       sKeys.put("layout/layout_item_esercizio_selezionato_0", com.example.letmebeyourchef.R.layout.layout_item_esercizio_selezionato);

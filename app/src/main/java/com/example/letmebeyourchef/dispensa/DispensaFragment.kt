@@ -54,12 +54,8 @@ class DispensaFragment : Fragment() {
 
         private var acqua = arrayListOf(false,false,false,false,false,false,false,false)
 
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-        }
 
-
-        override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
             binding = DataBindingUtil.inflate(inflater, R.layout.fragment_dispensa, container, false)
             //aggiornamento automatico view
             binding.viewModel = model

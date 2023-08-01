@@ -18,12 +18,8 @@ class SessoFragment : Fragment() {
     lateinit var binding: FragmentSessoBinding
     val args: SessoFragmentArgs by navArgs()
     val utente = Utente()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
 
-    }
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_sesso, container, false)
         return binding.root
     }

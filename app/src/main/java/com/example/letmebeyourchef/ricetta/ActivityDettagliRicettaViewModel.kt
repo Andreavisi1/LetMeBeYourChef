@@ -33,7 +33,8 @@ class ActivityDettagliRicettaViewModel: ViewModel() {
     )
     {
         viewModelScope.launch {
-            if (ricette_preferiteDB.setRicettePreferite(foodId, title!!, sourceName!!, readyInMinutes, servings, sourceUrl!!, image!!, imageType!!,
+            if (ricette_preferiteDB.setRicettePreferite(foodId, title!!, sourceName!!, readyInMinutes, servings, sourceUrl!!,
+                    image, imageType!!,
                     instructions!!, spoonacularSourceUrl!!, auth.currentUser?.email!!
                 )
             ) {
