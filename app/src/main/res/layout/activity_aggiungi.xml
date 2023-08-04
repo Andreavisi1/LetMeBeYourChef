@@ -31,31 +31,32 @@
     </FrameLayout>
 
     <nl.joery.animatedbottombar.AnimatedBottomBar
-            android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            app:abb_tabs="@menu/bottom_nav_aggiungi"
-            android:background="@color/orange_primary"
-            app:itemTextColor="@color/white"
-            app:abb_badgeTextColor="@color/white"
-            app:abb_selectedTabType="text"
-            app:abb_tabColor="@color/black"
-            app:abb_animationInterpolator="@android:anim/overshoot_interpolator"
-            app:abb_textStyle="bold"
-            app:abb_textSize="16sp"
-            app:abb_rippleEnabled="true"
-            app:abb_tabAnimation="slide"
-            app:abb_tabAnimationSelected="slide"
-            app:abb_indicatorHeight="5dp"
-            app:abb_indicatorAppearance="round"
-            app:abb_indicatorLocation="top"
-            app:abb_iconSize="27dp"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/orange_primary"
+        app:abb_animationInterpolator="@android:anim/overshoot_interpolator"
+        app:abb_badgeBackgroundColor="@color/white"
+        app:abb_badgeTextColor="@color/black"
+        app:abb_iconSize="27dp"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorColor="@color/white"
+        app:abb_indicatorHeight="5dp"
+        app:abb_indicatorLocation="top"
+        app:abb_rippleEnabled="true"
+        app:abb_selectedTabType="text"
+        app:abb_tabAnimation="slide"
+        app:abb_tabAnimationSelected="slide"
+        app:abb_tabColor="@color/black"
+        app:abb_tabs="@menu/bottom_nav_aggiungi"
+        app:abb_textSize="16sp"
 
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            />
+        app:abb_textStyle="bold"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

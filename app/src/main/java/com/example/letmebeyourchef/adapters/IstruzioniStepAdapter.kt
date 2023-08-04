@@ -9,8 +9,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.recipeModels.Step
 import com.example.letmebeyourchef.R
+import com.example.letmebeyourchef.recipeModels.Result
 
-class IstruzioniStepAdapter constructor(var context: Context, var list: List<Step?>?) :
+class IstruzioniStepAdapter(var context: Context, var list: ArrayList<Step>?) :
     RecyclerView.Adapter<IstruzioniStepViewHolder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,

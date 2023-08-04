@@ -120,4 +120,9 @@ class LoginActivity : AppCompatActivity() {
         return false
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this,InizioActivity::class.java))
+    }
+
 }

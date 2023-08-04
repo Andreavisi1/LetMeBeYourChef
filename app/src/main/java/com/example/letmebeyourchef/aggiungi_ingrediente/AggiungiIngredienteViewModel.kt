@@ -12,17 +12,11 @@ import com.example.letmebeyourchef.databaseFB.IngredientiPossedutiDB
 import com.example.letmebeyourchef.databaseFB.IngredientiPreferitiDB
 import com.example.letmebeyourchef.databaseFB.PersonalizzatiDB
 import com.example.letmebeyourchef.databaseFB.ProdottoDB
-import com.example.letmebeyourchef.model.Json_Parsing.Json_FoodList
 import com.example.letmebeyourchef.model.Json_Parsing.Prodotto
 import com.example.letmebeyourchef.model.Pasto
 import com.example.letmebeyourchef.recipeModels.Ingredient
-import com.example.letmebeyourchef.retrofit.RetrofitInstance
-import com.example.letmebeyourchef.utils.APICredentials
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.time.LocalDate
 
 
@@ -92,18 +86,6 @@ class AggiungiIngredienteViewModel : ViewModel() {
         }
     }
 
-    fun deletePreferiti(id : String, context:Context){
-        viewModelScope.launch {
-            if (preferitiDB.deleteIngredientPreferito(auth.currentUser!!.email!!, id)) {
-                    Toast.makeText(context, "Product correctly deleted", Toast.LENGTH_LONG).show()
-                    getIngredientiPreferiti()
-            }else {
-                Toast.makeText(context,"ATTENTION!\nProduct not deleted",Toast.LENGTH_LONG).show()
-            }
-
-        }
-    }
-
     fun setIngredientiPossedutiOnDB(
         id: Int,
         name: String?,
@@ -123,9 +105,9 @@ class AggiungiIngredienteViewModel : ViewModel() {
 
     fun removeIngredient(id: Int, context: Context) {
         viewModelScope.launch {
-            if(ingredientiPossedutiDB.deleteIngredient(auth.currentUser!!.email!!, id)){
+            if(preferitiDB.deleteIngredientPreferito(auth.currentUser!!.email!!, id)){
                 Toast.makeText(context,"Ingredient correctly deleted", Toast.LENGTH_LONG).show()
-                getIngredientiPosseduti()
+                getIngredientiPreferiti()
             }else{
                 Toast.makeText(context,"ATTENTION!\nIngredient not deleted", Toast.LENGTH_LONG).show()
             }

@@ -7,7 +7,19 @@
         android:layout_height="match_parent"
         tools:context=".autenticazione.InizioActivity"
         app:layoutDescription="@xml/activity_inizio_scene">
-
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"
+        android:scaleX="1.4"
+        android:scaleY="1.5"
+        android:background="@color/black_overlay"/>
     <Button
             android:text="LOGIN"
             android:layout_width="245dp"
@@ -30,20 +42,6 @@
             android:fontFamily="sans-serif"
             app:layout_constraintBottom_toTopOf="@+id/btAccesso"
             android:layout_marginBottom="20dp"/>
-
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/black_overlay"
-        android:scaleX="1.4"
-        android:scaleY="1.5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView5"

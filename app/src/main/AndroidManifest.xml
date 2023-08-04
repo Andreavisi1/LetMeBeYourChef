@@ -43,7 +43,7 @@
             android:exported="true">
         </activity>
         <activity
-            android:name=".esercizio.EsercizioAddPrefActivity"
+            android:name=".chef.ChefActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity

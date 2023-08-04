@@ -75,7 +75,7 @@ class RicercaIngredientiViewModel : ViewModel() {
             if(ingredientiPossedutiDB.deleteIngredient(auth.currentUser!!.email!!, id)){
                 Toast.makeText(context,"Ingredient correctly deleted",Toast.LENGTH_LONG).show()
                 getIngredientiPosseduti()
-            }else{
+            } else {
                 Toast.makeText(context,"ATTENTION!\nIngredient not deleted",Toast.LENGTH_LONG).show()
             }
         }

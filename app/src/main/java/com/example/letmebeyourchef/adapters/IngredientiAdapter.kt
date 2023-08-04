@@ -23,8 +23,10 @@ class IngredientiAdapter(
     var context: Context,
     var list: ArrayList<Ingredient>,
     var listener: IngredientClickListener,
-    var favouritelistener: IngredientFavouriteClickListener
-) : RecyclerView.Adapter<IngredientiViewHolder>() {
+    var favouritelistener: IngredientFavouriteClickListener,
+    var deletelistener: IngredientDeleteClickListener,
+
+    ) : RecyclerView.Adapter<IngredientiViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): IngredientiViewHolder {
         return IngredientiViewHolder(
@@ -55,20 +57,6 @@ class IngredientiAdapter(
             )
         }
 
-        /*holder.delete_btn.setOnClickListener{
-            deleteListener.onClickDeleteRicetta(
-                list!![holder.adapterPosition].id.toString(),
-                list!![holder.adapterPosition].title.toString(),
-                list!![holder.adapterPosition].sourceName.toString(),
-                list!![holder.adapterPosition].readyInMinutes.toInt(),
-                list!![holder.adapterPosition].servings.toInt(),
-                list!![holder.adapterPosition].sourceUrl.toString(),
-                list!![holder.adapterPosition].image.toString(),
-                list!![holder.adapterPosition].imageType.toString(),
-                list!![holder.adapterPosition].instructions.toString(),
-                list!![holder.adapterPosition].spoonacularSourceUrl.toString()
-            )
-        }*/
     }
 
     override fun getItemCount(): Int {
@@ -83,12 +71,12 @@ class IngredientiViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) 
     var add_btn: Button
     var like_btn: Button
 
+
     init {
         textView_quantita_ingredienti = itemView.findViewById(R.id.textView_quantita_ingredienti)
         imageView_ingredienti = itemView.findViewById(R.id.imageView_ingredienti)
         textView_nome_ingredienti = itemView.findViewById(R.id.textView_nome_ingredienti)
         add_btn = itemView.findViewById(R.id.add_btn)
         like_btn = itemView.findViewById(R.id.like_btn)
-
     }
 }

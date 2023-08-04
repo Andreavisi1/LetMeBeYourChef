@@ -40,13 +40,13 @@ class IngredientiPreferitiDB : FirebaseDB() {
             .get().await().toObjects()
     }
 
-    suspend fun deleteIngredientPreferito(utente: String, id: String): Boolean{
+    suspend fun deleteIngredientPreferito(utente: String, id: Int): Boolean{
         withContext(Dispatchers.IO) {
                 db
                 .collection("Utente")
                 .document(utente)
                 .collection("Ingredienti preferiti")
-                .document(id).delete()
+                .document(id.toString()).delete()
                 .addOnSuccessListener {status = true }
                 .addOnFailureListener {status = false }
         }.await()

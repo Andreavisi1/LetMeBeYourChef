@@ -1,12 +1,3 @@
-/**
- * Automatically generated file. DO NOT MODIFY
- */
-package com.example.letmebeyourchef;
-
-public final class BuildConfig {
-  public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.example.letmebeyourchef";
-  public static final String BUILD_TYPE = "debug";
-  public static final int VERSION_CODE = 1;
-  public static final String VERSION_NAME = "2.0";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:382f7a8601633a543bb4b5478f0d032a89a4c876d1486e67328251f680d6dca5
+size 419

@@ -12,7 +12,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".aggiungi_ingrediente.RicercaIngredientiFragment">
+        tools:context=".aggiungi_ingrediente.RicetteFragment">
 
 
     <LinearLayout

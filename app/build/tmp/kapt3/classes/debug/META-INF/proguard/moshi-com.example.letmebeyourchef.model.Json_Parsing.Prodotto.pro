@@ -1,12 +1,3 @@
--if class com.example.letmebeyourchef.model.Json_Parsing.Prodotto
--keepnames class com.example.letmebeyourchef.model.Json_Parsing.Prodotto
--if class com.example.letmebeyourchef.model.Json_Parsing.Prodotto
--keep class com.example.letmebeyourchef.model.Json_Parsing.ProdottoJsonAdapter {
-    public <init>(com.squareup.moshi.Moshi);
-}
--if class com.example.letmebeyourchef.model.Json_Parsing.Prodotto
--keepnames class kotlin.jvm.internal.DefaultConstructorMarker
--if class com.example.letmebeyourchef.model.Json_Parsing.Prodotto
--keepclassmembers class com.example.letmebeyourchef.model.Json_Parsing.Prodotto {
-    public synthetic <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.example.letmebeyourchef.model.Json_Parsing.Nutrients,int,kotlin.jvm.internal.DefaultConstructorMarker);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cc9c3b887bf010baa6d496888d36092bbf558ebf8815e9e38655f5935b8d6aa
+size 883

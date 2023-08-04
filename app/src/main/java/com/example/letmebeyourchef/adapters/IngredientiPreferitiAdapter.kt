@@ -23,8 +23,10 @@ class IngredientiPreferitiAdapter(
     var context: Context,
     var list: ArrayList<Ingredient>,
     var listener: IngredientClickListener,
-    var favouritelistener: IngredientFavouriteClickListener
-) : RecyclerView.Adapter<IngredientiPreferitiViewHolder>() {
+    var favouritelistener: IngredientFavouriteClickListener,
+    var deletelistener: IngredientDeleteClickListener,
+
+    ) : RecyclerView.Adapter<IngredientiPreferitiViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): IngredientiPreferitiViewHolder {
         return IngredientiPreferitiViewHolder(
@@ -47,28 +49,21 @@ class IngredientiPreferitiAdapter(
             )
         }
 
-        holder.like_btn.setOnClickListener {
+        /*holder.like_btn.setOnClickListener {
             favouritelistener.onClickFavouriteIngredient(
                 list!![holder.adapterPosition].id,
                 list!![holder.adapterPosition].name,
                 list!![holder.adapterPosition].image
             )
-        }
-
-        /*holder.delete_btn.setOnClickListener{
-            deleteListener.onClickDeleteRicetta(
-                list!![holder.adapterPosition].id.toString(),
-                list!![holder.adapterPosition].title.toString(),
-                list!![holder.adapterPosition].sourceName.toString(),
-                list!![holder.adapterPosition].readyInMinutes.toInt(),
-                list!![holder.adapterPosition].servings.toInt(),
-                list!![holder.adapterPosition].sourceUrl.toString(),
-                list!![holder.adapterPosition].image.toString(),
-                list!![holder.adapterPosition].imageType.toString(),
-                list!![holder.adapterPosition].instructions.toString(),
-                list!![holder.adapterPosition].spoonacularSourceUrl.toString()
-            )
         }*/
+
+        holder.delete_btn.setOnClickListener{
+            deletelistener.onClickDeleteIngredient(
+                list!![holder.adapterPosition].id,
+                list!![holder.adapterPosition].name,
+                list!![holder.adapterPosition].image
+            )
+        }
     }
 
     override fun getItemCount(): Int {
@@ -81,14 +76,13 @@ class IngredientiPreferitiViewHolder(itemView: View) : RecyclerView.ViewHolder(i
     var imageView_ingredienti: ImageView
     var textView_nome_ingredienti: TextView
     var add_btn: Button
-    var like_btn: Button
+    var delete_btn:Button
 
     init {
         textView_quantita_ingredienti = itemView.findViewById(R.id.textView_quantita_ingredienti)
         imageView_ingredienti = itemView.findViewById(R.id.imageView_ingredienti)
         textView_nome_ingredienti = itemView.findViewById(R.id.textView_nome_ingredienti)
         add_btn = itemView.findViewById(R.id.add_btn)
-        like_btn = itemView.findViewById(R.id.like_btn)
-
+        delete_btn = itemView.findViewById(R.id.delete_btn)
     }
 }

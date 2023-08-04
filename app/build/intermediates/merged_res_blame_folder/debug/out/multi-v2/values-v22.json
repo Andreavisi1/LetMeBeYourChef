@@ -1,20 +1,3 @@
-{
-    "logs": [
-        {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-86:/values-v22/values-v22.xml",
-            "map": [
-                {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/edcde99d73e3fad70f7055d0dac7a9f6/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,487",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,482,764"
-                    }
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:753ebc21240514c651672b9e7f8c654f6113f475a652d6d518c4d937c6e04810
+size 762

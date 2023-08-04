@@ -1,6 +1,3 @@
--if class com.example.letmebeyourchef.model.Json_Parsing.Json_Hint
--keepnames class com.example.letmebeyourchef.model.Json_Parsing.Json_Hint
--if class com.example.letmebeyourchef.model.Json_Parsing.Json_Hint
--keep class com.example.letmebeyourchef.model.Json_Parsing.Json_HintJsonAdapter {
-    public <init>(com.squareup.moshi.Moshi);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3fdae26be710d9f5d3b406d9121143ca720c203b6cf00ed7106b3505482465a
+size 337
