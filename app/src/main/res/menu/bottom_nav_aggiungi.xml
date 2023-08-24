@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:title="Search"
-          android:id="@+id/ricerca"
-          android:icon="@drawable/ricerca"/>
-    <item android:title="Personalizzati"
-          android:id="@+id/personalizzati"
-          android:icon="@drawable/add_to_playlist"/>
-    <item android:title="Favs"
-          android:id="@+id/preferiti"
-          android:icon="@drawable/heart"/>
-</menu>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba1ea3cbc6db54a8d429bdb8c770e07a887f7d1ee4868a01efce326df9ffe474
+size 339
