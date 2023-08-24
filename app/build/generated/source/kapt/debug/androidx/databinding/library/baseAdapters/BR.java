@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b082411735007e10df31432a17297bc2a8a01081ccb9e4c3e915ad596c836372
-size 194
+package androidx.databinding.library.baseAdapters;
+
+public class BR {
+  public static final int _all = 0;
+
+  public static final int ingrediente = 1;
+
+  public static final int viewModel = 2;
+}

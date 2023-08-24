@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dc5723c6f2f5878df538878903206ab42b5c5f90492304ad7dd8e6a30333727b
-size 717
+{
+    "logs": [
+        {
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/56f2abc0a493a07d8f728cb48f3dbec6/transformed/material-1.9.0/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

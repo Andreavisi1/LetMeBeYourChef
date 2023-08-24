@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65229310d9bac89bfd03353a2923105b2127ed9ad7ed9ef1f007b8676a2eb423
-size 710
+{
+    "logs": [
+        {
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/56f2abc0a493a07d8f728cb48f3dbec6/transformed/material-1.9.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}

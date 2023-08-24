@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d11b173411bbebe80a00d57139396a1859d572f29dd387ed8e13e18eb3e2ef0
-size 843
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Layout layout="list_step_istruzioni_items" modulePackage="com.example.letmebeyourchef" filePath="app/src/main/res/layout/list_step_istruzioni_items.xml" directory="layout" isMerge="false" isBindingData="false" rootNodeType="androidx.cardview.widget.CardView"><Targets><Target tag="layout/list_step_istruzioni_items_0" view="androidx.cardview.widget.CardView"><Expressions/><location startLine="1" startOffset="0" endLine="35" endOffset="35"/></Target><Target id="@+id/imageView_step_istruzioni_items" view="ImageView"><Expressions/><location startLine="14" startOffset="8" endLine="18" endOffset="41"/></Target><Target id="@+id/textView_step_istruzioni_item" view="TextView"><Expressions/><location startLine="19" startOffset="8" endLine="32" endOffset="49"/></Target></Targets></Layout>

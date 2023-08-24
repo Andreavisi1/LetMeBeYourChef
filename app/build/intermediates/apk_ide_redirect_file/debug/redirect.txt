@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:510947f5e409b773ca5d0a61de9fc6092b1f935bb857e165ea360e2fa9354efd
-size 67
+#- File Locator -
+listingFile=../../apk/debug/output-metadata.json

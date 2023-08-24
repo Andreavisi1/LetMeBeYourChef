@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d852691078e22aec1bed6f49de9f228e5383e12f9dd7e2554456a0ad36d74200
-size 732
+{
+    "logs": [
+        {
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/56f2abc0a493a07d8f728cb48f3dbec6/transformed/material-1.9.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

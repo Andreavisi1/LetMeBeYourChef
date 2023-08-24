@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6291d19b02b5da84551e4bea600bd6190c46fbe978c19b8763e33d8278991ceb
-size 743
+-if class com.example.letmebeyourchef.model.Json_Parsing.Esercizio
+-keepnames class com.example.letmebeyourchef.model.Json_Parsing.Esercizio
+-if class com.example.letmebeyourchef.model.Json_Parsing.Esercizio
+-keep class com.example.letmebeyourchef.model.Json_Parsing.EsercizioJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.example.letmebeyourchef.model.Json_Parsing.Esercizio
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.example.letmebeyourchef.model.Json_Parsing.Esercizio
+-keepclassmembers class com.example.letmebeyourchef.model.Json_Parsing.Esercizio {
+    public synthetic <init>(java.lang.String,int,int,java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}

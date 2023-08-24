@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:852f515b08d4c73f6e9272d558d01a403a97bfcd6136b29545436f477af8314f
-size 762
+{
+    "logs": [
+        {
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/19985747d0bdd0c85ca45e70f2a5bbb4/transformed/appcompat-1.5.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

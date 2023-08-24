@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89e693db149c93232e29fe1b6aeca2957d3abf8b1ce31986b8d9f585b65a265d
-size 1497
+{
+    "logs": [
+        {
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/19985747d0bdd0c85ca45e70f2a5bbb4/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/ce2e591811ed810922c0c61b237388b1/transformed/jetified-car-ui-lib-2.3.0/res/values-port/values.xml",
+                    "from": {
+                        "startLines": "4,7,8",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "212,423,488",
+                        "endColumns": "59,64,62",
+                        "endOffsets": "271,487,550"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "111,175,244",
+                        "endColumns": "63,68,66",
+                        "endOffsets": "170,239,306"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d7250243374bc49b10471e89159e5748a3da021decc881edb682c461a5a3d90
-size 353
+-if class com.example.letmebeyourchef.model.Json_Parsing.Json_FoodList
+-keepnames class com.example.letmebeyourchef.model.Json_Parsing.Json_FoodList
+-if class com.example.letmebeyourchef.model.Json_Parsing.Json_FoodList
+-keep class com.example.letmebeyourchef.model.Json_Parsing.Json_FoodListJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}

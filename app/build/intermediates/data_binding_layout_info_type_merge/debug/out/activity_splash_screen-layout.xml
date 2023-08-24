@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f0823f06a0b67a68ea80ff9f7fc78316d26fe79553b2c41e5ef8d971e3ed2409
-size 682
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Layout layout="activity_splash_screen" modulePackage="com.example.letmebeyourchef" filePath="app/src/main/res/layout/activity_splash_screen.xml" directory="layout" isMerge="false" isBindingData="true" rootNodeType="androidx.constraintlayout.widget.ConstraintLayout"><Targets><Target tag="layout/activity_splash_screen_0" view="androidx.constraintlayout.widget.ConstraintLayout"><Expressions/><location startLine="4" startOffset="0" endLine="22" endOffset="51"/></Target><Target id="@+id/videoView" view="VideoView"><Expressions/><location startLine="11" startOffset="4" endLine="19" endOffset="9"/></Target></Targets></Layout>

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:84ff7a1d3ee53bac613e02441bf7fc187feb913c6b5fb4fcee9753706cafc28a
-size 396
+{
+  "version": 3,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.letmebeyourchef",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "2.0",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ],
+  "elementType": "File"
+}

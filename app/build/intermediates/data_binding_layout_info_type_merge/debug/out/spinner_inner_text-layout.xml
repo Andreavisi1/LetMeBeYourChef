@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c12ef43a0377bae68049b725f7a684b698c3f4219f94bed03b52ef7ef10f9b5
-size 466
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Layout layout="spinner_inner_text" modulePackage="com.example.letmebeyourchef" filePath="app/src/main/res/layout/spinner_inner_text.xml" directory="layout" isMerge="false" isBindingData="false" rootNodeType="android.widget.TextView"><Targets><Target tag="layout/spinner_inner_text_0" view="TextView"><Expressions/><location startLine="1" startOffset="0" endLine="8" endOffset="10"/></Target></Targets></Layout>

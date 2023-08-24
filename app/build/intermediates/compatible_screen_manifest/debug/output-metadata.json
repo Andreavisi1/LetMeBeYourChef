@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4b83bd96854cc0ed3fe0629f8861dcf418014b06659bd9edbf9baf35a424e49
-size 203
+{
+  "version": 3,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.letmebeyourchef",
+  "variantName": "debug",
+  "elements": []
+}
