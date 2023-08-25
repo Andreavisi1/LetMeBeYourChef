@@ -6,23 +6,16 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DispensaDB
-import com.example.letmebeyourchef.databaseFB.PreferitiDB
-import com.example.letmebeyourchef.databaseFB.ProdottoDB
 import com.example.letmebeyourchef.databaseFB.RicettePreferiteDB
-import com.example.letmebeyourchef.model.Json_Parsing.Prodotto
 import com.example.letmebeyourchef.recipeModels.Recipe
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 
 class ActivityDettagliRicettaViewModel: ViewModel() {
 
-    private val prodottoDB = ProdottoDB()
     private val ricette_preferiteDB = RicettePreferiteDB()
-    private val dispensaDB = DispensaDB()
     private val auth = FirebaseAuth.getInstance()
-    private var hashMapCalorie = HashMap<String, Int>()
-    private var hashMapMacro = HashMap<String, Int>()
+
 
     private var _foodLiveData = MutableLiveData<ArrayList<Recipe>>()
     val foodLiveData : LiveData<ArrayList<Recipe>>

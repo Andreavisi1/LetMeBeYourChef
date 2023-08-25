@@ -32,7 +32,6 @@ internal class InizioActivityTest{
         scenario.moveToState(Lifecycle.State.RESUMED)
     }
 
-
     /*===============================================================================================
                         ELIMINARE I DATI E SVUOTARE LA CACHE PRIMA DI EFFETTURARE IL TEST
         Il cellulare mantiene i dati d'accesso e il LoginTest fallirebbe in quanto non trova le view di input
@@ -54,9 +53,9 @@ internal class InizioActivityTest{
         onView(withId(R.id.bt_AvantiSesso)).perform(click())
         onView(withText("Dati Personali")).check(matches(isDisplayed()))
         onView(withId(R.id.tv_dataNascita)).perform(click())
-        val year = 2000
-        val month = 11
-        val day = 15
+        val year = 2001
+        val month = 1
+        val day = 27
         onView(withClassName(Matchers.equalTo(DatePicker::class.java.name))).perform(PickerActions.setDate(year,month,day))
         onView(withId(android.R.id.button1)).perform(click())
         onView(withId(R.id.tE_name)).perform(ViewActions.typeText("Giovanna"))
@@ -64,7 +63,7 @@ internal class InizioActivityTest{
         onView(withId(R.id.tE_surname)).perform(ViewActions.typeText("Rossi"))
         onView(withId(R.id.tE_name)).check(matches(withText("Giovanna")))
         onView(withId(R.id.tE_surname)).check(matches(withText("Rossi")))
-        onView(withId(R.id.tv_dataNascita)).check(matches(withText("15-11-2000")))
+        onView(withId(R.id.tv_dataNascita)).check(matches(withText("27-1-2001")))
         Espresso.closeSoftKeyboard()
         onView(withId(R.id.bt_AvantiDati)).perform(click())
 //        onView(withId(R.id.eT_altezza)).perform(ViewActions.typeText("30"))

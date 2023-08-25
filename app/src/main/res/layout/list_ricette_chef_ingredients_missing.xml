@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d617aac65025c380f9ea904caa056e92a12fd5a6a27a0c3d95158a89bc8c97a8
-size 1838
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="8dp"
+    android:layout_margin="4dp"
+    android:backgroundTint="@color/blue_white"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_ingredient_missing_items"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/textView_ingredient_missing_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="4dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Item"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/cart_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/orange_primary"
+            app:icon="@drawable/ic_carrello"
+            app:iconGravity="textTop" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

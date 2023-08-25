@@ -1,12 +1,6 @@
 package com.example.letmebeyourchef.databaseFB
 
-import android.util.Log
-import com.example.letmebeyourchef.model.Json_Parsing.Esercizio
-import com.example.letmebeyourchef.model.Pasto
-import com.example.letmebeyourchef.recipeModels.AnalyzedInstruction
-import com.example.letmebeyourchef.recipeModels.ExtendedIngredient
 import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
-import com.example.letmebeyourchef.recipeModels.Recipe
 import com.google.firebase.firestore.ktx.toObjects
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.tasks.await

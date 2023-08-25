@@ -1,12 +1,10 @@
 package com.example.letmebeyourchef.profilo
 
 import android.content.Context
-import androidx.browser.customtabs.CustomTabsIntent.KEY_DESCRIPTION
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.letmebeyourchef.databaseFB.DispensaDB
 import com.example.letmebeyourchef.databaseFB.UtenteDB
 import com.example.letmebeyourchef.model.Utente
 import com.google.android.gms.tasks.Task
@@ -16,12 +14,10 @@ import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.launch
-import java.time.LocalDate
 
 class ProfiloViewModel : ViewModel() {
 
     private val utenteDB = UtenteDB()
-    private val dispensaDB = DispensaDB()
     val db = Firebase.firestore
 
     private var _profilo = MutableLiveData<Utente>()
@@ -56,10 +52,6 @@ class ProfiloViewModel : ViewModel() {
                 displayName = "$nome $cognome"
             }
             user!!.updateProfile(profileUpdates)
-
-
-
-
 
 
 

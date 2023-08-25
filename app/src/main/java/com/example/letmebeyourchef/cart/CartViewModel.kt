@@ -1,3 +1,70 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc6bf97a6088a5a3c79d805264f5a8444e9162ecb525d87f81590e5db84470d2
-size 2890
+package com.example.letmebeyourchef.cart
+
+import android.content.Context
+import android.widget.Toast
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.letmebeyourchef.databaseFB.CartDB
+import com.example.letmebeyourchef.databaseFB.UtenteDB
+import com.example.letmebeyourchef.model.Utente
+import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
+import com.example.letmebeyourchef.recipeModels.Ingredient
+import com.google.firebase.auth.FirebaseAuth
+import kotlinx.coroutines.launch
+
+class CartViewModel : ViewModel() {
+    private var auth: FirebaseAuth = FirebaseAuth.getInstance()
+    private val utenteDB = UtenteDB()
+    private val cartDB = CartDB()
+
+    private var _utente = MutableLiveData(Utente())
+    val utente: LiveData<Utente>
+        get() = _utente
+
+    private var _ingredientiCartLiveData = MutableLiveData<List<Ingredient>>()
+    val ingredientiCartLiveData: LiveData<List<Ingredient>>
+        get() = _ingredientiCartLiveData
+
+    private var favoriteRecipes: MutableLiveData<List<FavouriteRecipe>> = MutableLiveData()
+
+    private var ricettePreferite: List<FavouriteRecipe>? = null
+
+    // Metodo per aggiungere una ricetta preferita
+    fun addFavoriteRecipe(recipe: FavouriteRecipe?) {
+        val currentList = favoriteRecipes.value.orEmpty().toMutableList()
+        if (recipe != null) {
+            currentList.add(recipe)
+        }
+        favoriteRecipes.value = currentList
+    }
+
+    fun getIngredientiCart(){
+        viewModelScope.launch {
+            _ingredientiCartLiveData.value =
+                cartDB.getCart(auth.currentUser!!.email!!)
+        }
+    }
+
+    // Metodo per rimuovere una ricetta preferita
+    fun removeIngredientFromCart(id: Int, context:Context) {
+        viewModelScope.launch {
+            if(cartDB.deleteIngredientFromCart(auth.currentUser!!.email!!, id)){
+                Toast.makeText(context,"You bought the ingredient!",Toast.LENGTH_LONG).show()
+                getIngredientiCart()
+            }else{
+                Toast.makeText(context,"ATTENTION!\nIngredient not bought",Toast.LENGTH_LONG).show()
+            }
+        }
+    }
+
+    fun getUtente() {
+        viewModelScope.launch {
+            _utente.value = utenteDB.getUtente(auth.currentUser!!.email!!)
+        }
+
+    }
+
+}
+

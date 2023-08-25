@@ -166,11 +166,6 @@ class HomepageFragment : Fragment() {
     }
 
 
-    private fun startAnimation(glass : ImageView){
-        glass.setBackgroundResource(R.drawable.filling_animation)
-        val frameAnimation: AnimationDrawable = glass.background as AnimationDrawable
-        frameAnimation.start()
-    }
 
     private fun vibrate(){
         val vibrator = requireContext().getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
