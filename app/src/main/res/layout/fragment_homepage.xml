@@ -1,3 +1,110 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:010f617e15b07231017efd9e86deab40dcdf498b99acc82e67d445c22e05918a
-size 4640
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+                name="viewModel"
+                type="com.example.letmebeyourchef.homepage.HomepageViewModel"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        tools:context=".homepage.HomepageFragment">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/shape_intro"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cart_title"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Welcome! We hope you will find recipes you like here, or use the other functionalities to get helped for your daily meal!"
+                    android:textColor="@color/black_overlay"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/linear">
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/orange"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    app:defaultNavHost="false"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <androidx.appcompat.widget.SearchView
+                        android:id="@+id/searchview_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        app:iconifiedByDefault="false"
+                        app:queryHint="Search recipes"
+                        app:searchIcon="@drawable/ic_search" />
+
+                </androidx.cardview.widget.CardView>
+
+                <Spinner
+                    android:id="@+id/spinner_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@color/orange"
+                    android:entries="@array/tags"
+                    android:gravity="center"
+                    android:scrollbarSize="200sp"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_random"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="60dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear2"
+            android:backgroundTint="@color/orange_primary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

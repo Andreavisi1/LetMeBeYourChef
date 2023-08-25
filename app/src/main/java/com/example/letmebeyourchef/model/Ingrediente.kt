@@ -11,6 +11,4 @@ import java.time.Period
 data class Ingrediente(
         var nome: String,
         var id: String,
-
-
 )

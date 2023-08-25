@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/c375e5f45087479c059405d614c83e44/transformed/jetified-navigation-dynamic-features-fragment-2.5.2/res/values-en-rXC/values-en-rXC.xml",

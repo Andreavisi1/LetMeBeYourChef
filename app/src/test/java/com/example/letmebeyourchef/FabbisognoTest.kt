@@ -12,6 +12,8 @@ class FabbisognoTest {
 
     }
 
+
+
     // Test per vedere se il metodo calculateFabbisogno calcola correttamente le calorie giornaliere
 
     @Test

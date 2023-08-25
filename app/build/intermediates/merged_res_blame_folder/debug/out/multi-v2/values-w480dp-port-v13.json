@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/56f2abc0a493a07d8f728cb48f3dbec6/transformed/material-1.9.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",

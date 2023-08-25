@@ -65,8 +65,6 @@ class ProfiloViewModel : ViewModel() {
 
                 docRef.update(updates)
 
-
-
                 utenteDB.updateUtente(
                     nome, cognome, email, sesso, data_nascita,
                     intolleranze!!, contesto

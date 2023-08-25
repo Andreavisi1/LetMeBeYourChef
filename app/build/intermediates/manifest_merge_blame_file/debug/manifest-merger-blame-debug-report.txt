@@ -84,8 +84,8 @@
 47-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/andreavisi/.gradle/caches/transforms-3/4f106bdba2977546908a8da938875fd9/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
 47-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/andreavisi/.gradle/caches/transforms-3/4f106bdba2977546908a8da938875fd9/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
 48    <uses-permission android:name="android.permission.REORDER_TASKS" />
-48-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
-48-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+48-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:24:5-72
+48-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:24:22-69
 49
 50    <permission
 50-->[androidx.core:core:1.9.0] /Users/andreavisi/.gradle/caches/transforms-3/25c31361e3802c670b179d4808b64fb2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
@@ -683,79 +683,79 @@
 367            android:permission="android.permission.BIND_JOB_SERVICE" />
 367-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/andreavisi/.gradle/caches/transforms-3/4f106bdba2977546908a8da938875fd9/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
 368
-369        <provider
-369-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-370            android:name="androidx.startup.InitializationProvider"
-370-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
-371            android:authorities="com.example.letmebeyourchef.androidx-startup"
-371-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
-372            android:exported="false" >
-372-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
-373            <meta-data
-373-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-374                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-374-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
-375                android:value="androidx.startup" />
-375-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
-376            <meta-data
-376-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-377                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-377-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-378                android:value="androidx.startup" />
-378-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-379            <meta-data
-379-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-380                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-380-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-381                android:value="androidx.startup" />
-381-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-382        </provider>
-383
-384        <activity
-384-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
-385            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-385-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
-386            android:exported="true"
-386-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
-387            android:theme="@android:style/Theme" >
-387-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
-388            <intent-filter>
-388-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-389                <action android:name="android.intent.action.MAIN" />
-389-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
-389-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
-390            </intent-filter>
-391        </activity>
-392        <activity
-392-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
-393            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-393-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
-394            android:exported="true"
-394-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
-395            android:theme="@android:style/Theme" >
-395-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
-396            <intent-filter>
-396-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-397                <action android:name="android.intent.action.MAIN" />
-397-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
-397-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
-398            </intent-filter>
-399        </activity>
-400        <activity
-400-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
-401            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-401-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
-402            android:exported="true"
-402-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
-403            android:theme="@android:style/Theme.Dialog" >
-403-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
-404            <intent-filter>
-404-->[androidx.test:core:1.4.0] /Users/andreavisi/.gradle/caches/transforms-3/0c48c35ffcae136ee1b6f90ed7a119e6/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-405                <action android:name="android.intent.action.MAIN" />
-405-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
-405-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
-406            </intent-filter>
-407        </activity>
+369        <activity
+369-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:27:9-34:20
+370            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+370-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:28:13-99
+371            android:exported="true"
+371-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:29:13-36
+372            android:theme="@style/WhiteBackgroundTheme" >
+372-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:30:13-56
+373            <intent-filter>
+373-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:31:13-33:29
+374                <action android:name="android.intent.action.MAIN" />
+374-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
+374-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
+375            </intent-filter>
+376        </activity>
+377        <activity
+377-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:35:9-42:20
+378            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+378-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:36:13-95
+379            android:exported="true"
+379-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:37:13-36
+380            android:theme="@style/WhiteBackgroundTheme" >
+380-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:38:13-56
+381            <intent-filter>
+381-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:31:13-33:29
+382                <action android:name="android.intent.action.MAIN" />
+382-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
+382-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
+383            </intent-filter>
+384        </activity>
+385        <activity
+385-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:43:9-50:20
+386            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+386-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:44:13-103
+387            android:exported="true"
+387-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:45:13-36
+388            android:theme="@style/WhiteBackgroundDialogTheme" >
+388-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:46:13-62
+389            <intent-filter>
+389-->[androidx.test:core:1.4.1-alpha04] /Users/andreavisi/.gradle/caches/transforms-3/4b1095dd02f08db10bf623b6287b76fa/transformed/jetified-core-1.4.1-alpha04/AndroidManifest.xml:31:13-33:29
+390                <action android:name="android.intent.action.MAIN" />
+390-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:17-69
+390-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:73:25-66
+391            </intent-filter>
+392        </activity>
+393
+394        <provider
+394-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+395            android:name="androidx.startup.InitializationProvider"
+395-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+396            android:authorities="com.example.letmebeyourchef.androidx-startup"
+396-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+397            android:exported="false" >
+397-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+398            <meta-data
+398-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+399                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+399-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+400                android:value="androidx.startup" />
+400-->[androidx.emoji2:emoji2:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/4ed70f73f02463638696650bb5cbd14d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+401            <meta-data
+401-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+402                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+402-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+403                android:value="androidx.startup" />
+403-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/andreavisi/.gradle/caches/transforms-3/bf88399d328c2ba92158e10ea7b05d36/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+404            <meta-data
+404-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+405                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+405-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+406                android:value="androidx.startup" />
+406-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/andreavisi/.gradle/caches/transforms-3/1a1cff99d192c93322b3f74ec4200e40/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+407        </provider>
 408
 409        <uses-library
 409-->[androidx.window:window:1.0.0] /Users/andreavisi/.gradle/caches/transforms-3/95adddcf2b43a5ac507bab58ecb23247/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40

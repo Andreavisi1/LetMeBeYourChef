@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-as/values-as.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/0fdc5cf8b016de9e7f355ec68df6faa5/transformed/navigation-ui-2.5.2/res/values-as/values-as.xml",

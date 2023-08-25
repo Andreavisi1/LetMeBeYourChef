@@ -37,61 +37,44 @@ internal class InizioActivityTest{
         Il cellulare mantiene i dati d'accesso e il LoginTest fallirebbe in quanto non trova le view di input
         per email e password
         ===============================================================================================*/
+
     @Test
     fun registerTest(){
 
-        // TEST DI REGISTRAZIONE in questo caso l'utente è già registrato e non permette la registrazione
+        // TEST DI REGISTRAZIONE in questo caso l'utente è già registrato, e non permette la registrazione
         onView(withId(R.id.btInizia)).perform(click())
-        /*onView(withId(R.id.rB_sedentario)).perform(click())
-        onView(withId(R.id.sB_agonistico)).perform(click())
-        onView(withId(R.id.imageView16)).check(matches(isDisplayed()))
-        onView(withId(R.id.bt_AvantiObb)).perform(click())*/
         onView(withId(R.id.rB_uomo)).perform(click())
         onView(withId(R.id.bt_AvantiSesso)).perform(click())
         Espresso.pressBack()
         onView(withId(R.id.rB_donna)).perform(click())
         onView(withId(R.id.bt_AvantiSesso)).perform(click())
-        onView(withText("Dati Personali")).check(matches(isDisplayed()))
+        onView(withText("Personal data")).check(matches(isDisplayed()))
         onView(withId(R.id.tv_dataNascita)).perform(click())
         val year = 2001
         val month = 1
         val day = 27
         onView(withClassName(Matchers.equalTo(DatePicker::class.java.name))).perform(PickerActions.setDate(year,month,day))
         onView(withId(android.R.id.button1)).perform(click())
-        onView(withId(R.id.tE_name)).perform(ViewActions.typeText("Giovanna"))
+        onView(withId(R.id.tE_name)).perform(ViewActions.typeText("Alfredo"))
         Espresso.closeSoftKeyboard()
-        onView(withId(R.id.tE_surname)).perform(ViewActions.typeText("Rossi"))
-        onView(withId(R.id.tE_name)).check(matches(withText("Giovanna")))
-        onView(withId(R.id.tE_surname)).check(matches(withText("Rossi")))
+        onView(withId(R.id.tE_surname)).perform(ViewActions.typeText("Dalcaldo"))
+        onView(withId(R.id.tE_name)).check(matches(withText("Alfredo")))
+        onView(withId(R.id.tE_surname)).check(matches(withText("Dalcaldo")))
         onView(withId(R.id.tv_dataNascita)).check(matches(withText("27-1-2001")))
         Espresso.closeSoftKeyboard()
         onView(withId(R.id.bt_AvantiDati)).perform(click())
-//        onView(withId(R.id.eT_altezza)).perform(ViewActions.typeText("30"))
+        onView(withId(R.id.cB_gluten)).perform(click())
+        onView(withId(R.id.cB_peanut)).perform(click())
+        onView(withId(R.id.cB_gluten)).perform(click())
+        onView(withId(R.id.bt_AvantiIntolleranze)).perform(click())
+        onView(withId(R.id.btnRegister)).check(matches(withText("Register")))
+        onView(withId(R.id.InputEmail)).perform(ViewActions.typeText("dalcaldoalfredo@espresso.it"))
         Espresso.closeSoftKeyboard()
-//        onView(withId(R.id.bt_AvantiAltezza)).perform(click())
-//        onView(withId(R.id.eT_altezza)).check(matches(withText("")))
-//        onView(withId(R.id.eT_altezza)).perform(ViewActions.typeText("165"))
+        onView(withId(R.id.InputPassword)).perform(ViewActions.typeText("asdfgh"))
         Espresso.closeSoftKeyboard()
-//        onView(withId(R.id.bt_AvantiAltezza)).perform(click())
-//        onView(withId(R.id.eT_PesoAttuale)).perform(ViewActions.typeText("29"))
-        Espresso.closeSoftKeyboard()
-//        onView(withId(R.id.bt_AvantiPesoAttuale)).perform(click())
-//        onView(withId(R.id.eT_PesoAttuale)).check(matches(withText("")))
-//        onView(withId(R.id.eT_PesoAttuale)).perform(ViewActions.typeText("56"))
-        Espresso.closeSoftKeyboard()
-//        onView(withId(R.id.bt_AvantiPesoAttuale)).perform(click())
-//        onView(withId(R.id.cB_calcio)).perform(click())
-//        onView(withId(R.id.bt_AvantiPesoObb)).perform(click())
-        onView(withId(R.id.btnRegister)).check(matches(withText("Registrati")))
-        onView(withId(R.id.InputEmail)).perform(ViewActions.typeText("test@espresso.it"))
-        Espresso.closeSoftKeyboard()
-        onView(withId(R.id.InputPassword)).perform(ViewActions.typeText("123456"))
-        Espresso.closeSoftKeyboard()
-        onView(withId(R.id.InputCorrectPassword)).perform(ViewActions.typeText("123456"))
+        onView(withId(R.id.InputCorrectPassword)).perform(ViewActions.typeText("asdfgh"))
         Espresso.closeSoftKeyboard()
         onView(withId(R.id.btnRegister)).perform(click())
-
-
     }
 
     @Test
@@ -100,11 +83,11 @@ internal class InizioActivityTest{
         SUCCESSO nel caso in cui non si ha una cache da ripulire e nessun dato di accesso memorizzato
         ===============================================================================================*/
 
-        onView(withId(R.id.btAccesso)).check(matches(withText("ACCEDI")))
+        onView(withId(R.id.btAccesso)).check(matches(withText("LOGIN")))
         onView(withId(R.id.btAccesso)).perform(click())
-        onView(withId(R.id.InputEmailLogin)).perform(ViewActions.typeText("test@espresso.it"))
+        onView(withId(R.id.InputEmailLogin)).perform(ViewActions.typeText("dalcaldoalfredo@espresso.it"))
         Espresso.closeSoftKeyboard()
-        onView(withId(R.id.InputPasswordLogin)).perform(ViewActions.typeText("123456"))
+        onView(withId(R.id.InputPasswordLogin)).perform(ViewActions.typeText("asdfgh"))
         Espresso.closeSoftKeyboard()
         onView(withId(R.id.btnLogin)).perform(click())
     }

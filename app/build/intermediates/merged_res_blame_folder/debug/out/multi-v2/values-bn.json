@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-bn/values-bn.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-bn/values-bn.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/28f5b2b6663e30948c971a80e9cb7e03/transformed/jetified-play-services-basement-18.2.0/res/values-bn/values.xml",

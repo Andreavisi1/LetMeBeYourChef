@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/91406c89ebc4edc4b9ae64f6e4e869ed/transformed/jetified-material3-1.0.0/res/values-zh-rTW/values-zh-rTW.xml",

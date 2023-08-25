@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-104:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.letmebeyourchef.app-mergeDebugResources-105:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/andreavisi/.gradle/caches/transforms-3/19985747d0bdd0c85ca45e70f2a5bbb4/transformed/appcompat-1.5.1/res/values-xlarge-v4/values-xlarge-v4.xml",
