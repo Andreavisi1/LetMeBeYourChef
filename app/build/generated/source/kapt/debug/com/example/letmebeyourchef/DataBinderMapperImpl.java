@@ -30,6 +30,7 @@ import com.example.letmebeyourchef.databinding.FragmentRicettePreferiteBindingIm
 import com.example.letmebeyourchef.databinding.FragmentSessoBindingImpl;
 import com.example.letmebeyourchef.databinding.FragmentStorageBindingImpl;
 import com.example.letmebeyourchef.databinding.ItemIngredienteBindingImpl;
+import com.example.letmebeyourchef.databinding.PlaceItemLayoutBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -89,7 +90,9 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ITEMINGREDIENTE = 24;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(24);
+  private static final int LAYOUT_PLACEITEMLAYOUT = 25;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(25);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.activity_aggiungi, LAYOUT_ACTIVITYAGGIUNGI);
@@ -116,6 +119,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_sesso, LAYOUT_FRAGMENTSESSO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.fragment_storage, LAYOUT_FRAGMENTSTORAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.item_ingrediente, LAYOUT_ITEMINGREDIENTE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.letmebeyourchef.R.layout.place_item_layout, LAYOUT_PLACEITEMLAYOUT);
   }
 
   @Override
@@ -271,6 +275,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for item_ingrediente is invalid. Received: " + tag);
         }
+        case  LAYOUT_PLACEITEMLAYOUT: {
+          if ("layout/place_item_layout_0".equals(tag)) {
+            return new PlaceItemLayoutBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for place_item_layout is invalid. Received: " + tag);
+        }
       }
     }
     return null;
@@ -316,17 +326,19 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(3);
+    static final SparseArray<String> sKeys = new SparseArray<String>(5);
 
     static {
       sKeys.put(0, "_all");
-      sKeys.put(1, "ingrediente");
-      sKeys.put(2, "viewModel");
+      sKeys.put(1, "googlePlaceModel");
+      sKeys.put(2, "ingrediente");
+      sKeys.put(3, "listener");
+      sKeys.put(4, "viewModel");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(24);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(25);
 
     static {
       sKeys.put("layout/activity_aggiungi_0", com.example.letmebeyourchef.R.layout.activity_aggiungi);
@@ -353,6 +365,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_sesso_0", com.example.letmebeyourchef.R.layout.fragment_sesso);
       sKeys.put("layout/fragment_storage_0", com.example.letmebeyourchef.R.layout.fragment_storage);
       sKeys.put("layout/item_ingrediente_0", com.example.letmebeyourchef.R.layout.item_ingrediente);
+      sKeys.put("layout/place_item_layout_0", com.example.letmebeyourchef.R.layout.place_item_layout);
     }
   }
 }

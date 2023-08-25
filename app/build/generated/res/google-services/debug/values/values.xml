@@ -2,9 +2,9 @@
 <resources>
     <string name="default_web_client_id" translatable="false">161508747965-4mfa4ct15dgm9rlqu32t6s92k97ljckr.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">161508747965</string>
-    <string name="google_api_key" translatable="false">AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM</string>
+    <string name="google_api_key" translatable="false">AIzaSyBiNNPX88JEknt5_s8J37kX_n6mmvQSoMM</string>
     <string name="google_app_id" translatable="false">1:161508747965:android:e69c5111c131b9275265d4</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBiNNPX88JEknt5_s8J37kX_n6mmvQSoMM</string>
     <string name="google_storage_bucket" translatable="false">letmebeyourchef-efbaa.appspot.com</string>
     <string name="project_id" translatable="false">letmebeyourchef-efbaa</string>
 </resources>
