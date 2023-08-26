@@ -83,7 +83,7 @@ class MapsActivity : AppCompatActivity() {
                     "&radius=5000" +  //Nearby radius
                     "&types=" + placeTypeList[i!!] +  //Place type
                     "&sensor=true" +  //Sensor
-                    "&key=" + resources.getString(R.string.google_map_key) //Google map key
+                    "&key=" + resources.getString(R.string.API_KEY) //Google map key
 
             //Execute place task method to download json data
             PlaceTask().execute(url)

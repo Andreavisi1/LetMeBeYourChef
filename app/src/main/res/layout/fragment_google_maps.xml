@@ -48,7 +48,6 @@
                 android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
-
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
@@ -56,7 +55,6 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/map_background"
             android:elevation="5dp" />
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

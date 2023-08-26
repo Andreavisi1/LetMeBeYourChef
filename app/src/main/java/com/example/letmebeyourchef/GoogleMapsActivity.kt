@@ -14,6 +14,7 @@ import com.example.letmebeyourchef.databinding.ActivityGoogleMapsBinding
 import com.example.letmebeyourchef.databinding.ActivityMainBinding
 import com.example.letmebeyourchef.databinding.NavigationDrawerLayoutBinding
 import com.example.letmebeyourchef.databinding.ToolbarLayoutBinding
+import com.example.letmebeyourchef.model.Utente
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DataSnapshot
@@ -21,25 +22,26 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
+import com.google.firebase.firestore.auth.User
 import com.google.firebase.ktx.Firebase
 import de.hdodenhof.circleimageview.CircleImageView
 
 class GoogleMapsActivity : AppCompatActivity() {
 
     private lateinit var navigationDrawerLayoutBinding: NavigationDrawerLayoutBinding
-    private lateinit var GoogleMapsBinding: ActivityGoogleMapsBinding
+    private lateinit var mainBinding: ActivityGoogleMapsBinding
     private lateinit var toolbarLayoutBinding: ToolbarLayoutBinding
     private lateinit var firebaseAuth: FirebaseAuth
-    private lateinit var imgHeader: CircleImageView
-    private lateinit var txtName: TextView
-    private lateinit var txtEmail: TextView
+    //private lateinit var imgHeader: CircleImageView
+    //private lateinit var txtName: TextView
+    //private lateinit var txtEmail: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         navigationDrawerLayoutBinding = NavigationDrawerLayoutBinding.inflate(layoutInflater)
         setContentView(navigationDrawerLayoutBinding.root)
-        GoogleMapsBinding = navigationDrawerLayoutBinding.googleMapsActivity
-        toolbarLayoutBinding = GoogleMapsBinding.toolbarMain
+        mainBinding = navigationDrawerLayoutBinding.googleMapsActivity
+        toolbarLayoutBinding = mainBinding.toolbarMain
 
         setSupportActionBar(toolbarLayoutBinding.toolbar)
 
@@ -64,6 +66,11 @@ class GoogleMapsActivity : AppCompatActivity() {
 
         val headerLayout = navigationDrawerLayoutBinding.navigationView.getHeaderView(0)
 
+        //imgHeader = headerLayout.findViewById(R.id.imgHeader)
+        //txtName = headerLayout.findViewById(R.id.txtHeaderName)
+        //txtEmail = headerLayout.findViewById(R.id.txtHeaderEmail)
+
+        getUserData()
     }
 
     override fun onBackPressed() {
@@ -74,6 +81,25 @@ class GoogleMapsActivity : AppCompatActivity() {
             super.onBackPressed()
     }
 
+    private fun getUserData() {
+        val database = Firebase.database.getReference("Utente").child(firebaseAuth.uid!!)
+
+        database.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                if (snapshot.exists()) {
+                    val userModel = snapshot.getValue(Utente::class.java)
+                    //Glide.with(this@GoogleMapsActivity).load(R.drawable.ic_map).into(imgHeader)
+                    //txtEmail.text = userModel?.email
+                    //txtName.text = userModel?.nome
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+
+        })
+    }
 
 
 }

@@ -80,7 +80,7 @@
     <string name="no_info_avalaible">No info avalaible</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_google_maps">GoogleMapsActivity</string>
-    <string name="google_map_key">AIzaSyBiNNPX88JEknt5_s8J37kX_n6mmvQSoMM</string>
+    <string name="API_KEY">AIzaSyC6gyyrFziUrhowG-6deokCg4nCcA2dXIM</string>
     <string name="title_activity_map">MapActivity</string>
     <string name="map_id">aa17f18a5133a694</string>
     <string name="open_navigation_drawer">Open Drawer</string>

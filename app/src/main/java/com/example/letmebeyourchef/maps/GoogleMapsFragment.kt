@@ -1,5 +1,6 @@
 package com.example.letmebeyourchef.maps
 
+import com.example.letmebeyourchef.R
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Intent
@@ -35,7 +36,6 @@ import com.example.letmebeyourchef.model.GoogleResponseModel
 import com.example.letmebeyourchef.utils.AppConstant
 import com.example.letmebeyourchef.utils.AppPermissions
 import com.example.letmebeyourchef.utils.LoadingDialog
-import com.example.letmebeyourchef.R
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -48,11 +48,8 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import kotlinx.coroutines.flow.collect
 
-class GoogleMapsFragment {
-
-    class HomeFragment : Fragment(), OnMapReadyCallback, NearLocationInterface,
+class GoogleMapsFragment : Fragment(), OnMapReadyCallback, NearLocationInterface,
         GoogleMap.OnMarkerClickListener {
 
         private lateinit var binding: FragmentGoogleMapsBinding
@@ -70,7 +67,7 @@ class GoogleMapsFragment {
         private lateinit var firebaseAuth: FirebaseAuth
         private var isTrafficEnable: Boolean = false
         private var radius = 1500
-        private val locationViewModel: LocationViewModel by viewModels<LocationViewModel>()
+        private val googleMapsViewModel: GoogleMapsViewModel by viewModels<GoogleMapsViewModel>()
         private lateinit var googlePlaceList: ArrayList<GooglePlaceModel>
         private lateinit var googlePlaceAdapter: GooglePlaceAdapter
         private var userSavedLocaitonId: ArrayList<String> = ArrayList()
@@ -110,7 +107,6 @@ class GoogleMapsFragment {
             val mapFragment =
                 (childFragmentManager.findFragmentById(R.id.homeMap) as SupportMapFragment?)
             mapFragment?.getMapAsync(this)
-
 
             for (placeModel in AppConstant.placesName) {
                 val chip = Chip(requireContext())
@@ -176,7 +172,7 @@ class GoogleMapsFragment {
             setUpRecyclerView()
 
             lifecycleScope.launchWhenStarted {
-                userSavedLocaitonId = locationViewModel.getUserLocationId()
+                userSavedLocaitonId = googleMapsViewModel.getUserLocationId()
                 Log.d("TAG", "onViewCreated: ${userSavedLocaitonId.size}")
             }
         }
@@ -247,9 +243,7 @@ class GoogleMapsFragment {
             locationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
             locationCallback = object : LocationCallback() {
                 override fun onLocationResult(locationResult: LocationResult) {
-                    if (locationResult != null) {
-                        super.onLocationResult(locationResult)
-                    }
+                    super.onLocationResult(locationResult)
 
                     for (location in locationResult?.locations!!) {
                         Log.d("TAG", "onLocationResult: ${location.longitude} ${location.latitude}")
@@ -360,10 +354,10 @@ class GoogleMapsFragment {
             val url = ("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
                     + currentLocation.latitude + "," + currentLocation.longitude
                     + "&radius=" + radius + "&type=" + placeType + "&key=" +
-                    resources.getString(R.string.google_map_key))
+                    resources.getString(R.string.API_KEY))
 
             lifecycleScope.launchWhenStarted {
-                locationViewModel.getNearByPlace(url).collect {
+                googleMapsViewModel.getNearByPlace(url).collect {
                     when (it) {
                         is State.Loading -> {
                             if (it.flag == true) {
@@ -399,6 +393,7 @@ class GoogleMapsFragment {
                         }
                         is State.Failed -> {
                             loadingDialog.stopLoading()
+                            Log.e("error", it.error)
                             Snackbar.make(
                                 binding.root, it.error,
                                 Snackbar.LENGTH_SHORT
@@ -428,7 +423,7 @@ class GoogleMapsFragment {
         private fun getCustomIcon(): BitmapDescriptor {
 
             val background = ContextCompat.getDrawable(requireContext(), R.drawable.ic_location)
-            background?.setTint(resources.getColor(R.color.red, null))
+            background?.setTint(resources.getColor(R.color.quantum_googred900, null))
             background?.setBounds(0, 0, background.intrinsicWidth, background.intrinsicHeight)
             val bitmap = Bitmap.createBitmap(
                 background?.intrinsicWidth!!, background.intrinsicHeight,
@@ -492,7 +487,7 @@ class GoogleMapsFragment {
 
         private fun addPlace(googlePlaceModel: GooglePlaceModel) {
             lifecycleScope.launchWhenStarted {
-                locationViewModel.addUserPlace(googlePlaceModel, userSavedLocaitonId).collect {
+                googleMapsViewModel.addUserPlace(googlePlaceModel, userSavedLocaitonId).collect {
                     when (it) {
                         is State.Loading -> {
                             if (it.flag == true) {
@@ -541,7 +536,7 @@ class GoogleMapsFragment {
                     override fun onDismissed(transientBottomBar: Snackbar?, event: Int) {
                         super.onDismissed(transientBottomBar, event)
                         lifecycleScope.launchWhenStarted {
-                            locationViewModel.removePlace(userSavedLocaitonId).collect {
+                            googleMapsViewModel.removePlace(userSavedLocaitonId).collect {
                                 when (it) {
                                     is State.Loading -> {
 
@@ -589,4 +584,3 @@ class GoogleMapsFragment {
             return false
         }
     }
-}

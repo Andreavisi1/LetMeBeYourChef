@@ -82,8 +82,8 @@ class RicercaIngredientiFragment : Fragment() {
 
         binding.btnScanner.setOnClickListener {
             val intent = Intent(requireContext(), ScannerActivity::class.java)
-            /*Log.d("bottone", requireArguments().getString("bottone")!!)
-            intent.putExtra("bottone", requireArguments().getString("bottone"))*/
+            /*Log.d("bottone", requireArguments().getString("bottone")!!)*/
+            intent.putExtra("bottone", requireArguments().getString("bottone"))
             startActivity(intent)
             requireActivity().finish()
         }

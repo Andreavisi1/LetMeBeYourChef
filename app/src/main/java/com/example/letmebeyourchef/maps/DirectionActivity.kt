@@ -64,8 +64,7 @@ class DirectionActivity : AppCompatActivity(), OnMapReadyCallback {
             placeId = getStringExtra("placeId")!!
         }
 
-
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
         appPermissions = AppPermissions()
         loadingDialog = LoadingDialog(this)
 
@@ -227,7 +226,7 @@ class DirectionActivity : AppCompatActivity(), OnMapReadyCallback {
                     "origin=" + currentLocation.latitude + "," + currentLocation.longitude +
                     "&destination=" + endLat + "," + endLng +
                     "&mode=" + mode +
-                    "&key=" + resources.getString(R.string.google_map_key)
+                    "&key=" + resources.getString(R.string.API_KEY)
 
             lifecycleScope.launchWhenStarted {
                 locationViewModel.getDirection(url).collect {
@@ -247,7 +246,7 @@ class DirectionActivity : AppCompatActivity(), OnMapReadyCallback {
                             val routeModel: DirectionRouteModel =
                                 directionResponseModel.directionRouteModels!![0]
 
-                            supportActionBar!!.title = routeModel.summary
+                            //supportActionBar!!.title = routeModel.summary
                             val legModel: DirectionLegModel = routeModel.legs?.get(0)!!
                             binding.apply {
                                 txtStartLocation.text = legModel.startAddress
@@ -354,7 +353,7 @@ class DirectionActivity : AppCompatActivity(), OnMapReadyCallback {
         mGoogleMap?.clear()
         binding.txtStartLocation.text = ""
         binding.txtEndLocation.text = ""
-        supportActionBar!!.title = ""
+        //supportActionBar!!.title = ""
         bottomSheetLayoutBinding.txtSheetDistance.text = ""
         bottomSheetLayoutBinding.txtSheetTime.text = ""
     }

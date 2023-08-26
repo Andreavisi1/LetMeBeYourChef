@@ -3,7 +3,6 @@
 <layout>
 
     <data>
-
         <variable
             name="googlePlaceModel"
             type="com.example.letmebeyourchef.model.GooglePlaceModel" />
