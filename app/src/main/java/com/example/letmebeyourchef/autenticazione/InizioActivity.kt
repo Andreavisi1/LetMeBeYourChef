@@ -3,17 +3,13 @@ package com.example.letmebeyourchef.autenticazione
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ProgressBar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
 import com.example.letmebeyourchef.R
-import com.example.letmebeyourchef.autenticazione.ConosciamociActivity
-import com.example.letmebeyourchef.autenticazione.LoginActivity
-import com.example.letmebeyourchef.databinding.*
 import com.example.letmebeyourchef.databinding.ActivityInizioBinding
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 
 

@@ -3,7 +3,6 @@ package com.example.letmebeyourchef.storage
 import android.app.ProgressDialog
 import android.content.Context
 import android.content.Intent
-import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
@@ -11,26 +10,20 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
-import com.example.letmebeyourchef.adapters.IngredientiAdapter
 import com.example.letmebeyourchef.adapters.StorageAdapter
 import com.example.letmebeyourchef.aggiungi_ingrediente.AggiungiIngredienteActivity
 import com.example.letmebeyourchef.chef.ChefActivity
 import com.example.letmebeyourchef.databinding.FragmentStorageBinding
 import com.example.letmebeyourchef.listeners.AddToCartIngredientClickListener
-import com.example.letmebeyourchef.listeners.IngredientClickListener
 import com.example.letmebeyourchef.listeners.IngredientDeleteClickListener
 import com.example.letmebeyourchef.listeners.IngredientFavouriteClickListener
-import com.example.letmebeyourchef.recipeModels.ExtendedIngredient
 import com.example.letmebeyourchef.recipeModels.Ingredient
-import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
-import java.io.Serializable
 
 
 class StorageFragment : Fragment() {

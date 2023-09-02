@@ -1,28 +1,20 @@
 package com.example.letmebeyourchef.aggiungi_ingrediente
 
-import android.annotation.SuppressLint
-import android.app.Dialog
 import android.app.ProgressDialog
 import android.content.Context
 import android.content.Intent
-import android.graphics.drawable.AnimationDrawable
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.IngredientiAdapter
@@ -33,7 +25,6 @@ import com.example.letmebeyourchef.listeners.IngredientFavouriteClickListener
 import com.example.letmebeyourchef.listeners.SearchIngredientsListener
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiSearchIngredients
 import com.example.letmebeyourchef.scanner.ScannerActivity
-import kotlinx.android.synthetic.main.list_ingredienti.add_btn
 
 class RicercaIngredientiFragment : Fragment() {
 

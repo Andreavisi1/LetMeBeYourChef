@@ -55,7 +55,7 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:drawableStartCompat="@drawable/ic_rating"
-                        app:drawableTint="@color/primaryColor" />
+                        app:drawableTint="@color/green" />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
                         android:layout_alignParentEnd="true"
                         android:onClick="@{()->listener.onSaveClick(googlePlaceModel)}"
                         android:src="@{googlePlaceModel.saved==true?@drawable/ic_bookmarked:@drawable/ic_bookmark}"
-                        app:tint="@color/primaryColor" />
+                        app:tint="@color/green" />
 
                     <ImageView
                         android:layout_width="30dp"
@@ -81,9 +81,15 @@
                         android:layout_toStartOf="@+id/imgSaveLocation"
                         android:onClick="@{()->listener.onDirectionClick(googlePlaceModel)}"
                         android:src="@drawable/ic_direction"
-                        app:tint="@color/primaryColor" />
+                        app:tint="@color/green" />
                 </RelativeLayout>
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
                 <TextView
                     android:id="@+id/txtPlaceName"
                     android:layout_width="wrap_content"
@@ -104,7 +110,8 @@
                     android:maxLines="1"
                     android:text="@{googlePlaceModel.vicinity!=null?googlePlaceModel.vicinity:`No Address`,default=`Place Address`}"
                     android:textColor="@color/black" />
-
+    </LinearLayout>
+</ScrollView>
             </LinearLayout>
         </LinearLayout>
 

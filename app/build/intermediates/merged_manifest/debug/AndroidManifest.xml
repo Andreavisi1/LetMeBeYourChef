@@ -90,19 +90,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.LetMeBeYourChef" >
-
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
-             To get one, follow the directions here:
-
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/API_KEY" />
@@ -114,16 +101,7 @@
             android:value="required" />
 
         <activity
-            android:name="com.example.letmebeyourchef.MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps"
-            android:theme="@style/Theme.LetMeBeYourChef" />
-        <activity
-            android:name="com.example.letmebeyourchef.MapActivity"
-            android:exported="false"
-            android:label="@string/title_activity_map" />
-        <activity
-            android:name="com.example.letmebeyourchef.GoogleMapsActivity"
+            android:name="com.example.letmebeyourchef.maps.GoogleMapsActivity"
             android:exported="false"
             android:label="@string/title_activity_google_maps" />
         <activity
@@ -156,29 +134,13 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.letmebeyourchef.esercizio.EsercizioRDUActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.example.letmebeyourchef.scanner.ScannerActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.letmebeyourchef.pasto.PastoActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.letmebeyourchef.prodotto.ProdottoActivity"
-            android:exported="false"
-            android:parentActivityName="com.example.letmebeyourchef.aggiungi_pasto.AggiungiActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.letmebeyourchef.profilo.ProfiloActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.letmebeyourchef.aggiungi_pasto.AggiungiActivity"
-            android:exported="false"
-            android:parentActivityName="com.example.letmebeyourchef.home.HomeActivity" />
         <activity
             android:name="com.example.letmebeyourchef.autenticazione.RegisterActivity"
             android:exported="false"

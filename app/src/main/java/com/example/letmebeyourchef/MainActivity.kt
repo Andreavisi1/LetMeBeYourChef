@@ -1,12 +1,12 @@
 package com.example.letmebeyourchef
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.content.Intent
+import android.os.Bundle
 import android.widget.ProgressBar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.letmebeyourchef.databinding.ActivityMainBinding
 import com.example.letmebeyourchef.autenticazione.AuthViewModel
 import com.example.letmebeyourchef.autenticazione.InizioActivity
+import com.example.letmebeyourchef.databinding.ActivityMainBinding
 import com.example.letmebeyourchef.home.HomeActivity
 
 

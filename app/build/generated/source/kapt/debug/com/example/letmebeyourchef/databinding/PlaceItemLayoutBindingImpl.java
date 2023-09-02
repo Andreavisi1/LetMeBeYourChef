@@ -29,7 +29,7 @@ public class PlaceItemLayoutBindingImpl extends PlaceItemLayoutBinding implement
     @Nullable
     private final android.view.View.OnClickListener mCallback2;
     @Nullable
-    private final android.view.View.OnClickListener mCallback1;
+    private final android.view.View.OnClickListener mCallback3;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -59,8 +59,8 @@ public class PlaceItemLayoutBindingImpl extends PlaceItemLayoutBinding implement
         this.txtPlaceName.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback2 = new com.example.letmebeyourchef.generated.callback.OnClickListener(this, 2);
-        mCallback1 = new com.example.letmebeyourchef.generated.callback.OnClickListener(this, 1);
+        mCallback2 = new com.example.letmebeyourchef.generated.callback.OnClickListener(this, 1);
+        mCallback3 = new com.example.letmebeyourchef.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -280,8 +280,8 @@ public class PlaceItemLayoutBindingImpl extends PlaceItemLayoutBinding implement
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.imgSaveLocation.setOnClickListener(mCallback1);
-            this.mboundView5.setOnClickListener(mCallback2);
+            this.imgSaveLocation.setOnClickListener(mCallback2);
+            this.mboundView5.setOnClickListener(mCallback3);
         }
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
@@ -298,26 +298,6 @@ public class PlaceItemLayoutBindingImpl extends PlaceItemLayoutBinding implement
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 2: {
-                // localize variables for thread safety
-                // listener != null
-                boolean listenerJavaLangObjectNull = false;
-                // listener
-                com.example.letmebeyourchef.maps.NearLocationInterface listener = mListener;
-                // googlePlaceModel
-                com.example.letmebeyourchef.model.GooglePlaceModel googlePlaceModel = mGooglePlaceModel;
-
-
-
-                listenerJavaLangObjectNull = (listener) != (null);
-                if (listenerJavaLangObjectNull) {
-
-
-
-                    listener.onDirectionClick(googlePlaceModel);
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // listener != null
@@ -335,6 +315,26 @@ public class PlaceItemLayoutBindingImpl extends PlaceItemLayoutBinding implement
 
 
                     listener.onSaveClick(googlePlaceModel);
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // listener != null
+                boolean listenerJavaLangObjectNull = false;
+                // listener
+                com.example.letmebeyourchef.maps.NearLocationInterface listener = mListener;
+                // googlePlaceModel
+                com.example.letmebeyourchef.model.GooglePlaceModel googlePlaceModel = mGooglePlaceModel;
+
+
+
+                listenerJavaLangObjectNull = (listener) != (null);
+                if (listenerJavaLangObjectNull) {
+
+
+
+                    listener.onDirectionClick(googlePlaceModel);
                 }
                 break;
             }

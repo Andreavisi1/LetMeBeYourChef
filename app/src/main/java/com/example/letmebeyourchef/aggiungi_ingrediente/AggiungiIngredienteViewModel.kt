@@ -33,7 +33,6 @@ class AggiungiIngredienteViewModel : ViewModel() {
         }
     }
 
-
     fun setIngredientiPreferitiOnDB(
     id: Int,
     name: String?,
@@ -47,7 +46,7 @@ class AggiungiIngredienteViewModel : ViewModel() {
             ) {
                 Toast.makeText(context, "$name added to favourites", Toast.LENGTH_LONG).show()
             } else
-                Toast.makeText(context, "Adding ingredient to favouirtes failed", Toast.LENGTH_LONG).show()
+                Toast.makeText(context, "Adding ingredient to favourites failed", Toast.LENGTH_LONG).show()
         }
     }
 

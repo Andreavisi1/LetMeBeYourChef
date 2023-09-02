@@ -1,14 +1,12 @@
 package com.example.letmebeyourchef.aggiungi_ingrediente
 
 import android.app.ProgressDialog
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.ActivityAggiungiIngredienteBinding
-import com.example.letmebeyourchef.storage.StorageFragment
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
 class AggiungiIngredienteActivity : AppCompatActivity() {

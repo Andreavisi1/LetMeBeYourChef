@@ -344,7 +344,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/restaurant_menu/baseline_restaurant_menu_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/keyboard_double_arrow_up/baseline_keyboard_double_arrow_up_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -354,8 +354,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="00ff00" />
-                            <entry key="outputName" value="ic_menu" />
+                            <entry key="outputName" value="ic_stonks" />
                             <entry key="sourceFile" value="$USER_HOME$/Downloads/59a6ceb13eae92130de4c3ee472457a1_2.svg" />
                           </map>
                         </option>

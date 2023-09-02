@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
 import com.example.letmebeyourchef.R
+import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
 
 class IstruzioniAdapter(var context: Context, var list: List<ResponseFromApiIstruzioni>) :
     RecyclerView.Adapter<IstruzioniViewHolder>() {

@@ -1,11 +1,10 @@
 package com.example.letmebeyourchef.adapters
 
-import androidx.recyclerview.widget.RecyclerView
-
-import android.view.ViewGroup
-import android.view.LayoutInflater
 import android.os.Build
 import android.text.Html
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.databinding.StepItemLayoutBinding
 import com.example.letmebeyourchef.model.directionModels.DirectionStepModel
 

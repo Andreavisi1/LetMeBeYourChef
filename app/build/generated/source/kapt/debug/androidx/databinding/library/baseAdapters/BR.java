@@ -9,5 +9,7 @@ public class BR {
 
   public static final int listener = 3;
 
-  public static final int viewModel = 4;
+  public static final int savedPlaceModel = 4;
+
+  public static final int viewModel = 5;
 }

@@ -6,24 +6,22 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.letmebeyourchef.GoogleMapsActivity
-import com.example.letmebeyourchef.MapActivity
-import com.example.letmebeyourchef.MapsActivity
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.RequestManager
 import com.example.letmebeyourchef.adapters.CartAdapter
 import com.example.letmebeyourchef.adapters.RicettePreferiteAdapter
 import com.example.letmebeyourchef.databinding.FragmentCartBinding
 import com.example.letmebeyourchef.listeners.IngredientDeleteClickListener
+import com.example.letmebeyourchef.maps.GoogleMapsActivity
 import com.example.letmebeyourchef.recipeModels.Ingredient
 
 class CartFragment : Fragment() {

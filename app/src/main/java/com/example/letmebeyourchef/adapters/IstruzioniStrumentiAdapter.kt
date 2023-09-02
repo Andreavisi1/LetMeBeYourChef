@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.letmebeyourchef.recipeModels.Equipment
 import com.example.letmebeyourchef.R
+import com.example.letmebeyourchef.recipeModels.Equipment
 import com.squareup.picasso.Picasso
 
 class IstruzioniStrumentiAdapter constructor(var context: Context, var list: List<Equipment?>?) :

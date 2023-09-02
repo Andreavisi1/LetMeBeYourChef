@@ -76,14 +76,12 @@ class AppRepo {
                     googlePlaceModel.rating!!, googlePlaceModel.geometry?.location?.lat!!,
                     googlePlaceModel.geometry.location.lng!!
                 )
-
                 addPlace(savedPlaceModel)
             }
 
             userSavedLocaitonId.add(googlePlaceModel.placeId)
             userDatabase.setValue(userSavedLocaitonId).await()
             emit(State.success(googlePlaceModel))
-
 
         }.flowOn(Dispatchers.IO).catch { emit(State.failed(it.message!!)) }
 

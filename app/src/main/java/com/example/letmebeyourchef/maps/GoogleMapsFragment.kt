@@ -1,6 +1,5 @@
 package com.example.letmebeyourchef.maps
 
-import com.example.letmebeyourchef.R
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Intent
@@ -28,6 +27,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
+import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.adapters.GooglePlaceAdapter
 import com.example.letmebeyourchef.adapters.InfoWindowAdapter
 import com.example.letmebeyourchef.databinding.FragmentGoogleMapsBinding
@@ -113,8 +113,8 @@ class GoogleMapsFragment : Fragment(), OnMapReadyCallback, NearLocationInterface
                 chip.text = placeModel.name
                 chip.id = placeModel.id
                 chip.setPadding(8, 8, 8, 8)
-                chip.setTextColor(resources.getColor(R.color.white, null))
-                chip.chipBackgroundColor = resources.getColorStateList(R.color.primaryColor, null)
+                chip.setTextColor(resources.getColor(R.color.black, null))
+                chip.chipBackgroundColor = resources.getColorStateList(R.color.green, null)
                 chip.chipIcon = ResourcesCompat.getDrawable(resources, placeModel.drawableId, null)
                 chip.isCheckable = true
                 chip.isCheckedIconVisible = false

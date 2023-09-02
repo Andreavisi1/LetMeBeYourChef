@@ -9,9 +9,6 @@ class AppConstant {
         @JvmStatic
         val STORAGE_REQUEST_CODE = 1000
 
-        @JvmStatic
-        val PROFILE_PATH = "/Profile/image_profile.jpg"
-
         const val LOCATION_REQUEST_CODE = 2000
 
 

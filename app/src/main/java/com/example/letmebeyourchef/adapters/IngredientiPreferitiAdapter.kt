@@ -7,15 +7,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.listeners.IngredientClickListener
 import com.example.letmebeyourchef.listeners.IngredientDeleteClickListener
 import com.example.letmebeyourchef.listeners.IngredientFavouriteClickListener
-import com.example.letmebeyourchef.listeners.RicettaClickListener
-import com.example.letmebeyourchef.listeners.RicettaDeleteClickListener
-import com.example.letmebeyourchef.recipeModels.ExtendedIngredient
 import com.example.letmebeyourchef.recipeModels.Ingredient
 import com.squareup.picasso.Picasso
 

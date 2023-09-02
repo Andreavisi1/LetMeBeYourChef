@@ -8,9 +8,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.recipeModels.Recipe
-import com.example.letmebeyourchef.R
 import com.squareup.picasso.Picasso
 
 class RicetteRandomAdapter(

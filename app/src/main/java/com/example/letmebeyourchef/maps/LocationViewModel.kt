@@ -1,18 +1,14 @@
 package com.example.letmebeyourchef.maps
 
-import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.letmebeyourchef.model.GooglePlaceModel
-import com.google.firebase.auth.AuthCredential
 import kotlinx.coroutines.async
 import kotlinx.coroutines.withContext
 
 class LocationViewModel : ViewModel() {
 
     private val repo = AppRepo()
-
-    fun getNearByPlace(url: String) = repo.getPlaces(url)
 
     fun removePlace(userSavedLocationId: ArrayList<String>) = repo.removePlace(userSavedLocationId)
 

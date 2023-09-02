@@ -10,4 +10,9 @@
         android:name="com.example.letmebeyourchef.maps.GoogleMapsFragment"
         tools:layout="@layout/fragment_google_maps" />
 
+    <fragment
+        android:id="@+id/btnSavedPlaces"
+        android:name="com.example.letmebeyourchef.maps.SavedPlaceFragment"
+        tools:layout="@layout/fragment_saved_place" />
+
 </navigation>

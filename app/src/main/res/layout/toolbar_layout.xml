@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:id="@+id/toolbar"
     android:layout_height="?actionBarSize"
-    android:background="@color/primaryColor"
+    android:background="@color/green"
     android:elevation="0dp"
-    app:titleTextColor="@color/textColor">
+    app:titleTextColor="@color/textColor"
+    app:title="LetMeBeYourGuide!">
 
 </androidx.appcompat.widget.Toolbar>

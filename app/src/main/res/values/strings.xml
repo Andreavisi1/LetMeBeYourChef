@@ -59,9 +59,10 @@
     <string name="calorie_rimaste">KCal RIMANENTI</string>
     <string name="congratulazioni">Congratulazioni hai raggiunto il tuo obiettivo giornaliero di 2 litri d\'acqua
     </string>
-    <string name="not_ready">Ci dispiace ma questa funzionalità non è al momento disponibile, i nostri sviluppatori
-        stanno lavorando per voi
+    <string name="not_ready"> This feature is not yet available, but remember: our developers
+        are always working for you!
     </string>
+    <string name="meanwhile">Meanwhile, try to click on this button to test the functionality</string>
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

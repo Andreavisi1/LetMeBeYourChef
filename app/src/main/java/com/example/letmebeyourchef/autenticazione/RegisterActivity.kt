@@ -19,8 +19,6 @@ import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.ActivityRegisterBinding
 import com.example.letmebeyourchef.home.HomeActivity
 import com.example.letmebeyourchef.model.Utente
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient

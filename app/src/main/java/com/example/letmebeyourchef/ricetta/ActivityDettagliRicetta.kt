@@ -14,7 +14,6 @@ import android.widget.PopupWindow
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -28,7 +27,6 @@ import com.example.letmebeyourchef.listeners.IstruzioniListener
 import com.example.letmebeyourchef.listeners.NutritionLabelListener
 import com.example.letmebeyourchef.listeners.RicettaClickListener
 import com.example.letmebeyourchef.listeners.RicetteSimiliListener
-import com.example.letmebeyourchef.recipeModels.FavouriteRecipe
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiDettagliRicetta
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiIstruzioni
 import com.example.letmebeyourchef.recipeModels.ResponseFromApiNutritionLabel
