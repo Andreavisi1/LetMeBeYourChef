@@ -15,4 +15,14 @@
         android:name="com.example.letmebeyourchef.maps.SavedPlaceFragment"
         tools:layout="@layout/fragment_saved_place" />
 
+    <fragment
+        android:id="@+id/btnRatePlaces"
+        android:name="com.example.letmebeyourchef.maps.RatePlaceFragment"
+        tools:layout="@layout/fragment_rate_place" />
+
+    <fragment
+        android:id="@+id/btnOptRoutes"
+        android:name="com.example.letmebeyourchef.maps.OptimizeRouteFragment"
+        tools:layout="@layout/fragment_optimize_route" />
+
 </navigation>

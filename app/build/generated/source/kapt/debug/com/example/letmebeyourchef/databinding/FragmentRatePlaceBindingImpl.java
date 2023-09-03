@@ -19,7 +19,7 @@ public class FragmentRatePlaceBindingImpl extends FragmentRatePlaceBinding  {
     }
     // views
     @NonNull
-    private final android.widget.RelativeLayout mboundView0;
+    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     // values
     // listeners
@@ -33,7 +33,7 @@ public class FragmentRatePlaceBindingImpl extends FragmentRatePlaceBinding  {
             , (android.widget.ImageView) bindings[2]
             , (android.widget.TextView) bindings[1]
             );
-        this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
+        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

@@ -62,7 +62,7 @@
     <string name="not_ready"> This feature is not yet available, but remember: our developers
         are always working for you!
     </string>
-    <string name="meanwhile">Meanwhile, try to click on this button to test the functionality</string>
+    <string name="meanwhile">Meanwhile, try to click this button on the map, when you see it, to test this functionality</string>
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

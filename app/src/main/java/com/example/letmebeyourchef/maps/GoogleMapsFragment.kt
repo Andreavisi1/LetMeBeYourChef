@@ -17,6 +17,7 @@ import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
@@ -67,7 +68,7 @@ class GoogleMapsFragment : Fragment(), OnMapReadyCallback, NearLocationInterface
         private lateinit var firebaseAuth: FirebaseAuth
         private var isTrafficEnable: Boolean = false
         private var radius = 1500
-        private val googleMapsViewModel: GoogleMapsViewModel by viewModels<GoogleMapsViewModel>()
+        private val googleMapsViewModel: GoogleMapsViewModel by viewModels()
         private lateinit var googlePlaceList: ArrayList<GooglePlaceModel>
         private lateinit var googlePlaceAdapter: GooglePlaceAdapter
         private var userSavedLocaitonId: ArrayList<String> = ArrayList()
@@ -84,6 +85,8 @@ class GoogleMapsFragment : Fragment(), OnMapReadyCallback, NearLocationInterface
 
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             super.onViewCreated(view, savedInstanceState)
+
+            //(activity as AppCompatActivity?)!!.supportActionBar!!.title = "LetMeBeYourGuide!"
 
             appPermission = AppPermissions()
             loadingDialog = LoadingDialog(requireActivity())

@@ -125,7 +125,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:layout_marginBottom="5dp"
-                        android:text="Click here up and.. IWillBeYourCityGuide, too!"
+                        android:text="Click here up and.. IWillBeYourGuide, too!"
                         android:textColor="@color/black_overlay"
                         android:textSize="15sp" />
 
