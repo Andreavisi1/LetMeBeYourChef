@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -70,6 +71,8 @@ class RicercaIngredientiFragment : Fragment() {
                 return false
             }
         })
+
+        binding.dispensaTitle21.movementMethod = ScrollingMovementMethod()
 
         binding.btnScanner.setOnClickListener {
             val intent = Intent(requireContext(), ScannerActivity::class.java)

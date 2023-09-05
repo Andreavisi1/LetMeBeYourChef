@@ -16,7 +16,6 @@ import kotlinx.coroutines.launch
 
 class CartViewModel : ViewModel() {
     private var auth: FirebaseAuth = FirebaseAuth.getInstance()
-    private val utenteDB = UtenteDB()
     private val cartDB = CartDB()
 
     private var _utente = MutableLiveData(Utente())
@@ -28,8 +27,6 @@ class CartViewModel : ViewModel() {
         get() = _ingredientiCartLiveData
 
     private var favoriteRecipes: MutableLiveData<List<FavouriteRecipe>> = MutableLiveData()
-
-    private var ricettePreferite: List<FavouriteRecipe>? = null
 
     // Metodo per aggiungere una ricetta preferita
     fun addFavoriteRecipe(recipe: FavouriteRecipe?) {
@@ -57,13 +54,6 @@ class CartViewModel : ViewModel() {
                 Toast.makeText(context,"ATTENTION!\nIngredient not bought",Toast.LENGTH_LONG).show()
             }
         }
-    }
-
-    fun getUtente() {
-        viewModelScope.launch {
-            _utente.value = utenteDB.getUtente(auth.currentUser!!.email!!)
-        }
-
     }
 
 }

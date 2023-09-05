@@ -31,8 +31,10 @@ class IngredientiAdapter(
     }
 
     override fun onBindViewHolder(holder: IngredientiViewHolder, position: Int) {
-        holder.textView_nome_ingredienti.text = list[position].name
+        holder.textView_nome_ingredienti.text = list[position].name + "?"
         holder.textView_nome_ingredienti.isSelected = true
+        holder.textView_quantita_ingredienti.isSelected = true
+
         Picasso.get()
             .load("https://spoonacular.com/cdn/ingredients_100x100/" + list[position].image)
             .into(holder.imageView_ingredienti)

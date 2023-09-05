@@ -7,6 +7,7 @@ import android.graphics.Typeface
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.util.Patterns
 import android.view.View
 import android.widget.ProgressBar
@@ -36,8 +37,6 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var progressBar : ProgressBar
     private lateinit var signInButton: SignInButton
     private lateinit var firebaseAuth: FirebaseAuth
-
-
 
     /*private lateinit var executor: Executor
     private lateinit var biometricPrompt: BiometricPrompt
@@ -145,6 +144,8 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
+
+        binding.forgotPass.movementMethod = ScrollingMovementMethod()
 
         binding.forgotPass.setOnClickListener {
             val intent = Intent(this@LoginActivity, RecuperoPasswordActivity::class.java)

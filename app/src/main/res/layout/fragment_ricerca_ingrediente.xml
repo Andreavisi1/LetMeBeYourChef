@@ -1,3 +1,141 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:94fa6fa67fce1ae070d81b58c6f5f89ad7a2d25f42359b9a9518800eb29dfe59
-size 5768
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.letmebeyourchef.aggiungi_ingrediente.RicercaIngredientiViewModel"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".aggiungi_ingrediente.RicercaIngredientiFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="@color/orange_white"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/agg_toolbar"
+                android:id="@+id/linearLayout18">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar_1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg_3"
+                android:backgroundTint="@color/orange_primary"
+                android:clickable="true"
+                android:maxWidth="450dp"
+                android:minWidth="300dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconifiedByDefault="false"
+                app:queryHint="What are you looking for?"
+                app:searchIcon="@drawable/ic_search"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                    android:clickable="true"
+                    android:id="@+id/btn_scanner"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:backgroundTint="@color/orange_primary"
+                    android:background="@drawable/animazione_3">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:src="@drawable/barcode"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scanner_image"
+                        />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridIngredienti"
+                android:layout_marginBottom="70dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/shape_outro_blue"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout19"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <TextView
+                        android:id="@+id/dispensa_title21"
+                        android:layout_width="368dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:scrollbars="vertical"
+                        android:text="In this section, you can find the ingredients you already have, and eventually select the ones you like more!"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+</layout>

@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.text.method.ScrollingMovementMethod
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -74,6 +75,8 @@ class StorageFragment : Fragment() {
 
             }
 
+            binding.dispensaTitle.movementMethod = ScrollingMovementMethod()
+            binding.dispensaTitle21.movementMethod = ScrollingMovementMethod()
 
 
             model.ingredientiPossedutiLiveData.observe(viewLifecycleOwner,dispensaObserver)
@@ -89,14 +92,9 @@ class StorageFragment : Fragment() {
 
                 val intent = Intent(requireActivity(), ChefActivity::class.java)
 
-
-
                 Log.e(model.ingredientiPossedutiLiveData.value!!.size.toString(), "SIZE")
                 Log.e(model.ingredientiPossedutiLiveData.value!!.toString(), "VALUE")
                 Log.e(model.ingredientiPossedutiLiveData.toString(), "INGREDIENTI POSSEDUTI")
-
-
-                //model.getAllIngredientiPosseduti()
 
                 ingredientiPossedutiFinali += "salt"
 
@@ -109,8 +107,6 @@ class StorageFragment : Fragment() {
                     Log.e(ingredientiPossedutiFinali.toString(), "INGREDIENTI POSSEDUTI FINALI")
 
                 }
-
-
 
                 intent.putExtra("ingredients", ingredientiPossedutiFinali)
 

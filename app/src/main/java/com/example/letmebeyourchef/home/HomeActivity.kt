@@ -41,12 +41,7 @@ class HomeActivity : AppCompatActivity() {
     private var doubleBackToExitPressedOnce = false
 
     var dialog: ProgressDialog? = null
-    var manager: RequestManager? = null
-    var ricetteRandomAdapter: RicetteRandomAdapter? = null
-    lateinit var recyclerView: RecyclerView
-    lateinit var spinner: Spinner
     var tags: MutableList<String> = ArrayList()
-    lateinit var searchView: SearchView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +50,6 @@ class HomeActivity : AppCompatActivity() {
 
         dialog = ProgressDialog(this)
         dialog!!.setTitle("Loading recipes...")
-
 
 
         var bottomNav = binding.bottomNavigation
@@ -110,7 +104,7 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
         this.doubleBackToExitPressedOnce = true
-        Toast.makeText(this, "Premi due volte indietro per uscire", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Press twice to exit from the app", Toast.LENGTH_SHORT).show()
         Handler(Looper.getMainLooper()).postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
     }
 

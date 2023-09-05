@@ -15,7 +15,6 @@ import com.example.letmebeyourchef.model.Utente
 
 class SessoFragment : Fragment() {
     lateinit var binding: FragmentSessoBinding
-    val args: SessoFragmentArgs by navArgs()
     val utente = Utente()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -42,8 +41,7 @@ class SessoFragment : Fragment() {
             // Get the checked radio button id from radio group
             if (utente.sesso != "") {
                 val action = SessoFragmentDirections.actionSessoFragmentToDatiPersonaliFragment(utente)
-                view.findNavController().navigate(action) //navigazione da obiettivo a sesso
-
+                view.findNavController().navigate(action) //navigazione
 
             } else {
                 // If no radio button checked in this radio group

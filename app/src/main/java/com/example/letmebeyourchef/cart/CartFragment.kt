@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -27,13 +28,9 @@ import com.example.letmebeyourchef.recipeModels.Ingredient
 class CartFragment : Fragment() {
 
     var dialog: ProgressDialog? = null
-    lateinit var manager: RequestManager
     var tags: MutableList<String> = ArrayList()
 
-    private lateinit var ricettePreferiteAdapter: RicettePreferiteAdapter
-
     private var  mContext: Context? = null
-    var show_btn: Button? = null
 
     private val model = CartViewModel()
     private lateinit var binding: FragmentCartBinding
@@ -77,6 +74,8 @@ class CartFragment : Fragment() {
 
         model.ingredientiCartLiveData.observe(viewLifecycleOwner,cartObserver)
 
+        binding.cartTitle.movementMethod = ScrollingMovementMethod()
+        binding.dispensaTitle21.movementMethod = ScrollingMovementMethod()
 
 
         binding.searchBtn.setOnClickListener {

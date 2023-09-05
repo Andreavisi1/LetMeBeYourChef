@@ -31,7 +31,6 @@ class ProfiloActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
     private val model = ProfiloViewModel()
     var dialog: ProgressDialog? = null
 
-
     lateinit var sessoSpinner: Spinner
 
     var intolleranze_utente: MutableList<String>? = ArrayList()
@@ -68,7 +67,7 @@ class ProfiloActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
         val adapterSesso: ArrayAdapter<CharSequence> =
             ArrayAdapter(this, android.R.layout.simple_spinner_item, sessoS)
 
-        // Di seguito settiamo il dop down adapter
+        // Di seguito settiamo il drop down adapter
         adapterSesso.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
         //Di seguito associamo l'adapter
@@ -139,7 +138,6 @@ class ProfiloActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
                 }
 
                 //pulsante cambia intolleranze
-
                 binding.btnCambioIntolleranze.setOnClickListener {
                     openUpdateIntolleranzeDialog()
                 }
@@ -151,7 +149,6 @@ class ProfiloActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
                     val data_nascita_up = data_selezionata
                     val sesso_up = binding.sWSesso.selectedItem.toString()
                     val intolleranze_up = intolleranze_utente
-
 
                     Log.e(intolleranze_utente.toString(), "Intolleranze_up")
 

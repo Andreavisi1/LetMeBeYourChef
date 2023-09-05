@@ -75,11 +75,13 @@
                 android:layout_height="47dp"
                 android:clickable="false"
                 android:editable="false"
+                android:scrollbars="vertical"
                 android:hint="Use the GoogleMaps map and accessories to look for what you need!"
                 android:textAlignment="center"
                 android:textColor="@color/black_overlay"
                 android:textColorHint="@color/black_overlay"
                 android:textSize="15sp"
+                android:layout_marginBottom="5dp"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 

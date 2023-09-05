@@ -39,8 +39,6 @@ class GoogleMapsViewModel : ViewModel() {
         }.await()
     }
 
-    fun getDirection(url: String) = repo.getDirection(url)
-
     fun getUserLocations() = repo.getUserLocations()
 
     fun getPlacesPreferiti(){

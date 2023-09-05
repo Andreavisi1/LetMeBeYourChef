@@ -32,27 +32,6 @@ class CartDB : FirebaseDB() {
         return status
     }
 
-    suspend fun setEsercizioPreferiti(
-        utente : String,
-        nome/*label*/ : String,
-        calorie_ora: Int,
-    ): Boolean {
-        val esercizio = hashMapOf<String, Any>(
-            "nome" to nome,
-            "calorieOra" to calorie_ora
-        )
-        withContext(Dispatchers.IO) {
-            cart_collection
-                .document(utente)
-                .collection("ESERCIZIO")
-                .document(nome.replace('/',','))
-                .set(esercizio)
-                .addOnSuccessListener { status = true }
-                .addOnFailureListener { status = false }
-        }.await()
-        return status
-    }
-
     suspend fun getCart(utente: String): List<Ingredient> {
         return db
             .collection("Utente")
@@ -68,16 +47,6 @@ class CartDB : FirebaseDB() {
                 .document(utente)
                 .collection("Cart")
                 .document(id.toString()).delete()
-                .addOnSuccessListener {status = true }
-                .addOnFailureListener {status = false }
-        }.await()
-        return status
-    }
-    suspend fun deleteEserciziPreferiti(utente: String,nome:String): Boolean{
-        withContext(Dispatchers.IO) {
-            cart_collection
-                .document(utente).collection("ESERCIZIO")
-                .document(nome.replace("/",",")).delete()
                 .addOnSuccessListener {status = true }
                 .addOnFailureListener {status = false }
         }.await()

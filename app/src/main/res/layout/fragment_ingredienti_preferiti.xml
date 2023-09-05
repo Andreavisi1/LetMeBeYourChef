@@ -55,6 +55,7 @@
                     android:layout_height="45dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:scrollbars="vertical"
                     android:text="Here are your favourite ingredients: always at your disposal!"
                     android:textColor="@color/black_overlay"
                     android:textSize="15sp" />

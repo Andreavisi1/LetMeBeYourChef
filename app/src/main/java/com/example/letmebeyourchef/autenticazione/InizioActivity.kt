@@ -77,15 +77,4 @@ class InizioActivity : AppCompatActivity() {
     }
 
 
-    companion object {
-        fun getLaunchIntent(from: Context) = Intent(from, RegisterActivity::class.java).apply {
-            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-        }
-    }
-
-
-
-
-
-
 }

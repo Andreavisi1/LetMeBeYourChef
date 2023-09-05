@@ -47,27 +47,6 @@ class RicettePreferiteDB : FirebaseDB() {
         return status
     }
 
-    suspend fun setEsercizioPreferiti(
-        utente : String,
-        nome/*label*/ : String,
-        calorie_ora: Int,
-    ): Boolean {
-        val esercizio = hashMapOf<String, Any>(
-            "nome" to nome,
-            "calorieOra" to calorie_ora
-        )
-        withContext(Dispatchers.IO) {
-            ricette_preferite_collection
-                .document(utente)
-                .collection("ESERCIZIO")
-                .document(nome.replace('/',','))
-                .set(esercizio)
-                .addOnSuccessListener { status = true }
-                .addOnFailureListener { status = false }
-        }.await()
-        return status
-    }
-
     suspend fun getRicettePreferite(utente: String): List<FavouriteRecipe> {
         return db
             .collection("Utente")
@@ -83,16 +62,6 @@ class RicettePreferiteDB : FirebaseDB() {
                 .document(utente)
                 .collection("Ricette preferite")
                 .document(id).delete()
-                .addOnSuccessListener {status = true }
-                .addOnFailureListener {status = false }
-        }.await()
-        return status
-    }
-    suspend fun deleteEserciziPreferiti(utente: String,nome:String): Boolean{
-        withContext(Dispatchers.IO) {
-            ricette_preferite_collection
-                .document(utente).collection("ESERCIZIO")
-                .document(nome.replace("/",",")).delete()
                 .addOnSuccessListener {status = true }
                 .addOnFailureListener {status = false }
         }.await()

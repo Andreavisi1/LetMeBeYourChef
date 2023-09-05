@@ -26,17 +26,6 @@ class SplashScreenActivity : AppCompatActivity() {
             binding.videoView.setOnCompletionListener { jump() }
             binding.videoView.start()
 
-/*            val videoHolder = VideoView(this)
-            setContentView(videoHolder)
-            val video = Uri.parse("android.resource://" + packageName + "/" + R.raw.letmebeyourchef)
-            videoHolder.setVideoURI(video)
-
-            videoHolder.setZOrderOnTop(true)
-            videoHolder.verticalScrollbarPosition
-
-
-            videoHolder.setOnCompletionListener { jump() }
-            videoHolder.start()*/
         } catch (ex: Exception) {
             jump()
         }

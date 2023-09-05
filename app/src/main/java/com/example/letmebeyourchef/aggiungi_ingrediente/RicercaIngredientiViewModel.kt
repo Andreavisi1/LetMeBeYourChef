@@ -81,16 +81,4 @@ class RicercaIngredientiViewModel : ViewModel() {
         }
     }
 
-
-    fun getUtente() {
-        viewModelScope.launch {
-            _utente.value = utenteDB.getUtente(auth.currentUser!!.email!!)
-        }
-
-    }
-
-    fun logOut() {
-        auth.signOut()
-    }
-
 }

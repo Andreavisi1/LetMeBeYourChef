@@ -27,7 +27,6 @@ class DatiPersonaliFragment : Fragment() {
     }
 
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         var utente = args.utente
@@ -44,8 +43,6 @@ class DatiPersonaliFragment : Fragment() {
         var month = oggi.monthValue-1
         var day = oggi.dayOfMonth
 
-
-
         //selezione data
         binding.tvDataNascita.setOnClickListener{
             val dpd = DatePickerDialog(requireContext(), { view, mYear, mMonth, mDay ->
@@ -60,7 +57,7 @@ class DatiPersonaliFragment : Fragment() {
                     binding.btAvantiDati.isEnabled=true
                 } else {
                     binding.tvDataNascita.text = ""
-                    binding.tvDataNascita.error = "Seleziona una data corretta"
+                    binding.tvDataNascita.error = "Select a correct date"
                     Toast.makeText(context, "Select a correct date",Toast.LENGTH_SHORT).show()
                     binding.btAvantiDati.isEnabled=false
                 }
@@ -73,7 +70,7 @@ class DatiPersonaliFragment : Fragment() {
             if (binding.tvDataNascita.text != "" )
                 utente.data_nascita = data_selezionata
             else {
-                binding.tvDataNascita.error = "Seleziona una data corretta"
+                binding.tvDataNascita.error = "Select a correct date"
                 Toast.makeText(context, "Select a correct date",Toast.LENGTH_SHORT).show()
             }
             utente.nome = binding.tEName.text.toString()
@@ -84,9 +81,7 @@ class DatiPersonaliFragment : Fragment() {
             }
             else
                 Toast.makeText(context, "Please, correctly fill all the required fields",Toast.LENGTH_SHORT).show()
-
         }
-
 
     }
 

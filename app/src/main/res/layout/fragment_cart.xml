@@ -61,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:scrollbars="vertical"
                     android:text="Here you can see the ingredients you put in the cart. Once you have bought one, remove it from your shopping list! (Or look beyond where to buy them)"
                     android:textColor="@color/black_overlay"
                     android:textSize="15sp" />
@@ -124,6 +125,7 @@
                         android:layout_height="45dp"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:scrollbars="vertical"
                         android:layout_marginBottom="5dp"
                         android:text="Click here up and.. IWillBeYourGuide, too!"
                         android:textColor="@color/black_overlay"

@@ -189,52 +189,6 @@ class ActivityDettagliRicetta : AppCompatActivity() {
         override fun didError(message: String?) {}
     }
 
-    private val nutritionLabelListener: NutritionLabelListener =
-        object : NutritionLabelListener {
-            override fun didFetch(
-                response: ResponseFromApiNutritionLabel?,
-                message: String?
-            ) {
-                nutrition_label_button?.setOnClickListener{
-                    val nutr = response!!.img
-
-                    var inflater = LayoutInflater.from(this@ActivityDettagliRicetta)
-                    var popupview = inflater.inflate(R.layout.nutrition_label, null, false)
-                    var popup = popupview.findViewById<ImageView>(R.id.imagepopup)
-
-                    Glide.with(this@ActivityDettagliRicetta).load("https://api.spoonacular.com/recipes/"+id+"/nutritionLabel.png?apiKey=7607d7ba5fd74cd3956360391e48b6b0").into(popup);
-                    //Picasso.get().load(nutr!!).into(popup)
-
-                    var close = popupview.findViewById<ImageView>(R.id.close)
-
-                    var builder = PopupWindow(
-                        popupview, LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.MATCH_PARENT, true
-                    )
-
-                    builder.setBackgroundDrawable(getDrawable(R.drawable.background))
-                    builder.animationStyle = R.style.dialogAnimation
-                    builder.showAtLocation(
-                        this@ActivityDettagliRicetta.findViewById(R.id.linearLayout),
-                        Gravity.CENTER, 0, 0
-                    )
-
-                    close.setOnClickListener {
-                        builder.dismiss()
-                    }
-                }
-
-            }
-
-            override fun didError(message: String?) {
-                Toast.makeText(this@ActivityDettagliRicetta, "ciao", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-    /*fun seeNutritionLabel(view: ActivityDettagliRicetta) { // Aggiungi la ricetta ai preferiti
-        manager!!.getNutritionLabel(nutritionLabelListener, id)
-    }*/
-
     private fun getExtra() {
 
         val extras = intent.extras
@@ -266,8 +220,6 @@ class ActivityDettagliRicetta : AppCompatActivity() {
         var popup = popupview.findViewById<ImageView>(R.id.imagepopup)
 
         Glide.with(this@ActivityDettagliRicetta).load("https://api.spoonacular.com/recipes/"+id+"/nutritionLabel.png?apiKey=7607d7ba5fd74cd3956360391e48b6b0").into(popup);
-
-        //Picasso.get().load(image).into(popup)
 
         var close = popupview.findViewById<ImageView>(R.id.close)
 

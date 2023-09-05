@@ -28,6 +28,7 @@ class CartAdapter(
     override fun onBindViewHolder(holder: CartViewHolder, position: Int) {
         holder.textView_nome_ingredienti_cart.text = list[position].name
         holder.textView_nome_ingredienti_cart.isSelected = true
+        holder.textView_quantita_ingredienti.isSelected = true
         Picasso.get()
             .load("https://spoonacular.com/cdn/ingredients_100x100/" + list[position].image)
             .into(holder.imageView_ingredienti_cart)
@@ -49,12 +50,14 @@ class CartAdapter(
 class CartViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var imageView_ingredienti_cart: ImageView
     var textView_nome_ingredienti_cart: TextView
+    var textView_quantita_ingredienti: TextView
     var bought_btn: Button
 
 
     init {
         imageView_ingredienti_cart = itemView.findViewById(R.id.imageView_ingredienti_cart)
         textView_nome_ingredienti_cart = itemView.findViewById(R.id.textView_nome_ingredienti_cart)
+        textView_quantita_ingredienti = itemView.findViewById(R.id.textView_quantita_ingredienti)
         bought_btn = itemView.findViewById(R.id.bought_btn)
     }
 }

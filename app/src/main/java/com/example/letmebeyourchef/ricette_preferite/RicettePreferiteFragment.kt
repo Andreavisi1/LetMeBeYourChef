@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,13 +29,9 @@ import com.example.letmebeyourchef.ricetta.ActivityDettagliRicetta
 class RicettePreferiteFragment : Fragment() {
 
     var dialog: ProgressDialog? = null
-    lateinit var manager: RequestManager
     var tags: MutableList<String> = ArrayList()
 
-    private lateinit var ricettePreferiteAdapter: RicettePreferiteAdapter
-
     private var  mContext: Context? = null
-    var show_btn: Button? = null
 
     private val model = RicettePreferiteViewModel()
     private lateinit var binding: FragmentRicettePreferiteBinding
@@ -67,6 +64,7 @@ class RicettePreferiteFragment : Fragment() {
         recyclerViewPreferiti.layoutManager = GridLayoutManager(mContext, 1)
         recyclerViewPreferiti.setHasFixedSize(true)
 
+        binding.preferitiTitle.movementMethod = ScrollingMovementMethod()
 
         val preferitiObserver = Observer<List<FavouriteRecipe>>{
             val adapter = RicettePreferiteAdapter(requireContext(),

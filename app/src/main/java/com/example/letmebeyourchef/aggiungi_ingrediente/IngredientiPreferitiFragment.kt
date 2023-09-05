@@ -3,6 +3,7 @@ package com.example.letmebeyourchef.aggiungi_ingrediente
 import android.app.ProgressDialog
 import android.content.Context
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -38,7 +39,7 @@ class IngredientiPreferitiFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_ingredienti_preferiti, container, false)
 
         dialog = ProgressDialog(requireContext())
-        dialog!!.setTitle("Let's see if you went shopping...")
+        dialog!!.setTitle("Ohh... good tastes!")
         dialog!!.show()
 
         return binding.root
@@ -51,6 +52,8 @@ class IngredientiPreferitiFragment : Fragment() {
         recyclerViewPreferiti = binding.gridPreferiti
         recyclerViewPreferiti.layoutManager = LinearLayoutManager(requireContext())
         recyclerViewPreferiti.setHasFixedSize(true)
+
+        binding.dispensaTitle21.movementMethod = ScrollingMovementMethod()
 
         val dispensaObserver = Observer<List<Ingredient>>{
             val adapter = IngredientiPreferitiAdapter(requireContext(),

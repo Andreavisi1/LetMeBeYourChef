@@ -69,35 +69,5 @@ class ChefViewModel : ViewModel() {
         }
     }
 
-    fun setIngredientiPossedutiOnDB(
-        id: Int,
-        name: String?,
-        image: String?,
-        context: Context
-    )
-    {
-        viewModelScope.launch {
-            if (ingredientiPossedutiDB.setIngredienti(id.toInt(), name, image, auth.currentUser?.email!!
-                )
-            ) {
-                Toast.makeText(context, "$name added to your storage", Toast.LENGTH_LONG).show()
-            } else
-                Toast.makeText(context, "Adding ingredient to your storage failed", Toast.LENGTH_LONG).show()
-        }
-    }
-
-    fun removeIngredient(id: Int, context: Context) {
-        viewModelScope.launch {
-            if(preferitiDB.deleteIngredientPreferito(auth.currentUser!!.email!!, id)){
-                Toast.makeText(context,"Ingredient correctly deleted", Toast.LENGTH_LONG).show()
-                getIngredientiPreferiti()
-            }else{
-                Toast.makeText(context,"ATTENTION!\nIngredient not deleted", Toast.LENGTH_LONG).show()
-            }
-        }
-    }
-
-
-
 
 }

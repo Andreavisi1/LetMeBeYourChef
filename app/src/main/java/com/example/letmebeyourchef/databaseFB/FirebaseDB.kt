@@ -5,7 +5,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 /*
 *
-* Ottengo l'instanza del databse firebase firestore
+* Ottengo l'instanza del database firebase firestore
 *
 */
 
