@@ -1,12 +1,14 @@
 package com.example.letmebeyourchef.aggiungi_ingrediente
 
 import android.app.ProgressDialog
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.example.letmebeyourchef.R
 import com.example.letmebeyourchef.databinding.ActivityAggiungiIngredienteBinding
+import com.example.letmebeyourchef.home.HomeActivity
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
 class AggiungiIngredienteActivity : AppCompatActivity() {
@@ -83,6 +85,13 @@ class AggiungiIngredienteActivity : AppCompatActivity() {
         val fragmentTransiction = fragmentManager.beginTransaction()
         fragmentTransiction.replace(R.id.frame_layout, fragment)
         fragmentTransiction.commit()
+
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, HomeActivity::class.java))
+        finish()
 
     }
 

@@ -581,21 +581,6 @@
             ]
         },
         {
-            "outputFile": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-111:/values-sw360dp-v13_values-sw360dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/d6815d73b52f64f86b7238613cee4142/transformed/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "71",
-                        "endOffsets": "122"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-111:/values-pt_values-pt.arsc.flat",
             "map": [
                 {
@@ -783,6 +768,21 @@
                         "startOffsets": "4620,4715,5062,5159,5340,5904,5987,6614,6705,6870,7006,7304,7389,7646,7992,8068,8135",
                         "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
                         "endOffsets": "4710,4796,5154,5253,5421,5982,6079,6700,6787,6937,7070,7384,7474,7717,8063,8130,8243"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/andreavisi/.gradle/daemon/7.4/com.example.letmebeyourchef.app-merged_res-111:/values-sw360dp-v13_values-sw360dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/andreavisi/.gradle/caches/transforms-3/d6815d73b52f64f86b7238613cee4142/transformed/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
                     }
                 }
             ]
