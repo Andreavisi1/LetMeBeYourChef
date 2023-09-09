@@ -52,7 +52,7 @@ class AuthViewModel : ViewModel() {
             user!!.updateProfile(profileUpdates)
             utenteDB.addUtente(nome, cognome, email, sesso, data_nascita, intolleranze, contesto)
 
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
     }
 

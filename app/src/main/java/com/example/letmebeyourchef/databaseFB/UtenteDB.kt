@@ -15,7 +15,6 @@ class UtenteDB : FirebaseDB() {
 
     val utenti_collection = db.collection("Utente")
     var status = false
-
     suspend fun addUtente(
         nome: String,
         cognome: String,

@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="28"
 8-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="32" />
+9        android:targetSdkVersion="33" />
 9-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 10
 11    <permission

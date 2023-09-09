@@ -92,5 +92,27 @@ internal class InizioActivityTest{
         onView(withId(R.id.btnLogin)).perform(click())
     }
 
+    /*@Test
+    fun PizzaTest(){
+        
+        /*===============================================================================================
+        SUCCESSO nel caso in cui non si ha una cache da ripulire e nessun dato di accesso memorizzato
+        ===============================================================================================*/
+
+        onView(withId(R.id.btAccesso)).check(matches(withText("LOGIN")))
+        onView(withId(R.id.btAccesso)).perform(click())
+        onView(withId(R.id.InputEmailLogin)).perform(ViewActions.typeText("dalcaldoalfredo@espresso.it"))
+        Espresso.closeSoftKeyboard()
+        onView(withId(R.id.InputPasswordLogin)).perform(ViewActions.typeText("asdfgh"))
+        Espresso.closeSoftKeyboard()
+        onView(withId(R.id.btnLogin)).perform(click())
+
+        onView(withId(R.id.cardView)).perform(click()).perform(ViewActions.typeText("pizza"))
+        Espresso.closeSoftKeyboard()
+        onView(withId(R.id.recycler_random)).perform(click())
+        onView(withId(R.id.likebutton)).perform(click())
+        Espresso.pressBack()
+        onView(withId(R.id.ic_likes)).perform(click())
+    }*/
 
 }
