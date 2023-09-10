@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="28"
 8-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="32" />
 9-->/Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml
 10
 11    <permission
@@ -541,29 +541,29 @@
 282            </intent-filter>
 283        </activity>
 284        <activity
-284-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+284-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
 285            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-285-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+285-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
 286            android:excludeFromRecents="true"
-286-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+286-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
 287            android:exported="false"
-287-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+287-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
 288            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-288-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+288-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
 289        <!--
 290            Service handling Google Sign-In user revocation. For apps that do not integrate with
 291            Google Sign-In, this service will never be started.
 292        -->
 293        <service
-293-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+293-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
 294            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-294-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+294-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
 295            android:exported="true"
-295-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+295-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
 296            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-296-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+296-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
 297            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
-297-->[com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+297-->[com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
 298        <uses-library
 298-->[com.google.android.gms:play-services-maps:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/0ee37696723025edfcb13eed11c3cbad/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
 299            android:name="org.apache.http.legacy"

@@ -52,7 +52,7 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/andreavisi/.gradle/
 MERGED from [com.github.bumptech.glide:glide:4.13.2] /Users/andreavisi/.gradle/caches/transforms-3/881521892da2ca78d67bba91e9f884f3/transformed/jetified-glide-4.13.2/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.6] /Users/andreavisi/.gradle/caches/transforms-3/008adf583c609ab32506e880cab4bf0f/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
-MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dbf08ffbf4b41f566006a3d7627ebd45/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.maps.android:maps-ktx:3.0.0] /Users/andreavisi/.gradle/caches/transforms-3/014b15c945d87d33679c4947861801ca/transformed/jetified-maps-ktx-3.0.0/AndroidManifest.xml:18:1-25:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/0ee37696723025edfcb13eed11c3cbad/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
@@ -337,8 +337,8 @@ MERGED from [com.google.firebase:firebase-auth-ktx:21.0.6] /Users/andreavisi/.gr
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.6] /Users/andreavisi/.gradle/caches/transforms-3/008adf583c609ab32506e880cab4bf0f/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/0ee37696723025edfcb13eed11c3cbad/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/0ee37696723025edfcb13eed11c3cbad/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/andreavisi/.gradle/caches/transforms-3/bb4f87edaced75ac305e6bc38ca9a958/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
@@ -729,8 +729,8 @@ MERGED from [com.google.firebase:firebase-auth-ktx:21.0.6] /Users/andreavisi/.gr
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.6] /Users/andreavisi/.gradle/caches/transforms-3/008adf583c609ab32506e880cab4bf0f/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dbf08ffbf4b41f566006a3d7627ebd45/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/andreavisi/.gradle/caches/transforms-3/dbf08ffbf4b41f566006a3d7627ebd45/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.maps.android:maps-ktx:3.0.0] /Users/andreavisi/.gradle/caches/transforms-3/014b15c945d87d33679c4947861801ca/transformed/jetified-maps-ktx-3.0.0/AndroidManifest.xml:21:5-23:41
@@ -1220,25 +1220,25 @@ ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/andreavisi/.gradle/caches/transforms-3/fcded001798d5a53fa6ac47123d36854/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
 	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/andreavisi/.gradle/caches/transforms-3/a3355b1ca59c522a92ea4e727b98d2ce/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/andreavisi/.gradle/caches/transforms-3/0a565a0d63243acb3c855aaba9d26215/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/andreavisi/.gradle/caches/transforms-3/0ee37696723025edfcb13eed11c3cbad/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
 REJECTED from /Users/andreavisi/Desktop/ANDROID/ProgrammazioneMobile2023/PROGETTO/LetMeBeYourChef.nosync/app/src/main/AndroidManifest.xml:26:5-28:35
