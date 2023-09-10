@@ -9,8 +9,10 @@
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
+                  <entry key="Pixel_5_API_31" value="120" />
                   <entry key="Pixel_5_API_31_new" value="120" />
                   <entry key="Tests" value="360" />
+                  <entry key="samsung SM-G970F" value="120" />
                 </map>
               </option>
             </AndroidTestResultsTableState>
@@ -22,9 +24,24 @@
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
+                  <entry key="Pixel_5_API_31" value="120" />
                   <entry key="Pixel_5_API_31_new" value="120" />
                   <entry key="Tests" value="360" />
                   <entry key="samsung SM-A202F" value="120" />
+                  <entry key="samsung SM-G970F" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="619649475">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Pixel_5_API_31" value="120" />
+                  <entry key="Tests" value="360" />
                 </map>
               </option>
             </AndroidTestResultsTableState>

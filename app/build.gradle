@@ -28,7 +28,7 @@ android {
     defaultConfig {
         applicationId "com.example.letmebeyourchef"
         minSdk 28
-        targetSdk 33
+        targetSdk 32
         versionCode 1
         versionName "2.0"
         vectorDrawables.useSupportLibrary = true
@@ -200,7 +200,7 @@ dependencies {
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
-    implementation 'com.google.android.gms:play-services-auth:20.6.0'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
 
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.android.gms:play-services-location:21.0.1'
